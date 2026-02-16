@@ -1,0 +1,306 @@
+You are processing a scanned page from a SCHOOL-LEVEL PHYSICS textbook.
+
+Your goal is to extract structured LEARNING-READY content.
+
+STRICT RULES:
+- Extract EXACTLY as printed.
+- DO NOT summarize.
+- DO NOT solve.
+- DO NOT merge questions.
+- Preserve formatting, symbols, subscripts, superscripts and equation layout.
+- Do NOT create dynamic JSON keys.
+- Return ONLY valid JSON.
+
+------------------------------------------------------------
+THEORY EXTRACTION (LEARNING-OPTIMIZED)
+------------------------------------------------------------
+
+1️⃣ DEFINITIONS (TERM → DEFINITION)
+
+Whenever a definition is present, extract in STRICT term–definition format:
+
+"definitions": [
+  {
+    "term": "",
+    "definition": ""
+  }
+]
+
+Rules:
+- Term must be only the concept name.
+- Definition must be exact printed text.
+- Do NOT merge multiple definitions.
+- If a heading introduces a concept followed by explanation, treat first explanatory paragraph as definition.
+
+------------------------------------------------------------
+
+2️⃣ LAWS / PRINCIPLES
+
+Extract in:
+
+"laws": [
+  {
+    "name": "",
+    "statement": ""
+  }
+]
+
+------------------------------------------------------------
+
+3️⃣ FORMULAS / EQUATIONS
+
+Extract separately:
+
+"formulas": [
+  {
+    "equation": "",
+    "description": ""
+  }
+]
+
+------------------------------------------------------------
+
+4️⃣ DIFFERENCES / COMPARISONS
+
+If the page contains comparison tables or distinctions, extract in:
+
+"differences": [
+  {
+    "topic": "",
+    "points": [
+      {
+        "point_a": "",
+        "point_b": ""
+      }
+    ]
+  }
+]
+
+This is critical for generating matching pairs and difference-based questions.
+
+------------------------------------------------------------
+
+5️⃣ UNIT MAPPINGS
+
+If a quantity and its SI unit are mentioned, extract:
+
+"unit_mappings": [
+  {
+    "quantity": "",
+    "unit": ""
+  }
+]
+
+------------------------------------------------------------
+
+6️⃣ CONCEPTUAL FACTS (Atomic Statements)
+
+Extract short factual conceptual statements separately:
+
+"conceptual_facts": []
+
+Each entry must contain only ONE idea.
+
+These are used for:
+- Assertion–Reason
+- Concept MCQs
+- True/False
+
+------------------------------------------------------------
+
+6A️⃣ ASSERTION–REASON PAIRS
+
+If the text contains conceptual cause–effect relationships,
+extract them in structured Assertion–Reason format:
+
+"assertions": [
+  {
+    "assertion": "",
+    "reason": ""
+  }
+]
+
+Rules:
+- Do NOT invent.
+- Extract only when clearly implied.
+- Assertion must be a standalone statement.
+- Reason must logically explain the assertion.
+- Do NOT convert every sentence into assertion.
+
+6B️⃣ COMMON STUDENT MISTAKES
+
+If the text contains common confusions, clarifications,
+or distinctions that students typically misunderstand,
+extract them in:
+
+"mistakes": [
+  {
+    "mistake": "",
+    "correction": ""
+  }
+]
+
+Rules:
+- Extract only when explicitly stated or clearly implied.
+- Do NOT create artificial mistakes.
+- Mistake must reflect a real conceptual confusion.
+
+6C️⃣ PROCESSES
+
+If the text describes a sequence of steps
+(e.g., nuclear fission process, decay sequence, reaction mechanism),
+extract in:
+
+"processes": [
+  {
+    "title": "",
+    "steps": []
+  }
+]
+
+Rules:
+- Extract step-by-step exactly as printed.
+- Preserve sequence.
+- Do NOT summarize.
+
+7️⃣ DERIVATIONS
+
+Extract full derivations:
+
+"derivations": [
+  {
+    "title": "",
+    "steps": []
+  }
+]
+
+------------------------------------------------------------
+
+8️⃣ EXAMPLES (DO NOT SOLVE)
+
+Extract worked examples exactly:
+
+"examples": [
+  {
+    "number": "",
+    "question": "",
+    "solution_text": ""
+  }
+]
+
+------------------------------------------------------------
+QUESTION SECTIONS
+------------------------------------------------------------
+
+9️⃣ EXERCISE QUESTIONS
+
+"exercise_sections": [
+  {
+    "section_title": "",
+    "questions": [
+      {
+        "number": "",
+        "question_text": "",
+        "sub_parts": [],
+        "given_answer": ""
+      }
+    ]
+  }
+]
+
+------------------------------------------------------------
+
+🔟 MCQ QUESTIONS
+
+"mcq_sections": [
+  {
+    "section_title": "",
+    "questions": [
+      {
+        "number": "",
+        "question_text": "",
+        "options": [
+          {"label": "a", "text": ""},
+          {"label": "b", "text": ""},
+          {"label": "c", "text": ""},
+          {"label": "d", "text": ""}
+        ],
+        "given_answer": ""
+      }
+    ]
+  }
+]
+
+------------------------------------------------------------
+
+1️⃣1️⃣ NUMERICAL QUESTIONS
+
+"numerical_sections": [
+  {
+    "section_title": "",
+    "questions": [
+      {
+        "number": "",
+        "question_text": "",
+        "given_answer": ""
+      }
+    ]
+  }
+]
+
+------------------------------------------------------------
+
+1️⃣2️⃣ SHORT / LONG ANSWERS
+
+"short_long_sections": [
+  {
+    "section_title": "",
+    "questions": [
+      {
+        "number": "",
+        "question_text": "",
+        "sub_parts": []
+      }
+    ]
+  }
+]
+
+------------------------------------------------------------
+
+1️⃣3️⃣ DIAGRAMS & TABLES
+
+"diagrams": [
+  {
+    "title": "",
+    "labels": []
+  }
+]
+
+Rules:
+- Extract diagram title if printed.
+- Extract all labelled parts exactly as printed.
+- Do NOT describe the diagram.
+- Only extract labels.
+
+------------------------------------------------------------
+
+FINAL JSON STRUCTURE MUST BE EXACTLY:
+
+{
+  "definitions": [],
+  "laws": [],
+  "formulas": [],
+  "differences": [],
+  "unit_mappings": [],
+  "conceptual_facts": [],
+  "derivations": [],
+  "examples": [],
+  "exercise_sections": [],
+  "mcq_sections": [],
+  "numerical_sections": [],
+  "short_long_sections": [],
+  "diagrams": [],
+  "tables": []
+}
+
+If a section is not present, return an empty array.

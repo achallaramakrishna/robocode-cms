@@ -1,0 +1,571 @@
+{
+  "title": "Exercise 9(D)",
+  "subject": "Mathematics",
+  "board": "CBSE",
+  "examYear": 2026,
+  "examType": "CHAPTER_EXERCISE",
+  "durationMinutes": 30,
+  "totalMarks": 39,
+  "instructions": "Attempt all questions.",
+  "negativeMarking": false,
+  "shuffleSections": false,
+  "shuffleQuestions": false,
+  "sections": [
+    {
+      "sectionName": "A",
+      "title": "Exercise 9(D)",
+      "attemptType": "ALL",
+      "compulsory": true,
+      "totalMarks": 39,
+      "sectionOrder": 1,
+      "questions": [
+        {
+          "marks": 1,
+          "displayOrder": 1,
+          "mandatory": true,
+          "question": {
+            "question_text": "1. Find x and y, if : [[3, -2], [-1, 4]] [[2x], [1]] + 2 [[-4], [5]] = 4 [[2], [y]] [2003]",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 2,
+          "mandatory": true,
+          "question": {
+            "question_text": "2. Find x and y, if : [3x, 8] [[1, 4], [3, 7]] - 3 [2, -7] = 5 [3, 2y]",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 3,
+          "mandatory": true,
+          "question": {
+            "question_text": "3. If [x, y] = [25] and [-x, y] [[2x], [y]] = [-2]; find x and y, if: (i) x, y ∈ W (whole numbers) (ii) x, y ∈ Z (integers)",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 4,
+          "mandatory": true,
+          "question": {
+            "question_text": "4. Given [[2, 1], [-3, 4]] . X = [[7], [6]]. Write: (i) the order of the matrix X. (ii) the matrix X. [2012]",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 5,
+          "mandatory": true,
+          "question": {
+            "question_text": "5. Evaluate: [[cos 45°, sin 30°], [sqrt(2) cos 0°, sin 0°]] [[sin 45°, cos 90°], [sin 90°, cot 45°]]",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 6,
+          "mandatory": true,
+          "question": {
+            "question_text": "6. If A = [[0, -1], [4, -3]], B = [[-5], [6]] and 3A × M = 2B; find matrix M.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 7,
+          "mandatory": true,
+          "question": {
+            "question_text": "7. If [[a, 3], [4, 1]] + [[2, b], [1, -2]] = [[1, 1], [-2, c]] = [[5, 0], [7, 3]], find the values of a, b and c.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 8,
+          "mandatory": true,
+          "question": {
+            "question_text": "8. If A = [[1, 2], [2, 1]] and B = [[2, 1], [1, 2]], find : (i) A (BA) (ii) (AB) B.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 9,
+          "mandatory": true,
+          "question": {
+            "question_text": "9. Find x and y, if : [[x, 3x], [y, 4y]] × [[2], [1]] = [[5], [12]].",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 10,
+          "mandatory": true,
+          "question": {
+            "question_text": "10. If matrix X = [[-3, 4], [2, -3]] and 2X - 3Y = [[2], [-2]] = [[10], [-8]], find the matrix 'X' and matrix 'Y'.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 11,
+          "mandatory": true,
+          "question": {
+            "question_text": "11. Given A = [[2, -1], [2, 0]], B = [[-3, 2], [4, 0]] and C = [[1, 0], [0, 2]], find the matrix X such that : A + X = 2 B + C.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 12,
+          "mandatory": true,
+          "question": {
+            "question_text": "12. Find the value of x, given that A² = B, A = [[2, 12], [0, 1]] and B = [[4, x], [0, 1]].",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 13,
+          "mandatory": true,
+          "question": {
+            "question_text": "13. If A = [[2, 5], [1, 3]], B = [[4, -2], [-1, 3]] and I is the identity matric of the same order and Aᵗ is the transpose of matrix A, find Aᵗ · B + BI.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 14,
+          "mandatory": true,
+          "question": {
+            "question_text": "14. Given A = [[2, -6], [2, 0]], B = [[-3, 2], [4, 0]] and C = [[4, 0], [0, 2]]. Find the matrix X such that A + 2X = 2B + C.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 15,
+          "mandatory": true,
+          "question": {
+            "question_text": "15. Let A = [[4, -2], [6, -3]], B = [[0, 2], [1, -1]] and C = [[-2, 3], [1, -1]]. Find A² - A + BC.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 16,
+          "mandatory": true,
+          "question": {
+            "question_text": "16. Let A = [[1, 0], [2, 1]], B = [[2, 3], [-1, 0]]. Find A² + AB + B².",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 17,
+          "mandatory": true,
+          "question": {
+            "question_text": "17. If A = [[3, a], [-4, 8]], B = [[c, 4], [-3, 0]], C = [[-1, 4], [3, b]] and 3A - 2C = 6B, find the values of a, b and c.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 18,
+          "mandatory": true,
+          "question": {
+            "question_text": "18. Given A = [[p, 0], [0, 2]], B = [[0, -q], [1, 0]], C = [[2, -2], [2, 2]] and BA = C². Find the values of p and q.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 19,
+          "mandatory": true,
+          "question": {
+            "question_text": "19. Given A = [[3, -2], [-1, 4]], B = [[6, 1]], C = [[-4], [5]] and D = [[2], [2]]. Find : AB + 2C - 4D.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 20,
+          "mandatory": true,
+          "question": {
+            "question_text": "20. Evaluate : [[4 sin 30°, 2 cos 60°], [sin 90°, 2 cos 0°]] × [[4, 5], [5, 4]].",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 21,
+          "mandatory": true,
+          "question": {
+            "question_text": "21. If A = [[3, 1], [-1, 2]] and I = [[1, 0], [0, 1]], find A² - 5A + 7I.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 22,
+          "mandatory": true,
+          "question": {
+            "question_text": "(iii) Is A + B = B + A ?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 23,
+          "mandatory": true,
+          "question": {
+            "question_text": "(iv) Is (A + B) + C = A + (B + C) ?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 24,
+          "mandatory": true,
+          "question": {
+            "question_text": "1. State, whether the following statements are true or false. If false, give a reason.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 25,
+          "mandatory": true,
+          "question": {
+            "question_text": "2. Given : [x y+2; 3 z-1] = [3 1; 3 2]; find x, y and z.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 26,
+          "mandatory": true,
+          "question": {
+            "question_text": "3. Solve for a, b and c; if :",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 27,
+          "mandatory": true,
+          "question": {
+            "question_text": "4. If A = [8 -3] and B = [4 -5]; find :",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 28,
+          "mandatory": true,
+          "question": {
+            "question_text": "5. If A = [2; 5], B = [1 4] and C = [6; -2], find :",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 29,
+          "mandatory": true,
+          "question": {
+            "question_text": "6. Wherever possible, write each of the following as a single matrix.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 30,
+          "mandatory": true,
+          "question": {
+            "question_text": "7. Find, x and y from the following equations :",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 31,
+          "mandatory": true,
+          "question": {
+            "question_text": "8. Given : M = [5 -3; -2 4], find its transpose matrix M'. If possible, find :",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 32,
+          "mandatory": true,
+          "question": {
+            "question_text": "9. Write the additive inverse of matrices A, B and C :",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 33,
+          "mandatory": true,
+          "question": {
+            "question_text": "10. Given A = [2 -3], B = [0 2] and C = [-1 4]; find the matrix X in each of the following :",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 34,
+          "mandatory": true,
+          "question": {
+            "question_text": "11. Given A = [-1 0; 2 -4] and B = [3 -3; -2 0]; find the matrix X in each of the following :",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 35,
+          "mandatory": true,
+          "question": {
+            "question_text": "1. Evaluate : (i) 3[5 -2] (ii) 7[-1 2; 0 1] (iii) 2[-1 0; 2 -3] + [3 3; 5 0] (iv) 6[3; -2] - 2[-8; 1]",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 36,
+          "mandatory": true,
+          "question": {
+            "question_text": "2. Find x and y if : (i) 3[4 x] + 2[y -3] = [10 0] (ii) x[-1; 2] - 4[-2; y] = [7; -8]",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 37,
+          "mandatory": true,
+          "question": {
+            "question_text": "3. Given A = [2 1; 3 0], B = [1 1; 5 2] and C = [-3 -1; 0 0]; find : (i) 2A - 3B + C (ii) A + 2C - B",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 38,
+          "mandatory": true,
+          "question": {
+            "question_text": "4. If [4 -2; 4 0] + 3A = [-2 -2; 1 -3], find A.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 39,
+          "mandatory": true,
+          "question": {
+            "question_text": "5. Given A = [1 4; 2 3] and B = [-4 -1; -3 -2] (i) find the matrix 2A + B. (ii) find a matrix C such that C + B = [0 0; 0 0]",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,907 @@
+{
+  "title": "Exercise 7(D)",
+  "subject": "Mathematics",
+  "board": "CBSE",
+  "examYear": 2026,
+  "examType": "CHAPTER_EXERCISE",
+  "durationMinutes": 30,
+  "totalMarks": 63,
+  "instructions": "Attempt all questions.",
+  "negativeMarking": false,
+  "shuffleSections": false,
+  "shuffleQuestions": false,
+  "sections": [
+    {
+      "sectionName": "A",
+      "title": "Exercise 7(D)",
+      "attemptType": "ALL",
+      "compulsory": true,
+      "totalMarks": 63,
+      "sectionOrder": 1,
+      "questions": [
+        {
+          "marks": 1,
+          "displayOrder": 1,
+          "mandatory": true,
+          "question": {
+            "question_text": "1. If a : b = 3 : 5, find : (10a + 3b) : (5a + 2b).",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 2,
+          "mandatory": true,
+          "question": {
+            "question_text": "2. If 5x + 6y : 8x + 5y = 8 : 9, find : x : y.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 3,
+          "mandatory": true,
+          "question": {
+            "question_text": "3. If (3x - 4y) : (2x - 3y) = (5x - 6y) : (4x - 5y), find : x : y.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 4,
+          "mandatory": true,
+          "question": {
+            "question_text": "4. Find the : (i) duplicate ratio of 2√2 : 3√5 (ii) triplicate ratio of 2a : 3b, (iii) sub-duplicate ratio of 9x^2 a^4 : 25 y^6 b^2 (iv) sub-triplicate ratio of 216 : 343 (v) reciprocal ratio of 3 : 5 (vi) ratio compounded of the duplicate ratio of 5 : 6, the reciprocal ratio of 25 : 42 and the sub-duplicate ratio of 36 : 49.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 5,
+          "mandatory": true,
+          "question": {
+            "question_text": "5. Find the value of x, if : (i) (2x + 3) : (5x - 38) is the duplicate ratio of √5 : √6. (ii) (2x + 1) : (3x + 13) is the sub-duplicate ratio of 9 : 25. (iii) (3x - 7) : (4x + 3) is the sub-triplicate ratio of 8 : 27.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 6,
+          "mandatory": true,
+          "question": {
+            "question_text": "6. What quantity must be added to each term of the ratio x : y so that it may become equal to c : d ?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 7,
+          "mandatory": true,
+          "question": {
+            "question_text": "7. A woman reduces her weight in the ratio 7 : 5. What does her weight become if originally it was 84 kg ?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 8,
+          "mandatory": true,
+          "question": {
+            "question_text": "8. If 15(2x^2 - y^2) = 7xy, find x : y; if x and y both are positive.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 9,
+          "mandatory": true,
+          "question": {
+            "question_text": "9. Find the : (i) fourth proportional to 2xy, x^2 and y^2. (ii) third proportional to a^2 - b^2 and a + b. (iii) mean proportion to (x - y) and (x^3 - x^2 y).",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 10,
+          "mandatory": true,
+          "question": {
+            "question_text": "10. Find two numbers such that the mean proportional between them is 14 and third proportional to them is 112.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 11,
+          "mandatory": true,
+          "question": {
+            "question_text": "11. If x and y be unequal and x : y is the duplicate ratio of x + z and y + z, prove that z is mean proportional between x and y.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 12,
+          "mandatory": true,
+          "question": {
+            "question_text": "12. If q is the mean proportional between p and r, prove that : (p^3 + q^3 + r^3) / (p^2 q^2 r^2) = 1/p^3 + 1/q^3 + 1/r^3.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 13,
+          "mandatory": true,
+          "question": {
+            "question_text": "13. If a, b and c are in continued proportion, prove that : a : c = (a^2 + b^2) : (b^2 + c^2).",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 14,
+          "mandatory": true,
+          "question": {
+            "question_text": "14. If x = (2ab) / (a+b), find the value of : (x + a) / (x - a) + (x + b) / (x - b).",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 15,
+          "mandatory": true,
+          "question": {
+            "question_text": "15. If (4a + 9b)(4c - 9d) = (4a - 9b)(4c + 9d), prove that : a : b = c : d.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 16,
+          "mandatory": true,
+          "question": {
+            "question_text": "16. If (a/b) = (c/d), show that : (a + b) : (c + d) = √(a^2 + b^2) : √(c^2 + d^2).",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 17,
+          "mandatory": true,
+          "question": {
+            "question_text": "17. If x/a = y/b = z/c, prove that : (ax - by)/((a+b)(x - y)) + (by - cz)/((b+c)(y - z)) + (cz - ax)/((c+a)(z - x)) = 3.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 18,
+          "mandatory": true,
+          "question": {
+            "question_text": "18. There are 36 members in a student council in a school and the ratio of the number of boys to the number of girls is 3 : 1. How many more girls should be added to the council so that the ratio of number of boys to the number of girls may be 9 : 5 ?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 19,
+          "mandatory": true,
+          "question": {
+            "question_text": "19. If 7x - 15y = 4x + y, find the value of x : y. Hence, use componendo and dividendo to find the values of : (i) (9x + 5y) / (9x - 5y) (ii) (3x^2 + 2y^2) / (3x^2 - 2 y^2).",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 20,
+          "mandatory": true,
+          "question": {
+            "question_text": "20. If (4m + 3n) / (4m - 3n) = 7 / 4, use properties of proportion to find : (i) m : n (ii) (2 m^2 - 11 n^2) / (2 m^2 + 11 n^2).",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 21,
+          "mandatory": true,
+          "question": {
+            "question_text": "21. If x, y, z are in continued proportion, prove that : ((x + y)^2 / (y + z)^2) = (x / z). [2010]",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 22,
+          "mandatory": true,
+          "question": {
+            "question_text": "22. Given x = (sqrt(a^2 + b^2) + sqrt(a^2 - b^2)) / (sqrt(a^2 + b^2) - sqrt(a^2 - b^2)). Use componendo and dividendo to prove that : b^2 = (2a^2 x) / (x^2 + 1). [2010]",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 23,
+          "mandatory": true,
+          "question": {
+            "question_text": "23. If (x^2 + y^2) / (x^2 - y^2) = 2 1/8, find : (i) x / y (ii) (x^3 + y^3) / (x^3 - y^3). [2014]",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 24,
+          "mandatory": true,
+          "question": {
+            "question_text": "24. Using componendo and dividendo, find the value of x : (sqrt(3x + 4) + sqrt(3x - 5)) / (sqrt(3x + 4) - sqrt(3x - 5)) = 9. [2011]",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 25,
+          "mandatory": true,
+          "question": {
+            "question_text": "25. If x = (sqrt(a + 1) + sqrt(a - 1)) / (sqrt(a + 1) - sqrt(a - 1)), using properties of proportion show that : x^2 - 2ax + 1 = 0. [2012]",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 26,
+          "mandatory": true,
+          "question": {
+            "question_text": "26. Given (x^3 + 12x) / (6x^2 + 8) = (y^3 + 27y) / (9y^2 + 27). Using componendo and dividendo, find x : y. [2015]",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 27,
+          "mandatory": true,
+          "question": {
+            "question_text": "4 (i) What quantity must be added to each term of the ratio 8 : 15 so that it becomes equal to 3 : 5?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 28,
+          "mandatory": true,
+          "question": {
+            "question_text": "(ii) What quantity must be subtracted from each term of the ratio a : b so that it becomes c : d?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 29,
+          "mandatory": true,
+          "question": {
+            "question_text": "5. The work done by (x - 3) men in (2x + 1) days and the work done by (2x + 1) men in (x + 4) days are in the ratio 3 : 10. Find the value of x.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 30,
+          "mandatory": true,
+          "question": {
+            "question_text": "6. When the fare of a certain journey by an airliner was increased in the ratio 5 : 7 the cost of the ticket for the journey became ₹ 1,421. Find the increase in the fare.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 31,
+          "mandatory": true,
+          "question": {
+            "question_text": "7. In a regiment, the ratio of number of officers to the number of soldiers was 3 : 31 before a battle. In the battle 6 officers and 22 soldiers were killed. The ratio between the number of officers and the number of soldiers now is 1 : 13. Find the number of officers and soldiers in the regiment before the battle. [1992]",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 32,
+          "mandatory": true,
+          "question": {
+            "question_text": "8. If \\frac{a}{b+c} = \\frac{b}{c+a} = \\frac{c}{a+b} and a + b + c = 0; show that each given ratio is equal to -1.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 33,
+          "mandatory": true,
+          "question": {
+            "question_text": "Find the compound ratio of :",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 34,
+          "mandatory": true,
+          "question": {
+            "question_text": "1. If a : b = 5 : 3, find (5a - 3b) / (5a + 3b).",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 35,
+          "mandatory": true,
+          "question": {
+            "question_text": "2. If x : y = 4 : 7, find the value of (3x + 2y) : (5x + y).",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 36,
+          "mandatory": true,
+          "question": {
+            "question_text": "3. If a : b = 3 : 8, find the value of (4a + 3b) / (6a - b).",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 37,
+          "mandatory": true,
+          "question": {
+            "question_text": "4. If (a - b) : (a + b) = 1 : 11, find the ratio (5a + 4b + 15) : (5a - 4b + 3).",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 38,
+          "mandatory": true,
+          "question": {
+            "question_text": "5. Find the number which bears the same ratio to 7/33 that 8/21 does to 4/9.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 39,
+          "mandatory": true,
+          "question": {
+            "question_text": "6. If (m + n) / (m + 3n) = 2/3, find : (2n^2) / (3m^2 + mn).",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 40,
+          "mandatory": true,
+          "question": {
+            "question_text": "7. Find x/y; when x^2 + 6y^2 = 5xy.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 41,
+          "mandatory": true,
+          "question": {
+            "question_text": "8. If the ratio between 8 and 11 is the same as the ratio of 2x - y to x + 2y, find the value of 7x / 9y.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 42,
+          "mandatory": true,
+          "question": {
+            "question_text": "9. Divide ₹ 1,290 into A, B and C such that A is 2/5 of B and B : C = 4 : 3.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 43,
+          "mandatory": true,
+          "question": {
+            "question_text": "10. A school has 630 students. The ratio of the number of boys to the number of girls is 3 : 2. This ratio changes to 7 : 5 after the admission of 90 new students. Find the number of newly admitted boys.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 44,
+          "mandatory": true,
+          "question": {
+            "question_text": "11. What quantity must be subtracted from each term of the ratio 9 : 17 to make it equal to 1 : 3?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 45,
+          "mandatory": true,
+          "question": {
+            "question_text": "12. The monthly pocket money of Ravi and Sanjeev are in the ratio 5 : 7. Their expenditures are in the ratio 3 : 5. If each saves ₹ 80 every month, find their monthly pocket money. [2012]",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 46,
+          "mandatory": true,
+          "question": {
+            "question_text": "13. The work done by (x - 2) men in (4x + 1) days and the work done by (4x + 1) men in (2x - 3) days are in the ratio 3 : 8. Find the value of x.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 47,
+          "mandatory": true,
+          "question": {
+            "question_text": "14. The bus fare between two cities is increased in the ratio 7 : 9. Find the increase in the fare, if : (i) the original fare is ₹ 245; (ii) the increased fare is ₹ 207.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 48,
+          "mandatory": true,
+          "question": {
+            "question_text": "15. By increasing the cost of entry ticket to a fair in the ratio 10 : 13, the number of visitors to the fair has decreased in the ratio 6 : 5. In",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 49,
+          "mandatory": true,
+          "question": {
+            "question_text": "16. In a basket, the ratio between the number of oranges and the number of apples is 7 : 13. If 8 oranges and 11 apples are eaten, the ratio between the number of oranges and the number of apples becomes 1 : 2. Find the original number of oranges and the original number of apples in the basket.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 50,
+          "mandatory": true,
+          "question": {
+            "question_text": "17. In a mixture of 126 kg of milk and water, milk and water are in ratio 5 : 2. How much water must be added to the mixture to make this ratio 3 : 2?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 51,
+          "mandatory": true,
+          "question": {
+            "question_text": "18. (a) If A : B = 3 : 4 and B : C = 6 : 7, find : (i) A : B : C (ii) A : C (b) If A : B = 2 : 5 and A : C = 3 : 4, find : A : B : C.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 52,
+          "mandatory": true,
+          "question": {
+            "question_text": "19. (i) If 3A = 4B = 6C; find : A : B : C. (ii) If 2a = 3b and 4b = 5c, find : a : c.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 53,
+          "mandatory": true,
+          "question": {
+            "question_text": "20. Find the compound ratio of : (i) 2 : 3, 9 : 14 and 14 : 27. (ii) 2a : 3b, mn : x^2 and x : n. (iii) sqrt(2) : 1, 3 : sqrt(5) and sqrt(20) : 9.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 54,
+          "mandatory": true,
+          "question": {
+            "question_text": "21. Find duplicate ratio of : (i) 3 : 4 (ii) 3√3 : 2√5",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 55,
+          "mandatory": true,
+          "question": {
+            "question_text": "22. Find triplicate ratio of : (i) 1 : 3 (ii) m/2 : n/3",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 56,
+          "mandatory": true,
+          "question": {
+            "question_text": "23. Find sub-duplicate ratio of : (i) 9 : 16 (ii) (x - y)^4 : (x + y)^6",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 57,
+          "mandatory": true,
+          "question": {
+            "question_text": "24. Find sub-triplicate ratio of : (i) 64 : 27 (ii) x^3 : 125y^3",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 58,
+          "mandatory": true,
+          "question": {
+            "question_text": "25. Find the reciprocal ratio of : (i) 5 : 8 (ii) x/3 : y/7",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 59,
+          "mandatory": true,
+          "question": {
+            "question_text": "26. If (x + 3) : (4x + 1) is the duplicate ratio of 3 : 5, find the value of x.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 60,
+          "mandatory": true,
+          "question": {
+            "question_text": "27. If m : n is the duplicate ratio of m + x : n + x; show that : x^2 = mn.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 61,
+          "mandatory": true,
+          "question": {
+            "question_text": "28. If (3x - 9) : (5x + 4) is the triplicate ratio of 3 : 4, find the value of x.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 62,
+          "mandatory": true,
+          "question": {
+            "question_text": "29. Find the ratio compounded of the reciprocal ratio of 15 : 28, the sub-duplicate ratio of 36 : 49 and the triplicate ratio of 5 : 4.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 63,
+          "mandatory": true,
+          "question": {
+            "question_text": "30. (a) If r^2 = pq, show that p : q is the duplicate ratio of (p + r) : (q + r). (b) If (p - x) : (q - x) be the duplicate ratio of p : q then show that : 1/p + 1/q = 1/x.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        }
+      ]
+    }
+  ]
+}

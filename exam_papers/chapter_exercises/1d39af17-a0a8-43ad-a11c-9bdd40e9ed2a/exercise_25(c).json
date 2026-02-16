@@ -1,0 +1,893 @@
+{
+  "title": "Exercise 25(C)",
+  "subject": "Mathematics",
+  "board": "CBSE",
+  "examYear": 2026,
+  "examType": "CHAPTER_EXERCISE",
+  "durationMinutes": 30,
+  "totalMarks": 62,
+  "instructions": "Attempt all questions.",
+  "negativeMarking": false,
+  "shuffleSections": false,
+  "shuffleQuestions": false,
+  "sections": [
+    {
+      "sectionName": "A",
+      "title": "Exercise 25(C)",
+      "attemptType": "ALL",
+      "compulsory": true,
+      "totalMarks": 62,
+      "sectionOrder": 1,
+      "questions": [
+        {
+          "marks": 1,
+          "displayOrder": 1,
+          "mandatory": true,
+          "question": {
+            "question_text": "1. A bag contain 3 red balls, 4 blue balls and one yellow ball, all the balls being identical in shape and size. If a ball is taken out of the bag without looking into it; find the probability that the ball is : (i) yellow (ii) red (iii) not yellow (iv) neither yellow nor red",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 2,
+          "mandatory": true,
+          "question": {
+            "question_text": "2. A dice is thrown once. What is the probability of getting a number : (i) greater than 2 ? (ii) less than or equal to 2 ?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 3,
+          "mandatory": true,
+          "question": {
+            "question_text": "3. From a well-shuffled deck of 52 cards, one card is drawn. Find the probability that the card drawn is : (i) a face card. (ii) not a face card. (iii) a queen of black colour. (iv) a card with number 5 or 6. (v) a card with number less than 8. (vi) a card with number between 2 and 9.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 4,
+          "mandatory": true,
+          "question": {
+            "question_text": "4. In a match between A and B; (i) the probability of winning of A is 0·83. What is the probability of winning of B? (ii) the probability of losing the match is 0·49 for B. What is the probability of winning of A ?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 5,
+          "mandatory": true,
+          "question": {
+            "question_text": "5. A and B are friends. Ignoring the leap year, find the probability that both friends will have: (i) different birthdays. (ii) the same birthday.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 6,
+          "mandatory": true,
+          "question": {
+            "question_text": "6. A man tosses two different coins (one of ₹ 2 and another of ₹ 5) simultaneously. What is the probability that he gets : (i) at least one head ? (ii) atmost one head ?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 7,
+          "mandatory": true,
+          "question": {
+            "question_text": "7. A box contains 7 red balls, 8 green balls and 5 white balls. A ball is drawn at random from the box. Find the probability that the ball is : (i) white (ii) neither red nor white.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 8,
+          "mandatory": true,
+          "question": {
+            "question_text": "8. All the three face cards of spades are removed from a well-shuffled pack of 52 cards. A card is then drawn at random from the remaining pack. Find the probability of getting : (i) a black face card (ii) a queen (iii) a black card.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 9,
+          "mandatory": true,
+          "question": {
+            "question_text": "9. In a musical chairs game, a person has been advised to stop playing the music at any time within 40 seconds after its start. What is the probability that the music will stop within the first 15 seconds ?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 10,
+          "mandatory": true,
+          "question": {
+            "question_text": "10. In a bundle of 50 shirts, 44 are good, 4 have minor defects and 2 have major defects. What is the probability that : (i) it is acceptable to a trader who accepts only a good shirt ? (ii) it is acceptable to a trader who rejects only a shirt with major defects ?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 11,
+          "mandatory": true,
+          "question": {
+            "question_text": "11. Two dice are thrown at the same time. Find the probability that the sum of the two numbers appearing on the top of the dice is : (i) 8 (ii) 13 (iii) less than or equal to 12.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 12,
+          "mandatory": true,
+          "question": {
+            "question_text": "12. Which of the following cannot be the probability of an event ? (i) 3/7 (ii) 0·82 (iii) 37% (iv) -2·4",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 13,
+          "mandatory": true,
+          "question": {
+            "question_text": "13. If P(E) = 0·59; find P(not E).",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 14,
+          "mandatory": true,
+          "question": {
+            "question_text": "14. A bag contains a certain number of red balls. A ball is drawn. Find the probability that the ball drawn is : (i) black (ii) red.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 15,
+          "mandatory": true,
+          "question": {
+            "question_text": "15. The probability that two boys do not have the same birthday is 0.897. What is the probability that the two boys have the same birthday ?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 16,
+          "mandatory": true,
+          "question": {
+            "question_text": "16. A bag contains 10 red balls, 16 white balls and 8 green balls. A ball is drawn out of the bag at random. What is the probability that the ball drawn will be : (i) not red ? (ii) neither red nor green ? (iii) white or green ?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 17,
+          "mandatory": true,
+          "question": {
+            "question_text": "17. A bag contains twenty ₹ 5 coins, fifty ₹ 2 coins and thirty ₹ 1 coins. If it is equally likely that one of the coins will fall down when the bag is turned upside down, what is the probability that the coin : (i) will be a ₹ 1 coin ? (ii) will not be a ₹ 2 coin ? (iii) will neither be a ₹ 5 coin nor be a ₹ 1 coin ?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 18,
+          "mandatory": true,
+          "question": {
+            "question_text": "18. A game consists of spinning an arrow which comes to rest pointing at one of the numbers 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12; as shown below.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 19,
+          "mandatory": true,
+          "question": {
+            "question_text": "19. One card is drawn from a well-shuffled deck of 52 cards. Find the probability of getting : (i) a queen of red colour. (ii) a black face card. (iii) the jack or the queen of hearts. (iv) a diamond. (v) a diamond or a spade.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 20,
+          "mandatory": true,
+          "question": {
+            "question_text": "20. From a deck of 52 cards, all the face cards are removed and then the remaining cards are shuffled. Now one card is drawn from the remaining deck. Find the probability that the card drawn is : (i) a black card. (ii) 8 of red colour. (iii) a king of black colour.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 21,
+          "mandatory": true,
+          "question": {
+            "question_text": "21. Seven cards :- the eight, the nine, the ten, jack, queen, king and ace of diamonds are well shuffled. One card is then picked up at random.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 22,
+          "mandatory": true,
+          "question": {
+            "question_text": "(i) What is the probability that the card drawn is the eight or the king ?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 23,
+          "mandatory": true,
+          "question": {
+            "question_text": "(ii) If the king is drawn and put aside, what is the probability that the second card picked up is : (a) an ace ? (b) a king ?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 24,
+          "mandatory": true,
+          "question": {
+            "question_text": "22. A box contains 150 bulbs out of which 15 are defective. It is not possible to just look at a bulb and tell whether or not it is defective. One bulb is taken out at random from this box. Calculate the probability that the bulb taken out is : (i) a good one (ii) a defective one.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 25,
+          "mandatory": true,
+          "question": {
+            "question_text": "23. (i) 4 defective pens are accidentally mixed with 16 good ones. It is not possible to just look at a pen and tell whether or not it is defective. One pen is drawn at random from the lot. What is the probability that the pen is defective ? (ii) Suppose the pen drawn in (i) is defective and is not replaced. Now one more pen is drawn at random from the rest. What is the probability that this pen is : (a) defective ? (b) not defective ?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 26,
+          "mandatory": true,
+          "question": {
+            "question_text": "24. A bag contains 100 identical marble stones which are numbered from 1 to 100. If one stone is drawn at random from the bag, find the probability that it bears : (i) a perfect square number. (ii) a number divisible by 4. (iii) a number divisible by 5. (iv) a number divisible by 4 or 5. (v) a number divisible by 4 and 5.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 27,
+          "mandatory": true,
+          "question": {
+            "question_text": "25. A circle with diameter 20 cm is drawn somewhere on a rectangular piece of paper with length 40 cm and width 30 cm. This paper is kept horizontal on table top and a die, very small in size, is dropped on the rectangular paper without seeing towards it. If the die falls and lands on the paper only, find the probability that it will fall and land : (i) inside the circle. (ii) outside the circle.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 28,
+          "mandatory": true,
+          "question": {
+            "question_text": "26. Two dice (each bearing numbers 1 to 6) are rolled together. Find the probability that the sum of the numbers on the upper-most faces of two dice is :",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 29,
+          "mandatory": true,
+          "question": {
+            "question_text": "27. Three coins are tossed together. Write all the possible outcomes. Now, find the probability of getting :",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 30,
+          "mandatory": true,
+          "question": {
+            "question_text": "28. Two dice are thrown simultaneously. What is the probability that :",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 31,
+          "mandatory": true,
+          "question": {
+            "question_text": "(i) 4 will not come up either time ?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 32,
+          "mandatory": true,
+          "question": {
+            "question_text": "(ii) 4 will come up at least once ?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 33,
+          "mandatory": true,
+          "question": {
+            "question_text": "29. Cards marked with numbers 1, 2, 3, 4, ..... 20 are well shuffled and a card is drawn at random. What is the probability that the number on the card is :",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 34,
+          "mandatory": true,
+          "question": {
+            "question_text": "(i) a prime number ? (ii) divisible by 3 ?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 35,
+          "mandatory": true,
+          "question": {
+            "question_text": "(iii) a perfect square ?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 36,
+          "mandatory": true,
+          "question": {
+            "question_text": "30. Offices in Delhi are open for five days in a week (Monday to Friday). Two employees of an office remain absent for one day in the same particular week. Find the probability that they remain absent on :",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 37,
+          "mandatory": true,
+          "question": {
+            "question_text": "31. A box contains some black balls and 30 white balls. If the probability of drawing a black ball is two-fifths of a white ball; find the number of black balls in the box.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 38,
+          "mandatory": true,
+          "question": {
+            "question_text": "32. From a pack of 52 playing cards, all cards whose numbers are multiples of 3 are removed.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 39,
+          "mandatory": true,
+          "question": {
+            "question_text": "(ii) an even numbered red card ?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 40,
+          "mandatory": true,
+          "question": {
+            "question_text": "33. A die has 6 faces marked by the given numbers as shown below :",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 41,
+          "mandatory": true,
+          "question": {
+            "question_text": "(i) a positive integer ?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 42,
+          "mandatory": true,
+          "question": {
+            "question_text": "(ii) an integer greater than -3 ?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 43,
+          "mandatory": true,
+          "question": {
+            "question_text": "(iii) the smallest integer ?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 44,
+          "mandatory": true,
+          "question": {
+            "question_text": "34. A bag contains 5 white balls, 6 red balls and 9 green balls. A ball is drawn at random from the bag. Find the probability that the ball drawn is :",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 45,
+          "mandatory": true,
+          "question": {
+            "question_text": "Are the outcomes of all experiments equally likely?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 46,
+          "mandatory": true,
+          "question": {
+            "question_text": "A bag contains a black ball, a red ball and a green ball, all the balls are identical in shape and size. Mohit takes out a ball from the bag, without looking into it. What is the probability that the ball drawn is : (i) red ball ? (ii) black ball ? (iii) green ball ?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 47,
+          "mandatory": true,
+          "question": {
+            "question_text": "1. A coin is tossed once. Find the probability of : (i) getting a tail. (ii) not getting a tail.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 48,
+          "mandatory": true,
+          "question": {
+            "question_text": "2. A bag contains 3 white, 5 black and 2 red balls, all of the same shape and size. A ball is drawn from the bag without looking into it, find the probability that the ball drawn is : (i) a black ball. (ii) a red ball. (iii) a white ball. (iv) not a red ball. (v) not a black ball.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 49,
+          "mandatory": true,
+          "question": {
+            "question_text": "3. In a single throw of a die, find the probability of getting a number : (i) greater than 4. (ii) less than or equal to 4. (iii) not greater than 4.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 50,
+          "mandatory": true,
+          "question": {
+            "question_text": "4. In a single throw of a die, find the probability that the number : (i) will be an even number. (ii) will not be an even number. (iii) will be an odd number.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 51,
+          "mandatory": true,
+          "question": {
+            "question_text": "5. From a well-shuffled deck of 52 playing-cards, one card is drawn. Find the probability that the card drawn will : (i) be a black card. (ii) not be a red card. (iii) be a red card. (iv) be a face card. (v) be a face card of red colour.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 52,
+          "mandatory": true,
+          "question": {
+            "question_text": "6. (i) If A and B are two complementary events then what is the relation between P(A) and P(B) ? (ii) If the probability of happening of an event A is 0.46. What will be the probability of not happening of the event A ?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 53,
+          "mandatory": true,
+          "question": {
+            "question_text": "7. In a T.T. match between Geeta and Ritu, the probability of the winning of Ritu is 0.73. Find the probability of : (i) winning of Geeta. (ii) not winning of Ritu.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 54,
+          "mandatory": true,
+          "question": {
+            "question_text": "8. In a race between Mahesh and John; the probability that John will lose the race is 0·54. Find the probability of : (i) winning of Mahesh. (ii) winning of John.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 55,
+          "mandatory": true,
+          "question": {
+            "question_text": "9. (i) Write the probability of a sure event. (ii) Write the probability of an event which is impossible. (iii) For an event E, write a relation representing the range of values of P(E).",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 56,
+          "mandatory": true,
+          "question": {
+            "question_text": "10. In a single throw of a die, find the probability of getting : (i) 5 (ii) 8 (iii) a number less than 8. (iv) a prime number.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 57,
+          "mandatory": true,
+          "question": {
+            "question_text": "11. A die is thrown once. Find the probability of getting : (i) an even number. (ii) a number between 3 and 8. (iii) an even number or a multiple of 3.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 58,
+          "mandatory": true,
+          "question": {
+            "question_text": "12. Which of the following cannot be the probability of an event ? (i) 3/5 (ii) 2·7 (iii) 43% (iv) -0·6 (v) -3·2 (vi) 0·35",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 59,
+          "mandatory": true,
+          "question": {
+            "question_text": "13. A bag contains six identical black balls. A child withdraws one ball from the bag without looking into it. What is the probability that he takes out : (i) a white ball ? (ii) a black ball ?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 60,
+          "mandatory": true,
+          "question": {
+            "question_text": "14. A single letter is selected at random from the word 'Probability'. Find the probability that it is a vowel.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 61,
+          "mandatory": true,
+          "question": {
+            "question_text": "15. Ramesh chooses a date at random in January for a party (see the following figure).",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 62,
+          "mandatory": true,
+          "question": {
+            "question_text": "Find the probability that he chooses :",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        }
+      ]
+    }
+  ]
+}

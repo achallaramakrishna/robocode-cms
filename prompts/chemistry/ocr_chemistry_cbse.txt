@@ -1,0 +1,108 @@
+prompt = (
+    "You are processing a scanned page from a CBSE Grade 10 Chemistry textbook.\n\n"
+
+    "Your task is to extract, analyze, and structure the content so that it can be "
+    "used to build strong IIT-JEE and NEET foundation understanding.\n\n"
+
+    "IMPORTANT RULES:\n"
+    "- Preserve chemical equations EXACTLY (with states, arrows, charges)\n"
+    "- Preserve subscripts, superscripts, oxidation states\n"
+    "- Do NOT simplify reactions\n"
+    "- Identify reaction type clearly\n"
+    "- Identify oxidation and reduction\n"
+    "- Identify assumptions if implied (complete reaction, dilute solution, etc.)\n"
+    "- If numerical data is given, preserve units exactly\n\n"
+
+    "Extract the following sections IF PRESENT. If not present, return EMPTY ARRAY.\n\n"
+
+    "1. CORE DEFINITIONS\n"
+    "- Exact textbook definitions\n"
+    "- Include conditions if mentioned\n\n"
+
+    "2. CHEMICAL REACTIONS\n"
+    "- Balanced equation EXACTLY as written\n"
+    "- Reaction type (combination, decomposition, displacement, double displacement, redox)\n"
+    "- Identify oxidizing agent and reducing agent\n"
+    "- Mention reaction conditions (heat, catalyst, electricity)\n\n"
+
+    "3. CONCEPTUAL EXPLANATIONS\n"
+    "- Why reaction happens\n"
+    "- Electron transfer explanation\n"
+    "- Bond formation or bond breaking reasoning\n"
+    "- Acid-base behavior explanation\n"
+    "- Metal reactivity reasoning\n\n"
+
+    "4. FUNDAMENTAL EQUATIONS / FORMULAS\n"
+    "- Molar mass formula\n"
+    "- Concentration formula\n"
+    "- pH expression if given\n"
+    "- Corrosion equations\n\n"
+
+    "5. PERIODIC AND REACTIVITY TRENDS\n"
+    "- Metal reactivity series explanation\n"
+    "- Non-metal reactivity reasoning\n"
+    "- Trends in atomic size or valency\n\n"
+
+    "6. ORGANIC CHEMISTRY BASICS\n"
+    "- Functional group identification\n"
+    "- Homologous series concept\n"
+    "- Structural formula\n"
+    "- Isomerism examples\n"
+    "- Saturated vs unsaturated compounds\n\n"
+
+    "7. WORKED EXAMPLES\n"
+    "- Extract question EXACTLY\n"
+    "- Extract final answer EXACTLY\n"
+    "- Identify concept tested\n\n"
+
+    "8. ASSERTION-REASON STATEMENTS\n"
+    "- Logical chemistry statements for reasoning practice\n"
+    "- If unclear, set is_true as null\n\n"
+
+    "9. PROBLEM-SOLVING METHODS\n"
+    "- Balancing equations method\n"
+    "- Oxidation number method\n"
+    "- Mole calculation method\n"
+    "- Reactivity prediction method\n\n"
+
+    "10. COMMON STUDENT MISTAKES\n"
+    "- Incorrect balancing\n"
+    "- Ignoring state symbols\n"
+    "- Misidentifying oxidation and reduction\n"
+    "- Confusing molarity and mass\n"
+    "- Writing incorrect structural formula\n\n"
+
+    "11. PRACTICE QUESTIONS\n"
+    "- Extract EXACTLY as written\n"
+    "- Preserve numbering and chemical notation\n"
+    "- DO NOT SOLVE\n\n"
+
+    "12. DIAGRAMS / STRUCTURES\n"
+    "- Describe molecular structure\n"
+    "- Bond type (ionic/covalent)\n"
+    "- If diagram shows apparatus, describe purpose\n\n"
+
+    "13. TABLES / DATA\n"
+    "- Convert to structured rows\n"
+    "- Preserve units\n"
+    "- Identify trend direction if visible\n\n"
+
+    "Return ONLY valid JSON in the following structure:\n\n"
+
+    "{\n"
+    '  \"page_number\": <number>,\n'
+    '  \"core_definitions\": [],\n'
+    '  \"reactions\": [],\n'
+    '  \"concepts\": [],\n'
+    '  \"fundamental_equations\": [],\n'
+    '  \"reactivity_trends\": [],\n'
+    '  \"organic_basics\": [],\n'
+    '  \"examples\": [{\"question\": \"\", \"answer\": \"\", \"concept_tested\": \"\"}],\n'
+    '  \"assertions\": [{\"statement\": \"\", \"is_true\": null}],\n'
+    '  \"methods\": [{\"title\": \"\", \"steps\": []}],\n'
+    '  \"common_mistakes\": [{\"mistake\": \"\", \"why_wrong\": \"\"}],\n'
+    '  \"questions\": [],\n'
+    '  \"diagrams\": [],\n'
+    '  \"tables\": []\n'
+    "}\n"
+)

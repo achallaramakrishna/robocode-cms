@@ -1,0 +1,1005 @@
+{
+  "title": "Exercise 18(C)",
+  "subject": "Mathematics",
+  "board": "CBSE",
+  "examYear": 2026,
+  "examType": "CHAPTER_EXERCISE",
+  "durationMinutes": 30,
+  "totalMarks": 70,
+  "instructions": "Attempt all questions.",
+  "negativeMarking": false,
+  "shuffleSections": false,
+  "shuffleQuestions": false,
+  "sections": [
+    {
+      "sectionName": "A",
+      "title": "Exercise 18(C)",
+      "attemptType": "ALL",
+      "compulsory": true,
+      "totalMarks": 70,
+      "sectionOrder": 1,
+      "questions": [
+        {
+          "marks": 1,
+          "displayOrder": 1,
+          "mandatory": true,
+          "question": {
+            "question_text": "1. Prove that, of any two chords of a circle, the greater chord is nearer to the centre.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 2,
+          "mandatory": true,
+          "question": {
+            "question_text": "2. OABC is a rhombus whose three vertices A, B and C lie on a circle with centre O. (i) If the radius of the circle is 10 cm, find the area of the rhombus. (ii) If the area of the rhombus is 32√3 cm² find the radius of the circle.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 3,
+          "mandatory": true,
+          "question": {
+            "question_text": "3. Two circles with centres A and B, and radii 5 cm and 3 cm, touch each other internally. If the perpendicular bisector of the segment AB meets the bigger circle in P and Q; find the length of PQ.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 4,
+          "mandatory": true,
+          "question": {
+            "question_text": "4. Two chords AB and AC of a circle are equal. Prove that the centre of the circle lies on the bisector of angle BAC.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 5,
+          "mandatory": true,
+          "question": {
+            "question_text": "Show that the bisector of angle BAC is a perpendicular bisector of chord BC",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 6,
+          "mandatory": true,
+          "question": {
+            "question_text": "5. The diameter and a chord of a circle have a common end-point. If the length of the diameter is 20 cm and the length of the chord is 12 cm, how far is the chord from the centre of the circle ?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 7,
+          "mandatory": true,
+          "question": {
+            "question_text": "6. ABCD is a cyclic quadrilateral in which BC is parallel to AD, angle ADC = 110° and angle BAC = 50°. Find angle DAC and angle DCA.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 8,
+          "mandatory": true,
+          "question": {
+            "question_text": "7. In the given figure, C and D are points on the semi-circle described on AB as diameter. Given angle BAD = 70° and angle DBC = 30°, calculate angle BDC.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 9,
+          "mandatory": true,
+          "question": {
+            "question_text": "8. In cyclic quadrilateral ABCD, ∠A = 3 ∠C and ∠D = 5 ∠B. Find the measure of each angle of the quadrilateral.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 10,
+          "mandatory": true,
+          "question": {
+            "question_text": "9. Show that the circle drawn on any one of the equal sides of an isosceles triangle as diameter bisects the base.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 11,
+          "mandatory": true,
+          "question": {
+            "question_text": "10. Bisectors of vertex angles A, B and C of a triangle ABC intersect its circumcircle at the points D, E and F respectively. Prove that angle EDF = 90° - 1/2 ∠A.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 12,
+          "mandatory": true,
+          "question": {
+            "question_text": "11. In the figure, AB is the chord of a circle with centre O and DOC is a line segment such that BC = DO. If ∠C = 20°, find angle AOD.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 13,
+          "mandatory": true,
+          "question": {
+            "question_text": "12. Prove that the perimeter of a right triangle is equal to the sum of the diameter of its incircle and twice the diameter of its circumcircle.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 14,
+          "mandatory": true,
+          "question": {
+            "question_text": "13. P is the mid-point of an arc APB of a circle. Prove that the tangent drawn at P will be parallel to the chord AB.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 15,
+          "mandatory": true,
+          "question": {
+            "question_text": "14. In the given figure, MN is the common chord of two intersecting circles and AB is their common tangent. Prove that the line NM produced bisects AB at P.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 16,
+          "mandatory": true,
+          "question": {
+            "question_text": "15. In the given figure, ABCD is a cyclic quadrilateral, PQ is tangent to the circle at point C and BD is its diameter. If ∠DCQ = 40° and ∠ABD = 60°, find : (i) ∠DBC (ii) ∠BCP (iii) ∠ADB",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 17,
+          "mandatory": true,
+          "question": {
+            "question_text": "16. The given figure shows a circle with centre O and BCD is tangent to it at C. Show that : ∠ACD + ∠BAC = 90°.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 18,
+          "mandatory": true,
+          "question": {
+            "question_text": "17. ABC is a right triangle with angle B = 90°. A circle with BC as diameter meets hypotenuse AC at point D. Prove that : (i) AC × AD = AB² (ii) BD² = AD × DC.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 19,
+          "mandatory": true,
+          "question": {
+            "question_text": "18. In the given figure, AC = AE. Show that : (i) CP = EP (ii) BP = DP.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 20,
+          "mandatory": true,
+          "question": {
+            "question_text": "19. ABCDE is a cyclic pentagon with centre of its circumcircle at point O such that AB = BC = CD and angle ABC = 120°. Calculate : (i) ∠BEC (ii) ∠BED",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 21,
+          "mandatory": true,
+          "question": {
+            "question_text": "20. In the given figure, O is the centre of the circle. Tangents at A and B meet at C. If ∠ACO = 30°, find : (i) ∠BCO (ii) ∠AOB (iii) ∠APB",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 22,
+          "mandatory": true,
+          "question": {
+            "question_text": "21. ABC is a triangle with AB = 10 cm, BC = 8 cm and AC = 6 cm (not drawn to scale). Three circles are drawn touching each",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 23,
+          "mandatory": true,
+          "question": {
+            "question_text": "22. In a square ABCD, its diagonals AC and BD intersect each other at point O. The bisector of angle DAO meets BD at point M and the bisector of angle ABD meets AC at N and AM at L. Show that :",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 24,
+          "mandatory": true,
+          "question": {
+            "question_text": "23. The given figure shows a semi-circle with centre O and diameter PQ. If PA = AB and ∠BCQ = 140°; find measures of angles PAB and AQB. Also, show that AO is parallel to BQ.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 25,
+          "mandatory": true,
+          "question": {
+            "question_text": "24. The given figure shows a circle with centre O such that chord RS is parallel to chord QT, angle PRT = 20° and angle POQ = 100°. Calculate :",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 26,
+          "mandatory": true,
+          "question": {
+            "question_text": "25. In the given figure, PAT is tangent to the circle with centre O, at point A on its circumference and is parallel to chord BC. If CDQ is a line segment, show that :",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 27,
+          "mandatory": true,
+          "question": {
+            "question_text": "26. AB is a line segment and M is its mid-point. Three semi-circles are drawn with AM, MB and AB as diameters on the same side of the line AB. A circle with radius r unit is drawn so that it touches all the three semi-circles. Show that : AB = 6 × r",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 28,
+          "mandatory": true,
+          "question": {
+            "question_text": "27. TA and TB are tangents to a circle with centre O from an external point T. OT intersects the circle at point P. Prove that AP bisects the angle TAB.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 29,
+          "mandatory": true,
+          "question": {
+            "question_text": "28. Two circles intersect in points P and Q. A secant passing through P intersects the circles in A and B respectively. Tangents to the circles at A and B intersect at T. Prove that A, Q, B and T lie on a circle.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 30,
+          "mandatory": true,
+          "question": {
+            "question_text": "29. Prove that any four vertices of a regular pentagon are concyclic (lie on the same circle).",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 31,
+          "mandatory": true,
+          "question": {
+            "question_text": "30. Chords AB and CD of a circle when extended meet at point X. Given AB = 4 cm, BX = 6 cm and XD = 5 cm, calculate the length of CD.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 32,
+          "mandatory": true,
+          "question": {
+            "question_text": "31. In the given figure, find TP if AT = 16 cm and AB = 12 cm.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 33,
+          "mandatory": true,
+          "question": {
+            "question_text": "32. In the following figure, a circle is inscribed in the quadrilateral ABCD.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 34,
+          "mandatory": true,
+          "question": {
+            "question_text": "33. In the given figure, XY is the diameter of the circle and PQ is a tangent to the circle at Y.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 35,
+          "mandatory": true,
+          "question": {
+            "question_text": "34. In the given figure, QAP is the tangent at point A and PBD is a straight line.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 36,
+          "mandatory": true,
+          "question": {
+            "question_text": "35. In the given figure, AB is the diameter. The tangent at C meets AB produced at Q.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 37,
+          "mandatory": true,
+          "question": {
+            "question_text": "36. In the given figure, O is the centre of the circle. The tangents at B and D intersect each other at point P. If AB is parallel to CD and \\( \\angle ABC = 55^\\circ \\), find :",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 38,
+          "mandatory": true,
+          "question": {
+            "question_text": "37. In the following figure, PQ = QR, \\( \\angle RQP = 68^\\circ \\), PC and CQ are tangents to the circle with centre O.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 39,
+          "mandatory": true,
+          "question": {
+            "question_text": "Calculate the values of :",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 40,
+          "mandatory": true,
+          "question": {
+            "question_text": "38. In two concentric circles, prove that all chords of the outer circle, which touch the inner circle, are of equal length.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 41,
+          "mandatory": true,
+          "question": {
+            "question_text": "39. In the figure, given below, AC is a transverse common tangent to two circles with centres P and Q and of radii 6 cm and 3 cm repectively.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 42,
+          "mandatory": true,
+          "question": {
+            "question_text": "40. In the figure, given below, O is the centre of the circumcircle of triangle XYZ.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 43,
+          "mandatory": true,
+          "question": {
+            "question_text": "41. In the given figure, AE and BC intersect each other at point D.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 44,
+          "mandatory": true,
+          "question": {
+            "question_text": "42. In the given circle with centre O, \\( \\angle ABC = 100^\\circ \\), \\( \\angle ACD = 40^\\circ \\) and CT is a tangent to the circle at C. Find \\( \\angle ADC \\) and \\( \\angle DCT \\). [2013]",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 45,
+          "mandatory": true,
+          "question": {
+            "question_text": "43. In the figure given below, O is the centre of the circle and SP is a tangent. If \\( \\angle SRT = 65^\\circ \\), find the values of x, y and z. [2015]",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 46,
+          "mandatory": true,
+          "question": {
+            "question_text": "2. A, B and C are three points on a circle. The tangent at C meets BA produced at T. Given that ∠ATC = 36° and that ∠ACT = 48°, calculate the angle subtended by AB at the centre of the circle. [2001]",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 47,
+          "mandatory": true,
+          "question": {
+            "question_text": "3. P and Q are centres of circles with radii 9 cm and 2 cm respectively. PQ = 17 cm. R is the centre of a circle of radius x cm, which touches the above circles externally. Given that ∠PRQ = 90°, write an equation in x and solve it. [2004]",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 48,
+          "mandatory": true,
+          "question": {
+            "question_text": "1. The radius of a circle is 8 cm. Calculate the length of a tangent drawn to this circle from a point at a distance of 10 cm from its centre.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 49,
+          "mandatory": true,
+          "question": {
+            "question_text": "2. In the given figure, O is the centre of the circle and AB is a tangent at B. If AB = 15 cm and AC = 7·5 cm, calculate the radius of the circle.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 50,
+          "mandatory": true,
+          "question": {
+            "question_text": "3. Two circles touch each other externally at point P. Q is a point on the common tangent through P. Prove that the tangents QA and QB are equal.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 51,
+          "mandatory": true,
+          "question": {
+            "question_text": "4. Two circles touch each other internally. Show that the tangents drawn to the two circles from any point on the common tangent, are equal in length.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 52,
+          "mandatory": true,
+          "question": {
+            "question_text": "5. Two circles of radii 5 cm and 3 cm are concentric. Calculate the length of a chord of the outer circle which touches the inner.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 53,
+          "mandatory": true,
+          "question": {
+            "question_text": "6. Three circles touch each other externally. A triangle is formed when the centres of these circles are joined together. Find the radii of the circles, if the sides of the triangle formed are 6 cm, 8 cm and 9 cm.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 54,
+          "mandatory": true,
+          "question": {
+            "question_text": "7. If the sides of a quadrilateral ABCD touch a circle, prove that : AB + CD = BC + AD.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 55,
+          "mandatory": true,
+          "question": {
+            "question_text": "8. If the sides of a parallelogram touch a circle (refer figure of Q. 7), prove that the parallelogram is a rhombus.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 56,
+          "mandatory": true,
+          "question": {
+            "question_text": "9. From the given figure, prove that : AP + BQ + CR = BP + CQ + AR.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 57,
+          "mandatory": true,
+          "question": {
+            "question_text": "10. In the figure of Q. 9; if AB = AC then prove that : BQ = CQ.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 58,
+          "mandatory": true,
+          "question": {
+            "question_text": "11. Radii of two circles are 6·3 cm and 3·6 cm. State the distance between their centres if : (i) they touch each other externally, (ii) they touch each other internally.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 59,
+          "mandatory": true,
+          "question": {
+            "question_text": "12. From a point P outside a circle, with centre O, tangents PA and PB are drawn. Prove that : (i) ∠AOP = ∠BOP, (ii) OP is the ⊥ bisector of chord AB.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 60,
+          "mandatory": true,
+          "question": {
+            "question_text": "13. In the given figure, two circles touch each other externally at point P. AB is the direct common tangent of these circles. Prove that : (i) tangent at point P bisects AB, (ii) angle APB = 90°.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 61,
+          "mandatory": true,
+          "question": {
+            "question_text": "14. Tangents AP and AQ are drawn to a circle, with centre O, from an exterior point A. Prove that : ∠PAQ = 2∠OPQ",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 62,
+          "mandatory": true,
+          "question": {
+            "question_text": "15. Two parallel tangents of a circle meet a third tangent at points P and Q. Prove that PQ subtends a right angle at the centre.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 63,
+          "mandatory": true,
+          "question": {
+            "question_text": "16. ABC is a right angled triangle with AB = 12 cm and AC = 13 cm. A circle, with centre O, has been inscribed inside the triangle. Calculate the value of x, the radius of the inscribed circle. [2005 type]",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 64,
+          "mandatory": true,
+          "question": {
+            "question_text": "17. In a triangle ABC, the incircle (centre O) touches BC, CA and AB at points P, Q and R respectively. Calculate : (i) ∠QOR (ii) ∠QPR; given that ∠A = 60°.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 65,
+          "mandatory": true,
+          "question": {
+            "question_text": "18. In the following figure, PQ and PR are tangents to the circle, with centre O. If ∠QPR = 60°, calculate : (i) ∠QOR, (ii) ∠OQR, (iii) ∠QSR.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 66,
+          "mandatory": true,
+          "question": {
+            "question_text": "19. In the given figure, AB is the diameter of the circle, with centre O, and AT is the tangent. Calculate the numerical value of x.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 67,
+          "mandatory": true,
+          "question": {
+            "question_text": "20. In quadrilateral ABCD; angle D = 90°, BC = 38 cm and DC = 25 cm. A circle is inscribed in this quadrilateral which touches AB at point Q such that QB = 27 cm. Find the radius of the circle.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 68,
+          "mandatory": true,
+          "question": {
+            "question_text": "21. In the given figure, PT touches the circle with centre O at point R. Diameter SQ is produced to meet the tangent TR at P. Given ∠SPR = x° and ∠QRP = y°; prove that : (i) ∠ORS = y° (ii) write an expression connecting x and y.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 69,
+          "mandatory": true,
+          "question": {
+            "question_text": "22. PT is a tangent to the circle at T. If ∠ABC = 70° and ∠ACB = 50°; calculate : (i) ∠CBT (ii) ∠BAT (iii) ∠APT.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 70,
+          "mandatory": true,
+          "question": {
+            "question_text": "23. In the given figure, O is the centre of the circumcircle ABC. Tangents at A and C intersect at P. Given angle AOB = 140° and angle APC = 80°; find the angle BAC.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        }
+      ]
+    }
+  ]
+}

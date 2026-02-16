@@ -1,0 +1,977 @@
+{
+  "title": "Exercise 15(E)",
+  "subject": "Mathematics",
+  "board": "CBSE",
+  "examYear": 2026,
+  "examType": "CHAPTER_EXERCISE",
+  "durationMinutes": 30,
+  "totalMarks": 68,
+  "instructions": "Attempt all questions.",
+  "negativeMarking": false,
+  "shuffleSections": false,
+  "shuffleQuestions": false,
+  "sections": [
+    {
+      "sectionName": "A",
+      "title": "Exercise 15(E)",
+      "attemptType": "ALL",
+      "compulsory": true,
+      "totalMarks": 68,
+      "sectionOrder": 1,
+      "questions": [
+        {
+          "marks": 1,
+          "displayOrder": 1,
+          "mandatory": true,
+          "question": {
+            "question_text": "1. In the following figure, XY is parallel to BC, AX = 9 cm, XB = 4.5 cm and BC = 18 cm. Find : (i) AY/YC (ii) YC/AC (iii) XY",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 2,
+          "mandatory": true,
+          "question": {
+            "question_text": "2. In the following figure, ABCD to a trapezium with AB // DC. If AB = 9 cm, DC = 18 cm, CF = 13.5 cm, AP = 6 cm and BE = 15 cm, Calculate : (i) EC (ii) AF (iii) PE",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 3,
+          "mandatory": true,
+          "question": {
+            "question_text": "3. In the following figure, AB, CD and EF are perpendicular to the straight line BDF.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 4,
+          "mandatory": true,
+          "question": {
+            "question_text": "4. Triangle ABC is similar to triangle PQR. If AD and PM are corresponding medians of the two triangles, prove that : AB/PQ = AD/PM.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 5,
+          "mandatory": true,
+          "question": {
+            "question_text": "5. Triangle ABC is similar to triangle PQR. If AD and PM are altitudes of the two triangles, prove that : AB/PQ = AD/PM.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 6,
+          "mandatory": true,
+          "question": {
+            "question_text": "6. Triangle ABC is similar to triangle PQR. If bisector of angle BAC meets BC at point D and bisector of angle QPR meets QR at point M, prove that : AB/PQ = AD/PM.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 7,
+          "mandatory": true,
+          "question": {
+            "question_text": "7. In the following figure, ∠AXY = ∠AYX. If BX/AX = CY/AY, show that triangle ABC is isosceles.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 8,
+          "mandatory": true,
+          "question": {
+            "question_text": "8. In the following diagram, lines l, m and n are parallel to each other. Two transversals p and q intersect the parallel lines at points A, B, C and P, Q, R as shown. Prove that : AB/BC = PQ/QR",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 9,
+          "mandatory": true,
+          "question": {
+            "question_text": "9. In the following figure, DE // AC and DC // AP.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 10,
+          "mandatory": true,
+          "question": {
+            "question_text": "Prove that : BE/EC = BC/CP.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 11,
+          "mandatory": true,
+          "question": {
+            "question_text": "10. In the figure given below, AB // EF // CD.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 12,
+          "mandatory": true,
+          "question": {
+            "question_text": "Calculate : (i) EF (ii) AC",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 13,
+          "mandatory": true,
+          "question": {
+            "question_text": "11. In quadrilateral ABCD, its diagonals AC and BD intersect at point O such that OC/OA = OD/OB = 1/3. Prove that : (i) Δ OAB ~ Δ OCD (ii) ABCD is a trapezium. Further if CD = 4.5 cm; find the length of AB.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 14,
+          "mandatory": true,
+          "question": {
+            "question_text": "12. In triangle ABC, angle A is obtuse and AB = AC. P is any point in side BC. PM ⟂ AB and PN ⟂ AC. Prove that : P M × PC = PN × PB.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 15,
+          "mandatory": true,
+          "question": {
+            "question_text": "13. In triangle ABC, AB = AC = 8 cm, BC = 4 cm and P is a point in side AC such that AP = 6 cm. Prove that Δ BPC is similar to Δ ABC. Also, find the length of BP.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 16,
+          "mandatory": true,
+          "question": {
+            "question_text": "14. In Δ ABC, ∠ABC = ∠DAC, AB = 8 cm, AC = 4 cm and AD = 5 cm. (i) Prove that ΔACD is similar to ΔBCA. (ii) Find BC and CD. (iii) Find area of ΔACD : area of ΔABC.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 17,
+          "mandatory": true,
+          "question": {
+            "question_text": "15. In the given triangle P, Q and R are the midpoints of sides AB, BC and AC respectively. Prove that triangle PQR is similar to triangle ABC.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 18,
+          "mandatory": true,
+          "question": {
+            "question_text": "16. In the following figure, AD and CE are medians of Δ ABC. DF is drawn parallel to CE. Prove that: (i) EF = FB, (ii) AG : GD = 2 : 1.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 19,
+          "mandatory": true,
+          "question": {
+            "question_text": "17. In the given figure, triangle ABC is similar to triangle PQR. AM and PN are altitudes whereas AX and PY are medians. Prove that : AM/PN = AX/PY.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 20,
+          "mandatory": true,
+          "question": {
+            "question_text": "18. The two similar triangles are equal in area. Prove that the triangles are congruent.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 21,
+          "mandatory": true,
+          "question": {
+            "question_text": "19. The ratio between the altitudes of two similar triangles is 3 : 5; write the ratio between their : (i) medians. (ii) perimeters. (iii) areas.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 22,
+          "mandatory": true,
+          "question": {
+            "question_text": "20. The ratio between the areas of two similar triangles is 16 : 25. Find the ratio between their : (i) perimeters. (ii) altitudes. (iii) medians.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 23,
+          "mandatory": true,
+          "question": {
+            "question_text": "21. The given figure shows a triangle PQR in which XY is parallel to QR. If PX : XQ = 1 : 3 and QR = 9 cm, find the length of XY. Further, if the area of Δ PXY = x cm²; find, in terms of x, the area of : (i) triangle PQR. (ii) trapezium XQRY.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 24,
+          "mandatory": true,
+          "question": {
+            "question_text": "22. On a map, drawn to a scale of 1 : 20000, a rectangular plot of land ABCD has AB = 24 cm and BC = 32 cm. Calculate : (i) the diagonal distance of the plot in kilometre. (ii) the area of the plot in sq. km.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 25,
+          "mandatory": true,
+          "question": {
+            "question_text": "23. The dimensions of the model of a multistoreyed building are 1 m by 60 cm by 1.20 m. If the scale factor is 1 : 50, find the actual dimensions of the building. Also, find : (i) the floor area of a room of the building, if the floor area of the corresponding room in the model is 50 sq. cm. (ii) the space (volume) inside a room of the model, if the space inside the corresponding room of the building is 90 m³.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 26,
+          "mandatory": true,
+          "question": {
+            "question_text": "24. In a triangle PQR, L and M are two points on the base QR, such that ∠LPO = ∠QRP and ∠RPM = ∠RQP. Prove that : (i) Δ PQL ~ Δ RPM (ii) QL × RM = PL × PM (iii) PQ² = QR × QL",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 27,
+          "mandatory": true,
+          "question": {
+            "question_text": "25. In Δ ABC, ∠ACB = 90° and CD ⊥ AB. Prove that : BC² / AC² = BD / AD.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 28,
+          "mandatory": true,
+          "question": {
+            "question_text": "26. A triangle ABC with AB = 3 cm, BC = 6 cm and AC = 4 cm is enlarged to Δ DEF such that the longest side of Δ DEF = 9 cm. Find the scale factor and hence, the lengths of the other sides of Δ DEF.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 29,
+          "mandatory": true,
+          "question": {
+            "question_text": "27. Two isosceles triangles have equal vertical angles. Show that the triangles are similar. If the ratio between the areas of these two triangles is 16 : 25, find the ratio between their corresponding altitudes.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 30,
+          "mandatory": true,
+          "question": {
+            "question_text": "28. In Δ ABC, AP : PB = 2 : 3. PO is parallel to BC and is extended to Q so that CQ is parallel to BA. Find : (i) area Δ APO : area Δ ABC. (ii) area Δ APO : area Δ CQO.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 31,
+          "mandatory": true,
+          "question": {
+            "question_text": "29. The following figure shows a triangle ABC in which AD and BE are perpendiculars to BC and AC respectively. Show that : (i) Δ ADC ~ Δ BEC (ii) CA × CE = CB × CD (iii) Δ ABC ~ Δ DEC (iv) CD × AB = CA × DE",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 32,
+          "mandatory": true,
+          "question": {
+            "question_text": "30. In the given figure, ABC is a triangle with ∠EDB = ∠ACB. Prove that Δ ABC ~ Δ EBD. If BE = 6 cm, EC = 4 cm, BD = 5 cm and area of Δ BED = 9 cm². Calculate the :(i) length of AB (ii) area of Δ ABC",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 33,
+          "mandatory": true,
+          "question": {
+            "question_text": "31. In the given figure, ABC is a right angled triangle with ∠BAC = 90°. (i) Prove that : Δ ADB ~ Δ CDA. (ii) If BD = 18 cm and CD = 8 cm, find AD. (iii) Find the ratio of the area of Δ ADB is to area of Δ CDA.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 34,
+          "mandatory": true,
+          "question": {
+            "question_text": "32. In the given figure, AB and DE are perpendiculars to BC. (i) Prove that : Δ ABC ~ Δ DEC (ii) If AB = 6 cm, DE = 4 cm and AC = 15 cm. Calculate CD. (iii) Find the ratio of the area of a Δ ABC : area of Δ DEC.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 35,
+          "mandatory": true,
+          "question": {
+            "question_text": "33. ABC is a right angled triangle with ∠ ABC = 90°. D is any point on AB and DE is perpendicular to AC. Prove that : (i) Δ ADE ~ Δ ACB. (ii) If AC = 13 cm, BC = 5 cm and AE = 4 cm. Find DE and AD. (iii) Find, area of Δ ADE : area of quadrilateral BCED.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 36,
+          "mandatory": true,
+          "question": {
+            "question_text": "34. Given : AB // DE and BC // EF. Prove that : (i) AD / DG = CF / FG (ii) Δ DFG ~ Δ ACG.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 37,
+          "mandatory": true,
+          "question": {
+            "question_text": "1. In the figure, given below, straight lines AB and CD intersect at P; and AC // BD. Prove that : (i) Δ APC and Δ BPD are similar. (ii) If BD = 2·4 cm, AC = 3·6 cm, PD = 4·0 cm and PB = 3·2 cm; find the lengths of PA and PC.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 38,
+          "mandatory": true,
+          "question": {
+            "question_text": "2. In a trapezium ABCD, side AB is parallel to side DC; and the diagonals AC and BD intersect each other at point P. Prove that : (i) Δ APB is similar to Δ CPD. (ii) PA × PD = PB × PC.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 39,
+          "mandatory": true,
+          "question": {
+            "question_text": "3. P is a point on side BC of a parallelogram ABCD. If DP produced meets AB produced at point L, prove that : (i) DP : PL = DC : BL. (ii) DL : DP = AL : DC.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 40,
+          "mandatory": true,
+          "question": {
+            "question_text": "4. In quadrilateral ABCD, the diagonals AC and BD intersect each other at point O. If AO = 2CO and BO = 2DO; show that : (i) Δ AOB is similar to Δ COD. (ii) OA × OD = OB × OC.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 41,
+          "mandatory": true,
+          "question": {
+            "question_text": "5. In Δ ABC, angle ABC is equal to twice the angle ACB, and bisector of angle ABC meets the opposite side at point P. Show that : (i) CB : BA = CP : PA (ii) AB × BC = BP × CA.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 42,
+          "mandatory": true,
+          "question": {
+            "question_text": "6. In Δ ABC; BM ⟂ AC and CN ⟂ AB; show that : AB/AC = BM/CN = AM/AN.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 43,
+          "mandatory": true,
+          "question": {
+            "question_text": "7. In the given figure, DE // BC, AE = 15 cm, EC = 9 cm, NC = 6 cm and BN = 24 cm. (i) Write all possible pairs of similar triangles. (ii) Find lengths of ME and DM.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 44,
+          "mandatory": true,
+          "question": {
+            "question_text": "8. In the given figure, AD = AE and AD² = BD × EC. Prove that : triangles ABD and CAE are similar.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 45,
+          "mandatory": true,
+          "question": {
+            "question_text": "9. In the given figure, AB // DC, BO = 6 cm and DQ = 8 cm; find: BP × DO.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 46,
+          "mandatory": true,
+          "question": {
+            "question_text": "10. Angle BAC of triangle ABC is obtuse and AB = AC. P is a point in BC such that PC = 12 cm. PQ and PR are perpendiculars to sides AB and AC respectively. If PQ = 15 cm and PR = 9 cm; find the length of PB.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 47,
+          "mandatory": true,
+          "question": {
+            "question_text": "11. State, true or false : (i) Two similar polygons are necessarily congruent. (ii) Two congruent polygons are necessarily similar. (iii) All equiangular triangles are similar. (iv) All isosceles triangles are similar. (v) Two isosceles-right triangles are similar. (vi) Two isosceles triangles are similar, if an angle of one is congruent to the corresponding angle of the other. (vii) The diagonals of a trapezium divide each other into proportional segments.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 48,
+          "mandatory": true,
+          "question": {
+            "question_text": "12. Given : ∠GHE = ∠DFE = 90°, DH = 8, DF = 12, DG = 3x - 1 and DE = 4x + 2. Find : the lengths of segments DG and DE.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 49,
+          "mandatory": true,
+          "question": {
+            "question_text": "13. D is a point on the side BC of triangle ABC such that angle ADC is equal to angle BAC. Prove that : CA² = CB × CD.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 50,
+          "mandatory": true,
+          "question": {
+            "question_text": "14. In the given figure, Δ ABC and Δ AMP are right angled at B and M respectively.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 51,
+          "mandatory": true,
+          "question": {
+            "question_text": "15. Given : RS and PT are altitudes of Δ PQR. Prove that :",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 52,
+          "mandatory": true,
+          "question": {
+            "question_text": "16. Given : ABCD is a rhombus, DPR and CBR are straight lines.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 53,
+          "mandatory": true,
+          "question": {
+            "question_text": "Prove that : DP × CR = DC × PR.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 54,
+          "mandatory": true,
+          "question": {
+            "question_text": "17. Given : FB = FD, AE ⊥ FD and FC ⊥ AD.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 55,
+          "mandatory": true,
+          "question": {
+            "question_text": "Prove that : FB / AD = BC / ED.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 56,
+          "mandatory": true,
+          "question": {
+            "question_text": "18. In Δ PQR, ∠Q = 90° and QM is perpendicular to PR. Prove that :",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 57,
+          "mandatory": true,
+          "question": {
+            "question_text": "19. In Δ ABC, ∠B = 90° and BD ⊥ AC.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 58,
+          "mandatory": true,
+          "question": {
+            "question_text": "20. In the figure, PQRS is a parallelogram with PQ = 16 cm and QR = 10 cm. L is a point on PR such that RL : LP = 2 : 3. QL produced meets RS at M and PS produced at N.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 59,
+          "mandatory": true,
+          "question": {
+            "question_text": "Find the lengths of PN and RM.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 60,
+          "mandatory": true,
+          "question": {
+            "question_text": "21. In quadrilateral ABCD, diagonals AC and BD intersect at point E such that AE : EC = BE : ED.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 61,
+          "mandatory": true,
+          "question": {
+            "question_text": "Show that : ABCD is a trapezium.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 62,
+          "mandatory": true,
+          "question": {
+            "question_text": "22. In triangle ABC, AD is perpendicular to side BC and AD² = BD × DC.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 63,
+          "mandatory": true,
+          "question": {
+            "question_text": "Show that angle BAC = 90°.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 64,
+          "mandatory": true,
+          "question": {
+            "question_text": "23. In the given figure, AB // EF // DC; AB = 67.5 cm, DC = 40.5 cm and AE = 52.5 cm.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 65,
+          "mandatory": true,
+          "question": {
+            "question_text": "24. In the given figure, QR is parallel to AB and DR is parallel to QB.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 66,
+          "mandatory": true,
+          "question": {
+            "question_text": "Prove that : PQ² = PD × PA.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 67,
+          "mandatory": true,
+          "question": {
+            "question_text": "25. Through the mid-point M of the side CD of a parallelogram ABCD, the line BM is drawn intersecting diagonal AC in L and AD produced in E. Prove that : EL = 2 BL.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 68,
+          "mandatory": true,
+          "question": {
+            "question_text": "26. In the given figure, P is a point on AB such that AP : PB = 4 : 3. PQ is parallel to AC.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        }
+      ]
+    }
+  ]
+}

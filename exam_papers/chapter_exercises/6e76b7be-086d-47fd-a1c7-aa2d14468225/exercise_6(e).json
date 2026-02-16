@@ -1,0 +1,893 @@
+{
+  "title": "Exercise 6(E)",
+  "subject": "Mathematics",
+  "board": "CBSE",
+  "examYear": 2026,
+  "examType": "CHAPTER_EXERCISE",
+  "durationMinutes": 30,
+  "totalMarks": 62,
+  "instructions": "Attempt all questions.",
+  "negativeMarking": false,
+  "shuffleSections": false,
+  "shuffleQuestions": false,
+  "sections": [
+    {
+      "sectionName": "A",
+      "title": "Exercise 6(E)",
+      "attemptType": "ALL",
+      "compulsory": true,
+      "totalMarks": 62,
+      "sectionOrder": 1,
+      "questions": [
+        {
+          "marks": 1,
+          "displayOrder": 1,
+          "mandatory": true,
+          "question": {
+            "question_text": "1. The distance by road between two towns A and B is 216 km, and by rail it is 208 km. A car travels at a speed of x km/hr and the train travels at a speed which is 16 km/hr faster than the car. Calculate : (i) the time taken by the car to reach town B from A, in terms of x; (ii) the time taken by the train, to reach town B from A, in terms of x. (iii) If the train takes 2 hours less than the car, to reach town B, obtain an equation in x, and solve it. (iv) Hence, find the speed of the train.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 2,
+          "mandatory": true,
+          "question": {
+            "question_text": "2. A trader buys x articles for a total cost of ₹ 600. (i) Write down the cost of one article in terms of x. If the cost per article were ₹ 5 more, the number of articles that can be bought for ₹ 600 would be four less. (ii) Write down the equation in x for the above situation and solve it for x.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 3,
+          "mandatory": true,
+          "question": {
+            "question_text": "3. A hotel bill for a number of people for overnight stay is ₹ 4,800. If there were 4 people more, the bill each person had to pay, would have reduced by ₹ 200. Find the number of people staying overnight.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 4,
+          "mandatory": true,
+          "question": {
+            "question_text": "4. An aeroplane travelled a distance of 400 km at an average speed of x km/hr. On the return journey, the speed was increased by 40 km/hr. Write down an expression for the time taken for : (i) the onward journey; (ii) the return journey. If the return journey took 30 minutes less than the onward journey, write down an equation in x and find its value. [2002]",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 5,
+          "mandatory": true,
+          "question": {
+            "question_text": "5. ₹ 6,500 was divided equally among a certain number of persons. Had there been 15 persons more, each would have got ₹ 30 less. Find the original number of persons.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 6,
+          "mandatory": true,
+          "question": {
+            "question_text": "6. A plane left 30 minutes later than the scheduled time and in order to reach its destination 1500 km away in time, it has to increase its speed by 250 km/hr from its usual speed. Find its usual speed.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 7,
+          "mandatory": true,
+          "question": {
+            "question_text": "7. Two trains leave a railway station at the same time. The first train travels due west and the second train due north. The first train travels 5 km/hr faster than the second train. If after 2 hours, they are 50 km apart, find the speed of each train.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 8,
+          "mandatory": true,
+          "question": {
+            "question_text": "8. The sum S of first n even natural numbers is given by the relation S = n(n + 1). Find n, if the sum is 420.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 9,
+          "mandatory": true,
+          "question": {
+            "question_text": "9. The sum of the ages of a father and his son is 45 years. Five years ago, the product of their ages (in years) was 124. Determine their present ages.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 10,
+          "mandatory": true,
+          "question": {
+            "question_text": "10. In an auditorium, seats were arranged in rows and columns. The number of rows was equal to the number of seats in each row. When the number of rows was doubled and the number of seats in each row was reduced by 10, the total number of seats increased by 300. Find :",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 11,
+          "mandatory": true,
+          "question": {
+            "question_text": "11. Mohan takes 16 days less than Manoj to do a piece of work. If both working together can do it in 15 days, in how many days will Mohan alone complete the work ?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 12,
+          "mandatory": true,
+          "question": {
+            "question_text": "12. Two years ago, a man's age was three times the square of his son's age. In three years time, his age will be four times his son's age. Find their present ages.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 13,
+          "mandatory": true,
+          "question": {
+            "question_text": "13. In a certain positive fraction, the denominator is greater than the numerator by 3. If 1 is subtracted from the numerator and the denominator both, the fraction reduces by 1/14. Find the fraction.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 14,
+          "mandatory": true,
+          "question": {
+            "question_text": "14. In a two digit number, the ten’s digit is bigger. The product of the digits is 27 and the difference between two digits is 6. Find the number.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 15,
+          "mandatory": true,
+          "question": {
+            "question_text": "15. Some school children went on an excursion by a bus to a picnic spot at a distance of 300 km. While returning, it was raining and the bus had to reduce its speed by 5 km/hr and it took two hours longer for returning. Find the time taken to return.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 16,
+          "mandatory": true,
+          "question": {
+            "question_text": "16. ₹ 480 is divided equally among ‘x’ children. If the number of children were 20 more then each would have got ₹ 12 less. Find ‘x’.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 17,
+          "mandatory": true,
+          "question": {
+            "question_text": "4 For the same amount of work, A takes 6 hours less than B. If together they complete the work in 13 hours 20 minutes; find how much time will B alone take to complete the work?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 18,
+          "mandatory": true,
+          "question": {
+            "question_text": "1. The product of two consecutive integers is 56. Find the integers.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 19,
+          "mandatory": true,
+          "question": {
+            "question_text": "2. The sum of the squares of two consecutive natural numbers is 41. Find the numbers.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 20,
+          "mandatory": true,
+          "question": {
+            "question_text": "3. Find the two natural numbers which differ by 5 and the sum of whose squares is 97.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 21,
+          "mandatory": true,
+          "question": {
+            "question_text": "4. The sum of a number and its reciprocal is 4.25. Find the number.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 22,
+          "mandatory": true,
+          "question": {
+            "question_text": "5. Two natural numbers differ by 3. Find the numbers, if the sum of their reciprocals is 7/10.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 23,
+          "mandatory": true,
+          "question": {
+            "question_text": "6. Divide 15 into two parts such that the sum of their reciprocals is 3/10.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 24,
+          "mandatory": true,
+          "question": {
+            "question_text": "7. The sum of the squares of two positive integers is 208. If the square of the larger number is 18 times the smaller number, find the numbers.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 25,
+          "mandatory": true,
+          "question": {
+            "question_text": "8. The sum of the squares of two consecutive positive even numbers is 52. Find the numbers.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 26,
+          "mandatory": true,
+          "question": {
+            "question_text": "9. Find two consecutive positive odd numbers, the sum of whose squares is 74.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 27,
+          "mandatory": true,
+          "question": {
+            "question_text": "10. The denominator of a positive fraction is one more than twice the numerator. If the sum of the fraction and its reciprocal is 2.9; find the fraction.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 28,
+          "mandatory": true,
+          "question": {
+            "question_text": "11. Three positive numbers are in the ratio 1/2 : 1/3 : 1/4. Find the numbers if the sum of their squares is 244.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 29,
+          "mandatory": true,
+          "question": {
+            "question_text": "12. Divide 20 into two parts such that three times the square of one part exceeds the other part by 10.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 30,
+          "mandatory": true,
+          "question": {
+            "question_text": "13. Three consecutive natural numbers are such that the square of the middle number exceeds the difference of the squares of the other two by 60. Assume the middle number to be x and form a quadratic equation satisfying the above statement. Hence; find the three numbers.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 31,
+          "mandatory": true,
+          "question": {
+            "question_text": "14. Out of three consecutive positive integers, the middle number is p. If three times the square of the largest is greater than the sum of the squares of the other two numbers by 67; calculate the value of p.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 32,
+          "mandatory": true,
+          "question": {
+            "question_text": "15. A can do a piece of work in ‘x’ days and B can do the same work in (x + 16) days. If both working together can do it in 15 days; calculate ‘x’.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 33,
+          "mandatory": true,
+          "question": {
+            "question_text": "16. One pipe can fill a cistern in 3 hours less than the other. The two pipes together can fill the cistern in 6 hours 40 minutes. Find the time that each pipe will take to fill the cistern.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 34,
+          "mandatory": true,
+          "question": {
+            "question_text": "17. A positive number is divided into two parts such that the sum of the squares of the two parts is 20. The square of the larger part is 8 times the smaller part. Taking x as the smaller part of the two parts, find the number.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 35,
+          "mandatory": true,
+          "question": {
+            "question_text": "1. The sides of a right-angled triangle containing the right angle are 4x cm and (2x - 1) cm. If the area of the triangle is 30 cm²; calculate the lengths of its sides.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 36,
+          "mandatory": true,
+          "question": {
+            "question_text": "2. The hypotenuse of a right-angled triangle is 26 cm and the sum of other two sides is 34 cm. Find the lengths of its sides.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 37,
+          "mandatory": true,
+          "question": {
+            "question_text": "3. The sides of a right-angled triangle are (x - 1) cm, 3x cm and (3x + 1) cm. Find : (i) the value of x, (ii) the lengths of its sides, (iii) its area.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 38,
+          "mandatory": true,
+          "question": {
+            "question_text": "4. The hypotenuse of a right-angled triangle exceeds one side by 1 cm and the other side by 18 cm; find the lengths of the sides of the triangle.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 39,
+          "mandatory": true,
+          "question": {
+            "question_text": "5. The diagonal of a rectangle is 60 m more than its shorter side and the larger side is 30 m more than the shorter side. Find the sides of the rectangle.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 40,
+          "mandatory": true,
+          "question": {
+            "question_text": "6. The perimeter of a rectangle is 104 m and its area is 640 m². Find its length and breadth.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 41,
+          "mandatory": true,
+          "question": {
+            "question_text": "7. A footpath of uniform width runs round the inside of a rectangular field 32 m long and 24 m wide. If the path occupies 208 m², find the width of the footpath.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 42,
+          "mandatory": true,
+          "question": {
+            "question_text": "8. Two squares have sides x cm and (x + 4) cm. The sum of their areas is 656 sq. cm. Express this as an algebraic equation in x and solve the equation to find the sides of the squares.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 43,
+          "mandatory": true,
+          "question": {
+            "question_text": "9. The dimensions of a rectangular field are 50 m by 40 m. A flower bed is prepared inside this field leaving a gravel path of uniform width all around the flower bed. The total cost of laying the flower bed and gravelling the path at ₹ 30 and ₹ 20 per square metre, respectively, is ₹ 52,000. Find the width of the gravel path.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 44,
+          "mandatory": true,
+          "question": {
+            "question_text": "10. An area is paved with square tiles of a certain size and the number required is 128. If the tiles had been 2 cm smaller each way, 200 tiles would have been needed to pave the same area. Find the size of the larger tiles.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 45,
+          "mandatory": true,
+          "question": {
+            "question_text": "11. A farmer has 70 m of fencing, with which he encloses three sides of a rectangular sheep pen; the fourth side being a wall. If the area of the pen is 600 sq. m, find the length of its shorter side.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 46,
+          "mandatory": true,
+          "question": {
+            "question_text": "12. A square lawn is bounded on three sides by a path 4 m wide. If the area of the path is 7/8 that of the lawn, find the dimensions of the lawn.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 47,
+          "mandatory": true,
+          "question": {
+            "question_text": "13. The area of a big rectangular room is 300 m². If the length were decreased by 5 m and the breadth increased by 5 m; the area would be unaltered. Find the length of the room.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 48,
+          "mandatory": true,
+          "question": {
+            "question_text": "8. Car A travels x km for every litre of petrol, while car B travels (x + 5) km for every litre of petrol. (i) Write down the number of litres of petrol used by car A and car B in covering a distance of 400 km. (ii) If car A uses 4 litres of petrol more than car B in covering the 400 km, write down an equation in x and solve it to determine the number of litres of petrol used by car B for the journey.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 49,
+          "mandatory": true,
+          "question": {
+            "question_text": "1. The speed of an ordinary train is x km per hr and that of an express train is (x + 25) km per hr. (i) Find the time taken by each train to cover 300 km. (ii) If the ordinary train takes 2 hrs more than the express train; calculate speed of the express train.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 50,
+          "mandatory": true,
+          "question": {
+            "question_text": "2. If the speed of a car is increased by 10 km per hr, it takes 18 minutes less to cover a distance of 36 km. Find the speed of the car.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 51,
+          "mandatory": true,
+          "question": {
+            "question_text": "3. If the speed of an aeroplane is reduced by 40 km per hr, it takes 20 minutes more to cover 1200 km. Find the speed of the aeroplane.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 52,
+          "mandatory": true,
+          "question": {
+            "question_text": "4. A car covers a distance of 400 km at a certain speed. Had the speed been 12 km/h more, the time taken for the journey would have been 1 hour 40 minutes less. Find the original speed of the car. [2012]",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 53,
+          "mandatory": true,
+          "question": {
+            "question_text": "5. A girl goes to her friend's house, which is at a distance of 12 km. She covers half of the distance at a speed of x km/hr and",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 54,
+          "mandatory": true,
+          "question": {
+            "question_text": "6. A car made a run of 390 km in ‘x’ hours. If the speed had been 4 km/hour more, it would have taken 2 hours less for the journey. Find ‘x’.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 55,
+          "mandatory": true,
+          "question": {
+            "question_text": "7. A goods train leaves a station at 6 p.m., followed by an express train which leaves at 8 p.m. and travels 20 km/hour faster than the goods train. The express train arrives at a station, 1040 km away, 36 minutes before the goods train. Assuming that the speeds of both the trains remain constant between the two stations; calculate their speeds.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 56,
+          "mandatory": true,
+          "question": {
+            "question_text": "8. A man bought an article for ₹ x and sold it for ₹ 16. If his loss was x percent, find the cost price of the article.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 57,
+          "mandatory": true,
+          "question": {
+            "question_text": "9. A trader bought an article for ₹ x and sold it for ₹ 52, thereby making a profit of (x - 10) percent on his outlay. Calculate the cost price.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 58,
+          "mandatory": true,
+          "question": {
+            "question_text": "10. By selling a chair for ₹ 75, Mohan gained as much percent as its cost. Calculate the cost of the chair.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 59,
+          "mandatory": true,
+          "question": {
+            "question_text": "12. Five years ago, a woman’s age was the square of her son’s age. Ten years hence her age will be twice that of her son’s age. Find :",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 60,
+          "mandatory": true,
+          "question": {
+            "question_text": "13. A motor-boat, whose speed is 9 km/h in still water, goes 12 km downstream and comes back in a total time of 3 hours. Find the speed of the stream.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 61,
+          "mandatory": true,
+          "question": {
+            "question_text": "14. A piece of cloth costs ₹ 200. If the piece was 5 m longer and each metre of cloth costs ₹ 2 less; the cost of the piece would have remained unchanged. How long is the piece and what is the original rate per metre?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 62,
+          "mandatory": true,
+          "question": {
+            "question_text": "15. A shopkeeper buys a certain number of books for ₹ 960. If the cost per book was ₹ 8 less, the number of books that could be bought for ₹ 960 would be 4 more. Taking the original cost of each book to be ₹ x, write an equation in x and solve it.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        }
+      ]
+    }
+  ]
+}

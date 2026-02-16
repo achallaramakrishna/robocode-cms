@@ -1,0 +1,1182 @@
+{
+    "title": "ICSE Class X – Computer Applications (Java) Final Examination",
+    "subject": "Computer Applications",
+    "board": "ICSE",
+    "examYear": 2025,
+    "examType": "FINAL",
+    "patternCode": "ICSE_JAVA_10_FINAL",
+    "durationMinutes": 120,
+    "totalMarks": 100,
+    "instructions": "Attempt ALL questions from Section A and ANY FOUR questions from Section B. Programs must be written using Java (BlueJ / Java SE) syntax. Variable names must be meaningful. Assume all inputs are valid unless otherwise stated.",
+    "negativeMarking": false,
+    "shuffleSections": false,
+    "shuffleQuestions": false,
+    "sections": [
+        {
+            "sectionName": "A",
+            "title": "Section A – Multiple Choice Questions",
+            "description": "Choose the correct option",
+            "attemptType": "ALL",
+            "compulsory": true,
+            "totalMarks": 40,
+            "sectionOrder": 1,
+            "questions": [
+                {
+                    "marks": 1,
+                    "displayOrder": 1,
+                    "mandatory": true,
+                    "question": {
+                        "question_text": "Which of the following best describes a constructor?",
+                        "question_type": "multiple_choice",
+                        "difficulty_level": "Easy",
+                        "correct_answer": "C",
+                        "max_marks": 1,
+                        "options": [
+                            {
+                                "option_text": "It returns a value",
+                                "is_correct": false
+                            },
+                            {
+                                "option_text": "It is called explicitly",
+                                "is_correct": false
+                            },
+                            {
+                                "option_text": "It initializes an object",
+                                "is_correct": true
+                            },
+                            {
+                                "option_text": "It can be inherited",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    "answerKey": {
+                        "modelAnswer": "A constructor is used to initialize an object when it is created.",
+                        "keyPoints": [
+                            "initializes object",
+                            "called automatically",
+                            "same name as class"
+                        ]
+                    }
+                },
+                {
+                    "marks": 1,
+                    "displayOrder": 2,
+                    "mandatory": true,
+                    "question": {
+                        "question_text": "What will be the output?\nint x = 4;\nSystem.out.println(x++ + ++x);",
+                        "question_type": "multiple_choice",
+                        "difficulty_level": "Medium",
+                        "correct_answer": "C",
+                        "max_marks": 1,
+                        "options": [
+                            {
+                                "option_text": "9",
+                                "is_correct": false
+                            },
+                            {
+                                "option_text": "10",
+                                "is_correct": false
+                            },
+                            {
+                                "option_text": "11",
+                                "is_correct": true
+                            },
+                            {
+                                "option_text": "Compilation error",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    "answerKey": {
+                        "modelAnswer": "x++ gives 4, then ++x makes x = 6. So output is 4 + 6 = 11.",
+                        "keyPoints": [
+                            "post-increment",
+                            "pre-increment",
+                            "operator evaluation"
+                        ]
+                    }
+                },
+                {
+                    "marks": 1,
+                    "displayOrder": 3,
+                    "mandatory": true,
+                    "question": {
+                        "question_text": "Which of the following causes a logical error?",
+                        "question_type": "multiple_choice",
+                        "difficulty_level": "Easy",
+                        "correct_answer": "C",
+                        "max_marks": 1,
+                        "options": [
+                            {
+                                "option_text": "Missing semicolon",
+                                "is_correct": false
+                            },
+                            {
+                                "option_text": "Division by zero",
+                                "is_correct": false
+                            },
+                            {
+                                "option_text": "Incorrect condition",
+                                "is_correct": true
+                            },
+                            {
+                                "option_text": "Array index out of bounds",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    "answerKey": {
+                        "modelAnswer": "An incorrect condition produces wrong output but does not stop compilation or execution.",
+                        "keyPoints": [
+                            "logic error",
+                            "no syntax issue",
+                            "wrong output"
+                        ]
+                    }
+                },
+                {
+                    "marks": 1,
+                    "displayOrder": 4,
+                    "mandatory": true,
+                    "question": {
+                        "question_text": "What is the output?\nSystem.out.println(\"COMPUTER\".substring(1, 5));",
+                        "question_type": "multiple_choice",
+                        "difficulty_level": "Easy",
+                        "correct_answer": "A",
+                        "max_marks": 1,
+                        "options": [
+                            {
+                                "option_text": "OMPU",
+                                "is_correct": true
+                            },
+                            {
+                                "option_text": "MPUT",
+                                "is_correct": false
+                            },
+                            {
+                                "option_text": "OMP",
+                                "is_correct": false
+                            },
+                            {
+                                "option_text": "COMPU",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    "answerKey": {
+                        "modelAnswer": "substring(1,5) extracts characters from index 1 to 4.",
+                        "keyPoints": [
+                            "start index inclusive",
+                            "end index exclusive",
+                            "OMPU"
+                        ]
+                    }
+                },
+                {
+                    "marks": 1,
+                    "displayOrder": 5,
+                    "mandatory": true,
+                    "question": {
+                        "question_text": "Which loop is guaranteed to execute at least once?",
+                        "question_type": "multiple_choice",
+                        "difficulty_level": "Easy",
+                        "correct_answer": "C",
+                        "max_marks": 1,
+                        "options": [
+                            {
+                                "option_text": "for",
+                                "is_correct": false
+                            },
+                            {
+                                "option_text": "while",
+                                "is_correct": false
+                            },
+                            {
+                                "option_text": "do-while",
+                                "is_correct": true
+                            },
+                            {
+                                "option_text": "nested for",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    "answerKey": {
+                        "modelAnswer": "A do-while loop executes once before checking the condition.",
+                        "keyPoints": [
+                            "post-test loop",
+                            "executes at least once"
+                        ]
+                    }
+                },
+                {
+                    "marks": 1,
+                    "displayOrder": 6,
+                    "mandatory": true,
+                    "question": {
+                        "question_text": "Size of char in Java is:",
+                        "question_type": "multiple_choice",
+                        "difficulty_level": "Easy",
+                        "correct_answer": "B",
+                        "max_marks": 1,
+                        "options": [
+                            {
+                                "option_text": "1 byte",
+                                "is_correct": false
+                            },
+                            {
+                                "option_text": "2 bytes",
+                                "is_correct": true
+                            },
+                            {
+                                "option_text": "JVM dependent",
+                                "is_correct": false
+                            },
+                            {
+                                "option_text": "4 bytes",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    "answerKey": {
+                        "modelAnswer": "In Java, char data type occupies 2 bytes as it follows the Unicode character set.",
+                        "keyPoints": [
+                            "Unicode standard",
+                            "fixed size",
+                            "2 bytes"
+                        ]
+                    }
+                },
+                {
+                    "marks": 1,
+                    "displayOrder": 7,
+                    "mandatory": true,
+                    "question": {
+                        "question_text": "Which method compares strings lexicographically?",
+                        "question_type": "multiple_choice",
+                        "difficulty_level": "Easy",
+                        "correct_answer": "B",
+                        "max_marks": 1,
+                        "options": [
+                            {
+                                "option_text": "equals()",
+                                "is_correct": false
+                            },
+                            {
+                                "option_text": "compareTo()",
+                                "is_correct": true
+                            },
+                            {
+                                "option_text": "matches()",
+                                "is_correct": false
+                            },
+                            {
+                                "option_text": "contains()",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    "answerKey": {
+                        "modelAnswer": "The compareTo() method compares two strings lexicographically using Unicode values.",
+                        "keyPoints": [
+                            "lexicographical comparison",
+                            "Unicode values"
+                        ]
+                    }
+                },
+                {
+                    "marks": 1,
+                    "displayOrder": 8,
+                    "mandatory": true,
+                    "question": {
+                        "question_text": "Which conversion is explicit?",
+                        "question_type": "multiple_choice",
+                        "difficulty_level": "Medium",
+                        "correct_answer": "C",
+                        "max_marks": 1,
+                        "options": [
+                            {
+                                "option_text": "int → double",
+                                "is_correct": false
+                            },
+                            {
+                                "option_text": "char → int",
+                                "is_correct": false
+                            },
+                            {
+                                "option_text": "double → int",
+                                "is_correct": true
+                            },
+                            {
+                                "option_text": "byte → int",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    "answerKey": {
+                        "modelAnswer": "Conversion from double to int is a narrowing conversion and must be done explicitly using type casting.",
+                        "keyPoints": [
+                            "narrowing conversion",
+                            "explicit type casting"
+                        ]
+                    }
+                },
+                {
+                    "marks": 1,
+                    "displayOrder": 9,
+                    "mandatory": true,
+                    "question": {
+                        "question_text": "What is the output?\nSystem.out.println(Math.round(4.6));",
+                        "question_type": "multiple_choice",
+                        "difficulty_level": "Easy",
+                        "correct_answer": "B",
+                        "max_marks": 1,
+                        "options": [
+                            {
+                                "option_text": "4",
+                                "is_correct": false
+                            },
+                            {
+                                "option_text": "5",
+                                "is_correct": true
+                            },
+                            {
+                                "option_text": "4.0",
+                                "is_correct": false
+                            },
+                            {
+                                "option_text": "5.0",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    "answerKey": {
+                        "modelAnswer": "Math.round(4.6) rounds the value to the nearest integer, which is 5.",
+                        "keyPoints": [
+                            "rounding function",
+                            "nearest integer"
+                        ]
+                    }
+                },
+                {
+                    "marks": 1,
+                    "displayOrder": 10,
+                    "mandatory": true,
+                    "question": {
+                        "question_text": "Which exception is unchecked?",
+                        "question_type": "multiple_choice",
+                        "difficulty_level": "Easy",
+                        "correct_answer": "C",
+                        "max_marks": 1,
+                        "options": [
+                            {
+                                "option_text": "IOException",
+                                "is_correct": false
+                            },
+                            {
+                                "option_text": "SQLException",
+                                "is_correct": false
+                            },
+                            {
+                                "option_text": "ArithmeticException",
+                                "is_correct": true
+                            },
+                            {
+                                "option_text": "FileNotFoundException",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    "answerKey": {
+                        "modelAnswer": "ArithmeticException is an unchecked exception and is not checked at compile time.",
+                        "keyPoints": [
+                            "runtime exception",
+                            "unchecked exception"
+                        ]
+                    }
+                },
+                {
+                    "marks": 1,
+                    "displayOrder": 11,
+                    "mandatory": true,
+                    "question": {
+                        "question_text": "Which of the following is a wrapper class in Java?",
+                        "question_type": "multiple_choice",
+                        "difficulty_level": "Easy",
+                        "correct_answer": "B",
+                        "max_marks": 1,
+                        "options": [
+                            {
+                                "option_text": "String",
+                                "is_correct": false
+                            },
+                            {
+                                "option_text": "Integer",
+                                "is_correct": true
+                            },
+                            {
+                                "option_text": "Scanner",
+                                "is_correct": false
+                            },
+                            {
+                                "option_text": "System",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    "answerKey": {
+                        "modelAnswer": "Integer is a wrapper class that wraps the primitive data type int.",
+                        "keyPoints": [
+                            "wrapper class",
+                            "primitive int",
+                            "object representation"
+                        ]
+                    }
+                },
+                {
+                    "marks": 1,
+                    "displayOrder": 12,
+                    "mandatory": true,
+                    "question": {
+                        "question_text": "Which operator is known as the ternary operator?",
+                        "question_type": "multiple_choice",
+                        "difficulty_level": "Easy",
+                        "correct_answer": "C",
+                        "max_marks": 1,
+                        "options": [
+                            {
+                                "option_text": "+ :",
+                                "is_correct": false
+                            },
+                            {
+                                "option_text": "?:",
+                                "is_correct": true
+                            },
+                            {
+                                "option_text": "&&",
+                                "is_correct": false
+                            },
+                            {
+                                "option_text": "==",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    "answerKey": {
+                        "modelAnswer": "The ?: operator is called the ternary operator as it works on three operands.",
+                        "keyPoints": [
+                            "conditional operator",
+                            "three operands"
+                        ]
+                    }
+                },
+                {
+                    "marks": 1,
+                    "displayOrder": 13,
+                    "mandatory": true,
+                    "question": {
+                        "question_text": "What is meant by fall-through in a switch statement?",
+                        "question_type": "multiple_choice",
+                        "difficulty_level": "Medium",
+                        "correct_answer": "C",
+                        "max_marks": 1,
+                        "options": [
+                            {
+                                "option_text": "Execution stops after a case",
+                                "is_correct": false
+                            },
+                            {
+                                "option_text": "Only default executes",
+                                "is_correct": false
+                            },
+                            {
+                                "option_text": "Control flows to next case without break",
+                                "is_correct": true
+                            },
+                            {
+                                "option_text": "Switch executes only once",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    "answerKey": {
+                        "modelAnswer": "Fall-through occurs when a break statement is missing and control continues to the next case.",
+                        "keyPoints": [
+                            "missing break",
+                            "next case executes"
+                        ]
+                    }
+                },
+                {
+                    "marks": 1,
+                    "displayOrder": 14,
+                    "mandatory": true,
+                    "question": {
+                        "question_text": "Which method can be called without creating an object of a class?",
+                        "question_type": "multiple_choice",
+                        "difficulty_level": "Easy",
+                        "correct_answer": "B",
+                        "max_marks": 1,
+                        "options": [
+                            {
+                                "option_text": "Abstract method",
+                                "is_correct": false
+                            },
+                            {
+                                "option_text": "Static method",
+                                "is_correct": true
+                            },
+                            {
+                                "option_text": "Final method",
+                                "is_correct": false
+                            },
+                            {
+                                "option_text": "Instance method",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    "answerKey": {
+                        "modelAnswer": "Static methods belong to the class and can be called without creating objects.",
+                        "keyPoints": [
+                            "class-level method",
+                            "no object needed"
+                        ]
+                    }
+                },
+                {
+                    "marks": 1,
+                    "displayOrder": 15,
+                    "mandatory": true,
+                    "question": {
+                        "question_text": "What does JVM stand for?",
+                        "question_type": "multiple_choice",
+                        "difficulty_level": "Easy",
+                        "correct_answer": "D",
+                        "max_marks": 1,
+                        "options": [
+                            {
+                                "option_text": "Java Visual Machine",
+                                "is_correct": false
+                            },
+                            {
+                                "option_text": "Java Verified Machine",
+                                "is_correct": false
+                            },
+                            {
+                                "option_text": "Java Variable Machine",
+                                "is_correct": false
+                            },
+                            {
+                                "option_text": "Java Virtual Machine",
+                                "is_correct": true
+                            }
+                        ]
+                    },
+                    "answerKey": {
+                        "modelAnswer": "JVM stands for Java Virtual Machine, which executes Java bytecode.",
+                        "keyPoints": [
+                            "executes bytecode",
+                            "platform independent"
+                        ]
+                    }
+                },
+                {
+                    "marks": 1,
+                    "displayOrder": 16,
+                    "mandatory": true,
+                    "question": {
+                        "question_text": "What will be the output of: System.out.println(\"APPLICATION\".indexOf('A', 2));",
+                        "question_type": "multiple_choice",
+                        "difficulty_level": "Medium",
+                        "correct_answer": "C",
+                        "max_marks": 1,
+                        "options": [
+                            {
+                                "option_text": "0",
+                                "is_correct": false
+                            },
+                            {
+                                "option_text": "2",
+                                "is_correct": false
+                            },
+                            {
+                                "option_text": "6",
+                                "is_correct": true
+                            },
+                            {
+                                "option_text": "-1",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    "answerKey": {
+                        "modelAnswer": "The first occurrence of 'A' after index 2 is at position 6.",
+                        "keyPoints": [
+                            "search starts after index 2",
+                            "A found at index 6"
+                        ]
+                    }
+                },
+                {
+                    "marks": 1,
+                    "displayOrder": 17,
+                    "mandatory": true,
+                    "question": {
+                        "question_text": "Which operator has the highest precedence?",
+                        "question_type": "multiple_choice",
+                        "difficulty_level": "Medium",
+                        "correct_answer": "A",
+                        "max_marks": 1,
+                        "options": [
+                            {
+                                "option_text": "()",
+                                "is_correct": true
+                            },
+                            {
+                                "option_text": "*",
+                                "is_correct": false
+                            },
+                            {
+                                "option_text": "+",
+                                "is_correct": false
+                            },
+                            {
+                                "option_text": "=",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    "answerKey": {
+                        "modelAnswer": "Parentheses () have the highest operator precedence.",
+                        "keyPoints": [
+                            "brackets evaluated first",
+                            "highest precedence"
+                        ]
+                    }
+                },
+                {
+                    "marks": 1,
+                    "displayOrder": 18,
+                    "mandatory": true,
+                    "question": {
+                        "question_text": "What will be the output of: System.out.println(5 > 3 && 2 > 4);",
+                        "question_type": "multiple_choice",
+                        "difficulty_level": "Easy",
+                        "correct_answer": "B",
+                        "max_marks": 1,
+                        "options": [
+                            {
+                                "option_text": "true",
+                                "is_correct": false
+                            },
+                            {
+                                "option_text": "false",
+                                "is_correct": true
+                            },
+                            {
+                                "option_text": "0",
+                                "is_correct": false
+                            },
+                            {
+                                "option_text": "Compilation error",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    "answerKey": {
+                        "modelAnswer": "The first condition is true but the second is false, so the result is false.",
+                        "keyPoints": [
+                            "logical AND",
+                            "both must be true"
+                        ]
+                    }
+                },
+                {
+                    "marks": 1,
+                    "displayOrder": 19,
+                    "mandatory": true,
+                    "question": {
+                        "question_text": "Which of the following will cause a compilation error?",
+                        "question_type": "multiple_choice",
+                        "difficulty_level": "Medium",
+                        "correct_answer": "D",
+                        "max_marks": 1,
+                        "options": [
+                            {
+                                "option_text": "Division by zero",
+                                "is_correct": false
+                            },
+                            {
+                                "option_text": "Array index out of bounds",
+                                "is_correct": false
+                            },
+                            {
+                                "option_text": "Logical error",
+                                "is_correct": false
+                            },
+                            {
+                                "option_text": "Missing semicolon",
+                                "is_correct": true
+                            }
+                        ]
+                    },
+                    "answerKey": {
+                        "modelAnswer": "A missing semicolon is detected by the compiler and causes a compilation error.",
+                        "keyPoints": [
+                            "syntax error",
+                            "compile-time error"
+                        ]
+                    }
+                },
+                {
+                    "marks": 1,
+                    "displayOrder": 20,
+                    "mandatory": true,
+                    "question": {
+                        "question_text": "Which of the following best describes a wrapper class?",
+                        "question_type": "multiple_choice",
+                        "difficulty_level": "Easy",
+                        "correct_answer": "B",
+                        "max_marks": 1,
+                        "options": [
+                            {
+                                "option_text": "A class that contains only static methods",
+                                "is_correct": false
+                            },
+                            {
+                                "option_text": "A class that converts primitive data into objects",
+                                "is_correct": true
+                            },
+                            {
+                                "option_text": "A class used for input and output",
+                                "is_correct": false
+                            },
+                            {
+                                "option_text": "A class that cannot be inherited",
+                                "is_correct": false
+                            }
+                        ]
+                    },
+                    "answerKey": {
+                        "modelAnswer": "Wrapper classes convert primitive data types into objects.",
+                        "keyPoints": [
+                            "primitive to object",
+                            "Integer, Double, etc."
+                        ]
+                    }
+                },
+                {
+                    "marks": 2,
+                    "displayOrder": 21,
+                    "mandatory": true,
+                    "maxWordLimit": 120,
+                    "question": {
+                        "question_text": "Write a Java expression to find √(a² + b²).",
+                        "question_type": "short_answer",
+                        "difficulty_level": "Easy",
+                        "exam_type": "FINAL",
+                        "exam_year": 2025,
+                        "exam_paper": "ICSE Class X Computer Applications",
+                        "is_pyq": false,
+                        "tierLevel": "BEGINNER",
+                        "tierOrder": 21
+                    },
+                    "answerKey": {
+                        "modelAnswer": "Math.sqrt((a * a) + (b * b))",
+                        "keyPoints": [
+                            "use Math.sqrt()",
+                            "square a and b",
+                            "add inside sqrt"
+                        ]
+                    }
+                },
+                {
+                    "marks": 2,
+                    "displayOrder": 22,
+                    "mandatory": true,
+                    "maxWordLimit": 140,
+                    "question": {
+                        "question_text": "Evaluate:\nint x = 6;\nx = x++ + ++x;",
+                        "question_type": "short_answer",
+                        "difficulty_level": "Medium",
+                        "exam_type": "FINAL",
+                        "exam_year": 2025,
+                        "exam_paper": "ICSE Class X Computer Applications",
+                        "is_pyq": false,
+                        "tierLevel": "INTERMEDIATE",
+                        "tierOrder": 22
+                    },
+                    "answerKey": {
+                        "modelAnswer": "Initially x = 6. In x++ value used is 6, then x becomes 7. In ++x, x becomes 8 and value used is 8. So x = 6 + 8 = 14.",
+                        "keyPoints": [
+                            "post-increment uses old value",
+                            "pre-increment updates first",
+                            "final value = 14"
+                        ]
+                    }
+                },
+                {
+                    "marks": 2,
+                    "displayOrder": 23,
+                    "mandatory": true,
+                    "maxWordLimit": 180,
+                    "question": {
+                        "question_text": "Rewrite the following using a for loop:\nint i = 2;\nwhile(i <= 10)\n{\n    System.out.print(i + \" \");\n    i += 2;\n}",
+                        "question_type": "short_answer",
+                        "difficulty_level": "Easy",
+                        "exam_type": "FINAL",
+                        "exam_year": 2025,
+                        "exam_paper": "ICSE Class X Computer Applications",
+                        "is_pyq": false,
+                        "tierLevel": "BEGINNER",
+                        "tierOrder": 23
+                    },
+                    "answerKey": {
+                        "modelAnswer": "for(int i = 2; i <= 10; i += 2)\n{\n    System.out.print(i + \" \");\n}",
+                        "keyPoints": [
+                            "initialization",
+                            "condition",
+                            "increment by 2"
+                        ]
+                    }
+                },
+                {
+                    "marks": 2,
+                    "displayOrder": 24,
+                    "mandatory": true,
+                    "maxWordLimit": 140,
+                    "question": {
+                        "question_text": "State the output of:\nCharacter.isLetter('9');\nCharacter.isLowerCase('G');",
+                        "question_type": "short_answer",
+                        "difficulty_level": "Easy",
+                        "exam_type": "FINAL",
+                        "exam_year": 2025,
+                        "exam_paper": "ICSE Class X Computer Applications",
+                        "is_pyq": false,
+                        "tierLevel": "BEGINNER",
+                        "tierOrder": 24
+                    },
+                    "answerKey": {
+                        "modelAnswer": "Character.isLetter('9') returns false. Character.isLowerCase('G') returns false.",
+                        "keyPoints": [
+                            "'9' is not a letter",
+                            "'G' is uppercase"
+                        ]
+                    }
+                },
+                {
+                    "marks": 2,
+                    "displayOrder": 25,
+                    "mandatory": true,
+                    "maxWordLimit": 160,
+                    "question": {
+                        "question_text": "Rewrite the following using if–else:\nint bill = 1500;\ndouble amt = (bill > 1000) ? bill * 0.85 : bill * 0.9;",
+                        "question_type": "short_answer",
+                        "difficulty_level": "Easy",
+                        "exam_type": "FINAL",
+                        "exam_year": 2025,
+                        "exam_paper": "ICSE Class X Computer Applications",
+                        "is_pyq": false,
+                        "tierLevel": "BEGINNER",
+                        "tierOrder": 25
+                    },
+                    "answerKey": {
+                        "modelAnswer": "double amt;\nif(bill > 1000)\n    amt = bill * 0.85;\nelse\n    amt = bill * 0.9;",
+                        "keyPoints": [
+                            "condition check",
+                            "true block",
+                            "false block"
+                        ]
+                    }
+                },
+                {
+                    "marks": 2,
+                    "displayOrder": 26,
+                    "mandatory": true,
+                    "maxWordLimit": 120,
+                    "question": {
+                        "question_text": "Find the output of the following code:\nint n = 2468;\nwhile(n > 0)\n{\n    System.out.print(n % 10);\n    n /= 10;\n}",
+                        "question_type": "short_answer",
+                        "difficulty_level": "Easy",
+                        "exam_type": "FINAL",
+                        "exam_year": 2025,
+                        "exam_paper": "ICSE Class X Computer Applications",
+                        "is_pyq": false,
+                        "tierLevel": "BEGINNER",
+                        "tierOrder": 26
+                    },
+                    "answerKey": {
+                        "modelAnswer": "The digits are printed in reverse order. Output is: 8642.",
+                        "keyPoints": [
+                            "modulus extracts last digit",
+                            "division removes last digit",
+                            "reverse order output"
+                        ]
+                    }
+                },
+                {
+                    "marks": 2,
+                    "displayOrder": 27,
+                    "mandatory": true,
+                    "maxWordLimit": 100,
+                    "question": {
+                        "question_text": "Give the output of:\n\"APPLICATION\".indexOf('A', 2);",
+                        "question_type": "short_answer",
+                        "difficulty_level": "Medium",
+                        "exam_type": "FINAL",
+                        "exam_year": 2025,
+                        "exam_paper": "ICSE Class X Computer Applications",
+                        "is_pyq": false,
+                        "tierLevel": "INTERMEDIATE",
+                        "tierOrder": 27
+                    },
+                    "answerKey": {
+                        "modelAnswer": "The first occurrence of 'A' after index 2 is at index 6. Output is 6.",
+                        "keyPoints": [
+                            "search starts from index 2",
+                            "'A' found at position 6"
+                        ]
+                    }
+                },
+                {
+                    "marks": 2,
+                    "displayOrder": 28,
+                    "mandatory": true,
+                    "maxWordLimit": 120,
+                    "question": {
+                        "question_text": "Write:\n(a) Length of the array: int a[] = new int[20];\n(b) Default value of a boolean instance variable.",
+                        "question_type": "short_answer",
+                        "difficulty_level": "Easy",
+                        "exam_type": "FINAL",
+                        "exam_year": 2025,
+                        "exam_paper": "ICSE Class X Computer Applications",
+                        "is_pyq": false,
+                        "tierLevel": "BEGINNER",
+                        "tierOrder": 28
+                    },
+                    "answerKey": {
+                        "modelAnswer": "(a) The length of the array is 20.\n(b) The default value of a boolean instance variable is false.",
+                        "keyPoints": [
+                            "array size fixed at declaration",
+                            "boolean default is false"
+                        ]
+                    }
+                },
+                {
+                    "marks": 2,
+                    "displayOrder": 29,
+                    "mandatory": true,
+                    "maxWordLimit": 120,
+                    "question": {
+                        "question_text": "Name the following:\n(a) Memory shared by all objects of a class\n(b) Method that belongs to the class and not to objects",
+                        "question_type": "short_answer",
+                        "difficulty_level": "Easy",
+                        "exam_type": "FINAL",
+                        "exam_year": 2025,
+                        "exam_paper": "ICSE Class X Computer Applications",
+                        "is_pyq": false,
+                        "tierLevel": "BEGINNER",
+                        "tierOrder": 29
+                    },
+                    "answerKey": {
+                        "modelAnswer": "(a) Static variable\n(b) Static method",
+                        "keyPoints": [
+                            "shared memory",
+                            "belongs to class",
+                            "static keyword"
+                        ]
+                    }
+                },
+                {
+                    "marks": 2,
+                    "displayOrder": 30,
+                    "mandatory": true,
+                    "maxWordLimit": 120,
+                    "question": {
+                        "question_text": "Find the value of n:\nchar ch = 'M';\nint n = ch + 3;",
+                        "question_type": "short_answer",
+                        "difficulty_level": "Medium",
+                        "exam_type": "FINAL",
+                        "exam_year": 2025,
+                        "exam_paper": "ICSE Class X Computer Applications",
+                        "is_pyq": false,
+                        "tierLevel": "INTERMEDIATE",
+                        "tierOrder": 30
+                    },
+                    "answerKey": {
+                        "modelAnswer": "The ASCII value of 'M' is 77. Therefore, n = 77 + 3 = 80.",
+                        "keyPoints": [
+                            "ASCII value of M = 77",
+                            "character arithmetic",
+                            "final value 80"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "sectionName": "B",
+            "title": "Section B – Programming",
+            "description": "Attempt ANY FOUR questions",
+            "attemptType": "ANY_N",
+            "attemptCount": 4,
+            "compulsory": false,
+            "totalMarks": 60,
+            "sectionOrder": 2,
+            "questions": [
+                {
+                    "marks": 15,
+                    "displayOrder": 31,
+                    "mandatory": false,
+                    "question": {
+                        "question_text": "Define a class Student with data members name, rollNo and marks. Include a parameterized constructor. Write a method to assign grade as follows: marks ≥ 80 → Distinction, ≥ 60 → First Class, ≥ 40 → Pass, else → Fail. Create an object and display all details.",
+                        "question_type": "programming",
+                        "difficulty_level": "Medium",
+                        "exam_type": "FINAL",
+                        "exam_year": 2025,
+                        "exam_paper": "ICSE Class X Computer Applications (Java)",
+                        "is_pyq": false,
+                        "tierLevel": "ADVANCED",
+                        "tierOrder": 31
+                    },
+                    "answerKey": {
+                        "modelAnswer": "Define a Student class with instance variables and a parameterized constructor. Use conditional statements to assign grade based on marks and display all details.",
+                        "keyPoints": [
+                            "class definition",
+                            "parameterized constructor",
+                            "if-else grade logic",
+                            "object creation and display"
+                        ]
+                    }
+                },
+                {
+                    "marks": 15,
+                    "displayOrder": 32,
+                    "mandatory": false,
+                    "question": {
+                        "question_text": "Accept 12 integers into an array. Find and display the number of even elements, the number of odd elements, and the sum of all prime elements.",
+                        "question_type": "programming",
+                        "difficulty_level": "Medium",
+                        "exam_type": "FINAL",
+                        "exam_year": 2025,
+                        "exam_paper": "ICSE Class X Computer Applications (Java)",
+                        "is_pyq": false,
+                        "tierLevel": "ADVANCED",
+                        "tierOrder": 32
+                    },
+                    "answerKey": {
+                        "modelAnswer": "Use an array to store 12 integers. Use modulus to count even and odd numbers. Check each number for prime property and add prime numbers to sum.",
+                        "keyPoints": [
+                            "array input",
+                            "even-odd check",
+                            "prime number logic",
+                            "sum calculation"
+                        ]
+                    }
+                },
+                {
+                    "marks": 15,
+                    "displayOrder": 33,
+                    "mandatory": false,
+                    "question": {
+                        "question_text": "Accept a sentence and (a) count the number of vowels, (b) count the number of words ending with a consonant, and (c) display the sentence in reverse order without reversing individual words.",
+                        "question_type": "programming",
+                        "difficulty_level": "Medium",
+                        "exam_type": "FINAL",
+                        "exam_year": 2025,
+                        "exam_paper": "ICSE Class X Computer Applications (Java)",
+                        "is_pyq": false,
+                        "tierLevel": "ADVANCED",
+                        "tierOrder": 33
+                    },
+                    "answerKey": {
+                        "modelAnswer": "Read a sentence using Scanner. Traverse characters to count vowels. Split words to check last character for consonants. Reverse the word order using an array.",
+                        "keyPoints": [
+                            "string input",
+                            "vowel check",
+                            "word splitting",
+                            "reverse word order"
+                        ]
+                    }
+                },
+                {
+                    "marks": 15,
+                    "displayOrder": 34,
+                    "mandatory": false,
+                    "question": {
+                        "question_text": "A number is called a Keith Number if it appears in a Fibonacci-like sequence generated from its digits. Example: 197. Write a program to check whether a given number is a Keith Number.",
+                        "question_type": "programming",
+                        "difficulty_level": "Hard",
+                        "exam_type": "FINAL",
+                        "exam_year": 2025,
+                        "exam_paper": "ICSE Class X Computer Applications (Java)",
+                        "is_pyq": false,
+                        "tierLevel": "ADVANCED",
+                        "tierOrder": 34
+                    },
+                    "answerKey": {
+                        "modelAnswer": "Extract digits into an array. Generate a sequence by summing previous digits until the sum is equal to or greater than the original number. Compare the result.",
+                        "keyPoints": [
+                            "digit extraction",
+                            "array shifting",
+                            "sequence generation",
+                            "comparison with original number"
+                        ]
+                    }
+                },
+                {
+                    "marks": 15,
+                    "displayOrder": 35,
+                    "mandatory": false,
+                    "question": {
+                        "question_text": "Accept 20 integers into a sorted array. Accept a number to be searched and perform binary search. Display the position if found, otherwise display \"Element not found\".",
+                        "question_type": "programming",
+                        "difficulty_level": "Medium",
+                        "exam_type": "FINAL",
+                        "exam_year": 2025,
+                        "exam_paper": "ICSE Class X Computer Applications (Java)",
+                        "is_pyq": false,
+                        "tierLevel": "ADVANCED",
+                        "tierOrder": 35
+                    },
+                    "answerKey": {
+                        "modelAnswer": "Use binary search logic by comparing the middle element with the search value and adjusting the low and high indices accordingly.",
+                        "keyPoints": [
+                            "sorted array",
+                            "low, high, mid logic",
+                            "loop termination",
+                            "position output"
+                        ]
+                    }
+                },
+                {
+                    "marks": 15,
+                    "displayOrder": 36,
+                    "mandatory": false,
+                    "question": {
+                        "question_text": "Generate the following pattern:\n1\n2 3\n4 5 6\n7 8 9 10",
+                        "question_type": "programming",
+                        "difficulty_level": "Easy",
+                        "exam_type": "FINAL",
+                        "exam_year": 2025,
+                        "exam_paper": "ICSE Class X Computer Applications (Java)",
+                        "is_pyq": false,
+                        "tierLevel": "ADVANCED",
+                        "tierOrder": 36
+                    },
+                    "answerKey": {
+                        "modelAnswer": "Use nested loops. Maintain a counter variable starting from 1. The outer loop controls rows and the inner loop prints increasing numbers in each row.",
+                        "keyPoints": [
+                            "nested loop structure",
+                            "counter variable",
+                            "correct number sequence",
+                            "proper formatting"
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

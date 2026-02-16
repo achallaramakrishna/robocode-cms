@@ -1,0 +1,103 @@
+prompt = (
+    "You are processing a scanned page from a HIGH-LEVEL SCHOOL MATHEMATICS textbook "
+    "(CBSE / ICSE / State Board), but your extraction standard must align with "
+    "IIT-JEE (Main & Advanced) preparation rigor.\n\n"
+
+    "Your task is to EXTRACT, ANALYZE, CLASSIFY, and STRUCTURE the content so it can be "
+    "directly used to create advanced-level learning assets for IIT foundation students.\n\n"
+
+    "The structured output must support:\n"
+    "- Concept Mastery Flashcards (Definition + Insight + Edge Case)\n"
+    "- Multi-concept MCQs (JEE style)\n"
+    "- Assertion–Reason (logic based)\n"
+    "- Numerical & Integer type problems\n"
+    "- Multi-step subjective problems\n"
+    "- Chapter-wise Advanced Mock Tests\n"
+    "- Error Analysis / Trap Identification\n\n"
+
+    "IMPORTANT RIGOR RULES:\n"
+    "- Identify hidden assumptions.\n"
+    "- Identify limiting conditions (domain, restrictions, constraints).\n"
+    "- Identify where common JEE traps may appear.\n"
+    "- Extract multi-concept links (e.g., Algebra + Geometry, Calculus + Inequality).\n"
+    "- Do NOT simplify mathematical expressions.\n"
+    "- Preserve symbols, radicals, powers, π, Σ, limits, matrices, vectors EXACTLY.\n\n"
+
+    "Extract the following sections IF PRESENT. "
+    "If not present, return an EMPTY ARRAY.\n\n"
+
+    "1. CORE DEFINITIONS\n"
+    "- Exact textbook definitions\n"
+    "- Also identify implicit conditions required for correctness\n\n"
+
+    "2. THEOREMS / IDENTITIES / KEY RESULTS\n"
+    "- Include formal statements\n"
+    "- Include domain constraints\n\n"
+
+    "3. ADVANCED CONCEPT INSIGHTS\n"
+    "- Logical explanation of concept depth\n"
+    "- Edge-case behavior\n"
+    "- Extremum cases\n"
+    "- Symmetry or invariance if applicable\n\n"
+
+    "4. MULTI-CONCEPT LINKS\n"
+    "- Identify connections between topics\n"
+    "- Example: Quadratic equations ↔ Graph behavior ↔ Discriminant analysis\n\n"
+
+    "5. CRITICAL FORMULAS\n"
+    "- Preserve exact formatting\n"
+    "- Include conditions of validity\n\n"
+
+    "6. WORKED EXAMPLES\n"
+    "- Extract question EXACTLY\n"
+    "- Extract final answer EXACTLY\n"
+    "- Identify the main concept tested\n\n"
+
+    "7. JEE-STYLE ASSERTIONS\n"
+    "- Extract logical statements suitable for assertion-reason\n"
+    "- If truth unclear, set is_true as null\n\n"
+
+    "8. PROBLEM-SOLVING METHODS\n"
+    "- Step-based methods\n"
+    "- Algorithmic approaches\n"
+    "- Substitution techniques\n"
+    "- Transformation tricks\n\n"
+
+    "9. COMMON JEE TRAPS\n"
+    "- Typical mistakes\n"
+    "- Conceptual misinterpretations\n"
+    "- Sign errors\n"
+    "- Domain errors\n"
+    "- Incorrect cancellation\n"
+    "- Overlooking special cases\n\n"
+
+    "10. ADVANCED PRACTICE QUESTIONS\n"
+    "- Extract EXACTLY as written\n"
+    "- Preserve sub-parts, symbols, formatting\n"
+    "- DO NOT SOLVE\n\n"
+
+    "11. DIAGRAMS / GRAPHS\n"
+    "- Describe geometrical meaning\n"
+    "- Note symmetry, intercepts, asymptotes, critical points\n\n"
+
+    "12. TABLES / STRUCTURED DATA\n"
+    "- Convert to structured format\n\n"
+
+    "Return ONLY valid JSON in the following structure:\n\n"
+
+    "{\n"
+    '  \"page_number\": <number>,\n'
+    '  \"core_definitions\": [],\n'
+    '  \"theorems_or_results\": [],\n'
+    '  \"advanced_concepts\": [],\n'
+    '  \"multi_concept_links\": [],\n'
+    '  \"critical_formulas\": [],\n'
+    '  \"examples\": [{\"question\": \"\", \"answer\": \"\", \"concept_tested\": \"\"}],\n'
+    '  \"assertions\": [{\"statement\": \"\", \"is_true\": null}],\n'
+    '  \"methods\": [{\"title\": \"\", \"steps\": []}],\n'
+    '  \"jee_traps\": [{\"trap\": \"\", \"why_it_fails\": \"\"}],\n'
+    '  \"questions\": [],\n'
+    '  \"diagrams\": [],\n'
+    '  \"tables\": []\n'
+    "}\n"
+)

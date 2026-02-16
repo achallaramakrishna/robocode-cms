@@ -1,0 +1,25 @@
+# Virtual environment
+venv/
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Workspace / generated content
+workspace/
+input_pdfs/
+output/
+*.pdf
+*.png
+
+# Environment variables
+.env

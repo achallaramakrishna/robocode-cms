@@ -1,0 +1,137 @@
+{
+  "title": "Exercise 22(C)",
+  "subject": "Mathematics",
+  "board": "CBSE",
+  "examYear": 2026,
+  "examType": "CHAPTER_EXERCISE",
+  "durationMinutes": 30,
+  "totalMarks": 8,
+  "instructions": "Attempt all questions.",
+  "negativeMarking": false,
+  "shuffleSections": false,
+  "shuffleQuestions": false,
+  "sections": [
+    {
+      "sectionName": "A",
+      "title": "Exercise 22(C)",
+      "attemptType": "ALL",
+      "compulsory": true,
+      "totalMarks": 8,
+      "sectionOrder": 1,
+      "questions": [
+        {
+          "marks": 1,
+          "displayOrder": 1,
+          "mandatory": true,
+          "question": {
+            "question_text": "1. Find AD. (i) [Triangle with angles 32°, sides given: CE=5m, CD=20m] (ii) [Triangle with angles 48°, sides given: BC=30m]",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 2,
+          "mandatory": true,
+          "question": {
+            "question_text": "2. In the following diagram, AB is a floor-board; PQRS is a cubical box with each edge = 1 m and ∠B = 60°. Calculate the length of the board AB.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 3,
+          "mandatory": true,
+          "question": {
+            "question_text": "3. Calculate BC. [Triangle with angles 35° and 42°, CD=20m]",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 4,
+          "mandatory": true,
+          "question": {
+            "question_text": "4. Calculate AB. [Triangle with sides 6m, 5m and angles 30°, 47°]",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 5,
+          "mandatory": true,
+          "question": {
+            "question_text": "5. The radius of a circle is given as 15 cm and chord AB subtends an angle of 131° at the centre C of the circle. Using trigonometry, calculate: (i) the length of AB; (ii) the distance of AB from the centre C.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 6,
+          "mandatory": true,
+          "question": {
+            "question_text": "6. At a point on level ground, the angle of elevation of a vertical tower is found to be such that its tangent is 5/12. On walking 192 metres towards the tower; the tangent of the angle is found to be 3/4. Find the height of the tower.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 7,
+          "mandatory": true,
+          "question": {
+            "question_text": "7. A vertical tower stands on horizontal plane and is surmounted by a vertical flagstaff of height h metre. At a point on the plane, the angle of elevation of the bottom of the flagstaff is α and that of the top of flagstaff is β. Prove that the height of the tower is (h tan α) / (tan β - tan α).",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 8,
+          "mandatory": true,
+          "question": {
+            "question_text": "8. With reference to the given figure, a man stands on the ground at point A, which is on the same horizontal plane as B, the foot of the vertical pole BC. The height of the pole is 10 m. The man’s eye is 2 m above the ground. He observes the angle of elevation of C, the top of the pole, is x°.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        }
+      ]
+    }
+  ]
+}

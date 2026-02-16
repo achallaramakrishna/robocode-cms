@@ -1,0 +1,1061 @@
+{
+  "title": "Exercise 14(E)",
+  "subject": "Mathematics",
+  "board": "CBSE",
+  "examYear": 2026,
+  "examType": "CHAPTER_EXERCISE",
+  "durationMinutes": 30,
+  "totalMarks": 74,
+  "instructions": "Attempt all questions.",
+  "negativeMarking": false,
+  "shuffleSections": false,
+  "shuffleQuestions": false,
+  "sections": [
+    {
+      "sectionName": "A",
+      "title": "Exercise 14(E)",
+      "attemptType": "ALL",
+      "compulsory": true,
+      "totalMarks": 74,
+      "sectionOrder": 1,
+      "questions": [
+        {
+          "marks": 1,
+          "displayOrder": 1,
+          "mandatory": true,
+          "question": {
+            "question_text": "1. Point P divides the line segment joining the points A (8, 0) and B (16, -8) in the ratio 3:5. Find its co-ordinates of point P.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 2,
+          "mandatory": true,
+          "question": {
+            "question_text": "2. The line segment joining the points A (3, -4) and B (-2, 1) is divided in the ratio 1:3 at point P in it. Find the co-ordinates of P.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 3,
+          "mandatory": true,
+          "question": {
+            "question_text": "3. A line 5x + 3y + 15 = 0 meets y-axis at point P. Find the co-ordinates of point P. Find the equation of a line through P and perpendicular to x - 3y + 4 = 0.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 4,
+          "mandatory": true,
+          "question": {
+            "question_text": "4. Find the value of k for which the lines kx - 5y + 4 = 0 and 5x - 2y + 5 = 0 are perpendicular to each other.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 5,
+          "mandatory": true,
+          "question": {
+            "question_text": "5. A straight line passes through the points P(-1, 4) and Q(5, -2). It intersects the co-ordinate axes at points A and B. M is the midpoint of the segment AB. Find:",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 6,
+          "mandatory": true,
+          "question": {
+            "question_text": "6. (1, 5) and (-3, -1) are the co-ordinates of vertices A and C respectively of rhombus ABCD. Find the equations of the diagonals AC and BD.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 7,
+          "mandatory": true,
+          "question": {
+            "question_text": "7. Show that A (3, 2), B (6, -2) and C (2, -5) can be the vertices of a square.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 8,
+          "mandatory": true,
+          "question": {
+            "question_text": "8. A line through origin meets the line x = 3y + 2 at right angles at point X. Find the co-ordinates of X.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 9,
+          "mandatory": true,
+          "question": {
+            "question_text": "9. A straight line passes through the point (3, 2) and the portion of this line, intercepted between the positive axes, is bisected at this point. Find the equation of the line.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 10,
+          "mandatory": true,
+          "question": {
+            "question_text": "10. Find the equation of the line passing through the point of intersection of 7x + 6y = 71 and 5x - 8y = -23; and perpendicular to the line 4x - 2y = 1.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 11,
+          "mandatory": true,
+          "question": {
+            "question_text": "11. Find the equation of the line which is perpendicular to the line x/a - y/b = 1 at the point where this line meets y-axis.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 12,
+          "mandatory": true,
+          "question": {
+            "question_text": "12. O (0, 0), A (3, 5) and B (-5, -3) are the vertices of triangle OAB. Find:",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 13,
+          "mandatory": true,
+          "question": {
+            "question_text": "13. Determine whether the line through points (-2, 3) and (4, 1) is perpendicular to the line 3x = y + 1.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 14,
+          "mandatory": true,
+          "question": {
+            "question_text": "Does line 3x = y + 1 bisect the line segment joining the two given points?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 15,
+          "mandatory": true,
+          "question": {
+            "question_text": "14. Given a straight line x cos 30° + y sin 30° = 2. Determine the equation of the other line which is parallel to it and passes through (4, 3).",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 16,
+          "mandatory": true,
+          "question": {
+            "question_text": "15. Find the value of k such that the line (k - 2)x + (k + 3)y - 5 = 0 is : (i) perpendicular to the line 2x - y + 7 = 0 (ii) parallel to it.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 17,
+          "mandatory": true,
+          "question": {
+            "question_text": "16. The vertices of a triangle ABC are A (0, 5), B (-1, -2) and C (11, 7). Write down the equation of BC. Find : (i) the equation of line through A and perpendicular to BC. (ii) the co-ordinates of the point P, where the perpendicular through A, as obtained in (i), meets BC.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 18,
+          "mandatory": true,
+          "question": {
+            "question_text": "17. From the given figure, find : (i) the co-ordinates of A, B and C. (ii) the equation of the line through A and parallel to BC.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 19,
+          "mandatory": true,
+          "question": {
+            "question_text": "18. P(3, 4), Q(7, -2) and R(-2, -1) are the vertices of triangle PQR. Write down the equation of the median of the triangle through R.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 20,
+          "mandatory": true,
+          "question": {
+            "question_text": "19. A(8, -6), B(-4, 2) and C(0, -10) are vertices of a triangle ABC. If P is the mid-point of AB and Q is the mid-point of AC, use co-ordinate geometry to show that PQ is parallel to BC. Give a special name to quadrilateral PBCQ.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 21,
+          "mandatory": true,
+          "question": {
+            "question_text": "20. A line AB meets the x-axis at point A and y-axis at point B. The point P(-4, -2) divides the line segment AB internally such that AP : PB = 1 : 2. Find : (i) the co-ordinates of A and B. (ii) equation of line through P and perpendicular to AB.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 22,
+          "mandatory": true,
+          "question": {
+            "question_text": "21. A line intersects x-axis at point (-2, 0) and cuts off an intercept of 3 units from the positive side of y-axis. Find the equation of the line.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 23,
+          "mandatory": true,
+          "question": {
+            "question_text": "22. Find the equation of a line passing through the point (2, 3) and having the x-intercept of 4 units.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 24,
+          "mandatory": true,
+          "question": {
+            "question_text": "23. The given figure (not drawn to scale) shows two straight lines AB and CD. If equation of the line AB is : y = x + 1 and equation of line CD is : y = √3 x - 1. Write down the inclination of lines AB and CD; also, find the angle θ between AB and CD.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 25,
+          "mandatory": true,
+          "question": {
+            "question_text": "24. Write down the equation of the line whose gradient is 3/2 and which passes through P, where P divides the line segment joining A(-2, 6) and B(3, -4) in the ratio 2 : 3.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 26,
+          "mandatory": true,
+          "question": {
+            "question_text": "25. The ordinate of a point lying on the line joining the points (6, 4) and (7, -5) is -23. Find the co-ordinates of that point.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 27,
+          "mandatory": true,
+          "question": {
+            "question_text": "26. Point A and B have co-ordinates (7, -3) and (1, 9) respectively. Find : (i) the slope of AB. (ii) the equation of perpendicular bisector of the line segment AB. (iii) the value of 'p' of (-2, p) lies on it.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 28,
+          "mandatory": true,
+          "question": {
+            "question_text": "27. A and B are two points on the x-axis and y-axis respectively. P(2, -3) is the mid point of AB. Find the (i) co-ordinates of A and B (ii) slope of line AB (iii) equation of line AB.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 29,
+          "mandatory": true,
+          "question": {
+            "question_text": "28. The equation of a line is 3x + 4y - 7 = 0. Find: (i) the slope of the line. (ii) the equation of a line perpendicular to the given line and passing through the intersection of the lines x - y + 2 = 0 and 3x + y - 10 = 0.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 30,
+          "mandatory": true,
+          "question": {
+            "question_text": "29. ABCD is a parallelogram where A(x, y), B(5, 8), C(4, 7) and D(2, -4). Find : (i) co-ordinates of A (ii) equation of diagonal BD.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 31,
+          "mandatory": true,
+          "question": {
+            "question_text": "30. Given equation of line L1 is y = 4. (i) Write the slope of line L2 if L2 is the bisector of angle O. (ii) Write the co-ordinates of point P. (iii) Find the equation of L2.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 32,
+          "mandatory": true,
+          "question": {
+            "question_text": "31. Find :",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 33,
+          "mandatory": true,
+          "question": {
+            "question_text": "32. Find the equation of the line that has x-intercept = -3 and is perpendicular to 3x + 5y = 1.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 34,
+          "mandatory": true,
+          "question": {
+            "question_text": "33. A straight line passes through the points P(-1, 4) and Q(5, -2). It intersects x-axis at point A and y-axis at point B. M is the midpoint of the line segment AB. Find :",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 35,
+          "mandatory": true,
+          "question": {
+            "question_text": "34. In the given figure, line AB meets y-axis at point A. Line through C(2, 10) and D intersects line AB at right angle at point P. Find :",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 36,
+          "mandatory": true,
+          "question": {
+            "question_text": "35. A line through point P(4, 3) meets x-axis at point A and the y-axis at point B. If BP is double of PA, find the equation of AB.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 37,
+          "mandatory": true,
+          "question": {
+            "question_text": "36. Find the equation of line through the intersection of lines 2x - y = 1 and 3x + 2y = -9 and making an angle of 30° with positive direction of x-axis.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 38,
+          "mandatory": true,
+          "question": {
+            "question_text": "37. Find the equation of the line through the points A(-1, 3) and B(0, 2). Hence, show that the points A, B and C(1, 1) are collinear.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 39,
+          "mandatory": true,
+          "question": {
+            "question_text": "38. Three vertices of a parallelogram ABCD taken in order are A(3, 6), B(5, 10) and C(3, 2), find :",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 40,
+          "mandatory": true,
+          "question": {
+            "question_text": "39. In the figure, given, ABC is a triangle and BC is parallel to the y-axis. AB and AC intersect the y-axis at P and Q respectively.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 41,
+          "mandatory": true,
+          "question": {
+            "question_text": "1. Find, which of the following points lie on the line x - 2y + 5 = 0 : (i) (1, 3) (ii) (0, 5) (iii) (-5, 0) (iv) (5, 5) (v) (2, -1.5) (vi) (-2, -1.5)",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 42,
+          "mandatory": true,
+          "question": {
+            "question_text": "2. State, true or false : (i) the line x/2 + y/3 = 0 passes through the point (2, 3). (ii) the line x/2 + y/3 = 0 passes through the point (4, -6). (iii) the point (8, 7) lies on the line y - 7 = 0 (iv) the point (-3, 0) lies on the line x + 3 = 0 (v) if the point (2, a) lies on the line 2x - y = 3, then a = 5.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 43,
+          "mandatory": true,
+          "question": {
+            "question_text": "3. The line given by the equation 2x - y/3 = 7 passes through the point (k, 6); calculate the value of k.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 44,
+          "mandatory": true,
+          "question": {
+            "question_text": "4. For what value of k will the point (3, -k) lie on the line 9x + 4y = 3?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 45,
+          "mandatory": true,
+          "question": {
+            "question_text": "5. The line 3x/5 - 2y/3 + 1 = 0 contains the point (m, 2m - 1); calculate the value of m.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 46,
+          "mandatory": true,
+          "question": {
+            "question_text": "6. Does the line 3x - 5y = 6 bisect the join of (5, -2) and (-1, 2)?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 47,
+          "mandatory": true,
+          "question": {
+            "question_text": "7. (i) The line y = 3x - 2 bisects the join of (a, 3) and (2, -5), find the value of a. (ii) The line x - 6y + 11 = 0 bisects the join of (8, -1) and (0, k). Find the value of k.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 48,
+          "mandatory": true,
+          "question": {
+            "question_text": "8. (i) The point (-3, 2) lies on the line ax + 3y + 6 = 0, calculate the value of a. (ii) The line y = mx + 8 contains the point (-4, 4), calculate the value of m.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 49,
+          "mandatory": true,
+          "question": {
+            "question_text": "9. The point P divides the join of (2, 1) and (-3, 6) in the ratio 2 : 3. Does P lie on the line x - 5y + 15 = 0?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 50,
+          "mandatory": true,
+          "question": {
+            "question_text": "10. The line segment joining the points (5, -4) and (2, 2) is divided by the point Q in the ratio 1 : 2. Does the line x - 2y = 0 contain Q?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 51,
+          "mandatory": true,
+          "question": {
+            "question_text": "11. Find the point of intersection of the lines 4x + 3y = 1 and 3x - y + 9 = 0. If this point lies on the line (2k - 1)x - 2y = 4; find the value of k.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 52,
+          "mandatory": true,
+          "question": {
+            "question_text": "12. Show that the lines 2x + 5y = 1, x - 3y = 6 and x + 5y + 2 = 0 are concurrent.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 53,
+          "mandatory": true,
+          "question": {
+            "question_text": "1. Find the slope of the line whose inclination is :",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 54,
+          "mandatory": true,
+          "question": {
+            "question_text": "2. Find the inclination of the line whose slope is :",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 55,
+          "mandatory": true,
+          "question": {
+            "question_text": "3. Find the slope of the line passing through the following pairs of points :",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 56,
+          "mandatory": true,
+          "question": {
+            "question_text": "4. Find the slope of the line parallel to AB if:",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 57,
+          "mandatory": true,
+          "question": {
+            "question_text": "5. Find the slope of the line perpendicular to AB if:",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 58,
+          "mandatory": true,
+          "question": {
+            "question_text": "6. The line passing through (0, 2) and (-3, -1) is parallel to the line passing through (-1, 5) and (4, a). Find a.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 59,
+          "mandatory": true,
+          "question": {
+            "question_text": "7. The line passing through (-4, -2) and (2, -3) is perpendicular to the line passing through (a, 5) and (2, -1). Find a.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 60,
+          "mandatory": true,
+          "question": {
+            "question_text": "8. Without using the distance formula, show that the points A (4, -2), B (-4, 4) and C (10, 6) are the vertices of a right-angled triangle.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 61,
+          "mandatory": true,
+          "question": {
+            "question_text": "9. Without using the distance formula, show that the points A (4, 5), B (1, 2), C (4, 3) and D (7, 6) are the vertices of a parallelogram.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 62,
+          "mandatory": true,
+          "question": {
+            "question_text": "10. (-2, 4), (4, 8), (10, 7) and (11, -5) are the vertices of a quadrilateral. Show that the quadrilateral, obtained on joining the mid-points of its sides, is a parallelogram.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 63,
+          "mandatory": true,
+          "question": {
+            "question_text": "11. Show that the points P (a, b + c), Q (b, c + a) and R (c, a + b) are collinear.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 64,
+          "mandatory": true,
+          "question": {
+            "question_text": "12. Find x, if the slope of the line joining (x, 2) and (8, -11) is -3/4.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 65,
+          "mandatory": true,
+          "question": {
+            "question_text": "13. The side AB of an equilateral triangle ABC is parallel to the x-axis. Find the slopes of all its sides.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 66,
+          "mandatory": true,
+          "question": {
+            "question_text": "14. The side AB of a square ABCD is parallel to the x-axis. Find the slopes of all its sides.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 67,
+          "mandatory": true,
+          "question": {
+            "question_text": "15. A (5, 4), B (-3, -2) and C (1, -8) are the vertices of a triangle ABC. Find:",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 68,
+          "mandatory": true,
+          "question": {
+            "question_text": "16. The slope of the side BC of a rectangle ABCD is 2/3. Find:",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 69,
+          "mandatory": true,
+          "question": {
+            "question_text": "17. Find the slope and the inclination of the line AB if:",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 70,
+          "mandatory": true,
+          "question": {
+            "question_text": "18. The points (-3, 2), (2, -1) and (a, 4) are collinear. Find a.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 71,
+          "mandatory": true,
+          "question": {
+            "question_text": "19. The points (K, 3), (2, -4) and (-K + 1, -2) are collinear. Find K.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 72,
+          "mandatory": true,
+          "question": {
+            "question_text": "20. Plot the points A (1, 1), B (4, 7) and C (4, 10) on a graph paper. Connect A and B, and also A and C.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 73,
+          "mandatory": true,
+          "question": {
+            "question_text": "Which segment appears to have the steeper slope, AB or AC?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 74,
+          "mandatory": true,
+          "question": {
+            "question_text": "21. Find the value(s) of k so that PQ will be parallel to RS. Given:",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        }
+      ]
+    }
+  ]
+}

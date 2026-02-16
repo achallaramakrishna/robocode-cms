@@ -1,0 +1,43 @@
+import json
+from pathlib import Path
+
+
+def generate_practice_test_for_chapter(chapter_dir: Path):
+
+    asset_file = chapter_dir / "chapter_content.json"
+
+    if not asset_file.exists():
+        print(f"⏭ Skipping {chapter_dir.name} (no chapter_content.json)")
+        return
+
+    with open(asset_file, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    output_dir = chapter_dir / "assets" / "practice_tests"
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    for section in data.get("exercise_sections", []):
+
+        section_title = section.get("section_title", "").strip().upper()
+
+        if "12(A)" not in section_title and "12(B)" not in section_title:
+            continue
+
+        questions = section.get("questions", [])
+        if not questions:
+            continue
+
+        clean_name = section_title.replace("EXERCISE-", "").replace("(", "").replace(")", "")
+        output_file = output_dir / f"practice_{clean_name}.json"
+
+        payload = {
+            "type": "textbook_practice",
+            "section": section_title,
+            "total_questions": len(questions),
+            "questions": questions
+        }
+
+        with open(output_file, "w", encoding="utf-8") as f:
+            json.dump(payload, f, indent=2, ensure_ascii=False)
+
+        print(f"   ✔ Generated {output_file.name}")

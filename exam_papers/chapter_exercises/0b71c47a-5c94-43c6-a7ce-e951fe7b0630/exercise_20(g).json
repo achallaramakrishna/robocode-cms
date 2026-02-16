@@ -1,0 +1,697 @@
+{
+  "title": "Exercise 20(G)",
+  "subject": "Mathematics",
+  "board": "CBSE",
+  "examYear": 2026,
+  "examType": "CHAPTER_EXERCISE",
+  "durationMinutes": 30,
+  "totalMarks": 48,
+  "instructions": "Attempt all questions.",
+  "negativeMarking": false,
+  "shuffleSections": false,
+  "shuffleQuestions": false,
+  "sections": [
+    {
+      "sectionName": "A",
+      "title": "Exercise 20(G)",
+      "attemptType": "ALL",
+      "compulsory": true,
+      "totalMarks": 48,
+      "sectionOrder": 1,
+      "questions": [
+        {
+          "marks": 1,
+          "displayOrder": 1,
+          "mandatory": true,
+          "question": {
+            "question_text": "1. What is the least number of solid metallic spheres, each of 6 cm diameter, that should be melted and recast to form a solid metal cone whose height is 45 cm and diameter 12 cm?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 2,
+          "mandatory": true,
+          "question": {
+            "question_text": "2. A largest sphere is to be carved out of a right circular cylinder of radius 7 cm and height 14 cm. Find the volume of the sphere. (Answer correct to the nearest integer).",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 3,
+          "mandatory": true,
+          "question": {
+            "question_text": "3. A right circular cylinder having diameter 12 cm and height 15 cm is full of ice-cream. The ice-cream is to be filled in identical cones of height 12 cm and diameter 6 cm having a hemi-spherical shape on the top. Find the number of cones required.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 4,
+          "mandatory": true,
+          "question": {
+            "question_text": "4. A solid is in the form of a cone standing on a hemi-sphere with both their radii being equal to 8 cm and the height of cone is equal to its radius. Find, in terms of π, the volume of the solid.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 5,
+          "mandatory": true,
+          "question": {
+            "question_text": "5. The diameter of a sphere is 6 cm. It is melted and drawn into a wire of diameter 0.2 cm. Find the length of the wire.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 6,
+          "mandatory": true,
+          "question": {
+            "question_text": "6. Determine the ratio of the volume of a cube to that of a sphere which will exactly fit inside the cube.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 7,
+          "mandatory": true,
+          "question": {
+            "question_text": "7. An iron pole consisting of a cylindrical portion 110 cm high and of base diameter 12 cm is surmounted by a cone 9 cm high. Find the mass of the pole, given that 1 cm³ of iron has 8 gm of mass (approx). (Take π = 355/113)",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 8,
+          "mandatory": true,
+          "question": {
+            "question_text": "8. In the following diagram a rectangular platform with a semi-circular end on one side is 22 metres long from one end to the other end. If the length of the half circumference is 11 metres, find the cost of constructing the platform, 1.5 metres high at the rate of ₹ 4 per cubic metres.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 9,
+          "mandatory": true,
+          "question": {
+            "question_text": "9. The cross-section of a tunnel is a square of side 7 m surmounted by a semicircle as shown in the adjoining figure. The tunnel is 80 m long. Calculate: (i) its volume, (ii) the surface area of the tunnel (excluding the floor) and (iii) its floor area.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 10,
+          "mandatory": true,
+          "question": {
+            "question_text": "10. A cylindrical water tank of diameter 2.8 m and height 4.2 m is being fed by a pipe of diameter 7 cm through which water flows at the rate of 4 m s⁻¹. Calculate, in minutes, the time it takes to fill the tank.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 11,
+          "mandatory": true,
+          "question": {
+            "question_text": "11. Water flows, at 9 km per hour, through a cylindrical pipe of cross-sectional area 25 cm². If this water is collected into a rectangular cistern of dimensions 7.5 m by 5 m by 4 m; calculate the rise in level in the cistern in 1 hour 15 minutes.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 12,
+          "mandatory": true,
+          "question": {
+            "question_text": "12. The given figure shows the cross-section of a cone, a cylinder and a hemisphere all with the same diameter 10 cm, and the other dimensions are as shown. Calculate: (a) the total surface area, (b) the total volume of the solid and (c) the density of the material if its total weight is 1.7 kg.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 13,
+          "mandatory": true,
+          "question": {
+            "question_text": "13. A solid, consisting of a right circular cone standing on a hemisphere, is placed upright in a right circular cylinder, full of water, and touches the bottom. Find the volume of water left in the cylinder, having given that the radius of the cylinder is 3 cm and its height is 6 cm; the radius of the hemisphere is 2 cm and the height of cone is 4 cm. Give your answer to the nearest cubic centimetre.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 14,
+          "mandatory": true,
+          "question": {
+            "question_text": "14. A metal container in the form of a cylinder is surmounted by a hemisphere of the same radius. The internal height of the cylinder is 7 m and the internal radius is 3.5 m. Calculate: (i) the total area of the internal surface, excluding the base; (ii) the internal volume of the container in m³.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 15,
+          "mandatory": true,
+          "question": {
+            "question_text": "15. An exhibition tent is in the form of a cylinder surmounted by a cone. The height of the tent above the ground is 85 m and height of the cylindrical part is 50 m. If the diameter of the base is 168 m, find the quantity of canvas required to make the tent. Allow 20% extra for fold and for stitching. Give your answer to the nearest m². [2001]",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 16,
+          "mandatory": true,
+          "question": {
+            "question_text": "16. A test tube consists of a hemisphere and a cylinder of the same radius. The volume of the water required to fill the whole tube is (5159/6) cm³, and (4235/6) cm³ of water is required to fill the tube to a level which is ...",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 17,
+          "mandatory": true,
+          "question": {
+            "question_text": "17. A solid is in the form of a right circular cone mounted on a hemisphere. The diameter of the base of the cone, which exactly coincides with hemisphere, is 7 cm and its height is 8 cm. The solid is placed in a cylindrical vessel of internal radius 7 cm and height 10 cm. How much water, in cm³, will be required to fill the vessel completely?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 18,
+          "mandatory": true,
+          "question": {
+            "question_text": "18. Two solid spheres of radii 2 cm and 4 cm are melted and recast into a cone of height 8 cm. Find the radius of the cone so formed. [2015]",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 19,
+          "mandatory": true,
+          "question": {
+            "question_text": "1. The height of a circular cylinder is 20 cm and the radius of its base is 7 cm. Find : (i) the volume (ii) the total surface area.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 20,
+          "mandatory": true,
+          "question": {
+            "question_text": "2. The inner radius of a pipe is 2.1 cm. How much water can 12 m of this pipe hold ?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 21,
+          "mandatory": true,
+          "question": {
+            "question_text": "3. A cylinder of circumference 8 cm and length 21 cm rolls without sliding for 4 1/2 seconds at the rate of 9 complete rounds per second. Find : (i) the distance travelled by the cylinder in 4 1/2 seconds, and (ii) the area covered by the cylinder in 4 1/2 seconds.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 22,
+          "mandatory": true,
+          "question": {
+            "question_text": "4. How many cubic metres of earth must be dug out to make a well 28 m deep and 2.8 m in diameter? Also, find the cost of plastering its inner surface at ₹ 4.50 per sq. metre.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 23,
+          "mandatory": true,
+          "question": {
+            "question_text": "5. What length of solid cylinder 2 cm in diameter must be taken to recast into a hollow cylinder of external diameter 20 cm, 0.25 cm thick and 15 cm long?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 24,
+          "mandatory": true,
+          "question": {
+            "question_text": "6. A cylinder has a diameter of 20 cm. The area of the curved surface is 100 cm^2 (sq. cm). Find : (i) the height of the cylinder correct to one decimal place. (ii) the volume of the cylinder correct to one decimal place.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 25,
+          "mandatory": true,
+          "question": {
+            "question_text": "7. A metal pipe has a bore (inner diameter) of 5 cm. The pipe is 5 mm thick all round. Find the weight, in kilogram, of 2 metres of the pipe if 1 cm^3 of the metal weighs 7.7 g.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 26,
+          "mandatory": true,
+          "question": {
+            "question_text": "8. A cylindrical container with diameter of base 42 cm contains sufficient water to submerge a rectangular solid of iron with dimensions 22 cm × 14 cm × 10.5 cm. Find the rise in the level of the water when the solid is submerged.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 27,
+          "mandatory": true,
+          "question": {
+            "question_text": "9. A cylindrical container with internal radius of its base 10 cm, contains water up to a height of 7 cm. Find the area of the wet surface of the cylinder.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 28,
+          "mandatory": true,
+          "question": {
+            "question_text": "10. Find the total surface area of an open pipe of length 50 cm, external diameter 20 cm and internal diameter 6 cm.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 29,
+          "mandatory": true,
+          "question": {
+            "question_text": "11. The height and the radius of the base of a cylinder are in the ratio 3 : 1. If its volume is 1029 π cm^3; find its total surface area.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 30,
+          "mandatory": true,
+          "question": {
+            "question_text": "12. The radius of a solid right circular cylinder increases by 20% and its height decreases by 20%. Find the percentage change in its volume.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 31,
+          "mandatory": true,
+          "question": {
+            "question_text": "13. The radius of a solid right circular cylinder decreases by 20% and its height increases by 10%. Find the percentage change in its : (i) volume (ii) curved surface area",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 32,
+          "mandatory": true,
+          "question": {
+            "question_text": "14. Find the minimum length in cm and correct to nearest whole number of the thin metal sheet required to make a hollow and closed cylindrical box of diameter 20 cm and height 35 cm. Given that the width of the metal sheet is 1 m. Also, find the cost of the sheet at the rate of ₹ 56 per m. Find the area of metal sheet required, if 10% of it is wasted in cutting, overlapping, etc.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 33,
+          "mandatory": true,
+          "question": {
+            "question_text": "15. 3080 cm³ of water is required to fill a cylindrical vessel completely and 2310 cm³ of water is required to fill it up to 5 cm below the top. Find : (i) radius of the vessel. (ii) height of the vessel. (iii) wetted surface area of the vessel when it is half-filled with water.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 34,
+          "mandatory": true,
+          "question": {
+            "question_text": "16. Find the volume of the largest cylinder formed when a rectangular piece of paper 44 cm by 33 cm is rolled along it : (i) shorter side. (ii) longer side.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 35,
+          "mandatory": true,
+          "question": {
+            "question_text": "17. A metal cube of side 11 cm is completely submerged in water contained in a cylindrical vessel with diameter 28 cm. Find the rise in the level of water.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 36,
+          "mandatory": true,
+          "question": {
+            "question_text": "18. A circular tank of diameter 2 m is dug and the earth removed is spread uniformly all around the tank to form an embankment 2 m in width and 1.6 m in height. Find the depth of the circular tank.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 37,
+          "mandatory": true,
+          "question": {
+            "question_text": "19. The sum of the inner and the outer curved surfaces of a hollow metallic cylinder is 1056 cm² and the volume of material in it is 1056 cm³. Find its internal and external radii. Given that the height of the cylinder is 21 cm.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 38,
+          "mandatory": true,
+          "question": {
+            "question_text": "20. The difference between the outer curved surface area and the inner curved surface area of a hollow cylinder is 352 cm². If its height is 28 cm and the volume of material in it is 704 cm³; find its external curved surface area.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 39,
+          "mandatory": true,
+          "question": {
+            "question_text": "21. The sum of the height and the radius of a solid cylinder is 35 cm and its total surface area is 3080 cm²; find the volume of the cylinder.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 40,
+          "mandatory": true,
+          "question": {
+            "question_text": "22. The total surface area of a solid cylinder is 616 cm². If the ratio between its curved surface area and total surface area is 1 : 2; find the volume of the cylinder.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 41,
+          "mandatory": true,
+          "question": {
+            "question_text": "23. A cylindrical vessel of height 24 cm and diameter 40 cm is full of water. Find the exact number of small cylindrical bottles, each of height 10 cm and diameter 8 cm, which can be filled with this water.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 42,
+          "mandatory": true,
+          "question": {
+            "question_text": "24. Two solid cylinders, one with diameter 60 cm and height 30 cm and the other with radius 30 cm and height 60 cm, are melted and recasted into a third solid cylinder of height 10 cm. Find the diameter of the cylinder formed.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 43,
+          "mandatory": true,
+          "question": {
+            "question_text": "25. The total surface area of a hollow cylinder, which is open from both the sides, is 3575 cm²; area of its base ring is 357.5 cm² and its height is 14 cm. Find the thickness of the cylinder.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 44,
+          "mandatory": true,
+          "question": {
+            "question_text": "26. The given figure shows a solid formed of a solid cube of side 40 cm and a solid cylinder of radius 20 cm and height 50 cm attached to the cube as shown. Find the volume and the total surface area of the whole solid [Take \\pi = 3.14]",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 45,
+          "mandatory": true,
+          "question": {
+            "question_text": "27. Two right circular solid cylinders have radii in the ratio 3 : 5 and heights in the ratio 2 : 3. Find the ratio between their : (i) curved surface areas. (ii) volumes.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 46,
+          "mandatory": true,
+          "question": {
+            "question_text": "28. A closed cylindrical tank, made of thin iron-sheet, has diameter = 8.4 m and height 5.4 m. How much metal sheet, to the nearest m², is used in making this tank, if \\frac{1}{15} of the sheet actually used was wasted in making the tank?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 47,
+          "mandatory": true,
+          "question": {
+            "question_text": "8. The ratio of the base area and the curved surface area of a conical tent is 40 : 41. If its height is 18 m, find the air capacity of the tent in terms of π.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 48,
+          "mandatory": true,
+          "question": {
+            "question_text": "9. Find what length of canvas, 2 m in width, is required to make a conical tent 12 m in diameter and 63 m in slant height? Also, find the cost of the canvas at the rate of ₹150 per metre.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        }
+      ]
+    }
+  ]
+}

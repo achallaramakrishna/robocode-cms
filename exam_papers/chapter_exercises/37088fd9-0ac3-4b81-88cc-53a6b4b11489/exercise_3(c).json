@@ -1,0 +1,585 @@
+{
+  "title": "Exercise 3(C)",
+  "subject": "Mathematics",
+  "board": "CBSE",
+  "examYear": 2026,
+  "examType": "CHAPTER_EXERCISE",
+  "durationMinutes": 30,
+  "totalMarks": 40,
+  "instructions": "Attempt all questions.",
+  "negativeMarking": false,
+  "shuffleSections": false,
+  "shuffleQuestions": false,
+  "sections": [
+    {
+      "sectionName": "A",
+      "title": "Exercise 3(C)",
+      "attemptType": "ALL",
+      "compulsory": true,
+      "totalMarks": 40,
+      "sectionOrder": 1,
+      "questions": [
+        {
+          "marks": 1,
+          "displayOrder": 1,
+          "mandatory": true,
+          "question": {
+            "question_text": "1. By investing ₹ 45,000 in 10% ₹ 100 shares, Sharad gets ₹ 3,000 as divided. Find the market value of each share.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 2,
+          "mandatory": true,
+          "question": {
+            "question_text": "2. Mrs. Kulkarni invests ₹ 1,31,040 in buying ₹ 100 shares at a discount of 9%. She sells shares worth ₹ 72,000 at a premium of 10% and the rest at a discount of 5%. Find her total gain or loss on the whole.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 3,
+          "mandatory": true,
+          "question": {
+            "question_text": "3. A man invests a certain sum in buying 15% ₹ 100 shares at 20% premium. Find : (i) his income from one share. (ii) the number of shares bought to have an income, from the dividend, ₹ 6,480. (iii) sum invested.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 4,
+          "mandatory": true,
+          "question": {
+            "question_text": "4. Gagan invested 80% of his savings in 10% ₹ 100 shares at 20% premium and the rest of his savings in 20% ₹ 50 shares at 20% discount. If his incomes from these shares is ₹ 5,600, calculate : (i) his investment in shares on the whole. (ii) the number of shares of first kind that he bought. (iii) percentage return, on the shares bought, on the whole.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 5,
+          "mandatory": true,
+          "question": {
+            "question_text": "5. A company pays a dividend of 15% on its ₹ 100 shares from which income tax at the rate of 20% is deducted. Find : (i) the net annual income of Gopal who owns 7,200 shares of this company. (ii) the sum invested by Ramesh when the shares of this company are bought by him at 20% premium and the gain required by him (after deduction of income tax) is ₹ 9,000.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 6,
+          "mandatory": true,
+          "question": {
+            "question_text": "6. Mr. Joseph sold some ₹ 100 shares, paying 10% dividend, at a discount of 25% and invested the proceeds in ₹ 100 shares, paying 16% dividend, at a discount of 20%. By doing so, his income was increased by ₹ 4,800. Find the number of shares orginally held by Mr. Joseph.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 7,
+          "mandatory": true,
+          "question": {
+            "question_text": "7. Ashwarya bought 496, ₹ 100 shares at ₹ 132 each. Find : (i) investment made by her. (ii) income of Ashwarya from these shares, if the rate of dividend is 7.5%. (iii) how much extra must Ashwarya invest in order to increase her income by ₹ 7,200 ?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 8,
+          "mandatory": true,
+          "question": {
+            "question_text": "8. Gopal has some ₹ 100 shares of company A, paying 10% dividend. He sells a certain number of these shares at a discount of 20% and invests the proceeds in ₹ 100 shares at ₹ 60 of company B paying 20% dividend. If his income, from the shares sold, increases by ₹ 18,000, find the number of shares sold by Gopal.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 9,
+          "mandatory": true,
+          "question": {
+            "question_text": "9. A man invests a certain sum of money in 6% hundred-rupee shares at ₹ 12 premium. When the shares fell to ₹ 96, he sold out all the shares bought and invested the proceed in 10%, ten-rupee shares at ₹ 8. If the change in his income is ₹ 540, find the sum invested orginally.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 10,
+          "mandatory": true,
+          "question": {
+            "question_text": "10. Mr. Gupta has a choice to invest in ten-rupee shares of two firms at ₹ 13 or at ₹ 16. If the first firm pays 5% dividend and the second firm pays 6% dividend per annum, find : (i) which firm is paying better. (ii) if Mr. Gupta invests equally in both the firms and the difference between the returns from them is ₹ 30, find how much, in all, does he invest ?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 11,
+          "mandatory": true,
+          "question": {
+            "question_text": "11. A man invested ₹ 45,000 in 15% ₹ 100 shares quoted at ₹ 125. When the M.V. of these shares rose to ₹ 140, he sold some shares, just enough to raise ₹ 8,400. Calculate : (i) the number of shares he still holds; (ii) the dividend due to him on these remaining shares. [2004]",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 12,
+          "mandatory": true,
+          "question": {
+            "question_text": "12. Mr. Tiwari invested ₹ 29,040 in 15% ₹ 100 shares quoted at a premium of 20%. Calculate: (i) the number of shares bought by Mr. Tiwari. (ii) Mr. Tiwari's income from the investment. (iii) the percentage return on his investment.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 13,
+          "mandatory": true,
+          "question": {
+            "question_text": "13. A dividend of 12% was declared on ₹ 150 shares selling at a certain price. If the rate of return is 10%, calculate : (i) the market value of the shares. (ii) the amount to be invested to obtain an annual dividend of ₹ 1,350.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 14,
+          "mandatory": true,
+          "question": {
+            "question_text": "14. Divide ₹ 50,760 into two parts such that if one part is invested in 8% ₹ 100 shares at 8% discount and the other in 9% ₹ 100 shares at 8% premium, the annual incomes from both the investments are equal.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 15,
+          "mandatory": true,
+          "question": {
+            "question_text": "15. Mr. Shameem invested 33 1/3 % of his savings in 20% ₹ 50 shares quoted at ₹ 60 and the remainder of the savings in 10% ₹ 100 shares quoted at ₹ 110. If his total income from these investments is ₹ 9,200; find : (i) his total savings (ii) the number of ₹ 50 shares. (iii) the number of ₹ 100 shares.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 16,
+          "mandatory": true,
+          "question": {
+            "question_text": "16. Vivek invests ₹ 4,500 in 8%, ₹ 10 shares at ₹ 15. He sells the shares when the price rises to ₹ 30, and invests the proceeds in 12% ₹ 100 shares at ₹ 125. Calculate : (i) the sale proceeds (ii) the number of ₹ 125 shares he buys. (iii) the change in his annual income from dividend. [2010]",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 17,
+          "mandatory": true,
+          "question": {
+            "question_text": "17. Mr. Parekh invested ₹ 52,000 on ₹ 100 shares at a discount of ₹ 20 paying 8% dividend. At the end of one year he sells the shares at a premium of ₹ 20. Find: (i) the annual dividend. (ii) the profit earned including his dividend. [2011]",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 18,
+          "mandatory": true,
+          "question": {
+            "question_text": "18. Salman buys 50 shares of face value ₹ 100 available at ₹ 132. (i) What is his investment ? (ii) If the dividend is 7.5%, what will be his annual income ? (iii) If he wants to increase his annual income by ₹ 150, how many extra shares should he buy ? [2013]",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 19,
+          "mandatory": true,
+          "question": {
+            "question_text": "19. Salman invests a sum of money in ₹ 50 shares, paying 15% dividend quoted at 20% premium. If his annual dividend is ₹ 600, calculate : (i) the number of shares he bought. (ii) his total investment. (iii) the rate of return on his investment. [2014]",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 20,
+          "mandatory": true,
+          "question": {
+            "question_text": "20. Rohit invested ₹ 9,600 on ₹ 100 shares at ₹ 20 premium paying 8% dividend. Rohit sold the shares when the price rose to ₹ 160. He invested the proceeds (excluding dividend) in 10% ₹ 50 shares at ₹ 40. Find the : (i) original number of shares. (ii) sale proceeds. (iii) new number of shares. (iv) change in the two dividends. [2015]",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 21,
+          "mandatory": true,
+          "question": {
+            "question_text": "1. How much money will be required to buy 400, ₹ 12.50 shares at a premium of ₹ 1 ?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 22,
+          "mandatory": true,
+          "question": {
+            "question_text": "2. How much money will be required to buy 250, ₹ 15 shares at a discount of ₹ 1.50 ?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 23,
+          "mandatory": true,
+          "question": {
+            "question_text": "3. A person buys 120 shares at a nominal value of ₹ 40 each, which he sells at ₹ 42.50 each. Find his profit and profit percent.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 24,
+          "mandatory": true,
+          "question": {
+            "question_text": "4. Find the cost of 85 shares of ₹ 60 each when quoted at ₹ 63.25.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 25,
+          "mandatory": true,
+          "question": {
+            "question_text": "5. A man invests ₹ 800 in buying ₹ 5 shares and when they are selling at a premium of ₹ 1.15, he sells all the shares. Find his profit and profit percent.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 26,
+          "mandatory": true,
+          "question": {
+            "question_text": "6. Find the annual income derived from 125, ₹ 120 shares paying 5% dividend.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 27,
+          "mandatory": true,
+          "question": {
+            "question_text": "7. A man invests ₹ 3,072 in a company paying 5 % per annum, when its ₹ 10 share can be bought for ₹ 16 each. Find: (i) his annual income; (ii) his percentage income on his investment.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 28,
+          "mandatory": true,
+          "question": {
+            "question_text": "8. A man invests ₹ 7,770 in a company paying 5 percent dividend when a share of nominal value of ₹ 100 sells at a premium of ₹ 5. Find : (i) the number of shares bought; (ii) annual income; (iii) percentage income.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 29,
+          "mandatory": true,
+          "question": {
+            "question_text": "9. A man buys ₹ 50 shares of a company, paying 12 percent dividend, at a premium of ₹ 10. Find : (i) the market value of 320 shares; (ii) his annual income; (iii) his profit percent.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 30,
+          "mandatory": true,
+          "question": {
+            "question_text": "10. A man buys ₹ 75 shares at a discount of ₹ 15 of a company paying 20% dividend. Find:",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 31,
+          "mandatory": true,
+          "question": {
+            "question_text": "11. A man has 300, ₹ 50 shares of a company paying 20% dividend. Find his net income after paying 3% income tax.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 32,
+          "mandatory": true,
+          "question": {
+            "question_text": "12. A company pays a dividend of 15% on its ten-rupee shares from which it deducts income tax at the rate of 22%. Find the annual income of a man who owns one thousand shares of this company?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 33,
+          "mandatory": true,
+          "question": {
+            "question_text": "13. A man invests ₹ 8,800 in buying shares of a company of face value of rupees hundred each at a premium of 10%. If he earns ₹ 1,200 at the end of the year as dividend, find:",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 34,
+          "mandatory": true,
+          "question": {
+            "question_text": "14. A man invests ₹ 1,680 in buying shares of nominal value ₹ 24 and selling at 12% premium. The dividend on the shares is 15% per annum. Calculate:",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 35,
+          "mandatory": true,
+          "question": {
+            "question_text": "15. By investing ₹ 7,500 in a company paying 10 percent dividend, an annual income of ₹ 500 is received. What price is paid for each of ₹ 100 share?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 36,
+          "mandatory": true,
+          "question": {
+            "question_text": "11. Ajay owns 560 shares of a company. The face value of each share is ₹ 25. The company declares a dividend of 9%. Calculate :",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 37,
+          "mandatory": true,
+          "question": {
+            "question_text": "12 How much should a man invest in ₹ 80 shares selling at ₹ 75 to obtain an annual income of ₹ 1,080, if the dividend declared is 15 percent?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 38,
+          "mandatory": true,
+          "question": {
+            "question_text": "14 Which is a better investment : 12% ₹ 100 shares at 120 or 8% ₹ 100 shares at 90 ?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 39,
+          "mandatory": true,
+          "question": {
+            "question_text": "16. Mr. Ram Gopal invested ₹ 8,000 in 7% ₹ 100 shares at ₹ 80. After a year, he sold these shares at ₹ 75 each and invested the proceeds (including his dividend) in 18%, ₹ 25 shares at ₹ 41. Find :",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 40,
+          "mandatory": true,
+          "question": {
+            "question_text": "17. Ashok and Sandeep invest ₹ 18,000 each in buying shares of two different companies. Ashok buys 7.5% ₹ 100 shares at a discount of 20%, whereas Sandeep buys ₹ 50 shares at a premium of 20%. If both receive equal dividend at the end of the year, find the rate of dividend received by Sandeep.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        }
+      ]
+    }
+  ]
+}

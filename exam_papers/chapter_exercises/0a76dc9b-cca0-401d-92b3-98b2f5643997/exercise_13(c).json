@@ -1,0 +1,697 @@
+{
+  "title": "Exercise 13(C)",
+  "subject": "Mathematics",
+  "board": "CBSE",
+  "examYear": 2026,
+  "examType": "CHAPTER_EXERCISE",
+  "durationMinutes": 30,
+  "totalMarks": 48,
+  "instructions": "Attempt all questions.",
+  "negativeMarking": false,
+  "shuffleSections": false,
+  "shuffleQuestions": false,
+  "sections": [
+    {
+      "sectionName": "A",
+      "title": "Exercise 13(C)",
+      "attemptType": "ALL",
+      "compulsory": true,
+      "totalMarks": 48,
+      "sectionOrder": 1,
+      "questions": [
+        {
+          "marks": 1,
+          "displayOrder": 1,
+          "mandatory": true,
+          "question": {
+            "question_text": "1. Given a triangle ABC in which A = (4, –4), B = (0, 5) and C = (5, 10). A point P lies on BC such that BP : PC = 3 : 2. Find the length of line segment AP.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 2,
+          "mandatory": true,
+          "question": {
+            "question_text": "2. A(20, 0) and B(10, –20) are two fixed points. Find the co-ordinates of the point P in AB such that : 3PB = AB. Also, find the co-ordinates of some other point Q in AB such that : AB = 6 AQ.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 3,
+          "mandatory": true,
+          "question": {
+            "question_text": "3. A(–8, 0), B(0, 16) and C(0, 0) are the vertices of a triangle ABC. Point P lies on AB and Q lies on AC such that AP : PB = 3 : 5 and AQ : QC = 3 : 5. Show that : PQ = 3/8 BC.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 4,
+          "mandatory": true,
+          "question": {
+            "question_text": "4. Find the co-ordinates of points of trisection of the line segment joining the point (6, –9) and the origin.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 5,
+          "mandatory": true,
+          "question": {
+            "question_text": "5. A line segment joining A(–1, 5/3) and B(a, 5) is divided in the ratio 1 : 3 at P, the point where the line segment AB intersects the y-axis. (i) Calculate the value of 'a'. (ii) Calculate the co-ordinates of ‘P’.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 6,
+          "mandatory": true,
+          "question": {
+            "question_text": "6. In what ratio is the line joining A(0, 3) and B(4, –1) divided by the x-axis? Write the co-ordinates of the point where AB intersects the x-axis.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 7,
+          "mandatory": true,
+          "question": {
+            "question_text": "7. The mid-point of the segment AB, as shown in diagram, is C(4, –3). Write down the co-ordinates of A and B.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 8,
+          "mandatory": true,
+          "question": {
+            "question_text": "8. AB is a diameter of a circle with centre C = (–2, 5). If A = (3, –7), find (i) the length of radius AC. (ii) the coordinates of B.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 9,
+          "mandatory": true,
+          "question": {
+            "question_text": "9. Find the co-ordinates of the centroid of a triangle ABC whose vertices are : A(–1, 3), B(1, –1) and C(5, 1).",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 10,
+          "mandatory": true,
+          "question": {
+            "question_text": "10. The mid-point of the line segment joining (4a, 2b – 3) and (–4, 3b) is (2, –2a). Find the values of a and b.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 11,
+          "mandatory": true,
+          "question": {
+            "question_text": "11. The mid-point of the line segment joining (2a, 4) and (–2, 2b) is (1, 2a + 1). Find the values of a and b.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 12,
+          "mandatory": true,
+          "question": {
+            "question_text": "12. (i) Write down the co-ordinates of the point P that divides the line joining A(–4, 1) and B(17, 10) in the ratio 1 : 2. (ii) Calculate the distance OP, where O is the origin. (iii) In what ratio does the y-axis divide the line AB?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 13,
+          "mandatory": true,
+          "question": {
+            "question_text": "13. Prove that the points A(–5, 4); B(–1, –2) and C(5, 2) are the vertices of an isosceles right-angled triangle. Find the co-ordinates of D so that ABCD is a square.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 14,
+          "mandatory": true,
+          "question": {
+            "question_text": "14. M is the mid-point of the line segment joining the points A(–3, 7) and B(9, –1). Find the co-ordinates of point M. Further, if R(2, 2) divides the line segment joining M and the origin in the ratio p : q, find the ratio p : q.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 15,
+          "mandatory": true,
+          "question": {
+            "question_text": "15. Calculate the ratio in which the line joining A(–4, 2) and B(3, 6) is divided by point P(x, 3). Also, find (i) x (ii) length of AP.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 16,
+          "mandatory": true,
+          "question": {
+            "question_text": "16. Find the ratio in which the line 2x + y = 4 divides the line segment joining the points P(2, -2) and Q(3, 7).",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 17,
+          "mandatory": true,
+          "question": {
+            "question_text": "17. If the abscissa of a point P is 2. Find the ratio in which this point divides the line segment joining the points (-4, 3) and (6, 3). Also, find the co-ordinates of point P.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 18,
+          "mandatory": true,
+          "question": {
+            "question_text": "18. The line joining the points (2, 1) and (5, -8) is trisected at the points P and Q. If point P lies on the line 2x - y + k = 0, find the value of k. Also, find the co-ordinates of point Q.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 19,
+          "mandatory": true,
+          "question": {
+            "question_text": "19. M is the mid-point of the line segment joining the points A(0, 4) and B(6, 0). M also divides the line segment OP in the ratio 1 : 3. Find : (i) co-ordinates of M (ii) co-ordinates of P (iii) length of BP",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 20,
+          "mandatory": true,
+          "question": {
+            "question_text": "20. Find the image of the point A(5, -3) under reflection in the point P(-1, 3).",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 21,
+          "mandatory": true,
+          "question": {
+            "question_text": "21. A(-4, 2), B(0, 2) and C(-2, -4) are vertices of a triangle ABC. P, Q and R are mid-points of sides BC, CA and AB respectively. Show that the centroid of Δ PQR is the same as the centroid of Δ ABC.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 22,
+          "mandatory": true,
+          "question": {
+            "question_text": "Find the co-ordinates of point P which divides the join of A (4, -5) and B (6, 3) in the ratio 2 : 5.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 23,
+          "mandatory": true,
+          "question": {
+            "question_text": "Find the ratio in which the point (5, 4) divides the line joining points (2, 1) and (7, 6).",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 24,
+          "mandatory": true,
+          "question": {
+            "question_text": "1. Calculate the co-ordinates of the point P which divides the line segment joining : (i) A (1, 3) and B (5, 9) in the ratio 1 : 2 (ii) A (-4, 6) and B (3, -5) in the ratio 3 : 2.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 25,
+          "mandatory": true,
+          "question": {
+            "question_text": "2. In what ratio is the line joining (2, -3) and (5, 6) divided by the x-axis ?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 26,
+          "mandatory": true,
+          "question": {
+            "question_text": "3. In what ratio is the line joining (2, -4) and (-3, 6) divided by the y-axis ?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 27,
+          "mandatory": true,
+          "question": {
+            "question_text": "4. In what ratio does the point (1, a) divide the join of (-1, 4) and (4, -1) ? Also, find the value of a.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 28,
+          "mandatory": true,
+          "question": {
+            "question_text": "5. In what ratio does the point (a, 6) divide the join of (-4, 3) and (2, 8) ? Also, find the value of a.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 29,
+          "mandatory": true,
+          "question": {
+            "question_text": "6. In what ratio is the join of (4, 3) and (2, -6) divided by the x-axis ? Also, find the co-ordinates of the point of intersection.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 30,
+          "mandatory": true,
+          "question": {
+            "question_text": "7. Find the ratio in which the join of (-4, 7) and (3, 0) is divided by the y-axis. Also, find the co-ordinates of the point of intersection.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 31,
+          "mandatory": true,
+          "question": {
+            "question_text": "8. Points A, B, C and D divide the line segment joining the point (5, -10) and the origin in five equal parts. Find the co-ordinates of B and D.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 32,
+          "mandatory": true,
+          "question": {
+            "question_text": "9. The line joining the points A (-3, -10) and B (-2, 6) is divided by the point P such that PB / AB = 1/5. Find the co-ordinates of P.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 33,
+          "mandatory": true,
+          "question": {
+            "question_text": "10. P is a point on the line joining A (4, 3) and B (-2, 6) such that 5AP = 2BP. Find the co-ordinates of P.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 34,
+          "mandatory": true,
+          "question": {
+            "question_text": "11. Calculate the ratio in which the line joining the points (-3, -1) and (5, 7) is divided by the line x = 2. Also, find the co-ordinates of the point of intersection.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 35,
+          "mandatory": true,
+          "question": {
+            "question_text": "12. Calculate the ratio in which the line joining A (6, 5) and B (4, -3) is divided by the line y = 2.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 36,
+          "mandatory": true,
+          "question": {
+            "question_text": "13. The point P (5, -4) divides the line segment AB, as shown in the figure, in the ratio 2 : 5. Find the co-ordinates of points A and B.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 37,
+          "mandatory": true,
+          "question": {
+            "question_text": "14. Find the co-ordinates of the points of trisection of the line joining the points (-3, 0) and (6, 6).",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 38,
+          "mandatory": true,
+          "question": {
+            "question_text": "15. Show that the line segment joining the points (-5, 8) and (10, -4) is trisected by the co-ordinate axes.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 39,
+          "mandatory": true,
+          "question": {
+            "question_text": "16. Show that A (3, -2) is a point of trisection of the line-segment joining the points (2, 1) and (5, -8). Also, find the co-ordinates of the other point of trisection.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 40,
+          "mandatory": true,
+          "question": {
+            "question_text": "17. If A = (-4, 3) and B = (8, -6) (i) Find the length of AB. (ii) In what ratio is the line joining A and B, divided by the x-axis ?",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 41,
+          "mandatory": true,
+          "question": {
+            "question_text": "18. The line segment joining the points M (5, 7) and N (-3, 2) is intersected by the y-axis at point L. Write down the abscissa of L. Hence, find the ratio in which L divides MN. Also, find the co-ordinates of L.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 42,
+          "mandatory": true,
+          "question": {
+            "question_text": "19. A (2, 5), B (-1, 2) and C (5, 8) are the co-ordinates of the vertices of the triangle ABC. Points P and Q lie on AB and AC respectively, such that : AP : PB = AQ : QC = 1 : 2. (i) Calculate the co-ordinates of P and Q. (ii) Show that : PQ = 1/3 BC.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 43,
+          "mandatory": true,
+          "question": {
+            "question_text": "20. A (-3, 4), B (3, -1) and C (-2, 4) are the vertices of a triangle ABC. Find the length of line segment AP, where point P lies inside BC, such that BP : PC = 2 : 3.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 44,
+          "mandatory": true,
+          "question": {
+            "question_text": "21. The line segment joining A(2, 3) and B(6, -5) is intercepted by x-axis at the point K. Write down the ordinate of the point K. Hence, find the ratio in which K divides AB. Also, find the co-ordinates of the point K.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 45,
+          "mandatory": true,
+          "question": {
+            "question_text": "22. The line segment joining A(4, 7) and B(-6, -2) is intercepted by the y-axis at the point K. Write down the abscissa of the point K. Hence, find the ratio in which K divides AB. Also, find the co-ordinates of the point K.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 46,
+          "mandatory": true,
+          "question": {
+            "question_text": "23. The line joining P(-4, 5) and Q(3, 2) intersects the y-axis at point R. PM and QN are perpendiculars from P and Q on the x-axis. Find : (i) the ratio PR : RQ. (ii) the co-ordinates of R. (iii) the area of the quadrilateral PMNQ.",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 47,
+          "mandatory": true,
+          "question": {
+            "question_text": "24. In the given figure, line APB meets the x-axis at point A and y-axis at point B. P is the point (-4, 2) and AP : PB = 1 : 2. Find the co-ordinates of A and B. [2013]",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        },
+        {
+          "marks": 1,
+          "displayOrder": 48,
+          "mandatory": true,
+          "question": {
+            "question_text": "25. Given a line segment AB joining the points A(-4, 6) and B(8, -3). Find :",
+            "question_type": "short_answer",
+            "difficulty_level": "Medium"
+          },
+          "answerKey": {
+            "modelAnswer": "",
+            "keyPoints": []
+          }
+        }
+      ]
+    }
+  ]
+}

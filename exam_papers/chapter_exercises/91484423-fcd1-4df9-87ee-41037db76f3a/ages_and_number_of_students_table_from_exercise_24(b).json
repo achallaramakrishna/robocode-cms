@@ -1,0 +1,24 @@
+{
+  "title": "Ages And Number Of Students Table From Exercise 24(B)",
+  "subject": "Mathematics",
+  "board": "CBSE",
+  "examYear": 2026,
+  "examType": "CHAPTER_EXERCISE",
+  "durationMinutes": 30,
+  "totalMarks": 0,
+  "instructions": "Attempt all questions.",
+  "negativeMarking": false,
+  "shuffleSections": false,
+  "shuffleQuestions": false,
+  "sections": [
+    {
+      "sectionName": "A",
+      "title": "Ages And Number Of Students Table From Exercise 24(B)",
+      "attemptType": "ALL",
+      "compulsory": true,
+      "totalMarks": 0,
+      "sectionOrder": 1,
+      "questions": []
+    }
+  ]
+}
