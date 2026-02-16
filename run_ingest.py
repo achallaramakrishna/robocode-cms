@@ -1,79 +1,131 @@
 import json
 import argparse
 from pathlib import Path
+import traceback
 
-from ingest.pdf_loader import PDFLoader
-from ingest.figure_extractor import extract_figures_from_pdf
+from ingest.pdf_to_images import PDFToImages
+from ingest.strict_figure_detector import StrictFigureDetector
 
 
-def run_ingest_from_json(json_path: Path):
+# -------------------------------------------------
+# Main Ingest Runner
+# -------------------------------------------------
+def run_ingest_from_json(json_path: Path, force=False):
 
     if not json_path.exists():
-        raise FileNotFoundError(f"JSON not found: {json_path}")
+        raise FileNotFoundError(f"JSON file not found: {json_path}")
 
     with open(json_path, "r", encoding="utf-8") as f:
         ctx = json.load(f)
 
-    if "course_id" not in ctx:
-        raise ValueError("course_id missing. Run Phase A first.")
+    course_id = ctx.get("course_id")
+    input_pdf_path = ctx.get("input_pdf_path")
+    chapter_uuid = ctx.get("chapter_uuid")   # IMPORTANT
+    mode = ctx.get("figure_detection_mode", "textbook")
 
-    if "input_pdf_path" not in ctx:
-        raise ValueError("input_pdf_path missing in JSON.")
+    if not course_id:
+        raise ValueError("❌ 'course_id' missing in JSON.")
 
-    course_id = ctx["course_id"]
-    source_dir = Path(ctx["input_pdf_path"])
+    if not input_pdf_path:
+        raise ValueError("❌ 'input_pdf_path' missing in JSON.")
 
-    if not source_dir.exists():
-        raise FileNotFoundError(f"Source folder not found: {source_dir}")
+    if not chapter_uuid:
+        raise ValueError("❌ 'chapter_uuid' missing in JSON.")
 
-    pdf_files = sorted(source_dir.glob("*.pdf"))
+    pdf_folder = Path(input_pdf_path)
+
+    if not pdf_folder.exists():
+        raise FileNotFoundError(f"❌ PDF folder not found: {pdf_folder}")
+
+    print("\n===========================================")
+    print("🚀 STARTING INGEST PROCESS")
+    print(f"📚 Course ID: {course_id}")
+    print(f"📘 Mode: {mode}")
+    print("===========================================\n")
+
+    pdf_files = list(pdf_folder.glob("*.pdf"))
+
     if not pdf_files:
-        raise RuntimeError(f"No PDF files found in {source_dir}")
+        print("⚠ No PDF files found.")
+        return
 
-    base_upload_dir = Path(f"workspace/courses/{course_id}/chapters")
-    base_upload_dir.mkdir(parents=True, exist_ok=True)
-
-    pdf_loader = PDFLoader(base_upload_dir=str(base_upload_dir))
-
-    print("\nPHASE C – STRICT FIGURE EXTRACTION\n")
+    pdf_to_images = PDFToImages()
 
     for pdf in pdf_files:
 
-        print(f"Processing: {pdf.name}")
+        try:
+            print(f"\n📄 Processing: {pdf.name}")
 
-        # 1️⃣ Create chapter folder + UUID
-        chapter_info = pdf_loader.load_chapter_pdf(
-            source_pdf_path=str(pdf)
-        )
+            # -------------------------------------
+            # Prepare workspace
+            # -------------------------------------
+            chapter_dir = Path(f"workspace/courses/{course_id}/{chapter_uuid}")
+            pages_dir = chapter_dir / "pages"
+            figures_dir = chapter_dir / "assets/figures"
 
-        chapter_dir = Path(chapter_info["chapter_dir"])
-        chapter_uuid = chapter_dir.name
+            pages_dir.mkdir(parents=True, exist_ok=True)
+            figures_dir.mkdir(parents=True, exist_ok=True)
 
-        print(f"Chapter UUID: {chapter_uuid}")
+            # -------------------------------------
+            # Convert PDF → Images
+            # -------------------------------------
+            print("🖼 Rendering PDF to images...\n")
 
-        # 2️⃣ Extract figures
-        metadata = extract_figures_from_pdf(
-            pdf_path=str(pdf),
-            chapter_dir=str(chapter_dir)
-        )
+            page_images = pdf_to_images.convert(
+                str(pdf),
+                str(pages_dir)
+            )
 
-        print(f"Extracted Figures: {len(metadata.get('figures', []))}\n")
+            if not page_images:
+                print("⚠ No images generated.")
+                continue
 
-    print("INGEST COMPLETED\n")
+            # -------------------------------------
+            # Strict Rectangular Figure Detection
+            # -------------------------------------
+            if mode == "textbook":
+
+                print("🔎 Running RECTANGULAR figure detection...\n")
+
+                detector = StrictFigureDetector()
+
+                result = detector.detect(
+                    page_images,
+                    str(figures_dir)
+                )
+
+                total_figures = result.get("total_figures", 0)
+
+                print("\n----------------------------------")
+                print(f"TOTAL EXTRACTED FIGURES: {total_figures}")
+                print(f"METADATA: {figures_dir / 'image_metadata.json'}")
+                print("----------------------------------\n")
+
+                print(f"✅ Extracted {total_figures} figures.")
+
+            else:
+                print(f"⚠ Unsupported mode: {mode}")
+
+        except Exception as e:
+
+            print(f"\n❌ ERROR processing: {pdf.name}")
+            print(f"Reason: {str(e)}")
+            traceback.print_exc()
+            print("Continuing to next PDF...\n")
 
 
-# CLI
+# -------------------------------------------------
+# CLI Entry
+# -------------------------------------------------
 if __name__ == "__main__":
 
-    parser = argparse.ArgumentParser(
-        description="Robo Dynamics Figure Ingest Runner"
-    )
-
-    parser.add_argument(
-        "json_file",
-        help="Path to course JSON file"
-    )
+    parser = argparse.ArgumentParser()
+    parser.add_argument("json_file", help="Path to course JSON file")
+    parser.add_argument("--force", action="store_true")
 
     args = parser.parse_args()
 
-    run_ingest_from_json(Path(args.json_file))
+    run_ingest_from_json(
+        Path(args.json_file),
+        force=args.force
+    )

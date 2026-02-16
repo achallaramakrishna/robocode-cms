@@ -1,61 +1,103 @@
-import cv2
 import os
-import numpy as np
+import re
+import cv2
+import pytesseract
+from pathlib import Path
 
 
-class SimpleFigureExtractor:
+class StrictFigureDetector:
 
-    def __init__(self, min_area=40000, padding=20):
-        self.min_area = min_area
-        self.padding = padding
+    FIG_PATTERN = re.compile(r'\bFig\.\s*\d+\.\d+\b', re.IGNORECASE)
 
-    def extract(self, pages, output_dir):
+    def __init__(self, debug=False):
+        self.debug = debug
+        self.extracted_figures = set()
+
+    def detect(self, page_images, output_dir):
 
         os.makedirs(output_dir, exist_ok=True)
 
         total = 0
 
-        for page_path in pages:
+        print("\n==============================")
+        print("STRICT FIGURE DETECTION MODE")
+        print("==============================\n")
 
-            img = cv2.imread(page_path)
-            gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+        for page_path in page_images:
 
-            # Threshold for diagrams
-            _, thresh = cv2.threshold(
-                gray, 200, 255, cv2.THRESH_BINARY_INV
+            print(f"\n📄 Processing page: {page_path}")
+
+            image = cv2.imread(page_path)
+            gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+
+            data = pytesseract.image_to_data(
+                gray,
+                output_type=pytesseract.Output.DICT,
+                config="--oem 3 --psm 6"
             )
 
-            contours, _ = cv2.findContours(
-                thresh,
-                cv2.RETR_EXTERNAL,
-                cv2.CHAIN_APPROX_SIMPLE
-            )
+            n_boxes = len(data["text"])
 
-            page_no = page_path.split("_")[-1].split(".")[0]
+            for i in range(n_boxes):
 
-            for i, cnt in enumerate(contours):
+                word = data["text"][i].strip()
 
-                area = cv2.contourArea(cnt)
-
-                if area < self.min_area:
+                if not word:
                     continue
 
-                x, y, w, h = cv2.boundingRect(cnt)
+                if self.FIG_PATTERN.match(word):
 
-                # Add white padding
-                x1 = max(0, x - self.padding)
-                y1 = max(0, y - self.padding)
-                x2 = min(img.shape[1], x + w + self.padding)
-                y2 = min(img.shape[0], y + h + self.padding)
+                    fig_label = word.replace(" ", "")
 
-                crop = img[y1:y2, x1:x2]
+                    if fig_label in self.extracted_figures:
+                        print(f"⚠ Duplicate skipped: {fig_label}")
+                        continue
 
-                save_path = os.path.join(
-                    output_dir,
-                    f"page_{page_no}_fig_{i+1}.png"
-                )
+                    self.extracted_figures.add(fig_label)
 
-                cv2.imwrite(save_path, crop)
-                total += 1
+                    x = data["left"][i]
+                    y = data["top"][i]
+                    w = data["width"][i]
+                    h = data["height"][i]
 
+                    print(f"✅ Valid caption detected: {fig_label}")
+
+                    cropped = self._crop_figure(image, y)
+
+                    save_path = os.path.join(
+                        output_dir,
+                        f"{fig_label.replace('.', '_')}.png"
+                    )
+
+                    cv2.imwrite(save_path, cropped)
+
+                    print(f"💾 Saved: {save_path}")
+
+                    total += 1
+
+        print(f"\n🎯 Total figures extracted: {total}")
         return total
+
+    def _crop_figure(self, image, caption_y):
+
+        # Crop region ABOVE caption
+        top_crop = 0
+        bottom_crop = max(0, caption_y - 10)
+
+        region = image[top_crop:bottom_crop, :]
+
+        gray = cv2.cvtColor(region, cv2.COLOR_BGR2GRAY)
+
+        # Remove white margins
+        _, thresh = cv2.threshold(gray, 240, 255, cv2.THRESH_BINARY_INV)
+
+        coords = cv2.findNonZero(thresh)
+
+        if coords is None:
+            return region
+
+        x, y, w, h = cv2.boundingRect(coords)
+
+        cropped = region[y:y+h, x:x+w]
+
+        return cropped
