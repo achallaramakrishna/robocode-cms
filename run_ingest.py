@@ -2,9 +2,10 @@ import json
 import argparse
 from pathlib import Path
 import traceback
+import uuid
+import hashlib
 
 from ingest.pdf_to_images import PDFToImages
-from ingest.strict_figure_detector import StrictFigureDetector
 
 
 # -------------------------------------------------
@@ -20,7 +21,6 @@ def run_ingest_from_json(json_path: Path, force=False):
 
     course_id = ctx.get("course_id")
     input_pdf_path = ctx.get("input_pdf_path")
-    chapter_uuid = ctx.get("chapter_uuid")   # IMPORTANT
     mode = ctx.get("figure_detection_mode", "textbook")
 
     if not course_id:
@@ -28,9 +28,6 @@ def run_ingest_from_json(json_path: Path, force=False):
 
     if not input_pdf_path:
         raise ValueError("❌ 'input_pdf_path' missing in JSON.")
-
-    if not chapter_uuid:
-        raise ValueError("❌ 'chapter_uuid' missing in JSON.")
 
     pdf_folder = Path(input_pdf_path)
 
@@ -55,6 +52,17 @@ def run_ingest_from_json(json_path: Path, force=False):
 
         try:
             print(f"\n📄 Processing: {pdf.name}")
+
+            # -------------------------------------
+            # Generate stable chapter UUID from PDF name
+            # -------------------------------------
+            chapter_name = pdf.stem
+
+            chapter_uuid = str(uuid.UUID(
+                hashlib.md5(chapter_name.encode()).hexdigest()
+            ))
+
+            print(f"📘 Chapter UUID: {chapter_uuid}")
 
             # -------------------------------------
             # Prepare workspace
@@ -87,18 +95,26 @@ def run_ingest_from_json(json_path: Path, force=False):
 
                 print("🔎 Running RECTANGULAR figure detection...\n")
 
-                detector = StrictFigureDetector()
+                from ingest.strict_page_rectangle_detector import StrictPageRectangleDetector
 
-                result = detector.detect(
-                    page_images,
-                    str(figures_dir)
-                )
+                detector = StrictPageRectangleDetector(debug=False)
 
-                total_figures = result.get("total_figures", 0)
+                all_results = []
+                page_number = 1
+
+                for page_path in page_images:
+                    results = detector.detect_page(
+                        page_path=page_path,
+                        output_dir=str(figures_dir),
+                        page_number=page_number
+                    )
+                    all_results.extend(results)
+                    page_number += 1
+
+                total_figures = len(all_results)
 
                 print("\n----------------------------------")
                 print(f"TOTAL EXTRACTED FIGURES: {total_figures}")
-                print(f"METADATA: {figures_dir / 'image_metadata.json'}")
                 print("----------------------------------\n")
 
                 print(f"✅ Extracted {total_figures} figures.")

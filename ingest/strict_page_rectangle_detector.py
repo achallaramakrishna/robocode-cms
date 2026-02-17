@@ -58,7 +58,7 @@ class StrictPageRectangleDetector:
             x, y, w, h = cv2.boundingRect(cnt)
             area = w * h
 
-            print("Contour found:", x, y, w, h, "Area:", area)
+           # print("Contour found:", x, y, w, h, "Area:", area)
 
             # ----------------------------
             # Basic filtering
