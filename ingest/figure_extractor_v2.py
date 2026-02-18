@@ -126,6 +126,42 @@ def _find_captions(img_rgb: np.ndarray):
         if not match:
             continue
         label = match.group()
+
+        # ── Reject false positives ────────────────────────────────────────────
+        # 1. Range references: "Fig. 1.3 to Fig. 1.8" is a range, not a caption
+        if re.search(r"Fig\.?\s*\d+[\.\-]\d+\s+to\s+Fig", line_text, re.IGNORECASE):
+            continue
+
+        # 2. Sentence continuation: after "Fig. X.Y", text reads like a sentence
+        #    Reject if the first word after the label is lowercase OR is a
+        #    common article/pronoun that starts a sentence ("The", "A", "An",
+        #    "This", "It", "Such") — real captions are noun phrases, not sentences.
+        _SENTENCE_STARTERS = {
+            "the", "a", "an", "this", "it", "its", "such", "that", "these",
+            "those", "there", "here", "when", "where", "which", "who", "is",
+            "are", "was", "were", "has", "have", "had", "to", "as", "so",
+        }
+        after_label = line_text[match.end():].strip().lstrip(".,")
+        first_after_words = after_label.split()
+        first_after = first_after_words[0] if first_after_words else ""
+        if first_after and first_after.lower() in _SENTENCE_STARTERS:
+            continue
+        if first_after and first_after[0].islower():
+            continue
+
+        # 3. Rule 2 false positives: the "second half" detection may fire on
+        #    exercise question lines like "8. Explain ... Fig. 1.40 ..."
+        #    Reject if the line text contains question-number pattern at start
+        #    and the Fig reference is buried in question body text
+        if fig_tok_pos > 0:
+            # For Rule 2 captures, verify the words after Fig.X.Y are a clean
+            # description (all Title-Case, no lowercase sentence words like
+            # "of", "in", "the" as the second word after the label)
+            after_fig = [words[j] for j in range(fig_tok_pos + 2, len(words)) if words[j]]
+            if len(after_fig) >= 2 and after_fig[1][:1].islower():
+                continue
+        # ─────────────────────────────────────────────────────────────────────
+
         if label in seen_labels:
             continue
         seen_labels.add(label)
