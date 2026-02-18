@@ -6,6 +6,7 @@ import uuid
 import hashlib
 
 from ingest.pdf_to_images import PDFToImages
+from ingest.figure_extractor_v2 import extract_figures
 
 
 # -------------------------------------------------
@@ -21,6 +22,8 @@ def run_ingest_from_json(json_path: Path, force=False):
 
     course_id = ctx.get("course_id")
     input_pdf_path = ctx.get("input_pdf_path")
+    # "textbook"   → only save figures with a Fig. caption (default)
+    # "no_caption" → save all qualifying embedded images (e.g. NEET books)
     mode = ctx.get("figure_detection_mode", "textbook")
 
     if not course_id:
@@ -37,7 +40,7 @@ def run_ingest_from_json(json_path: Path, force=False):
     print("\n===========================================")
     print("🚀 STARTING INGEST PROCESS")
     print(f"📚 Course ID: {course_id}")
-    print(f"📘 Mode: {mode}")
+    print(f"📘 Figure mode: {mode}")
     print("===========================================\n")
 
     pdf_files = list(pdf_folder.glob("*.pdf"))
@@ -75,9 +78,9 @@ def run_ingest_from_json(json_path: Path, force=False):
             figures_dir.mkdir(parents=True, exist_ok=True)
 
             # -------------------------------------
-            # Convert PDF → Images
+            # Convert PDF → Page images (for OCR later)
             # -------------------------------------
-            print("🖼 Rendering PDF to images...\n")
+            print("🖼 Rendering PDF to page images...\n")
 
             page_images = pdf_to_images.convert(
                 str(pdf),
@@ -89,38 +92,26 @@ def run_ingest_from_json(json_path: Path, force=False):
                 continue
 
             # -------------------------------------
-            # Strict Rectangular Figure Detection
+            # Figure extraction (PyMuPDF-based)
+            # Works for both "textbook" (needs Fig caption)
+            # and "no_caption" (NEET / all embedded images)
             # -------------------------------------
-            if mode == "textbook":
+            print(f"🔎 Extracting figures (mode={mode})...\n")
 
-                print("🔎 Running RECTANGULAR figure detection...\n")
+            metadata = extract_figures(
+                pdf_path=str(pdf),
+                output_dir=str(figures_dir),
+                mode=mode,
+                debug=False,
+            )
 
-                from ingest.strict_page_rectangle_detector import StrictPageRectangleDetector
+            total_figures = len(metadata.get("figures", []))
 
-                detector = StrictPageRectangleDetector(debug=False)
+            print("\n----------------------------------")
+            print(f"TOTAL EXTRACTED FIGURES: {total_figures}")
+            print("----------------------------------\n")
 
-                all_results = []
-                page_number = 1
-
-                for page_path in page_images:
-                    results = detector.detect_page(
-                        page_path=page_path,
-                        output_dir=str(figures_dir),
-                        page_number=page_number
-                    )
-                    all_results.extend(results)
-                    page_number += 1
-
-                total_figures = len(all_results)
-
-                print("\n----------------------------------")
-                print(f"TOTAL EXTRACTED FIGURES: {total_figures}")
-                print("----------------------------------\n")
-
-                print(f"✅ Extracted {total_figures} figures.")
-
-            else:
-                print(f"⚠ Unsupported mode: {mode}")
+            print(f"✅ Done: {pdf.name}")
 
         except Exception as e:
 
