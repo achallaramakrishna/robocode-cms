@@ -38,23 +38,23 @@ def run_ingest_from_json(json_path: Path, force=False):
         raise FileNotFoundError(f"❌ PDF folder not found: {pdf_folder}")
 
     print("\n===========================================")
-    print("🚀 STARTING INGEST PROCESS")
-    print(f"📚 Course ID: {course_id}")
-    print(f"📘 Figure mode: {mode}")
+    print("STARTING INGEST PROCESS")
+    print(f"Course ID: {course_id}")
+    print(f"Figure mode: {mode}")
     print("===========================================\n")
 
-    pdf_files = list(pdf_folder.glob("*.pdf"))
+    pdf_files = sorted(pdf_folder.glob("*.pdf"))
 
     if not pdf_files:
-        print("⚠ No PDF files found.")
+        print("No PDF files found.")
         return
 
     pdf_to_images = PDFToImages()
 
-    for pdf in pdf_files:
+    for pdf_idx, pdf in enumerate(pdf_files, start=1):
 
         try:
-            print(f"\n📄 Processing: {pdf.name}")
+            print(f"\n[{pdf_idx}/{len(pdf_files)}] Processing: {pdf.name}")
 
             # -------------------------------------
             # Generate stable chapter UUID from PDF name
@@ -65,7 +65,7 @@ def run_ingest_from_json(json_path: Path, force=False):
                 hashlib.md5(chapter_name.encode()).hexdigest()
             ))
 
-            print(f"📘 Chapter UUID: {chapter_uuid}")
+            print(f"  Chapter UUID: {chapter_uuid}")
 
             # -------------------------------------
             # Prepare workspace
@@ -79,43 +79,48 @@ def run_ingest_from_json(json_path: Path, force=False):
 
             # -------------------------------------
             # Convert PDF → Page images (for OCR later)
+            # Skip if pages already exist and --force not set
             # -------------------------------------
-            print("🖼 Rendering PDF to page images...\n")
-
-            page_images = pdf_to_images.convert(
-                str(pdf),
-                str(pages_dir)
-            )
+            existing_pages = list(pages_dir.glob("page_*.png"))
+            if existing_pages and not force:
+                print(f"  Pages already rendered ({len(existing_pages)} pages), skipping render step.")
+                page_images = sorted(str(p) for p in existing_pages)
+            else:
+                print("  Rendering PDF to page images...")
+                page_images = pdf_to_images.convert(str(pdf), str(pages_dir))
 
             if not page_images:
-                print("⚠ No images generated.")
+                print("  No images generated.")
                 continue
 
             # -------------------------------------
             # Figure extraction (PyMuPDF-based)
             # Works for both "textbook" (needs Fig caption)
             # and "no_caption" (NEET / all embedded images)
+            # Skip if image_metadata.json already exists and --force not set
             # -------------------------------------
-            print(f"🔎 Extracting figures (mode={mode})...\n")
+            meta_file = figures_dir / "image_metadata.json"
+            if meta_file.exists() and not force:
+                import json as _json
+                with open(meta_file) as _f:
+                    metadata = _json.load(_f)
+                total_figures = len(metadata.get("figures", []))
+                print(f"  Figures already extracted ({total_figures} figures), skipping.")
+            else:
+                print(f"  Extracting figures (mode={mode})...")
+                metadata = extract_figures(
+                    pdf_path=str(pdf),
+                    output_dir=str(figures_dir),
+                    mode=mode,
+                    debug=False,
+                )
+                total_figures = len(metadata.get("figures", []))
 
-            metadata = extract_figures(
-                pdf_path=str(pdf),
-                output_dir=str(figures_dir),
-                mode=mode,
-                debug=False,
-            )
-
-            total_figures = len(metadata.get("figures", []))
-
-            print("\n----------------------------------")
-            print(f"TOTAL EXTRACTED FIGURES: {total_figures}")
-            print("----------------------------------\n")
-
-            print(f"✅ Done: {pdf.name}")
+            print(f"  Figures: {total_figures}  |  Done: {pdf.name}")
 
         except Exception as e:
 
-            print(f"\n❌ ERROR processing: {pdf.name}")
+            print(f"\nERROR processing: {pdf.name}")
             print(f"Reason: {str(e)}")
             traceback.print_exc()
             print("Continuing to next PDF...\n")

@@ -8,7 +8,6 @@
   "course_id": 55,
   "figure_detection_mode": "textbook",
   "chapter_uuid": "07af590b-f79b-46a3-9427-ed2c64c0e843",
-  "input_pdf_path": "C:/robocode/input_pdfs/physics/class10/cbse_10_1/single",
-  "input_pdf_path_1": "C:/robocode/input_pdfs/physics/class10/cbse_10_1"
+  "input_pdf_path": "C:/robocode/input_pdfs/physics/class10/cbse_10_1"
 
 }
