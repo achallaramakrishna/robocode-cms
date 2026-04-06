@@ -1,0 +1,279 @@
+{
+  "meta": {
+    "asset_type": "notes",
+    "session_day": 1,
+    "session_title": "Day 1 - Introduction to Java & Language Fundamentals",
+    "date": "23-Feb-2026",
+    "phase": "Phase 1: Java Foundations",
+    "reading_time_minutes": 45,
+    "generated_by": "Claude (claude-sonnet-4-6)"
+  },
+  "overview": {
+    "summary": "This session introduces the Java platform architecture (JVM/JDK/JRE), all 8 primitive data types, operators, flow control structures, and arrays. Every concept is grounded in both academic understanding and real-world banking/finance use cases so you can immediately apply what you learn.",
+    "learning_outcomes": [
+      "Explain the difference between JVM, JRE, and JDK and why Java is platform-independent",
+      "Declare and use all 8 Java primitive types with appropriate sizes and ranges",
+      "Apply arithmetic, relational, logical, and bitwise operators correctly",
+      "Implement flow control: if/else, switch, for, while, do-while, break, continue",
+      "Create, populate, and traverse 1D arrays and use the Arrays utility class",
+      "Apply Java naming conventions and basic best practices"
+    ],
+    "prerequisite_knowledge": [
+      "Basic understanding of what a computer program is",
+      "Familiarity with any one programming language (optional but helpful)"
+    ]
+  },
+  "sections": [
+    {
+      "section_id": "S1",
+      "title": "Java Platform: JVM, JRE, JDK",
+      "images": [
+        {
+          "image_id": "IMG_S1_01",
+          "caption": "JDK → JRE → JVM containment hierarchy and roles",
+          "url": "https://www.scientecheasy.com/wp-content/uploads/2018/06/jdk-jre-jvm.png",
+          "alt": "Diagram showing JDK containing JRE containing JVM, with labels for development tools, standard libraries, and bytecode executor",
+          "placeholder": true,
+          "note": "Replace with custom diagram if preferred"
+        },
+        {
+          "image_id": "IMG_S1_02",
+          "caption": "Java Write Once Run Anywhere — same .class file on Windows, Linux, macOS",
+          "url": "https://www.scientecheasy.com/wp-content/uploads/2020/05/java-platform-independent.png",
+          "alt": "Diagram showing .java source compiled to .class bytecode, then running on Windows JVM, Linux JVM, and macOS JVM",
+          "placeholder": true,
+          "note": "Replace with custom WORA diagram if preferred"
+        }
+      ],
+      "content": "Java's power comes from its platform independence. When you write a Java program, it is compiled not into machine-specific binary code, but into bytecode — a set of instructions for the Java Virtual Machine (JVM). This bytecode is stored in .class files. The JVM on each operating system knows how to interpret this bytecode and execute it natively. This is why Java's slogan is 'Write Once, Run Anywhere' (WORA).\n\nThe three layers of the Java platform are:\n\n1. JVM (Java Virtual Machine): The engine that executes bytecode. It is platform-specific — there is a JVM for Windows, Linux, macOS, etc. The JVM performs memory management, garbage collection, and JIT (Just-In-Time) compilation to speed up execution.\n\n2. JRE (Java Runtime Environment): The JVM plus the standard Java class libraries (java.lang, java.util, java.io, etc.). If you only want to RUN Java programs, install the JRE.\n\n3. JDK (Java Development Kit): The JRE plus development tools — javac (compiler), javadoc (documentation generator), jar (archive tool), jdb (debugger). Developers must install the JDK.\n\nMemory aid: JDK ⊃ JRE ⊃ JVM — each layer contains the one inside it.\n\nIn banking applications, Java's platform independence means a core banking system built in Java can run on Linux servers in the data center, Windows developer laptops, and even Android ATM interfaces — using the same codebase.",
+      "syntax_box": {
+        "description": "Basic Java program structure",
+        "code": "// File: HelloBank.java\npublic class HelloBank {\n    // main() is the entry point — JVM looks for this exact signature\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to RoboBank!\");\n    }\n}\n\n// Compile: javac HelloBank.java  → produces HelloBank.class (bytecode)\n// Run:     java HelloBank        → JVM executes the bytecode"
+      },
+      "examples": [
+        {
+          "title": "Your First Java Program",
+          "description": "A complete, compilable Java program with a banking greeting",
+          "code": "public class BankWelcome {\n    public static void main(String[] args) {\n        String bankName = \"RoboBank\";\n        int yearFounded = 2020;\n        System.out.println(\"Welcome to \" + bankName);\n        System.out.println(\"Serving customers since \" + yearFounded);\n        System.out.println(\"Java version: \" + System.getProperty(\"java.version\"));\n    }\n}",
+          "output": "Welcome to RoboBank\nServing customers since 2020\nJava version: 17.0.x"
+        }
+      ],
+      "key_points": [
+        "javac compiles .java source → .class bytecode; java runs .class via JVM",
+        "JDK needed to develop; JRE sufficient to run; JVM is the core executor",
+        "Platform independence is a key reason Java dominates enterprise/banking software"
+      ],
+      "common_mistakes": [
+        "Forgetting to capitalize the class name exactly as the filename (case-sensitive on Linux)",
+        "Running 'java HelloWorld.class' instead of 'java HelloWorld' (no .class extension)"
+      ]
+    },
+    {
+      "section_id": "S2",
+      "title": "Primitive Data Types",
+      "images": [
+        {
+          "image_id": "IMG_S2_01",
+          "caption": "Java 8 Primitive Data Types — sizes, ranges, and default values",
+          "url": "https://www.scientecheasy.com/wp-content/uploads/2018/06/java-primitive-data-types.png",
+          "alt": "Table showing all 8 Java primitive types with size in bytes, default value, and value range",
+          "placeholder": true,
+          "note": "Replace with cleaner custom table image if preferred"
+        }
+      ],
+      "content": "Java has 8 primitive data types — the building blocks for all values in your programs. Unlike objects, primitives are stored directly on the stack for fast access.\n\nChoosing the right type matters in production systems. In banking:\n- Use 'long' for account numbers (can be very large)\n- Use 'double' for display, but BigDecimal for ACTUAL monetary calculations (precision required!)\n- Use 'byte' or 'short' for status codes (saves memory when millions of records exist)\n- Use 'boolean' for flags: isActive, isFrozen, hasOverdraft\n- Use 'char' for single-character codes: transaction type ('D' for debit, 'C' for credit)",
+      "syntax_box": {
+        "description": "All 8 primitive types with ranges",
+        "code": "// Integer types\nbyte   accountStatus = 1;          // 1 byte, -128 to 127\nshort  branchCode    = 1042;        // 2 bytes, -32768 to 32767\nint    transactionCount = 1_500_000; // 4 bytes, ~±2.1 billion (underscores allowed!)\nlong   accountNumber = 1234567890123L; // 8 bytes, ~±9.2 quintillion — note the 'L'\n\n// Floating-point types\nfloat  interestRateDisplay = 7.5f;  // 4 bytes, ~7 decimal digits — note the 'f'\ndouble balanceDisplay = 98_765.50;  // 8 bytes, ~15 decimal digits (default for decimals)\n\n// Character type\nchar   txnType = 'D';              // 2 bytes, Unicode character (0-65535)\n\n// Boolean type\nboolean isAccountActive = true;    // 1 bit, only true or false"
+      },
+      "examples": [
+        {
+          "title": "Primitive Types in a Banking Context",
+          "description": "Using appropriate types for a bank account record",
+          "code": "public class BankAccountRecord {\n    public static void main(String[] args) {\n        // Account fields using appropriate primitives\n        long   accountNumber  = 9876543210L;     // long for large account IDs\n        short  ifscCode       = 1234;             // short for branch code portion\n        double balance        = 1_50_000.75;      // double for display (use BigDecimal for real calc)\n        float  interestRate   = 8.5f;             // float for rate display\n        char   accountType    = 'S';              // 'S'=Savings, 'C'=Current, 'D'=Demat\n        boolean isFrozen      = false;            // boolean flag\n        byte   kycStatus      = 2;               // 0=Pending, 1=Submitted, 2=Verified\n        \n        System.out.println(\"Account: \" + accountNumber);\n        System.out.println(\"Balance: ₹\" + balance);\n        System.out.println(\"Type: \" + accountType + \" | KYC: \" + kycStatus);\n        System.out.println(\"Frozen: \" + isFrozen);\n        \n        // Integer range check\n        System.out.println(\"Max int: \" + Integer.MAX_VALUE);   // 2,147,483,647\n        System.out.println(\"Max long: \" + Long.MAX_VALUE);     // 9,223,372,036,854,775,807\n    }\n}",
+          "output": "Account: 9876543210\nBalance: ₹150000.75\nType: S | KYC: 2\nFrozen: false\nMax int: 2147483647\nMax long: 9223372036854775807"
+        }
+      ],
+      "key_points": [
+        "Integer literals over int range need 'L' suffix (long); float literals need 'f' suffix",
+        "Underscores in numeric literals (1_00_000) improve readability — valid from Java 7+",
+        "For financial calculations, always use java.math.BigDecimal, NOT double (floating-point precision errors)"
+      ],
+      "common_mistakes": [
+        "Using int for account numbers > 2.1 billion — silent overflow, no exception!",
+        "Using double for money calculations: 0.1 + 0.2 = 0.30000000000000004 in floating-point"
+      ]
+    },
+    {
+      "section_id": "S3",
+      "title": "Operators",
+      "images": [
+        {
+          "image_id": "IMG_S3_01",
+          "caption": "Java Operator Precedence Table",
+          "url": "https://introcs.cs.princeton.edu/java/11precedence/images/precedence.png",
+          "alt": "Java operator precedence table from highest (unary) to lowest (assignment), showing all operator categories",
+          "placeholder": true,
+          "note": "Replace with custom precedence chart if preferred"
+        }
+      ],
+      "content": "Java operators allow you to perform computations, comparisons, and logical decisions. Understanding operator precedence prevents subtle bugs.\n\nArithmetic operators: +, -, *, /, % (modulo/remainder)\n- Integer division truncates: 7 / 2 = 3 (not 3.5)\n- Modulo is powerful: n % 2 == 0 checks even/odd; it's also used for cyclic patterns\n\nRelational operators: ==, !=, <, >, <=, >= — return boolean\nLogical operators: && (AND), || (OR), ! (NOT) — with short-circuit evaluation\nAssignment operators: =, +=, -=, *=, /=, %=\nIncrement/Decrement: ++ and -- (pre and post forms)\nTernary: condition ? trueValue : falseValue — compact if-else\nBitwise: &, |, ^, ~, <<, >> — used in flags and performance-critical code",
+      "syntax_box": {
+        "description": "Key operator examples",
+        "code": "// Arithmetic\nint principal = 100000;\ndouble rate   = 0.085;   // 8.5%\nint months    = 12;\n\ndouble monthlyInterest = (principal * rate) / months;  // 708.33\nint    remainder       = 100 % 7;  // 2 — useful for day-of-week calculations\n\n// Relational and Logical\nboolean canWithdraw = (balance > 0) && !isFrozen && (balance >= withdrawAmount);\n\n// Ternary\nString status = (balance >= 10000) ? \"PREMIUM\" : \"STANDARD\";\n\n// Compound assignment\nbalance += 5000;   // equivalent to: balance = balance + 5000;\nbalance -= 1000;   // deduct"
+      },
+      "examples": [
+        {
+          "title": "Interest Calculation using Operators",
+          "description": "Compute Simple and Compound Interest for a loan scenario",
+          "code": "public class InterestCalculator {\n    public static void main(String[] args) {\n        double principal = 500000.0;  // ₹5 Lakh loan\n        double rate = 0.09;           // 9% per annum\n        int years = 3;\n        \n        // Simple Interest: P * R * T / 100 (using rate as fraction)\n        double simpleInterest = principal * rate * years;\n        System.out.printf(\"Simple Interest: ₹%.2f%n\", simpleInterest);\n        \n        // Compound Interest: P * (1 + r)^t - P\n        double amount = principal * Math.pow(1 + rate, years);\n        double compoundInterest = amount - principal;\n        System.out.printf(\"Compound Interest: ₹%.2f%n\", compoundInterest);\n        System.out.printf(\"Difference (Compound vs Simple): ₹%.2f%n\",\n                          compoundInterest - simpleInterest);\n        \n        // Ternary: loan category\n        String loanCategory = (principal <= 200000) ? \"PERSONAL\" :\n                              (principal <= 1000000) ? \"HOME_SMALL\" : \"HOME_LARGE\";\n        System.out.println(\"Loan Category: \" + loanCategory);\n    }\n}",
+          "output": "Simple Interest: ₹135000.00\nCompound Interest: ₹145680.85\nDifference (Compound vs Simple): ₹10680.85\nLoan Category: HOME_SMALL"
+        }
+      ],
+      "key_points": [
+        "Short-circuit evaluation: in (a && b), if 'a' is false, 'b' is never evaluated — use this to prevent NullPointerException",
+        "Integer division always truncates toward zero: -7/2 = -3 (not -4)",
+        "% operator returns same sign as dividend: -7%3 = -1 in Java"
+      ],
+      "common_mistakes": [
+        "Using == to compare String objects (compares references, not content — use .equals())",
+        "Forgetting that x++ returns the OLD value while ++x returns the NEW value"
+      ]
+    },
+    {
+      "section_id": "S4",
+      "title": "Flow Control",
+      "images": [
+        {
+          "image_id": "IMG_S4_01",
+          "caption": "Java Flow Control — if/else, switch, for, while, do-while decision diagram",
+          "url": "https://www.tutorialspoint.com/java/images/decision_making.jpg",
+          "alt": "Flowchart showing Java flow control structures: if-else branching and loop flowcharts",
+          "placeholder": true,
+          "note": "Replace with custom ATM flow diagram for banking context"
+        },
+        {
+          "image_id": "IMG_S4_02",
+          "caption": "while vs do-while — execution order difference",
+          "url": "https://www.scientecheasy.com/wp-content/uploads/2018/06/do-while-loop-in-java.png",
+          "alt": "Side-by-side flowchart comparing while loop (condition before body) and do-while loop (body before condition)",
+          "placeholder": true
+        }
+      ],
+      "content": "Flow control structures let your program make decisions and repeat actions. They are the backbone of business logic — from validating a PIN to processing thousands of transactions.\n\nDecision structures:\n- if / else if / else: evaluate conditions and branch\n- switch: efficient multi-way branch on int, char, String, or enum values (Java 14+ has switch expressions)\n\nLooping structures:\n- for: use when you know the iteration count\n- while: use when the iteration count is unknown, check condition first\n- do-while: always executes at least once, check condition after (useful for menus)\n- enhanced for (for-each): clean iteration over arrays and collections\n\nLoop control:\n- break: exits the loop entirely\n- continue: skips current iteration, moves to next",
+      "syntax_box": {
+        "description": "Switch with banking transaction types",
+        "code": "// Traditional switch\nchar txnType = 'D'; // D=Debit, C=Credit, T=Transfer, Q=Query\nswitch (txnType) {\n    case 'D':\n        processDebit(); break;\n    case 'C':\n        processCredit(); break;\n    case 'T':\n        processTransfer(); break;\n    case 'Q':\n        processQuery(); break;\n    default:\n        System.out.println(\"Unknown transaction type: \" + txnType);\n}\n\n// Java 14+ switch expression (arrow syntax, no fall-through)\nString txnLabel = switch (txnType) {\n    case 'D' -> \"Debit\";\n    case 'C' -> \"Credit\";\n    case 'T' -> \"Transfer\";\n    default   -> \"Unknown\";\n};"
+      },
+      "examples": [
+        {
+          "title": "ATM Withdrawal Logic with Flow Control",
+          "description": "Simulate ATM withdrawal with balance check, PIN validation, and transaction loop",
+          "code": "public class ATMSimulator {\n    public static void main(String[] args) {\n        double balance = 25000.0;\n        int correctPIN = 1234;\n        int attempts = 0;\n        boolean authenticated = false;\n        \n        // Do-while: show prompt at least once; useful for retry loops\n        int[] pinAttempts = {1234, 9999, 5678}; // simulating user inputs\n        int inputIdx = 0;\n        \n        do {\n            int enteredPIN = pinAttempts[inputIdx++];\n            attempts++;\n            if (enteredPIN == correctPIN) {\n                authenticated = true;\n                System.out.println(\"PIN correct. Welcome!\");\n            } else {\n                System.out.println(\"Incorrect PIN. Attempt \" + attempts + \" of 3.\");\n            }\n        } while (!authenticated && attempts < 3);\n        \n        if (!authenticated) {\n            System.out.println(\"Card blocked after 3 failed attempts.\");\n            return;\n        }\n        \n        // Process withdrawal transactions\n        double[] withdrawals = {5000, 30000, 1000, 0};  // 0 = exit\n        for (double amount : withdrawals) {\n            if (amount == 0) {\n                System.out.println(\"Thank you. Goodbye!\");\n                break;  // exit loop\n            }\n            if (amount > balance) {\n                System.out.printf(\"Insufficient funds. Balance: ₹%.2f%n\", balance);\n                continue;  // skip this withdrawal, try next\n            }\n            balance -= amount;\n            System.out.printf(\"Dispensed ₹%.0f. Remaining balance: ₹%.2f%n\", amount, balance);\n        }\n    }\n}",
+          "output": "PIN correct. Welcome!\nDispensed ₹5000. Remaining balance: ₹20000.00\nInsufficient funds. Balance: ₹20000.00\nDispensed ₹1000. Remaining balance: ₹19000.00\nThank you. Goodbye!"
+        }
+      ],
+      "key_points": [
+        "switch on String is allowed since Java 7; switch on int, char, byte, short always allowed",
+        "do-while guarantees at least one execution — ideal for menu loops and PIN retry logic",
+        "break in a for-each loop works the same as in a traditional for loop"
+      ],
+      "common_mistakes": [
+        "Forgetting 'break' in switch cases causes fall-through to the next case",
+        "Infinite loop: while(true) without a guaranteed break condition"
+      ]
+    },
+    {
+      "section_id": "S5",
+      "title": "Arrays",
+      "images": [
+        {
+          "image_id": "IMG_S5_01",
+          "caption": "Java Array Memory Layout — indices 0 to length-1 in contiguous memory",
+          "url": "https://www.scientecheasy.com/wp-content/uploads/2018/06/array-in-java.png",
+          "alt": "Diagram showing a Java array with indexed boxes, showing element at index 0 (first) through length-1 (last), stored contiguously in heap memory",
+          "placeholder": true,
+          "note": "Replace with custom array visualization showing banking context (e.g., transaction amounts)"
+        }
+      ],
+      "content": "An array is a fixed-size, ordered collection of elements of the same type. Arrays are zero-indexed — the first element is at index 0. Arrays are objects in Java (stored in the heap), even though their element types can be primitives.\n\nKey characteristics:\n- Fixed size once created (unlike ArrayList, which is dynamic)\n- Elements accessed by index: arr[0], arr[1], ..., arr[n-1]\n- Length property: arr.length (no parentheses — it's a field, not a method)\n- Default values: int[] defaults to 0, double[] to 0.0, boolean[] to false, Object[] to null\n\nThe java.util.Arrays class provides powerful utility methods: sort(), binarySearch(), copyOf(), fill(), equals(), toString().\n\nIn banking, arrays model: transaction history (fixed window), branch list, EMI installments, exchange rates for a day.",
+      "syntax_box": {
+        "description": "Array declaration and initialization",
+        "code": "// Declaration and initialization\nint[] emiAmounts = new int[12];          // 12 months, all zeros\ndouble[] rates = {6.5, 7.0, 7.5, 8.0}; // inline initialization (4 elements)\n\n// Access and modify\nemiAmounts[0] = 15000;    // first month EMI\nemiAmounts[11] = 14500;   // last month (slightly different due to rounding)\n\n// Length\nSystem.out.println(rates.length);   // 4\n\n// Traversal - traditional for (when you need the index)\nfor (int i = 0; i < emiAmounts.length; i++) {\n    System.out.println(\"Month \" + (i+1) + \": ₹\" + emiAmounts[i]);\n}\n\n// Traversal - enhanced for (when you just need values)\nfor (double r : rates) {\n    System.out.println(\"Rate: \" + r + \"%\");\n}"
+      },
+      "examples": [
+        {
+          "title": "Bank Branch Performance Analysis",
+          "description": "Use arrays and Arrays class to analyze branch-wise deposits",
+          "code": "import java.util.Arrays;\n\npublic class BranchAnalysis {\n    public static void main(String[] args) {\n        String[] branches = {\"Mumbai\", \"Delhi\", \"Kolkata\", \"Chennai\", \"Hyderabad\"};\n        double[] deposits = {8500000, 12300000, 6700000, 9200000, 11100000}; // in rupees\n        \n        // Total deposits\n        double total = 0;\n        for (double d : deposits) total += d;\n        System.out.printf(\"Total Deposits: ₹%.2f%n\", total);\n        System.out.printf(\"Average Deposits: ₹%.2f%n\", total / deposits.length);\n        \n        // Sort deposits (Arrays.sort modifies the array in place)\n        double[] sortedDeposits = Arrays.copyOf(deposits, deposits.length); // don't modify original\n        Arrays.sort(sortedDeposits);\n        System.out.printf(\"Lowest performing branch deposit: ₹%.2f%n\", sortedDeposits[0]);\n        System.out.printf(\"Highest performing branch deposit: ₹%.2f%n\",\n                          sortedDeposits[sortedDeposits.length - 1]);\n        \n        // Find a branch by deposit (binary search on sorted array)\n        double target = 9200000;\n        int idx = Arrays.binarySearch(sortedDeposits, target);\n        System.out.println(\"Search result index (sorted array): \" + idx);\n        \n        // Find branch name with max deposit (manual)\n        int maxIdx = 0;\n        for (int i = 1; i < deposits.length; i++) {\n            if (deposits[i] > deposits[maxIdx]) maxIdx = i;\n        }\n        System.out.println(\"Best performing branch: \" + branches[maxIdx]);\n        \n        System.out.println(\"All deposits: \" + Arrays.toString(deposits));\n    }\n}",
+          "output": "Total Deposits: ₹47800000.00\nAverage Deposits: ₹9560000.00\nLowest performing branch deposit: ₹6700000.00\nHighest performing branch deposit: ₹12300000.00\nSearch result index (sorted array): 2\nBest performing branch: Delhi\nAll deposits: [8500000.0, 12300000.0, 6700000.0, 9200000.0, 11100000.0]"
+        },
+        {
+          "title": "Varargs: Flexible Transaction Aggregation",
+          "description": "Demonstrate varargs for variable number of transaction amounts",
+          "code": "public class TransactionAggregator {\n    \n    // varargs parameter (must be last, type followed by ...)\n    public static double sumTransactions(String accountId, double... amounts) {\n        double total = 0;\n        for (double amount : amounts) {\n            total += amount;\n        }\n        System.out.printf(\"Account %s | %d transactions | Total: ₹%.2f%n\",\n                          accountId, amounts.length, total);\n        return total;\n    }\n    \n    public static void main(String[] args) {\n        sumTransactions(\"ACC001\");                          // 0 transactions\n        sumTransactions(\"ACC002\", 5000);                    // 1 transaction\n        sumTransactions(\"ACC003\", 1000, 2500, 750);         // 3 transactions\n        sumTransactions(\"ACC004\", 10000, 5000, 3000, 1500, 250); // 5 transactions\n    }\n}",
+          "output": "Account ACC001 | 0 transactions | Total: ₹0.00\nAccount ACC002 | 1 transactions | Total: ₹5000.00\nAccount ACC003 | 3 transactions | Total: ₹4250.00\nAccount ACC004 | 5 transactions | Total: ₹19750.00"
+        }
+      ],
+      "key_points": [
+        "arr.length is a field (no parentheses); String.length() is a method (with parentheses)",
+        "Arrays.sort() modifies in place; use Arrays.copyOf() if you need the original",
+        "ArrayIndexOutOfBoundsException is a runtime exception — always validate index bounds"
+      ],
+      "common_mistakes": [
+        "Accessing arr[arr.length] — the valid range is 0 to arr.length-1",
+        "Comparing arrays with == (compares references); use Arrays.equals(a, b) for content comparison"
+      ]
+    },
+    {
+      "section_id": "S6",
+      "title": "Best Practices & Java Coding Standards",
+      "content": "Professional Java code follows naming conventions and coding standards that make it readable, maintainable, and reviewable. These are not enforced by the compiler but are enforced by code reviewers in any reputable company.\n\nNaming conventions:\n- Classes/Interfaces: PascalCase — BankAccount, LoanCalculator, Serializable\n- Methods/Variables: camelCase — calculateEMI(), accountBalance, isActive\n- Constants: UPPER_SNAKE_CASE — MAX_WITHDRAWAL_LIMIT, DEFAULT_INTEREST_RATE\n- Packages: all lowercase — com.robobank.core, com.robobank.service\n- Booleans: use is/has/can/should prefix — isEligible(), hasOverdraft()\n\nCode quality:\n- One statement per line\n- Meaningful names: 'interestRate' not 'ir', 'accountBalance' not 'ab'\n- Avoid magic numbers: use named constants (final int MAX_PIN_ATTEMPTS = 3)\n- Comment the 'why', not the 'what' — code shows what; comment explains business rule",
+      "syntax_box": {
+        "description": "Constants and naming in a banking class",
+        "code": "public class AccountConstants {\n    // Constants: public static final, UPPER_SNAKE_CASE\n    public static final int    MAX_PIN_ATTEMPTS     = 3;\n    public static final double MIN_BALANCE          = 1000.0;    // ₹1000 minimum balance\n    public static final double MAX_DAILY_WITHDRAWAL = 50_000.0;  // ₹50,000 daily limit\n    public static final char   SAVINGS_ACCOUNT      = 'S';\n    public static final char   CURRENT_ACCOUNT      = 'C';\n    \n    // Method: camelCase, descriptive verb phrase\n    public static boolean isEligibleForLoan(double annualIncome, int creditScore) {\n        return annualIncome >= 300000 && creditScore >= 700;\n    }\n}"
+      },
+      "examples": [],
+      "key_points": [
+        "Naming conventions are team contracts — inconsistency breaks code readability at scale",
+        "Magic numbers make code unreadable: 'if (attempts == 3)' vs 'if (attempts == MAX_PIN_ATTEMPTS)'",
+        "final keyword on a variable makes it a constant — the value cannot change after assignment"
+      ],
+      "common_mistakes": [
+        "Using single-letter variable names (except i, j, k for loop counters by convention)",
+        "Putting multiple statements on one line — makes debugging very hard"
+      ]
+    }
+  ],
+  "quick_reference": {
+    "cheat_sheet": [
+      {"item": "JVM", "description": "Executes .class bytecode; platform-specific"},
+      {"item": "JRE", "description": "JVM + standard libraries; needed to RUN Java"},
+      {"item": "JDK", "description": "JRE + dev tools (javac, javadoc); needed to DEVELOP"},
+      {"item": "byte", "description": "1 byte, -128 to 127"},
+      {"item": "int", "description": "4 bytes, ~±2.1 billion (default integer type)"},
+      {"item": "long", "description": "8 bytes, needs 'L' suffix e.g. 1234L"},
+      {"item": "double", "description": "8 bytes, default decimal type"},
+      {"item": "char", "description": "2 bytes, Unicode character in single quotes 'A'"},
+      {"item": "boolean", "description": "true or false only"},
+      {"item": "%", "description": "Modulo/remainder operator: 7%3=1, 10%2=0"},
+      {"item": "&&", "description": "Short-circuit AND: stops if left is false"},
+      {"item": "||", "description": "Short-circuit OR: stops if left is true"},
+      {"item": "arr.length", "description": "Field (no parentheses) — array size"},
+      {"item": "Arrays.sort(arr)", "description": "Sort ascending in-place"},
+      {"item": "Arrays.toString(arr)", "description": "Printable string representation of array"},
+      {"item": "varargs: type...", "description": "Variable arguments, must be last param"}
+    ]
+  },
+  "home_assignment": {
+    "title": "Day 1 Home Assignment: Java Fundamentals + Banking Domain",
+    "description": "Write a Java program that models a simple bank account. The program should: (1) Declare variables using all 8 primitive types for account data, (2) Compute simple and compound interest using operators, (3) Use if/else and switch for account type and transaction type logic, (4) Store and analyze a transaction history array (5 transactions), (5) Print a summary using a for loop. Push to GitHub with a README.",
+    "hints": [
+      "Use 'long' for account number (it can exceed int range)",
+      "Use 'char' for account type ('S', 'C') and transaction type ('D', 'C', 'T')",
+      "Use Arrays.sort() and a loop to find max/min transaction",
+      "Name your constants with UPPER_SNAKE_CASE: MIN_BALANCE, MAX_WITHDRAWAL"
+    ],
+    "submission": "Push to GitHub. Commit message: 'Day 1: Java fundamentals - primitives, operators, control flow, arrays'. Add README explaining your code."
+  }
+}

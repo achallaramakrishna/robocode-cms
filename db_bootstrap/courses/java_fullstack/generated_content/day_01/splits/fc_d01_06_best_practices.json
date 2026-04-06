@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "asset_type": "flashcard",
+    "session_day": 1,
+    "topic": "Best Practices, Naming Conventions & NullPointerException",
+    "sub_topic_num": 6,
+    "session_title": "Day 1 - Introduction to Java & Language Fundamentals",
+    "total_cards": 2,
+    "generated_by": "Claude (claude-sonnet-4-6)",
+    "pedagogy": "Mixes conceptual understanding, code reading, debugging, and output prediction to build software engineering skills"
+  },
+  "cards": [
+    {
+      "card_id": "FC_017",
+      "front": {
+        "type": "text",
+        "content": "🔍 DEBUGGING EXERCISE — What exception will this throw and why?\nHow do you fix it?\n\nString pin = null;\nif (pin.equals(\"1234\")) {\n    System.out.println(\"Access Granted\");\n}"
+      },
+      "back": {
+        "type": "text",
+        "content": "Exception:\njava.lang.NullPointerException: Cannot invoke \"String.equals(Object)\" because \"pin\" is null\n\nWhy: Calling a method (.equals()) on a null reference → NullPointerException\n\n✅ Fix 1 — Null check first:\nif (pin != null && pin.equals(\"1234\")) { ... }\n\n✅ Fix 2 — Literal on left (recommended!):\nif (\"1234\".equals(pin)) { ... }\n// If pin is null, \"1234\".equals(null) returns false — no exception!\n\n💡 Debugging NullPointerException:\n1. Read the stack trace — which line?\n2. What variable on that line could be null?\n3. Add null check or initialize properly\n\nThis is the most common Java runtime error. Always validate inputs!"
+      },
+      "category": "code",
+      "difficulty": "hard",
+      "order": 1
+    },
+    {
+      "card_id": "FC_018",
+      "front": {
+        "type": "text",
+        "content": "What are Java naming conventions?\nIdentify what's WRONG with each name:\na) int BankBalance;\nb) String customerID = \"ACC001\";\nc) final int maxattempts = 3;\nd) void Withdraw() { }"
+      },
+      "back": {
+        "type": "text",
+        "content": "Correct naming conventions:\nClasses/Interfaces: PascalCase     → BankAccount, CustomerService\nMethods:           camelCase       → calculateEMI(), isEligible()\nVariables:         camelCase       → bankBalance, customerId\nConstants:         UPPER_SNAKE     → MAX_ATTEMPTS, DEFAULT_RATE\n\nWhat's WRONG:\na) int BankBalance      → BUG: starts with uppercase. Fix: int bankBalance\nb) String customerID    → Acceptable, but prefer: customerId (ID → Id in camelCase)\nc) final int maxattempts → BUG: constant should be UPPER_SNAKE. Fix: MAX_ATTEMPTS\nd) void Withdraw()      → BUG: method starts with uppercase. Fix: void withdraw()\n\n💡 Why it matters: Code reviews fail on naming. Inconsistent naming signals a junior mindset.\n💡 Tools: Checkstyle, SonarQube enforce naming in real projects."
+      },
+      "category": "best_practice",
+      "difficulty": "easy",
+      "order": 2
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "meta": {
+    "title": "ICSE Grade 10 Chemistry — Final Model Question Paper",
+    "board": "ICSE",
+    "grade": 10,
+    "subject": "Chemistry",
+    "total_marks": 80,
+    "duration": "2 Hours",
+    "instructions": [
+      "Answers to this paper must be written on the paper provided separately.",
+      "You will not be allowed to write during the first 15 minutes.",
+      "Attempt all questions from Section I and any four questions from Section II.",
+      "The intended marks for questions or parts of questions are given in brackets [ ].",
+      "Balanced chemical equations must be given wherever asked."
+    ]
+  },
+  "sections": [
+    {
+      "section": "I",
+      "title": "Section I (Compulsory)",
+      "marks": 40,
+      "questions": [
+        {
+          "question_no": "1",
+          "marks": 10,
+          "topic": "Periodic Table and Chemical Bonding",
+          "parts": [
+            {
+              "part": "a",
+              "marks": 2,
+              "question": "State the trend in atomic radius across a period (left to right) and down a group in the Modern Periodic Table. Give one reason for each trend.",
+              "answer": "Across a period (left to right): Atomic radius decreases. Reason: Nuclear charge increases while the number of shells remains constant, so electrons are pulled closer to the nucleus.\nDown a group: Atomic radius increases. Reason: Each successive element has one more electron shell, increasing the distance of the outermost electrons from the nucleus."
+            },
+            {
+              "part": "b",
+              "marks": 2,
+              "question": "Elements A (atomic number 11), B (atomic number 17), and C (atomic number 20) are given. (i) Identify the period and group of each element. (ii) Which two elements will form an ionic compound? Write the formula of the compound formed.",
+              "answer": "(i) A (Na, at. no. 11): Period 3, Group I. B (Cl, at. no. 17): Period 3, Group VII. C (Ca, at. no. 20): Period 4, Group II.\n(ii) C (Ca) and B (Cl) will form an ionic compound. Formula: CaCl₂"
+            },
+            {
+              "part": "c",
+              "marks": 2,
+              "question": "Explain why ionisation energy generally increases across a period. Why does magnesium (Mg) have a higher first ionisation energy than aluminium (Al), even though Al comes after Mg in the same period?",
+              "answer": "Across a period, ionisation energy increases because nuclear charge increases with constant shielding, making it harder to remove the outermost electron.\nMg has a higher first ionisation energy than Al because Al's outermost electron (3p¹) is in a p-subshell, which is slightly higher in energy and less tightly held than Mg's outermost electron (3s²). The 3s² configuration of Mg is a fully filled subshell that is more stable, but the 3s electron in Mg is still held more firmly than Al's 3p electron due to the extra nuclear charge effect being outweighed by the subshell energy difference."
+            },
+            {
+              "part": "d",
+              "marks": 2,
+              "question": "Draw the electron dot (Lewis) structure of: (i) Ammonia (NH₃) — showing the lone pair. (ii) Carbon dioxide (CO₂) — showing all bonds.",
+              "answer": "(i) NH₃: Nitrogen is the central atom bonded to three H atoms by single covalent bonds, with one lone pair on N.\n  H\n  |\nH-N-H  (with lone pair on N)\n\n(ii) CO₂: Carbon forms two double bonds with each oxygen atom.\nO=C=O\n(Each O has 2 lone pairs; C has no lone pairs)"
+            },
+            {
+              "part": "e",
+              "marks": 2,
+              "question": "Distinguish between a covalent bond and a coordinate (dative) bond. Give one example of a molecule that contains a coordinate bond.",
+              "answer": "Covalent bond: Formed when each of the two bonding atoms contributes one electron to the shared pair. Example: H₂, Cl₂.\nCoordinate (dative) bond: Formed when both electrons of the shared pair are donated by only one atom (the donor), to an atom or ion that has an empty orbital (the acceptor).\nExample: In ammonium ion (NH₄⁺), the lone pair on nitrogen in NH₃ is donated to H⁺ to form a coordinate bond, giving NH₄⁺."
+            }
+          ]
+        },
+        {
+          "question_no": "2",
+          "marks": 10,
+          "topic": "Acids, Bases, Salts and Analytical Chemistry",
+          "parts": [
+            {
+              "part": "a",
+              "marks": 2,
+              "question": "Define pH. A solution has a hydroxide ion concentration [OH⁻] = 10⁻³ mol/L at 25°C. (i) Find the pOH and then the pH. (ii) Is the solution acidic, basic, or neutral?",
+              "answer": "pH is the negative logarithm (base 10) of the hydrogen ion concentration: pH = −log[H⁺].\n(i) pOH = −log[OH⁻] = −log(10⁻³) = 3.\nAt 25°C, pH + pOH = 14, so pH = 14 − 3 = 11.\n(ii) The solution is basic (alkaline) since pH > 7."
+            },
+            {
+              "part": "b",
+              "marks": 2,
+              "question": "State one chemical test each to identify the following cations in solution: (i) Fe³⁺ (ii) NH₄⁺ (iii) Pb²⁺",
+              "answer": "(i) Fe³⁺: Add sodium hydroxide (NaOH) solution — a reddish-brown precipitate of iron(III) hydroxide [Fe(OH)₃] is formed.\n     Fe³⁺ + 3OH⁻ → Fe(OH)₃↓  (reddish-brown ppt)\n\n(ii) NH₄⁺: Add sodium hydroxide solution and warm — pungent-smelling ammonia gas is evolved, which turns moist red litmus paper blue.\n     NH₄⁺ + OH⁻ → NH₃↑ + H₂O\n\n(iii) Pb²⁺: Add dilute HCl or NaCl solution — a white precipitate of lead(II) chloride is formed, which dissolves in hot water.\n     Pb²⁺ + 2Cl⁻ → PbCl₂↓  (white ppt, soluble in hot water)"
+            },
+            {
+              "part": "c",
+              "marks": 2,
+              "question": "How is the salt iron(II) sulphate (FeSO₄) prepared in the laboratory? Write the balanced equation. State the method of preparation used.",
+              "answer": "Method: Salt prepared by the action of a dilute acid on a metal (metal + dilute acid).\nIron filings or iron nails are added to dilute sulphuric acid. Effervescence occurs as hydrogen gas is released. The reaction is continued until no more iron dissolves (iron is in excess to ensure no residual acid). The solution is filtered to remove excess iron. The filtrate (green FeSO₄ solution) is evaporated to obtain green crystals of FeSO₄·7H₂O (ferrous sulphate crystals).\nBalanced equation:\nFe  +  H₂SO₄  →  FeSO₄  +  H₂↑"
+            },
+            {
+              "part": "d",
+              "marks": 2,
+              "question": "Identify the anion present if: (i) Adding dilute H₂SO₄ to a salt solution produces a colourless, pungent gas that turns moist blue litmus red. (ii) Adding dilute HCl to a salt solution gives a white precipitate insoluble in excess HCl but soluble in hot water.",
+              "answer": "(i) The gas produced is sulphur dioxide (SO₂) or it could also be HCl — but since it turns moist blue litmus red, it is an acidic gas. The pungent gas that turns blue litmus red with dilute H₂SO₄ indicates the sulphite ion (SO₃²⁻).\n     SO₃²⁻ + H₂SO₄ → SO₄²⁻ + SO₂↑ + H₂O\n     (SO₂ turns moist blue litmus paper red)\n     Alternatively, if a very sharp pungent smell of HCl gas is noted, the anion could be Cl⁻, but pungent gas turning litmus red produced by H₂SO₄ on a salt is characteristic of SO₃²⁻ (sulphite).\n\n(ii) The white precipitate insoluble in excess HCl but soluble in hot water indicates the lead(II) ion (Pb²⁺) as the cation — however, if the question refers to the anion, the precipitate PbCl₂ forms from Pb²⁺. If the salt is a chloride and H₂SO₄ is the acid, a white insoluble precipitate of BaSO₄ forms. Here, with HCl forming a white ppt soluble in hot water: the cation is Pb²⁺, meaning the anion could be NO₃⁻ or CH₃COO⁻ etc. But directly: the precipitate is PbCl₂, so the salt contains Pb²⁺."
+            },
+            {
+              "part": "e",
+              "marks": 2,
+              "question": "Name the indicator used in each case, and state its colour change: (i) Titration of a strong acid with a strong base. (ii) Testing a solution of washing soda (Na₂CO₃). (iii) Distinguishing between an acid and a neutral solution.",
+              "answer": "(i) Phenolphthalein or methyl orange can be used for strong acid–strong base titrations.\n     Phenolphthalein: colourless in acid → pink/red in base (endpoint).\n     Methyl orange: red in acid → yellow in base (endpoint).\n\n(ii) Washing soda (Na₂CO₃) is alkaline. Using litmus paper: red litmus turns blue. Using phenolphthalein: colourless → pink/red.\n\n(iii) Litmus: acid turns blue litmus red; neutral solution has no effect on litmus. Universal indicator: acid gives red/orange/yellow; neutral gives green."
+            }
+          ]
+        },
+        {
+          "question_no": "3",
+          "marks": 10,
+          "topic": "Electrolysis and Metallurgy",
+          "parts": [
+            {
+              "part": "a",
+              "marks": 2,
+              "question": "State what is observed at each electrode during the electrolysis of dilute sulphuric acid (H₂SO₄) using platinum electrodes. Write the half-reactions occurring at each electrode.",
+              "answer": "Electrolysis of dilute H₂SO₄ using Pt electrodes:\n\nAt cathode (negative electrode): Colourless gas bubbles (hydrogen, H₂) are evolved.\n     Half-reaction: 2H⁺ + 2e⁻ → H₂↑\n\nAt anode (positive electrode): Colourless gas bubbles (oxygen, O₂) are evolved.\n     Half-reaction: 2H₂O → O₂↑ + 4H⁺ + 4e⁻\n\nOverall: 2H₂O → 2H₂ + O₂\nThe volume of hydrogen collected is double the volume of oxygen."
+            },
+            {
+              "part": "b",
+              "marks": 2,
+              "question": "Describe the electroplating of a spoon with silver. State the: (i) electrolyte used, (ii) material of the anode, (iii) material of the cathode, (iv) purpose of electroplating.",
+              "answer": "(i) Electrolyte: Silver nitrate (AgNO₃) solution or a solution of potassium argentocyanide [K[Ag(CN)₂]] for a more uniform coating.\n(ii) Anode: Pure silver (Ag) — acts as the source of silver ions.\n(iii) Cathode: The spoon to be plated (iron/steel spoon) — silver deposits on it.\n(iv) Purpose: Electroplating provides a protective and decorative coating of silver on the spoon, preventing corrosion and improving appearance."
+            },
+            {
+              "part": "c",
+              "marks": 2,
+              "question": "What is the reactivity series? State the method used to extract metals: (i) above zinc (very reactive, e.g., sodium) (ii) around zinc to lead (moderately reactive, e.g., zinc, iron) (iii) below hydrogen (less reactive, e.g., silver, gold)",
+              "answer": "The reactivity series is an arrangement of metals in decreasing order of their chemical reactivity (tendency to lose electrons and form cations).\n\n(i) Very reactive metals (e.g., Na, K, Ca, Mg, Al): Extracted by electrolysis of their molten ores/compounds. Example: Sodium is extracted by electrolysis of molten NaCl (Down's process); Aluminium by electrolysis of molten Al₂O₃ (Hall-Héroult process).\n\n(ii) Moderately reactive metals (e.g., Zn, Fe, Pb): Extracted by reduction of their oxides using carbon (coke) or carbon monoxide.\n     Example: ZnO + C → Zn + CO↑  (or  ZnO + CO → Zn + CO₂)\n               Fe₂O₃ + 3CO → 2Fe + 3CO₂\n\n(iii) Less reactive metals (e.g., Ag, Au, Hg, Cu): Occur free in nature or extracted by simple heating of their ores (thermal reduction).\n     Example: 2Ag₂O → 4Ag + O₂↑  (heating)"
+            },
+            {
+              "part": "d",
+              "marks": 2,
+              "question": "Write the balanced equation for the thermite reaction. State one industrial application of this reaction.",
+              "answer": "Thermite reaction:\n2Al  +  Fe₂O₃  →  Al₂O₃  +  2Fe  +  Heat\n\nThis reaction produces extremely high temperatures (around 2500°C).\nIndustrial application: The thermite reaction is used in thermite welding to join railway tracks (rails) together in situ, as the molten iron produced fills the gap between the rails and solidifies to form a strong weld."
+            },
+            {
+              "part": "e",
+              "marks": 2,
+              "question": "What is the role of cryolite (Na₃AlF₆) in the extraction of aluminium by electrolysis? Why is the process carried out using molten alumina rather than an aqueous solution?",
+              "answer": "Role of cryolite: Aluminium oxide (alumina, Al₂O₃) has a very high melting point (~2050°C), making it difficult and costly to melt. Cryolite is added to lower the melting point of alumina to about 950°C, reducing energy costs. It also increases the electrical conductivity of the melt.\n\nWhy molten and not aqueous: If an aqueous solution of alumina were electrolysed, water would preferentially be electrolysed (since water is a better conductor and H⁺ ions are more easily reduced than Al³⁺ ions). Hydrogen gas would be produced at the cathode instead of aluminium metal. Hence, molten alumina is used to ensure aluminium is deposited."
+            }
+          ]
+        },
+        {
+          "question_no": "4",
+          "marks": 10,
+          "topic": "Study of Compounds and Practical Chemistry",
+          "parts": [
+            {
+              "part": "a",
+              "marks": 2,
+              "question": "State the conditions and write balanced equations for: (i) The industrial preparation of ammonia by the Haber process. (ii) The catalytic oxidation of ammonia (first step in industrial preparation of nitric acid).",
+              "answer": "(i) Haber Process:\nN₂  +  3H₂  ⇌  2NH₃  +  Heat\nConditions: Temperature: 450°C, Pressure: 200 atm, Catalyst: Iron (Fe) with Al₂O₃ and K₂O as promoters.\n\n(ii) Catalytic oxidation of ammonia (Ostwald process — first step):\n4NH₃  +  5O₂  →  4NO  +  6H₂O\nConditions: Temperature: 800–900°C, Catalyst: Platinum-rhodium gauze."
+            },
+            {
+              "part": "b",
+              "marks": 2,
+              "question": "Give balanced equations to show how concentrated sulphuric acid reacts with: (i) Copper (Cu) on heating. (ii) Sucrose (C₁₂H₂₂O₁₁). Name the property of H₂SO₄ demonstrated in each reaction.",
+              "answer": "(i) Cu + 2H₂SO₄(conc.) → CuSO₄ + 2H₂O + SO₂↑\n     Property: Oxidising property (concentrated H₂SO₄ acts as an oxidising agent — it oxidises Cu to Cu²⁺ and is itself reduced to SO₂).\n\n(ii) C₁₂H₂₂O₁₁ → 12C + 11H₂O\n     (The H₂SO₄ removes water from sucrose, leaving behind a black spongy mass of carbon — charring.)\n     Property: Dehydrating property (H₂SO₄ acts as a dehydrating agent, removing water from sucrose)."
+            },
+            {
+              "part": "c",
+              "marks": 2,
+              "question": "How is hydrogen chloride (HCl) gas prepared in the laboratory? Give the balanced equation, name the reagents, and describe how the gas is collected and dried.",
+              "answer": "Preparation of HCl in the laboratory:\nReagents: Common salt (sodium chloride, NaCl) and concentrated sulphuric acid (H₂SO₄).\nEquation (moderate heating):\nNaCl  +  H₂SO₄(conc.)  →  NaHSO₄  +  HCl↑\n(On strong heating:)\nNaCl  +  NaHSO₄  →  Na₂SO₄  +  HCl↑\nOverall: 2NaCl  +  H₂SO₄(conc.)  →  Na₂SO₄  +  2HCl↑\n\nCollection: HCl is a dense gas (denser than air) and is highly soluble in water, so it cannot be collected over water. It is collected by upward displacement of air (the gas jar is held with mouth downward, and HCl, being denser, fills from the bottom).\nDrying: Passed through concentrated H₂SO₄ (anhydrous CaCl₂ cannot be used as it reacts with HCl; fused CaCl₂ is also unsuitable — concentrate H₂SO₄ is the standard drying agent for HCl)."
+            },
+            {
+              "part": "d",
+              "marks": 2,
+              "question": "State the laboratory tests to identify the gases: (i) Ammonia (NH₃) (ii) Carbon dioxide (CO₂) (iii) Sulphur dioxide (SO₂) (iv) Chlorine (Cl₂)",
+              "answer": "(i) Ammonia (NH₃): Turns moist red litmus paper blue. Produces dense white fumes with a glass rod dipped in concentrated hydrochloric acid.\n     NH₃  +  HCl  →  NH₄Cl  (white fumes)\n\n(ii) Carbon dioxide (CO₂): Turns lime water (Ca(OH)₂ solution) milky/turbid.\n     CO₂  +  Ca(OH)₂  →  CaCO₃↓  +  H₂O  (white precipitate — milky)\n\n(iii) Sulphur dioxide (SO₂): Turns moist blue litmus red (acidic gas). Decolourises potassium permanganate (KMnO₄) solution. Turns acidified potassium dichromate solution from orange to green.\n     5SO₂  +  2KMnO₄  +  2H₂O  →  K₂SO₄  +  2MnSO₄  +  2H₂SO₄  (KMnO₄ decolourised)\n\n(iv) Chlorine (Cl₂): Turns moist blue litmus red and then bleaches it (decolourises it). Has a characteristic pungent, suffocating smell. Turns starch-iodide paper blue-black (it liberates iodine from KI which turns starch blue)."
+            },
+            {
+              "part": "e",
+              "marks": 2,
+              "question": "Name the gas evolved and write balanced equations when: (i) Zinc reacts with dilute nitric acid (very dilute). (ii) Copper reacts with concentrated nitric acid. (iii) Carbon reacts with concentrated sulphuric acid on heating.",
+              "answer": "(i) Zn + very dilute HNO₃ → zinc nitrate + ammonium nitrate + water\n     4Zn  +  10HNO₃(very dilute)  →  4Zn(NO₃)₂  +  NH₄NO₃  +  3H₂O\n     Gas: No visible gas (ammonium nitrate remains in solution; hydrogen is theoretically formed but HNO₃ is a strong oxidising agent that prevents H₂ evolution; NH₃/NH₄⁺ is the reduction product)\n\n(ii) Cu  +  4HNO₃(conc.)  →  Cu(NO₃)₂  +  2H₂O  +  2NO₂↑\n     Gas: Nitrogen dioxide (NO₂) — brown/reddish-brown fumes.\n\n(iii) C  +  2H₂SO₄(conc.) →  CO₂↑  +  2SO₂↑  +  2H₂O\n     Gases: Carbon dioxide (CO₂) and sulphur dioxide (SO₂).\n     (H₂SO₄ acts as an oxidising agent, oxidising carbon to CO₂ while being reduced to SO₂.)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "II",
+      "title": "Section II",
+      "marks": 40,
+      "instruction": "Attempt any four questions from this section.",
+      "questions": [
+        {
+          "question_no": "5",
+          "marks": 10,
+          "topic": "Mole Concept and Stoichiometry",
+          "parts": [
+            {
+              "part": "a",
+              "marks": 3,
+              "question": "Calculate the percentage composition by mass of each element in ammonium dichromate [(NH₄)₂Cr₂O₇]. (Relative atomic masses: N=14, H=1, Cr=52, O=16)",
+              "answer": "Molar mass of (NH₄)₂Cr₂O₇:\nN: 2 × 14 = 28\nH: 8 × 1 = 8\nCr: 2 × 52 = 104\nO: 7 × 16 = 112\nTotal molar mass = 28 + 8 + 104 + 112 = 252 g/mol\n\n% N = (28/252) × 100 = 11.11%\n% H = (8/252) × 100 = 3.17%\n% Cr = (104/252) × 100 = 41.27%\n% O = (112/252) × 100 = 44.44%\n\nCheck: 11.11 + 3.17 + 41.27 + 44.44 ≈ 99.99% ≈ 100% ✓"
+            },
+            {
+              "part": "b",
+              "marks": 3,
+              "question": "What volume of oxygen (at STP) is required to completely burn 4.4 g of propane (C₃H₈)? Also find the volume of CO₂ produced at STP. (Molar volume at STP = 22.4 L/mol; C=12, H=1, O=16)",
+              "answer": "Balanced equation:\nC₃H₈  +  5O₂  →  3CO₂  +  4H₂O\n\nMolar mass of C₃H₈ = (3×12) + (8×1) = 36 + 8 = 44 g/mol\nMoles of C₃H₈ = 4.4 / 44 = 0.1 mol\n\nFrom equation:\nMoles of O₂ required = 5 × 0.1 = 0.5 mol\nMoles of CO₂ produced = 3 × 0.1 = 0.3 mol\n\nVolume of O₂ at STP = 0.5 × 22.4 = 11.2 L\nVolume of CO₂ at STP = 0.3 × 22.4 = 6.72 L"
+            },
+            {
+              "part": "c",
+              "marks": 2,
+              "question": "Define Avogadro's number. How many atoms of hydrogen are present in 9 g of water (H₂O)? (H=1, O=16; Avogadro's number = 6.022 × 10²³)",
+              "answer": "Avogadro's number (Nₐ): It is the number of particles (atoms, molecules, ions) present in one mole of a substance. Nₐ = 6.022 × 10²³ mol⁻¹.\n\nMolar mass of H₂O = (2×1) + 16 = 18 g/mol\nMoles of H₂O = 9 / 18 = 0.5 mol\n\nEach molecule of H₂O contains 2 hydrogen atoms.\nMoles of H atoms = 2 × 0.5 = 1 mol\nNumber of H atoms = 1 × 6.022 × 10²³ = 6.022 × 10²³ atoms"
+            },
+            {
+              "part": "d",
+              "marks": 2,
+              "question": "A compound contains 40% carbon, 6.67% hydrogen, and 53.33% oxygen by mass. Its molar mass is 180 g/mol. Determine the empirical formula and the molecular formula. (C=12, H=1, O=16)",
+              "answer": "Step 1: Find mole ratio.\nMoles of C = 40/12 = 3.33\nMoles of H = 6.67/1 = 6.67\nMoles of O = 53.33/16 = 3.33\n\nStep 2: Divide by smallest (3.33):\nC : H : O = 3.33/3.33 : 6.67/3.33 : 3.33/3.33 = 1 : 2 : 1\n\nEmpirical formula: CH₂O\n\nStep 3: Empirical formula mass = 12 + 2 + 16 = 30 g/mol\nn = Molar mass / Empirical formula mass = 180 / 30 = 6\n\nMolecular formula: (CH₂O)₆ = C₆H₁₂O₆\n(This is glucose.)"
+            }
+          ]
+        },
+        {
+          "question_no": "6",
+          "marks": 10,
+          "topic": "Organic Chemistry — Hydrocarbons",
+          "parts": [
+            {
+              "part": "a",
+              "marks": 3,
+              "question": "Write the IUPAC names and structural formulas of: (i) An alkane with 4 carbon atoms. (ii) An alkene with 3 carbon atoms. (iii) An alkyne with 2 carbon atoms. State the general formula of each homologous series.",
+              "answer": "(i) Alkane — IUPAC name: Butane\n     General formula: CₙH₂ₙ₊₂\n     Structural formula: CH₃–CH₂–CH₂–CH₃\n\n(ii) Alkene — IUPAC name: Propene\n     General formula: CₙH₂ₙ\n     Structural formula: CH₃–CH=CH₂\n\n(iii) Alkyne — IUPAC name: Ethyne (Acetylene)\n     General formula: CₙH₂ₙ₋₂\n     Structural formula: CH≡CH"
+            },
+            {
+              "part": "b",
+              "marks": 3,
+              "question": "Give the balanced equations for the following reactions of ethene (CH₂=CH₂): (i) Combustion in excess oxygen. (ii) Addition reaction with bromine (Br₂). (iii) Addition reaction with hydrogen (H₂) using a catalyst. State the type of reaction for (ii) and (iii).",
+              "answer": "(i) Combustion:\nCH₂=CH₂  +  3O₂  →  2CO₂  +  2H₂O\n\n(ii) Addition with bromine (bromine water test):\nCH₂=CH₂  +  Br₂  →  CH₂Br–CH₂Br  (1,2-dibromoethane)\nOrange/brown bromine water is decolourised. Type: Electrophilic addition reaction.\n\n(iii) Hydrogenation (addition of H₂):\nCH₂=CH₂  +  H₂  →  CH₃–CH₃  (ethane)\nConditions: Ni catalyst, 150–200°C (or Pt/Pd catalyst at room temperature). Type: Addition reaction (catalytic hydrogenation)."
+            },
+            {
+              "part": "c",
+              "marks": 2,
+              "question": "What is the difference between substitution and addition reactions? To which type of organic compounds does each type apply mainly? Give one example of each.",
+              "answer": "Substitution reaction: A reaction in which one atom or group of atoms in a molecule is replaced by another atom or group, without any change in the carbon skeleton. The total number of bonds does not change.\nApplies mainly to: Saturated compounds (alkanes).\nExample: CH₄ + Cl₂ → CH₃Cl + HCl  (in the presence of diffused sunlight — free radical substitution)\n\nAddition reaction: A reaction in which two molecules combine to form a single product, with atoms adding across the double or triple bond. The degree of unsaturation decreases.\nApplies mainly to: Unsaturated compounds (alkenes, alkynes).\nExample: CH₂=CH₂ + HBr → CH₃–CH₂Br  (bromoethane)"
+            },
+            {
+              "part": "d",
+              "marks": 2,
+              "question": "Write the structural formula and IUPAC name of the organic compound formed when: (i) Ethene reacts with steam (H₂O) in the presence of phosphoric acid catalyst. (ii) Ethyne undergoes polymerisation.",
+              "answer": "(i) Hydration of ethene:\nCH₂=CH₂  +  H₂O  →  CH₃–CH₂–OH\nProduct: Ethanol (C₂H₅OH)\nStructural formula: CH₃–CH₂–OH\nConditions: H₃PO₄ catalyst, 300°C, 60–70 atm.\n\n(ii) Polymerisation of ethyne:\nnCH≡CH  →  (–CH=CH–)ₙ\nProduct: Polyacetylene (polyethyne)\nThe addition polymer formed has alternating single and double bonds (conjugated system). This is used as a conducting polymer."
+            }
+          ]
+        },
+        {
+          "question_no": "7",
+          "marks": 10,
+          "topic": "Electrolysis — Detailed Study",
+          "parts": [
+            {
+              "part": "a",
+              "marks": 3,
+              "question": "During electrolysis of copper sulphate solution (CuSO₄): (i) Using copper electrodes — state what is observed at both electrodes and write ionic half-equations. (ii) Using platinum electrodes — state what is observed and write ionic half-equations. Why do the results differ?",
+              "answer": "(i) CuSO₄ with copper electrodes:\nAt cathode: Copper is deposited (pink/reddish copper metal appears on cathode).\n     Cu²⁺ + 2e⁻ → Cu  (reduction)\nAt anode: Copper dissolves (anode loses mass as copper goes into solution).\n     Cu → Cu²⁺ + 2e⁻  (oxidation)\nEffect: Concentration of CuSO₄ remains constant; anode decreases in mass, cathode increases in mass. (This is the principle of copper refining/electroplating.)\n\n(ii) CuSO₄ with platinum electrodes:\nAt cathode: Copper is deposited (same as above).\n     Cu²⁺ + 2e⁻ → Cu\nAt anode: Oxygen gas is evolved; solution becomes acidic as H₂SO₄ is produced.\n     2H₂O → O₂ + 4H⁺ + 4e⁻  (oxidation)\n\nDifference: With copper anode, copper is a reactive (active) electrode and it dissolves preferentially. With platinum (inert) anode, the electrode doesn't dissolve; instead water molecules are oxidised to give O₂."
+            },
+            {
+              "part": "b",
+              "marks": 3,
+              "question": "Describe the industrial refining of copper by electrolysis. State: (i) The electrolyte, (ii) The anode, (iii) The cathode, (iv) What happens to impurities (anode mud), (v) The overall outcome.",
+              "answer": "Electrolytic refining of copper:\n(i) Electrolyte: Acidified copper sulphate solution (CuSO₄ dissolved in dilute H₂SO₄).\n(ii) Anode: Impure (blister) copper — thick slab of crude copper containing impurities like Ag, Au, Pt, Fe, Zn, Ni.\n(iii) Cathode: Pure copper — thin sheet of pure copper.\n\nProcess:\nWhen current is passed:\n- Anode dissolves: Cu → Cu²⁺ + 2e⁻\n- At cathode, pure copper is deposited: Cu²⁺ + 2e⁻ → Cu\n\n(iv) Impurities:\n- Less reactive metals (Ag, Au, Pt): Do not dissolve at the anode; they fall as anode mud (sludge) at the bottom of the tank — this is valuable and recovered.\n- More reactive metals (Fe, Zn, Ni): Dissolve from the anode as ions (Fe²⁺, Zn²⁺, Ni²⁺) but are not deposited at the cathode (since Cu²⁺ is preferentially reduced).\n\n(v) Outcome: Pure copper (99.99%) is deposited on the cathode. The anode gradually decreases in mass. The precious anode mud is recovered as a by-product."
+            },
+            {
+              "part": "c",
+              "marks": 2,
+              "question": "Define the terms: (i) Electrolyte. (ii) Electrolysis. Distinguish between strong and weak electrolytes with one example each.",
+              "answer": "(i) Electrolyte: A substance that, when dissolved in water or in the molten state, conducts electricity due to the presence of free ions, and is chemically decomposed in the process. Examples: H₂SO₄, NaCl, NaOH.\n\n(ii) Electrolysis: The process of chemical decomposition of an electrolyte by passing an electric current through its aqueous solution or molten state.\n\nStrong electrolyte: Completely dissociates (ionises) into ions in aqueous solution, resulting in high electrical conductivity. Example: Sodium chloride (NaCl), Hydrochloric acid (HCl), NaOH.\n     NaCl → Na⁺ + Cl⁻  (100% dissociation)\n\nWeak electrolyte: Only partially dissociates into ions in aqueous solution, resulting in low electrical conductivity. There is an equilibrium between ions and undissociated molecules. Example: Acetic acid (CH₃COOH), Ammonia (NH₃).\n     CH₃COOH ⇌ CH₃COO⁻ + H⁺  (partial dissociation)"
+            },
+            {
+              "part": "d",
+              "marks": 2,
+              "question": "Calculate the mass of copper deposited at the cathode when a current of 2 amperes is passed through copper sulphate solution for 30 minutes. (Electrochemical equivalent of Cu = 3.294 × 10⁻⁴ g/C; or use Faraday's law: atomic mass of Cu = 64, valency = 2, 1 Faraday = 96500 C)",
+              "answer": "Using Faraday's First Law: Mass deposited (m) = Z × I × t\nwhere Z = electrochemical equivalent, I = current (A), t = time (s)\n\nI = 2 A\nt = 30 min = 30 × 60 = 1800 s\nCharge passed (Q) = I × t = 2 × 1800 = 3600 C\n\nUsing the formula:\nEquivalent mass of Cu = Atomic mass / Valency = 64 / 2 = 32 g\n\nMass deposited = (Equivalent mass / Faraday) × Charge\nm = (32 / 96500) × 3600\nm = (32 × 3600) / 96500\nm = 115200 / 96500\nm ≈ 1.194 g\n\nMass of copper deposited ≈ 1.19 g"
+            }
+          ]
+        },
+        {
+          "question_no": "8",
+          "marks": 10,
+          "topic": "Analytical Chemistry and Acids, Bases, Salts",
+          "parts": [
+            {
+              "part": "a",
+              "marks": 3,
+              "question": "An unknown salt solution X is tested as follows: (1) A white precipitate forms with dilute HCl, insoluble in excess HCl. (2) The same white precipitate dissolves on heating. (3) Adding NaOH solution to X gives a white gelatinous precipitate soluble in excess NaOH. Identify the cation and anion present in X. Name the salt. Write equations for tests (1) and (3).",
+              "answer": "Analysis:\nTest (1): White precipitate with dilute HCl, insoluble in excess HCl — indicates the cation is Pb²⁺ (lead), as PbCl₂ is white and insoluble in cold HCl.\n     Pb²⁺  +  2HCl  →  PbCl₂↓  (white precipitate)\n\nTest (2): PbCl₂ dissolves on heating (it is soluble in hot water) — confirms Pb²⁺.\n\nTest (3): White gelatinous precipitate with NaOH, soluble in excess NaOH — this behaviour is characteristic of Al³⁺ (aluminium).\nBut wait: If Pb²⁺ was identified as the cation in test 1, test 3 should be reanalysed.\n\nReconsideration: If a white precipitate forms with dilute HCl AND with NaOH (gelatinous, soluble in excess), both precipitates are white. The cation giving a white gelatinous ppt with NaOH soluble in excess is Al³⁺.\nHowever, Pb²⁺ also gives a white precipitate with NaOH, and PbCl₂ dissolves in hot water.\n\nConclusion:\nCation: Lead (Pb²⁺) — confirmed by white ppt with HCl, soluble on heating.\nAlternately, if only Al³⁺: AlCl₃ doesn't form ppt with HCl.\nMost likely salt: Lead(II) acetate [Pb(CH₃COO)₂] or Lead(II) nitrate [Pb(NO₃)₂] — since Pb²⁺ is the cation. The anion is NOT Cl⁻ (since PbCl₂ is insoluble). Anion could be NO₃⁻ or CH₃COO⁻.\n\nSalt: Lead(II) nitrate [Pb(NO₃)₂]\n\nEquations:\nTest (1): Pb²⁺  +  2Cl⁻  →  PbCl₂↓  (white ppt, soluble in hot water)\nTest (3): Pb²⁺  +  2OH⁻  →  Pb(OH)₂↓  (white precipitate)\n           Pb(OH)₂  +  2OH⁻  →  PbO₂²⁻  +  2H₂O  (dissolves in excess NaOH — plumbate ion)"
+            },
+            {
+              "part": "b",
+              "marks": 3,
+              "question": "Identify the ions responsible for the following confirmatory tests: (i) A solution gives a brick-red flame test. (ii) Adding BaCl₂ solution to a salt solution gives a white precipitate insoluble in dilute HCl. (iii) A salt solution turns acidified potassium dichromate solution from orange to green.",
+              "answer": "(i) Brick-red flame test → Calcium (Ca²⁺) ion (calcium salts give a brick-red/orange-red flame).\n     (Confirmation: Ca²⁺ ions emit brick-red light when subjected to the Bunsen flame in the flame test.)\n\n(ii) White precipitate with BaCl₂ insoluble in dilute HCl → Sulphate ion (SO₄²⁻).\n     Ba²⁺  +  SO₄²⁻  →  BaSO₄↓  (white precipitate, insoluble in dilute HCl)\n     (Note: BaCO₃ also gives a white ppt but dissolves in dilute HCl, so insolubility confirms SO₄²⁻.)\n\n(iii) Acidified potassium dichromate turns orange to green → Sulphur dioxide (SO₂) or a reducing agent such as sulphite ion (SO₃²⁻).\n     K₂Cr₂O₇  +  H₂SO₄  +  3SO₂  →  K₂SO₄  +  Cr₂(SO₄)₃  +  H₂O\n     Orange dichromate (Cr⁶⁺) → Green chromium(III) sulphate (Cr³⁺)\n     This confirms the presence of SO₃²⁻ (sulphite) or SO₂ gas."
+            },
+            {
+              "part": "c",
+              "marks": 2,
+              "question": "Explain the difference between normal salts, acid salts, and basic salts. Give one example of each.",
+              "answer": "Normal salt: Formed when all the ionisable hydrogen ions of an acid are completely replaced by a metal ion (or NH₄⁺). It is neither acidic nor basic (though its solution may be acidic/basic due to hydrolysis). Example: Sodium chloride (NaCl), formed from NaOH + HCl.\n\nAcid salt: Formed when only some of the ionisable hydrogen ions of a polybasic acid are replaced by metal ions. It still contains one or more replaceable hydrogen atoms. Example: Sodium hydrogen sulphate (NaHSO₄), formed from NaOH + H₂SO₄ in 1:1 ratio.\n     NaOH + H₂SO₄ → NaHSO₄ + H₂O\n\nBasic salt: Formed when only some of the hydroxyl groups of a polyacidic base are replaced by the acid radical. It still contains one or more OH⁻ groups. Example: Lead(II) carbonate hydroxide / White lead [Pb(OH)₂·2PbCO₃] or Zinc hydroxide chloride Zn(OH)Cl.\n     Example reaction: Mg(OH)₂ + HCl (limited) → Mg(OH)Cl + H₂O  (basic salt: magnesium hydroxychloride)"
+            },
+            {
+              "part": "d",
+              "marks": 2,
+              "question": "Write the balanced ionic equation for the reaction between: (i) Silver nitrate solution and sodium chloride solution. (ii) Barium chloride solution and sodium sulphate solution. State the type of reaction and identify the precipitate formed in each case.",
+              "answer": "(i) AgNO₃(aq) + NaCl(aq) → AgCl↓ + NaNO₃(aq)\n     Ionic equation: Ag⁺(aq) + Cl⁻(aq) → AgCl↓\n     Precipitate: AgCl — white, curdy precipitate, insoluble in water, turns grey in sunlight. Soluble in dilute ammonia solution.\n     Type: Double decomposition (metathesis) / precipitation reaction.\n\n(ii) BaCl₂(aq) + Na₂SO₄(aq) → BaSO₄↓ + 2NaCl(aq)\n     Ionic equation: Ba²⁺(aq) + SO₄²⁻(aq) → BaSO₄↓\n     Precipitate: BaSO₄ — white precipitate, insoluble in water and in dilute acids.\n     Type: Double decomposition / precipitation reaction."
+            }
+          ]
+        },
+        {
+          "question_no": "9",
+          "marks": 10,
+          "topic": "Study of Compounds: Ammonia, Nitric Acid, HCl, Sulphuric Acid",
+          "parts": [
+            {
+              "part": "a",
+              "marks": 3,
+              "question": "Describe the industrial manufacture of sulphuric acid by the Contact Process. Include: (i) Names of the three main stages, (ii) Balanced equations for each stage, (iii) Conditions for the catalytic oxidation step.",
+              "answer": "Contact Process for manufacture of H₂SO₄:\n\nStage 1 — Burning of sulphur (or roasting of sulphide ores):\nS  +  O₂  →  SO₂\n(or: 4FeS₂  +  11O₂  →  2Fe₂O₃  +  8SO₂ — from iron pyrite ore)\n\nStage 2 — Catalytic oxidation of SO₂ to SO₃:\n2SO₂  +  O₂  ⇌  2SO₃  +  Heat\nConditions: Temperature: 450°C (optimum — compromise between yield and rate), Pressure: 1–2 atm (atmospheric or slightly above), Catalyst: Vanadium pentoxide (V₂O₅) with potassium sulphate as promoter.\n(Higher temperature decreases yield as the reaction is exothermic; lower temperature decreases rate.)\n\nStage 3 — Absorption of SO₃ and formation of H₂SO₄:\nSO₃ is absorbed in concentrated H₂SO₄ to form oleum (H₂S₂O₇):\nSO₃  +  H₂SO₄  →  H₂S₂O₇  (oleum / pyrosulphuric acid)\nOleum is then diluted with calculated amount of water:\nH₂S₂O₇  +  H₂O  →  2H₂SO₄\n(SO₃ is NOT absorbed directly in water as it produces a thick acid mist/fog that is difficult to handle.)"
+            },
+            {
+              "part": "b",
+              "marks": 3,
+              "question": "Write balanced equations for the following reactions involving ammonia: (i) Reaction of ammonia gas with hydrochloric acid gas. (ii) Reaction of excess ammonia with copper(II) sulphate solution. (iii) Ammonia acting as a reducing agent with copper(II) oxide (CuO) on heating.",
+              "answer": "(i) NH₃(g)  +  HCl(g)  →  NH₄Cl(s)\n     Dense white fumes of ammonium chloride are formed.\n\n(ii) With excess ammonia solution:\nFirst step: Cu²⁺  +  2NH₃  +  2H₂O  →  Cu(OH)₂↓  +  2NH₄⁺\n     (Light blue precipitate of Cu(OH)₂ forms initially)\nOn adding excess NH₃:\nCu(OH)₂  +  4NH₃  →  [Cu(NH₃)₄]²⁺  +  2OH⁻\n     (Deep blue/royal blue solution of tetraamminecopper(II) complex — Schweizer's reagent)\nOverall: Cu²⁺  +  4NH₃  →  [Cu(NH₃)₄]²⁺  (deep blue complex)\n\n(iii) Ammonia as reducing agent:\n2NH₃  +  3CuO  →  3Cu  +  N₂  +  3H₂O\n     (Ammonia reduces black CuO to reddish copper metal; is itself oxidised to N₂.)\n     This confirms the reducing property of ammonia and shows the formation of N₂ from NH₃."
+            },
+            {
+              "part": "c",
+              "marks": 2,
+              "question": "Give two uses each for: (i) Hydrochloric acid (HCl) (ii) Nitric acid (HNO₃) (iii) Ammonia (NH₃)",
+              "answer": "(i) Uses of Hydrochloric acid (HCl):\n1. Used in the manufacture of chlorine gas and in the production of PVC (polyvinyl chloride) via vinyl chloride.\n2. Used for pickling (cleaning) metals — removing oxide and rust layers from iron and steel before galvanising or electroplating.\n(Also: used in the manufacture of dyes, medicines, food processing — as acidulant.)\n\n(ii) Uses of Nitric acid (HNO₃):\n1. Used in the manufacture of fertilisers, especially ammonium nitrate (NH₄NO₃) — a major nitrogen fertiliser.\n2. Used in the manufacture of explosives such as TNT (trinitrotoluene) and nitroglycerin.\n(Also: used in the production of dyes, drugs, and plastics.)\n\n(iii) Uses of Ammonia (NH₃):\n1. Used in the manufacture of nitrogenous fertilisers such as urea [(NH₂)₂CO] and ammonium sulphate [(NH₄)₂SO₄].\n2. Used as a refrigerant in industrial refrigeration systems (liquid ammonia has a high latent heat of vaporisation).\n(Also: used in the manufacture of nitric acid via the Ostwald process; used as a cleaning agent.)"
+            },
+            {
+              "part": "d",
+              "marks": 2,
+              "question": "In the laboratory preparation of hydrogen chloride gas, aqueous ammonia is placed near the gas jar collecting HCl. What is observed? Write the equation. What safety precaution must be observed when dealing with HCl gas?",
+              "answer": "Observation: Dense white fumes are produced where the two gases meet, due to the formation of ammonium chloride (NH₄Cl) particles.\n\nEquation:\nNH₃(g)  +  HCl(g)  →  NH₄Cl(s)  (white fumes)\n\nThis reaction is used to detect/confirm the presence of HCl gas (and also NH₃ gas).\n\nSafety precautions for HCl gas:\n1. HCl is a toxic, corrosive gas — always handle in a fume cupboard (fume hood) to avoid inhaling the gas.\n2. In case of accidental exposure, the eyes and skin should be immediately washed with large amounts of water.\n3. Aqueous ammonia should be kept nearby as a neutralising agent for HCl spills (NH₃ + HCl → NH₄Cl).\n4. Since HCl is highly soluble in water, an inverted funnel arrangement (anti-suck-back device) must be used when dissolving HCl gas in water to prevent water from being sucked back into the flask."
+            }
+          ]
+        },
+        {
+          "question_no": "10",
+          "marks": 10,
+          "topic": "Periodic Table, Chemical Bonding and General Chemistry",
+          "parts": [
+            {
+              "part": "a",
+              "marks": 3,
+              "question": "The following elements are placed in the Modern Periodic Table:\nElement: A(Z=3), B(Z=8), C(Z=11), D(Z=16), E(Z=19), F(Z=17)\n(i) Which elements belong to the same period?\n(ii) Which elements belong to the same group?\n(iii) Which element has the highest electronegativity? Which has the lowest?\n(iv) Which two elements form a compound with the formula X₂Y? Write the type of bond formed.",
+              "answer": "(i) Elements in the same period:\nA (Z=3, Li) — Period 2. B (Z=8, O) — Period 2. D (Z=16, S) — Period 3. C (Z=11, Na) — Period 3. F (Z=17, Cl) — Period 3. E (Z=19, K) — Period 4.\n- Period 2: A (Li) and B (O)\n- Period 3: C (Na), D (S), and F (Cl)\n- Period 4: E (K) alone (of those listed)\n\n(ii) Elements in the same group:\nA (Li, Z=3) — Group I (alkali metals). C (Na, Z=11) — Group I. E (K, Z=19) — Group I.\nSo A, C, and E belong to Group I (alkali metals).\nAlso: B (O, Z=8) — Group VI. D (S, Z=16) — Group VI. So B and D are in the same group (Group VI).\nF (Cl, Z=17) — Group VII.\n\n(iii) Highest electronegativity: F (Z=17, Cl) — it is in Period 3, Group VII; but in terms of the Pauling scale, among these, F here is Cl (Fluorine has the highest electronegativity overall, but it is not listed). Among the given elements, Cl (F, Z=17, Group VII, Period 3) has the highest electronegativity.\nLowest electronegativity: E (K, Z=19) — alkali metal, lowest tendency to attract electrons.\n\n(iv) Compound X₂Y: Formula X₂Y means element X is monovalent (+1) and Y is divalent (−2).\nX could be C (Na, Group I, valency +1) or A (Li) or E (K).\nY could be B (O, Group VI, valency −2) or D (S, valency −2).\nExample: C (Na) and B (O) → Na₂O (disodium oxide). Type of bond: Ionic bond (electropositive Na donates electrons to electronegative O).\nOr: E (K) and D (S) → K₂S. Type of bond: Ionic bond."
+            },
+            {
+              "part": "b",
+              "marks": 3,
+              "question": "Explain why: (i) Noble gases are chemically inert and placed in Group 0 (18). (ii) Diagonal relationship exists in the periodic table (give an example). (iii) Elements in the same group have similar chemical properties.",
+              "answer": "(i) Noble gases (He, Ne, Ar, Kr, Xe, Rn) are chemically inert because they have completely filled outer electron shells (ns²np⁶ configuration, except He which is 1s²). This gives them maximum stability (octet configuration). As a result, they have very high ionisation energies and very low electron affinity — they neither readily lose nor gain electrons. Hence they do not normally form chemical bonds. They are placed in Group 0 (Group 18) as they have zero valency.\n\n(ii) Diagonal relationship: Certain elements at the top of the periodic table show similarities with the element that is one period below and one group to the right. This is because those diagonally placed elements have similar charge/radius ratios (ionic potential).\nExample: Lithium (Li, Period 2, Group 1) resembles Magnesium (Mg, Period 3, Group 2) in many properties:\n- Both Li and Mg form oxides (Li₂O, MgO) that are only slightly soluble in water.\n- Both Li and Mg react with nitrogen to form nitrides: 6Li + N₂ → 2Li₃N; 3Mg + N₂ → Mg₃N₂.\n- Both form carbonates that decompose on heating.\n\n(iii) Elements in the same group have similar chemical properties because they have the same number of valence (outermost) electrons. Since chemical properties are determined primarily by the outermost electrons (valence electrons), elements with the same number of valence electrons behave similarly in chemical reactions — they exhibit the same valency, form compounds with similar formulae, and undergo similar types of reactions."
+            },
+            {
+              "part": "c",
+              "marks": 2,
+              "question": "Write the electron-pair geometry and shape of: (i) Water (H₂O) — using VSEPR theory. (ii) Methane (CH₄). Explain why the H–O–H bond angle in water (104.5°) is less than the H–C–H bond angle in methane (109.5°).",
+              "answer": "(i) Water (H₂O):\nCentral atom O has 2 bond pairs and 2 lone pairs.\nElectron-pair geometry: Tetrahedral (4 electron pairs around O).\nMolecular shape: Bent (V-shaped).\nBond angle: 104.5°.\n\n(ii) Methane (CH₄):\nCentral atom C has 4 bond pairs and 0 lone pairs.\nElectron-pair geometry: Tetrahedral.\nMolecular shape: Tetrahedral.\nBond angle: 109.5°.\n\nExplanation of difference:\nIn methane, all 4 electron pairs are bond pairs, which repel equally, giving the ideal tetrahedral angle of 109.5°.\nIn water, 2 of the 4 electron pairs are lone pairs. Lone pairs occupy more space than bond pairs (they are closer to the nucleus and spread out more). The lone pair–lone pair repulsion > lone pair–bond pair repulsion > bond pair–bond pair repulsion.\nThe two lone pairs on oxygen compress the two O–H bond pairs together, reducing the H–O–H bond angle to 104.5°, which is less than the tetrahedral angle."
+            },
+            {
+              "part": "d",
+              "marks": 2,
+              "question": "State two differences between ionic compounds and covalent compounds in terms of: (i) Melting and boiling points, (ii) Electrical conductivity, (iii) Solubility.",
+              "answer": "                  Ionic Compounds             |        Covalent Compounds\n------------------------------------------------------------\n(i) M.P./B.P.:  High melting and boiling      | Generally low melting and\n                points (strong electrostatic   | boiling points (weak\n                forces between ions need       | intermolecular forces, except\n                large energy to break).        | network covalent solids like\n                Example: NaCl melts at 801°C   | diamond). Example: H₂O boils\n                                               | at 100°C; CCl₄ boils at 77°C.\n\n(ii) Electrical:  Conduct electricity in       | Generally do not conduct\nconductivity      molten state or aqueous       | electricity (no free ions\n                  solution (free ions carry     | or electrons). Exception:\n                  charge). Solid state does     | some polar covalent like HCl\n                  not conduct (ions fixed).     | ionises in water and conducts.\n\n(iii) Solubility: Generally soluble in polar   | Generally soluble in non-polar\n                  solvents (water — 'like       | organic solvents (benzene,\n                  dissolves like'). Insoluble   | ether). Many are insoluble or\n                  in non-polar organic          | slightly soluble in water.\n                  solvents.                     | Polar covalents (e.g., HCl,\n                                               | NH₃) dissolve in water."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "asset_type": "lab_manual",
+    "session_day": 1,
+    "topic": "JVM, JDK & JRE — Java Platform Architecture",
+    "sub_topic_num": 1,
+    "session_title": "Day 1 - Introduction to Java & Language Fundamentals",
+    "date": "23-Feb-2026",
+    "duration_minutes": 20,
+    "total_exercises": 1,
+    "generated_by": "Claude (claude-sonnet-4-6)",
+    "pedagogy": "Hands-on learning with step-by-step guidance. Each exercise builds on the previous. All concepts from the session are coded. Banking/finance examples used for context."
+  },
+  "overview": {
+    "objectives": [
+      "Understand the structure of a Java program, compile and run it, and understand the role of JVM/JDK/JRE."
+    ],
+    "prerequisites": [
+      "JDK 17+ installed",
+      "IntelliJ IDEA (Community Edition) or VS Code with Java Extension",
+      "Git installed and GitHub account created"
+    ],
+    "tools": [
+      "JDK 17+",
+      "IntelliJ IDEA / VS Code",
+      "Terminal / Command Prompt",
+      "Git"
+    ]
+  },
+  "exercises": [
+    {
+      "exercise_id": "LAB_01",
+      "title": "Your First Java Program — Hello, Software Engineer!",
+      "difficulty": "beginner",
+      "duration_minutes": 20,
+      "objective": "Understand the structure of a Java program, compile and run it, and understand the role of JVM/JDK/JRE.",
+      "scenario": "You just joined RoboBank's technology team as a fresher. Your first task: set up your Java environment and write a program that introduces you to the team.",
+      "instructions": [
+        "Step 1: Open your IDE and create a new Java project called 'Day01_JavaFundamentals'",
+        "Step 2: Create a new Java class named 'HelloEngineer' inside the project's src folder",
+        "Step 3: Type (don't copy-paste!) the starter code below",
+        "Step 4: Run the program (Shift+F10 in IntelliJ, or F5 in VS Code)",
+        "Step 5: Open a terminal and locate the compiled .class file: it should be in 'out/' or 'build/' folder",
+        "Step 6: From the terminal, try: javac HelloEngineer.java → java HelloEngineer",
+        "Step 7: Modify the output to include YOUR name and YOUR city",
+        "Checkpoint: Can you explain to a classmate what javac does vs what java does?"
+      ],
+      "starter_code": "// HelloEngineer.java\n// Purpose: Introduction to Java program structure\n// Author: [Your Name Here]\n// Date: 23-Feb-2026\n\npublic class HelloEngineer {\n    \n    /**\n     * main() is the entry point of every Java application.\n     * JVM (Java Virtual Machine) looks for this EXACT signature to start execution.\n     * \n     * @param args command-line arguments (we'll use these later in the course)\n     */\n    public static void main(String[] args) {\n        // System.out.println prints text and moves to a new line\n        System.out.println(\"Hello from RoboBank Tech Team!\");\n        System.out.println(\"I am: [YOUR NAME]\");\n        System.out.println(\"Based in: [YOUR CITY]\");\n        \n        // System.out.printf is for formatted output (like printf in C)\n        System.out.printf(\"Java version I'm using: %s%n\",\n                          System.getProperty(\"java.version\"));\n        \n        // Demonstrate what you know about the Java platform:\n        System.out.println(\"\\n--- Java Platform Architecture ---\");\n        System.out.println(\"JDK  = JRE + Development Tools (javac, javadoc, jar)\");\n        System.out.println(\"JRE  = JVM + Standard Class Libraries\");\n        System.out.println(\"JVM  = Executes .class bytecode | Platform-specific\");\n        System.out.println(\"WORA = Write Once, Run Anywhere!\");\n    }\n}",
+      "expected_output": "Hello from RoboBank Tech Team!\nI am: [Your Name]\nBased in: [Your City]\nJava version I'm using: 17.0.x\n\n--- Java Platform Architecture ---\nJDK  = JRE + Development Tools (javac, javadoc, jar)\nJRE  = JVM + Standard Class Libraries\nJVM  = Executes .class bytecode | Platform-specific\nWORA = Write Once, Run Anywhere!",
+      "hints": [
+        "If you get 'class not found': make sure the filename matches the class name exactly (case-sensitive!)",
+        "If you see a .class file in a folder — that's the bytecode! Open it in Notepad to see it's not readable — that's the JVM's job to understand it.",
+        "Each System.out.println() is one statement. Every statement ends with a semicolon."
+      ],
+      "reflection_questions": [
+        "What is the difference between a .java file and a .class file?",
+        "Why can the same .class file run on both Windows and Linux?",
+        "What would happen if you renamed HelloEngineer.java to Hello.java without changing the class name?"
+      ],
+      "debugging_task": "Try removing the semicolon from one of the println statements and recompile. What error do you get? Read the error message carefully — what does it tell you?"
+    }
+  ]
+}

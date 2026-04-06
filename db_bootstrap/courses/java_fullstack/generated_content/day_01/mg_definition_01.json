@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "asset_type": "matching_game",
+    "session_day": 1,
+    "session_title": "Day 1 - Introduction to Java & Language Fundamentals",
+    "total_pairs": 10,
+    "instructions": "Match each Java concept on the LEFT with its correct definition or example on the RIGHT. Drag and drop to pair them.",
+    "generated_by": "Claude (claude-sonnet-4-6)"
+  },
+  "pairs": [
+    {
+      "pair_id": 1,
+      "term": {
+        "id": "T1",
+        "content": "JDK",
+        "type": "text"
+      },
+      "match": {
+        "id": "M1",
+        "content": "Java Development Kit = JRE + development tools (javac, javadoc, jar). Required to write and compile Java programs.",
+        "type": "text"
+      }
+    },
+    {
+      "pair_id": 2,
+      "term": {
+        "id": "T2",
+        "content": "long accountNumber = 9876543210L;",
+        "type": "code"
+      },
+      "match": {
+        "id": "M2",
+        "content": "Correct data type for 18-digit bank account numbers. Uses 'L' suffix to indicate a long literal (otherwise compiler treats it as int).",
+        "type": "text"
+      }
+    },
+    {
+      "pair_id": 3,
+      "term": {
+        "id": "T3",
+        "content": "int x = 5;\nSystem.out.println(x++);",
+        "type": "code"
+      },
+      "match": {
+        "id": "M3",
+        "content": "Prints: 5  (post-increment: use current value 5, THEN increment x to 6)",
+        "type": "text"
+      }
+    },
+    {
+      "pair_id": 4,
+      "term": {
+        "id": "T4",
+        "content": "ArrayIndexOutOfBoundsException",
+        "type": "text"
+      },
+      "match": {
+        "id": "M4",
+        "content": "Thrown when accessing arr[i] where i < 0 or i >= arr.length. Common bug: using i <= arr.length instead of i < arr.length in a loop.",
+        "type": "text"
+      }
+    },
+    {
+      "pair_id": 5,
+      "term": {
+        "id": "T5",
+        "content": "Platform independence (WORA)",
+        "type": "text"
+      },
+      "match": {
+        "id": "M5",
+        "content": "Write Once, Run Anywhere — Java compiles to bytecode (.class) that any JVM can run, regardless of OS (Windows, Linux, macOS).",
+        "type": "text"
+      }
+    },
+    {
+      "pair_id": 6,
+      "term": {
+        "id": "T6",
+        "content": "\"HDFC\".equals(bankCode)",
+        "type": "code"
+      },
+      "match": {
+        "id": "M6",
+        "content": "Safe null-tolerant String comparison. Returns false if bankCode is null (no NullPointerException). Always prefer literal.equals(variable).",
+        "type": "text"
+      }
+    },
+    {
+      "pair_id": 7,
+      "term": {
+        "id": "T7",
+        "content": "public static final double MAX_DAILY_WITHDRAWAL = 50000.0;",
+        "type": "code"
+      },
+      "match": {
+        "id": "M7",
+        "content": "Java constant declaration: 'final' prevents reassignment. UPPER_SNAKE_CASE naming convention. 'static' means it belongs to the class, not an instance.",
+        "type": "text"
+      }
+    },
+    {
+      "pair_id": 8,
+      "term": {
+        "id": "T8",
+        "content": "Short-circuit evaluation",
+        "type": "text"
+      },
+      "match": {
+        "id": "M8",
+        "content": "In (A && B): if A is false, B is skipped. Used for safety: (account != null && account.isActive()) — avoids NullPointerException if account is null.",
+        "type": "text"
+      }
+    },
+    {
+      "pair_id": 9,
+      "term": {
+        "id": "T9",
+        "content": "double balance = 0.1 + 0.2;\nSystem.out.println(balance == 0.3);",
+        "type": "code"
+      },
+      "match": {
+        "id": "M9",
+        "content": "Prints: false — floating-point precision error: 0.1+0.2 = 0.30000000000000004. Use BigDecimal for monetary calculations in banking systems.",
+        "type": "text"
+      }
+    },
+    {
+      "pair_id": 10,
+      "term": {
+        "id": "T10",
+        "content": "switch fall-through",
+        "type": "text"
+      },
+      "match": {
+        "id": "M10",
+        "content": "When a switch case matches, execution continues into ALL subsequent cases until a 'break' or end of switch. Missing 'break' is a common bug in transaction-type routing.",
+        "type": "text"
+      }
+    }
+  ]
+}

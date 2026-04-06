@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "asset_type": "lab_manual",
+    "session_day": 1,
+    "topic": "Capstone Lab — Mini Bank Statement Generator",
+    "sub_topic_num": 6,
+    "session_title": "Day 1 - Introduction to Java & Language Fundamentals",
+    "date": "23-Feb-2026",
+    "duration_minutes": 35,
+    "total_exercises": 1,
+    "generated_by": "Claude (claude-sonnet-4-6)",
+    "pedagogy": "Hands-on learning with step-by-step guidance. Each exercise builds on the previous. All concepts from the session are coded. Banking/finance examples used for context."
+  },
+  "overview": {
+    "objectives": [
+      "Combine ALL Day 1 concepts in a single integrated program: primitives, operators, flow control, arrays, and best practices to build a complete mini banking application."
+    ],
+    "prerequisites": [
+      "JDK 17+ installed",
+      "IntelliJ IDEA (Community Edition) or VS Code with Java Extension",
+      "Git installed and GitHub account created"
+    ],
+    "tools": [
+      "JDK 17+",
+      "IntelliJ IDEA / VS Code",
+      "Terminal / Command Prompt",
+      "Git"
+    ]
+  },
+  "exercises": [
+    {
+      "exercise_id": "LAB_06",
+      "title": "Capstone Lab — Mini Bank Statement Generator",
+      "difficulty": "intermediate",
+      "duration_minutes": 35,
+      "objective": "Combine ALL Day 1 concepts in a single integrated program: primitives, operators, flow control, arrays, and best practices to build a complete mini banking application.",
+      "scenario": "Build a mini bank statement generator for RoboBank. It processes an array of transactions, categorizes them, computes running balance, flags large transactions, and prints a formatted statement. This represents the kind of real code you'll write as a Java developer.",
+      "instructions": [
+        "Step 1: Create class 'BankStatementGenerator'",
+        "Step 2: Implement all sections — this is your Day 1 integration test",
+        "Step 3: Run and match expected output",
+        "Step 4: Add a feature: also count how many transactions are above ₹20,000",
+        "Step 5: Git commit your work: 'Day 1: Java fundamentals complete - primitives, operators, control flow, arrays'"
+      ],
+      "starter_code": "import java.util.Arrays;\n\npublic class BankStatementGenerator {\n    \n    // ========= Constants (best practice: named constants, not magic numbers) =========\n    static final double OPENING_BALANCE     = 50_000.0;\n    static final double MIN_BALANCE         = 1_000.0;\n    static final double LARGE_TXN_THRESHOLD = 20_000.0;  // Flag transactions over this\n    static final String ACCOUNT_NUMBER      = \"ACC-9876543210\";\n    static final String CUSTOMER_NAME       = \"Krishvi Achalla\";\n    static final String ACCOUNT_TYPE        = \"Savings\";\n    \n    public static void main(String[] args) {\n        \n        // ========= Transaction Data =========\n        // Positive = Credit (money coming IN), Negative = Debit (money going OUT)\n        double[] transactions = {\n            +15_000,   // Salary credit\n            -5_000,    // Electricity bill\n            +25_000,   // FD maturity\n            -12_000,   // Online shopping\n            -3_500,    // Restaurant\n            +50_000,   // Client payment\n            -45_000,   // Rent payment\n            -1_200,    // Mobile recharge\n            +8_000,    // Interest credit\n            -2_800,    // Grocery\n        };\n        \n        String[] descriptions = {\n            \"SALARY-ROBOBANK-FEB\", \"BESCOM-ELECTRICITY\", \"FD-MATURITY-12345\",\n            \"AMAZON-PURCHASE\", \"ZOMATO-FOOD\", \"CLIENT-PAYMENT-XYZ\",\n            \"RENT-MARCH\", \"AIRTEL-RECHARGE\", \"SAVINGS-INT-FEB\", \"BIGBASKET\"\n        };\n        \n        // ========= Print Statement Header =========\n        System.out.println(\"================================================\");\n        System.out.println(\"            RoboBank - Account Statement         \");\n        System.out.println(\"================================================\");\n        System.out.printf(\"Customer  : %-30s%n\", CUSTOMER_NAME);\n        System.out.printf(\"Account   : %-30s%n\", ACCOUNT_NUMBER);\n        System.out.printf(\"Type      : %-30s%n\", ACCOUNT_TYPE);\n        System.out.printf(\"Opening   : ₹%,.2f%n\", OPENING_BALANCE);\n        System.out.println(\"------------------------------------------------\");\n        System.out.printf(\"%-4s %-24s %8s %12s%n\", \"#\", \"Description\", \"Amount\", \"Balance\");\n        System.out.println(\"------------------------------------------------\");\n        \n        // ========= Process Transactions =========\n        double runningBalance = OPENING_BALANCE;\n        double totalCredit = 0;\n        double totalDebit  = 0;\n        int    creditCount = 0;\n        int    debitCount  = 0;\n        int    largeTxnCount = 0;\n        \n        for (int i = 0; i < transactions.length; i++) {\n            double txnAmt = transactions[i];\n            runningBalance += txnAmt;\n            \n            // Categorize\n            if (txnAmt > 0) {\n                totalCredit += txnAmt;\n                creditCount++;\n            } else {\n                totalDebit += Math.abs(txnAmt);\n                debitCount++;\n            }\n            \n            // Flag large transactions\n            boolean isLarge = Math.abs(txnAmt) >= LARGE_TXN_THRESHOLD;\n            if (isLarge) largeTxnCount++;\n            String flag = isLarge ? \" ***\" : \"\";\n            \n            // Print transaction row\n            String amtStr = (txnAmt > 0 ? \"+\" : \"\") + String.format(\"₹%,.2f\", txnAmt);\n            System.out.printf(\"%-4d %-24s %12s  ₹%,.2f%s%n\",\n                              i + 1, descriptions[i], amtStr, runningBalance, flag);\n            \n            // Check minimum balance\n            if (runningBalance < MIN_BALANCE) {\n                System.out.println(\"   ⚠ WARNING: Balance below minimum (₹\" + MIN_BALANCE + \")\");\n            }\n        }\n        \n        // ========= Statement Footer =========\n        System.out.println(\"------------------------------------------------\");\n        System.out.println(\"                  STATEMENT SUMMARY\");\n        System.out.println(\"------------------------------------------------\");\n        System.out.printf(\"Opening Balance  : ₹%,.2f%n\", OPENING_BALANCE);\n        System.out.printf(\"Total Credits    : ₹%,.2f (%d transactions)%n\", totalCredit, creditCount);\n        System.out.printf(\"Total Debits     : ₹%,.2f (%d transactions)%n\", totalDebit, debitCount);\n        System.out.printf(\"Closing Balance  : ₹%,.2f%n\", runningBalance);\n        System.out.printf(\"Large Txns (>₹%.0f) : %d%n\", LARGE_TXN_THRESHOLD, largeTxnCount);\n        System.out.println(\"------------------------------------------------\");\n        \n        // Account health using ternary\n        String health = (runningBalance >= 10_000) ? \"GOOD\" :\n                        (runningBalance >= MIN_BALANCE) ? \"LOW\" : \"CRITICAL\";\n        System.out.println(\"Account Health   : \" + health);\n        System.out.println(\"================================================\");\n        \n        // ========= Sort and show top 3 transactions =========\n        double[] absTxns = new double[transactions.length];\n        for (int i = 0; i < transactions.length; i++) {\n            absTxns[i] = Math.abs(transactions[i]);\n        }\n        double[] sortedAbs = Arrays.copyOf(absTxns, absTxns.length);\n        Arrays.sort(sortedAbs);  // ascending\n        \n        System.out.println(\"\\nTop 3 Largest Transactions:\");\n        for (int i = sortedAbs.length - 1; i >= sortedAbs.length - 3; i--) {\n            System.out.printf(\"  ₹%,.2f%n\", sortedAbs[i]);\n        }\n    }\n}",
+      "expected_output": "================================================\n            RoboBank - Account Statement         \n================================================\nCustomer  : Krishvi Achalla\nAccount   : ACC-9876543210\nType      : Savings\nOpening   : ₹50,000.00\n------------------------------------------------\n#    Description              Amount     Balance\n------------------------------------------------\n1    SALARY-ROBOBANK-FEB   +₹15,000.00  ₹65,000.00\n2    BESCOM-ELECTRICITY     -₹5,000.00  ₹60,000.00\n3    FD-MATURITY-12345     +₹25,000.00  ₹85,000.00  ***\n4    AMAZON-PURCHASE       -₹12,000.00  ₹73,000.00\n5    ZOMATO-FOOD            -₹3,500.00  ₹69,500.00\n6    CLIENT-PAYMENT-XYZ    +₹50,000.00  ₹1,19,500.00  ***\n7    RENT-MARCH            -₹45,000.00  ₹74,500.00  ***\n8    AIRTEL-RECHARGE        -₹1,200.00  ₹73,300.00\n9    SAVINGS-INT-FEB        +₹8,000.00  ₹81,300.00\n10   BIGBASKET              -₹2,800.00  ₹78,500.00\n------------------------------------------------\n                  STATEMENT SUMMARY\n------------------------------------------------\nOpening Balance  : ₹50,000.00\nTotal Credits    : ₹98,000.00 (4 transactions)\nTotal Debits     : ₹69,500.00 (6 transactions)\nClosing Balance  : ₹78,500.00\nLarge Txns (>₹20000) : 3\n------------------------------------------------\nAccount Health   : GOOD\n================================================\n\nTop 3 Largest Transactions:\n  ₹50,000.00\n  ₹45,000.00\n  ₹25,000.00",
+      "hints": [
+        "String.format(\"₹%,.2f\", amount) formats a number with rupee symbol, comma separators, and 2 decimals.",
+        "Math.abs(txnAmt) gives the absolute value — useful to track debit amounts as positive numbers.",
+        "To print top 3 from sorted (ascending) array: loop from length-1 down to length-3."
+      ],
+      "reflection_questions": [
+        "This program uses int, double, boolean, char, and String. Which Java primitive types did we NOT use here — and can you add a use case for each?",
+        "Why do we use static final constants instead of inline magic numbers?",
+        "If you had 10,000 transactions, would this approach still work? What would you change?"
+      ],
+      "debugging_task": "Intentionally remove the Math.abs() from totalDebit. What happens to the total debit amount? Why? This demonstrates why absolute value handling is critical in financial calculations."
+    }
+  ]
+}

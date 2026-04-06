@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "asset_type": "lab_manual",
+    "session_day": 1,
+    "topic": "Arrays & Arrays Utility Class",
+    "sub_topic_num": 5,
+    "session_title": "Day 1 - Introduction to Java & Language Fundamentals",
+    "date": "23-Feb-2026",
+    "duration_minutes": 35,
+    "total_exercises": 1,
+    "generated_by": "Claude (claude-sonnet-4-6)",
+    "pedagogy": "Hands-on learning with step-by-step guidance. Each exercise builds on the previous. All concepts from the session are coded. Banking/finance examples used for context."
+  },
+  "overview": {
+    "objectives": [
+      "Create, traverse, sort, search, and analyze arrays. Use the Arrays utility class. Practice both traditional for loops and enhanced for-each loops."
+    ],
+    "prerequisites": [
+      "JDK 17+ installed",
+      "IntelliJ IDEA (Community Edition) or VS Code with Java Extension",
+      "Git installed and GitHub account created"
+    ],
+    "tools": [
+      "JDK 17+",
+      "IntelliJ IDEA / VS Code",
+      "Terminal / Command Prompt",
+      "Git"
+    ]
+  },
+  "exercises": [
+    {
+      "exercise_id": "LAB_05",
+      "title": "Arrays — Branch Performance Dashboard",
+      "difficulty": "intermediate",
+      "duration_minutes": 35,
+      "objective": "Create, traverse, sort, search, and analyze arrays. Use the Arrays utility class. Practice both traditional for loops and enhanced for-each loops.",
+      "scenario": "RoboBank has 6 branches across India. Build a performance dashboard that analyzes deposit amounts, sorts branches, finds top/bottom performers, and generates a formatted report.",
+      "instructions": [
+        "Step 1: Create class 'BranchDashboard'",
+        "Step 2: Implement all sections — each section teaches a new array concept",
+        "Step 3: Run and verify output",
+        "Step 4: MODIFICATION — Add a 7th branch 'Pune' with ₹95,00,000. Update the array. Do you need to change anything else?",
+        "Step 5: CHALLENGE at the end — implement without using Arrays.sort()"
+      ],
+      "starter_code": "import java.util.Arrays;\n\npublic class BranchDashboard {\n    public static void main(String[] args) {\n        \n        // ============================================================\n        // SECTION 1: Array Creation and Initialization\n        // ============================================================\n        String[] branches  = {\"Mumbai\", \"Delhi\", \"Kolkata\", \"Chennai\", \"Hyderabad\", \"Bengaluru\"};\n        double[] deposits  = {85_00_000, 1_23_00_000, 67_00_000, 92_00_000, 1_11_00_000, 1_05_00_000};\n        // deposits in rupees:    85L     1.23Cr     67L        92L         1.11Cr        1.05Cr\n        \n        // KEY CONCEPT: arr.length is a FIELD (no parentheses!)\n        System.out.println(\"Number of branches: \" + branches.length);\n        System.out.println(\"Deposits array size: \" + deposits.length);\n        \n        // ============================================================\n        // SECTION 2: Traversal with Index (traditional for)\n        // Use when you need the index\n        // ============================================================\n        System.out.println(\"\\n===== Branch Deposits (Raw) =====\");\n        for (int i = 0; i < branches.length; i++) {\n            System.out.printf(\"%-12s : ₹%,.2f%n\", branches[i], deposits[i]);\n            // %-12s → left-aligned, padded to 12 chars for clean column alignment\n            // %,.2f → number with commas and 2 decimal places\n        }\n        \n        // ============================================================\n        // SECTION 3: Calculations using enhanced for-each\n        // Use when you only need values, not indices\n        // ============================================================\n        double total = 0;\n        double maxDeposit = deposits[0];  // Initialize to first element — NOT to 0!\n        double minDeposit = deposits[0];  // Same reason — what if all values are negative?\n        \n        for (double d : deposits) {\n            total += d;\n            if (d > maxDeposit) maxDeposit = d;\n            if (d < minDeposit) minDeposit = d;\n        }\n        double average = total / deposits.length;\n        \n        System.out.printf(\"%n===== Aggregate Statistics =====%n\");\n        System.out.printf(\"Total deposits   : ₹%,.2f%n\", total);\n        System.out.printf(\"Average deposits : ₹%,.2f%n\", average);\n        System.out.printf(\"Highest deposit  : ₹%,.2f%n\", maxDeposit);\n        System.out.printf(\"Lowest deposit   : ₹%,.2f%n\", minDeposit);\n        \n        // ============================================================\n        // SECTION 4: Find Best and Worst Branch by Index\n        // ============================================================\n        int maxIdx = 0;\n        int minIdx = 0;\n        for (int i = 1; i < deposits.length; i++) {\n            if (deposits[i] > deposits[maxIdx]) maxIdx = i;\n            if (deposits[i] < deposits[minIdx]) minIdx = i;\n        }\n        System.out.printf(\"%n===== Top & Bottom Performers =====%n\");\n        System.out.printf(\"Best branch : %s (₹%,.2f)%n\", branches[maxIdx], deposits[maxIdx]);\n        System.out.printf(\"Worst branch: %s (₹%,.2f)%n\", branches[minIdx], deposits[minIdx]);\n        \n        // ============================================================\n        // SECTION 5: Arrays.sort() and Arrays.toString()\n        // ============================================================\n        // IMPORTANT: Don't sort the original array — we still need indices!\n        double[] sortedDeposits = Arrays.copyOf(deposits, deposits.length);\n        Arrays.sort(sortedDeposits);\n        \n        System.out.println(\"\\n===== Sorted Deposits (Ascending) =====\");\n        System.out.println(Arrays.toString(sortedDeposits));\n        // Without Arrays.toString(): System.out.println(sortedDeposits) → prints something like [D@6d06d69c\n        // THAT is why Arrays.toString() exists!\n        \n        // ============================================================\n        // SECTION 6: Above-Average Branches\n        // ============================================================\n        System.out.println(\"\\n===== Above-Average Branches =====\");\n        System.out.printf(\"(Average: ₹%,.2f)%n\", average);\n        int countAboveAvg = 0;\n        for (int i = 0; i < branches.length; i++) {\n            if (deposits[i] > average) {\n                System.out.printf(\"  %-12s : ₹%,.2f  (+%.1f%% above avg)%n\",\n                                  branches[i], deposits[i],\n                                  ((deposits[i] - average) / average) * 100);\n                countAboveAvg++;\n            }\n        }\n        System.out.println(\"Branches above average: \" + countAboveAvg + \" of \" + branches.length);\n        \n        // ============================================================\n        // SECTION 7: Array Mutation — Annual Growth (10%)\n        // Demonstrate: for-each CANNOT modify; index loop CAN\n        // ============================================================\n        System.out.println(\"\\n===== After 10% Annual Growth =====\");\n        for (int i = 0; i < deposits.length; i++) {\n            deposits[i] *= 1.10;  // 10% growth\n        }\n        // If you used for-each: for (double d : deposits) { d *= 1.10; }  → NO EFFECT on original!\n        \n        for (int i = 0; i < branches.length; i++) {\n            System.out.printf(\"%-12s : ₹%,.2f%n\", branches[i], deposits[i]);\n        }\n        \n        // ============================================================\n        // CHALLENGE: Varargs method for flexible totaling\n        // ============================================================\n        // TODO: Write a static method 'totalDeposits(double... amounts)' below main()\n        // Then call it here:\n        // System.out.printf(\"%nTop 3 branch total: ₹%,.2f%n\",\n        //     totalDeposits(deposits[1], deposits[4], deposits[5]));\n    }\n    \n    // TODO: Implement this varargs method\n    // public static double totalDeposits(double... amounts) {\n    //     // Sum all amounts using enhanced for-each\n    //     // Return the total\n    // }\n}",
+      "expected_output": "Number of branches: 6\nDeposits array size: 6\n\n===== Branch Deposits (Raw) =====\nMumbai       : ₹85,00,000.00\nDelhi        : ₹1,23,00,000.00\nKolkata      : ₹67,00,000.00\nChennai      : ₹92,00,000.00\nHyderabad    : ₹1,11,00,000.00\nBengaluru    : ₹1,05,00,000.00\n\n===== Aggregate Statistics =====\nTotal deposits   : ₹4,83,00,000.00\nAverage deposits : ₹80,50,000.00\nHighest deposit  : ₹1,23,00,000.00\nLowest deposit   : ₹67,00,000.00\n\n===== Top & Bottom Performers =====\nBest branch : Delhi (₹1,23,00,000.00)\nWorst branch: Kolkata (₹67,00,000.00)\n\n===== Sorted Deposits (Ascending) =====\n[6700000.0, 8500000.0, 9200000.0, 10500000.0, 11100000.0, 12300000.0]\n\n===== Above-Average Branches =====\n(Average: ₹80,50,000.00)\n  Mumbai       : ₹85,00,000.00  (+5.6% above avg)\n  Chennai      : ₹92,00,000.00  (+14.3% above avg)\n  Hyderabad    : ₹1,11,00,000.00  (+37.9% above avg)\n  Bengaluru    : ₹1,05,00,000.00  (+30.4% above avg)\nBranches above average: 4 of 6\n\n===== After 10% Annual Growth =====\n[Updated values after *= 1.10]",
+      "hints": [
+        "Always initialize max/min to the first element (deposits[0]), NOT to 0. If all values were negative, 0 would incorrectly be the 'max'.",
+        "Arrays.copyOf() creates a new array with the same elements — so sorting the copy doesn't affect the original array and its index relationship with the branches array.",
+        "System.out.printf with %,.2f adds comma separators and 2 decimal places. The 'n' after the % is the flag for thousand separator (locale-specific)."
+      ],
+      "reflection_questions": [
+        "Why do we initialize maxDeposit = deposits[0] instead of maxDeposit = 0? When would maxDeposit = 0 give a wrong answer?",
+        "Why must we use Arrays.copyOf() before sorting if we want to find the branch name later?",
+        "Without Arrays.toString(), what does System.out.println(deposits) print? Try it — understand why the output looks strange."
+      ],
+      "debugging_task": "Add this code: double[] emptyArr = new double[0]; System.out.println(emptyArr[0]); — what exception do you get? How would you safely handle an empty array before finding max/min?"
+    }
+  ]
+}

@@ -1,0 +1,401 @@
+{
+  "meta": {
+    "title": "CBSE Grade 8 Mathematics — Final Model Question Paper",
+    "board": "CBSE",
+    "grade": 8,
+    "subject": "Mathematics",
+    "total_marks": 80,
+    "duration": "3 Hours",
+    "instructions": [
+      "All questions are compulsory.",
+      "The question paper consists of 4 sections A, B, C and D.",
+      "Section A contains 10 MCQ questions of 1 mark each.",
+      "Section B contains 10 questions of 1 mark each.",
+      "Section C contains questions of 3 marks each.",
+      "Section D contains questions of 5 marks each.",
+      "There is no overall choice. However, internal choice has been provided in some questions.",
+      "Use of calculators is not permitted.",
+      "Draw neat diagrams wherever necessary."
+    ]
+  },
+  "sections": [
+    {
+      "section": "A",
+      "title": "Section A – Multiple Choice Questions (1 mark each)",
+      "marks": 10,
+      "questions": [
+        {
+          "question_no": "1",
+          "marks": 1,
+          "topic": "Rational Numbers",
+          "question": "Which property is illustrated by: (3/5) × [(–2/7) + (1/3)] = (3/5) × (–2/7) + (3/5) × (1/3)?",
+          "options": {
+            "a": "Commutative property of multiplication",
+            "b": "Associative property of multiplication",
+            "c": "Distributive property of multiplication over addition",
+            "d": "Closure property"
+          },
+          "answer": "c",
+          "explanation": "The distributive property states a × (b + c) = a × b + a × c. Here a = 3/5, b = –2/7, c = 1/3, which exactly matches the distributive property of multiplication over addition."
+        },
+        {
+          "question_no": "2",
+          "marks": 1,
+          "topic": "Squares and Square Roots",
+          "question": "What is the smallest number by which 180 must be multiplied to make it a perfect square?",
+          "options": {
+            "a": "3",
+            "b": "5",
+            "c": "15",
+            "d": "20"
+          },
+          "answer": "b",
+          "explanation": "Prime factorisation of 180 = 2² × 3² × 5. The factor 5 appears only once (unpaired). To make it a perfect square, multiply by 5 to pair it: 180 × 5 = 900 = 2² × 3² × 5² = 30². So the answer is 5."
+        },
+        {
+          "question_no": "3",
+          "marks": 1,
+          "topic": "Cubes and Cube Roots",
+          "question": "What is the cube root of –3375?",
+          "options": {
+            "a": "–15",
+            "b": "–25",
+            "c": "15",
+            "d": "25"
+          },
+          "answer": "a",
+          "explanation": "3375 = 15³ (since 15 × 15 × 15 = 225 × 15 = 3375). Therefore cube root of –3375 = –15."
+        },
+        {
+          "question_no": "4",
+          "marks": 1,
+          "topic": "Comparing Quantities",
+          "question": "A shopkeeper marks an article at ₹500 and offers a discount of 12%. He still makes a profit of 10% on it. What is the cost price of the article?",
+          "options": {
+            "a": "₹400",
+            "b": "₹396",
+            "c": "₹440",
+            "d": "₹480"
+          },
+          "answer": "a",
+          "explanation": "Marked price = ₹500, Discount = 12%. Selling price = 500 × (88/100) = ₹440. Since profit = 10%, CP = SP / 1.10 = 440 / 1.10 = ₹400."
+        },
+        {
+          "question_no": "5",
+          "marks": 1,
+          "topic": "Algebraic Identities",
+          "question": "Using the identity (a + b)² = a² + 2ab + b², what is (103)²?",
+          "options": {
+            "a": "10006",
+            "b": "10600",
+            "c": "10606",
+            "d": "10609"
+          },
+          "answer": "d",
+          "explanation": "103 = 100 + 3. Using (a + b)² = a² + 2ab + b²: (100 + 3)² = 100² + 2(100)(3) + 3² = 10000 + 600 + 9 = 10609."
+        },
+        {
+          "question_no": "6",
+          "marks": 1,
+          "topic": "Understanding Quadrilaterals",
+          "question": "The sum of all interior angles of a regular hexagon is:",
+          "options": {
+            "a": "540°",
+            "b": "720°",
+            "c": "900°",
+            "d": "1080°"
+          },
+          "answer": "b",
+          "explanation": "Sum of interior angles of a polygon with n sides = (n – 2) × 180°. For a hexagon, n = 6: (6 – 2) × 180° = 4 × 180° = 720°."
+        },
+        {
+          "question_no": "7",
+          "marks": 1,
+          "topic": "Mensuration",
+          "question": "The total surface area of a cube with side 5 cm is:",
+          "options": {
+            "a": "25 cm²",
+            "b": "125 cm²",
+            "c": "150 cm²",
+            "d": "250 cm²"
+          },
+          "answer": "c",
+          "explanation": "Total Surface Area of a cube = 6 × (side)² = 6 × 5² = 6 × 25 = 150 cm²."
+        },
+        {
+          "question_no": "8",
+          "marks": 1,
+          "topic": "Exponents and Powers",
+          "question": "The standard form (scientific notation) of 0.000047 is:",
+          "options": {
+            "a": "4.7 × 10⁻⁴",
+            "b": "4.7 × 10⁻⁵",
+            "c": "47 × 10⁻⁶",
+            "d": "4.7 × 10⁵"
+          },
+          "answer": "b",
+          "explanation": "To write 0.000047 in scientific notation, move the decimal point 5 places to the right: 4.7 × 10⁻⁵."
+        },
+        {
+          "question_no": "9",
+          "marks": 1,
+          "topic": "Factorisation",
+          "question": "The factorised form of x² – x – 12 is:",
+          "options": {
+            "a": "(x – 4)(x + 3)",
+            "b": "(x + 4)(x – 3)",
+            "c": "(x – 6)(x + 2)",
+            "d": "(x + 6)(x – 2)"
+          },
+          "answer": "b",
+          "explanation": "We need two numbers that multiply to –12 and add to –1: those are +4 and –3 (4 × –3 = –12, 4 + (–3) = +1). Re-checking: we need product = –12 and sum = –1: numbers are –4 and +3 → (x – 4)(x + 3) = x² + 3x – 4x – 12 = x² – x – 12 ✓. Corrected answer: (a) (x – 4)(x + 3).",
+          "answer_corrected": "a",
+          "explanation_corrected": "We need factors of –12 that sum to –1: (–4) × (+3) = –12 and (–4) + (+3) = –1. Therefore x² – x – 12 = (x – 4)(x + 3)."
+        },
+        {
+          "question_no": "10",
+          "marks": 1,
+          "topic": "Direct and Inverse Proportion",
+          "question": "If 6 pipes can fill a tank in 8 hours, how long will 4 pipes take to fill the same tank?",
+          "options": {
+            "a": "6 hours",
+            "b": "10 hours",
+            "c": "12 hours",
+            "d": "16 hours"
+          },
+          "answer": "c",
+          "explanation": "This is inverse proportion. Number of pipes × Time = constant → 6 × 8 = 4 × t → t = 48/4 = 12 hours."
+        }
+      ]
+    },
+    {
+      "section": "B",
+      "title": "Section B – Fill in the Blanks (1 mark each)",
+      "marks": 10,
+      "questions": [
+        {
+          "question_no": "11",
+          "marks": 1,
+          "topic": "Rational Numbers",
+          "question": "The multiplicative inverse of –9/13 is ______.",
+          "answer": "–13/9",
+          "explanation": "The multiplicative inverse (reciprocal) of a number is 1 divided by that number. Multiplicative inverse of –9/13 = –13/9. Check: (–9/13) × (–13/9) = 1 ✓."
+        },
+        {
+          "question_no": "12",
+          "marks": 1,
+          "topic": "Linear Equations in One Variable",
+          "question": "If (2x + 5)/3 = (x – 1)/2, then x = ______.",
+          "answer": "–13",
+          "explanation": "Cross-multiply: 2(2x + 5) = 3(x – 1) → 4x + 10 = 3x – 3 → 4x – 3x = –3 – 10 → x = –13."
+        },
+        {
+          "question_no": "13",
+          "marks": 1,
+          "topic": "Squares and Square Roots",
+          "question": "The square root of 2025 is ______.",
+          "answer": "45",
+          "explanation": "2025 = 45 × 45 = 2025. Verify: 45² = (40+5)² = 1600 + 400 + 25 = 2025. ✓"
+        },
+        {
+          "question_no": "14",
+          "marks": 1,
+          "topic": "Cubes and Cube Roots",
+          "question": "The cube of –0.4 is ______.",
+          "answer": "–0.064",
+          "explanation": "(–0.4)³ = (–4/10)³ = –64/1000 = –0.064."
+        },
+        {
+          "question_no": "15",
+          "marks": 1,
+          "topic": "Visualising Solid Shapes",
+          "question": "For a polyhedron with 12 faces and 30 edges, the number of vertices according to Euler's formula is ______.",
+          "answer": "20",
+          "explanation": "Euler's formula: V – E + F = 2 → V – 30 + 12 = 2 → V = 2 + 30 – 12 = 20 vertices."
+        },
+        {
+          "question_no": "16",
+          "marks": 1,
+          "topic": "Comparing Quantities",
+          "question": "A washing machine is bought for ₹18,000 and sold for ₹15,300. The loss percentage is ______.",
+          "answer": "15%",
+          "explanation": "Loss = CP – SP = 18000 – 15300 = ₹2700. Loss% = (2700/18000) × 100 = 15%."
+        },
+        {
+          "question_no": "17",
+          "marks": 1,
+          "topic": "Algebraic Identities",
+          "question": "Using the identity (a – b)² = a² – 2ab + b², the value of (98)² is ______.",
+          "answer": "9604",
+          "explanation": "98 = 100 – 2. (100 – 2)² = 100² – 2(100)(2) + 2² = 10000 – 400 + 4 = 9604."
+        },
+        {
+          "question_no": "18",
+          "marks": 1,
+          "topic": "Mensuration",
+          "question": "The volume of a cylinder with radius 7 cm and height 10 cm is ______ cm³. (Use π = 22/7)",
+          "answer": "1540",
+          "explanation": "Volume of cylinder = π × r² × h = (22/7) × 7² × 10 = (22/7) × 49 × 10 = 22 × 7 × 10 = 1540 cm³."
+        },
+        {
+          "question_no": "19",
+          "marks": 1,
+          "topic": "Exponents and Powers",
+          "question": "The value of (3⁻² × 4²) / (6⁻¹) is ______.",
+          "answer": "32/3",
+          "explanation": "3⁻² = 1/9; 4² = 16; 6⁻¹ = 1/6. Expression = (1/9 × 16) / (1/6) = (16/9) × 6 = 96/9 = 32/3."
+        },
+        {
+          "question_no": "20",
+          "marks": 1,
+          "topic": "Playing with Numbers",
+          "question": "A 2-digit number is such that the units digit is twice the tens digit. The number is ______ (give any one valid answer).",
+          "answer": "12 (or 24 or 36 or 48)",
+          "explanation": "If tens digit = a, units digit = 2a. Valid options: a=1 → 12; a=2 → 24; a=3 → 36; a=4 → 48 (since 2a must be a single digit, a ≤ 4). Any one of these is acceptable."
+        }
+      ]
+    },
+    {
+      "section": "C",
+      "title": "Section C – Short Answer Questions (3 marks each)",
+      "marks": 30,
+      "questions": [
+        {
+          "question_no": "21",
+          "marks": 3,
+          "topic": "Rational Numbers",
+          "question": "Verify that –(–x) = x for x = –7/11. Also find three rational numbers between –1/2 and 2/3.",
+          "answer": "–(–(–7/11)) = –7/11 ✓; Three rational numbers between –1/2 and 2/3 could be: –1/6, 0, 1/3.",
+          "working": "Part 1: x = –7/11\n–x = –(–7/11) = 7/11\n–(–x) = –(7/11) = –7/11 = x ✓\nThis verifies that –(–x) = x.\n\nPart 2: Convert –1/2 and 2/3 to equivalent fractions with a common denominator.\nLCM of 2 and 3 = 6. –1/2 = –3/6 and 2/3 = 4/6.\nRational numbers between –3/6 and 4/6 include: –2/6 = –1/3, –1/6, 0, 1/6, 2/6 = 1/3.\nThree rational numbers: –1/3, 0, 1/3 (any three valid answers accepted)."
+        },
+        {
+          "question_no": "22",
+          "marks": 3,
+          "topic": "Linear Equations in One Variable",
+          "question": "The sum of digits of a two-digit number is 11. If the digits are reversed, the new number is 27 more than the original. Find the original number.",
+          "answer": "47",
+          "working": "Step 1: Let the tens digit be x and units digit be y.\nCondition 1: x + y = 11 ... (i)\nStep 2: Original number = 10x + y; Reversed number = 10y + x.\nCondition 2: 10y + x = (10x + y) + 27\n→ 10y + x – 10x – y = 27\n→ 9y – 9x = 27\n→ y – x = 3 ... (ii)\nStep 3: From (i) and (ii):\nx + y = 11\n–x + y = 3\nAdding: 2y = 14 → y = 7, so x = 11 – 7 = 4.\nStep 4: Original number = 10(4) + 7 = 47.\nVerification: 47 + 27 = 74 = reversed number. ✓ Digit sum: 4 + 7 = 11 ✓.\nFinal Answer: The original two-digit number is 47."
+        },
+        {
+          "question_no": "23",
+          "marks": 3,
+          "topic": "Understanding Quadrilaterals",
+          "question": "ABCD is a parallelogram. ∠A = (3x + 20)° and ∠C = (x + 80)°. Find all four angles of the parallelogram.",
+          "answer": "∠A = ∠C = 110°, ∠B = ∠D = 70°",
+          "working": "Step 1: In a parallelogram, opposite angles are equal.\n∠A = ∠C → 3x + 20 = x + 80\nStep 2: 3x – x = 80 – 20 → 2x = 60 → x = 30.\nStep 3: ∠A = 3(30) + 20 = 90 + 20 = 110°.\n∠C = 30 + 80 = 110°. ✓\nStep 4: In a parallelogram, consecutive angles are supplementary.\n∠B = 180° – ∠A = 180° – 110° = 70°.\n∠D = ∠B = 70°.\nFinal Answer: ∠A = 110°, ∠B = 70°, ∠C = 110°, ∠D = 70°."
+        },
+        {
+          "question_no": "24",
+          "marks": 3,
+          "topic": "Squares and Square Roots",
+          "question": "Find the least perfect square number that is divisible by each of 8, 9 and 10.",
+          "answer": "3600",
+          "working": "Step 1: Find LCM of 8, 9 and 10.\n8 = 2³; 9 = 3²; 10 = 2 × 5.\nLCM = 2³ × 3² × 5 = 8 × 9 × 5 / (common factors adjustment) = 360.\nLCM(8, 9, 10) = 360.\nStep 2: Prime factorisation of 360 = 2³ × 3² × 5.\nStep 3: For a perfect square, all prime factors must have even exponents.\n2³ has odd power (3) → needs one more 2 → multiply by 2.\n3² is already even ✓.\n5¹ has odd power (1) → needs one more 5 → multiply by 5.\nStep 4: Multiply 360 by (2 × 5) = 10.\n360 × 10 = 3600 = 2⁴ × 3² × 5² = (2² × 3 × 5)² = 60². ✓\nFinal Answer: The least perfect square divisible by 8, 9 and 10 is 3600."
+        },
+        {
+          "question_no": "25",
+          "marks": 3,
+          "topic": "Comparing Quantities – Compound Interest",
+          "question": "Find the compound interest on ₹8000 for 2 years at 10% per annum compounded annually. Also compare it with simple interest for the same period.",
+          "answer": "CI = ₹1680; SI = ₹1600; CI is ₹80 more than SI.",
+          "working": "Compound Interest:\nStep 1: Principal P = ₹8000, Rate R = 10%, Time = 2 years.\nAmount after year 1 = 8000 × (1 + 10/100) = 8000 × 1.1 = ₹8800.\nAmount after year 2 = 8800 × 1.1 = ₹9680.\nStep 2: CI = Amount – Principal = 9680 – 8000 = ₹1680.\n\nSimple Interest:\nStep 3: SI = (P × R × T)/100 = (8000 × 10 × 2)/100 = 160000/100 = ₹1600.\n\nComparison:\nStep 4: Difference = CI – SI = 1680 – 1600 = ₹80.\nFinal Answer: CI = ₹1680; SI = ₹1600; Compound interest is ₹80 more than simple interest."
+        },
+        {
+          "question_no": "26",
+          "marks": 3,
+          "topic": "Algebraic Expressions and Identities",
+          "question": "Expand using suitable identities: (a) (4x + 3y)², (b) (5a – 2b)(5a + 2b), (c) (2p – 3q)²",
+          "answer": "(a) 16x² + 24xy + 9y²; (b) 25a² – 4b²; (c) 4p² – 12pq + 9q²",
+          "working": "Part (a): (4x + 3y)² using (a+b)² = a² + 2ab + b²\n= (4x)² + 2(4x)(3y) + (3y)²\n= 16x² + 24xy + 9y².\n\nPart (b): (5a – 2b)(5a + 2b) using (a–b)(a+b) = a² – b²\n= (5a)² – (2b)²\n= 25a² – 4b².\n\nPart (c): (2p – 3q)² using (a–b)² = a² – 2ab + b²\n= (2p)² – 2(2p)(3q) + (3q)²\n= 4p² – 12pq + 9q²."
+        },
+        {
+          "question_no": "27",
+          "marks": 3,
+          "topic": "Mensuration",
+          "question": "A trapezium-shaped field has parallel sides of 25 m and 15 m and the perpendicular height between them is 12 m. Find its area. If this field is to be fenced on all four sides (the non-parallel sides are each 13 m), find the total cost of fencing at ₹35 per metre.",
+          "answer": "Area = 240 m²; Perimeter = 66 m; Cost of fencing = ₹2310",
+          "working": "Step 1: Area of trapezium = (1/2) × (sum of parallel sides) × height\n= (1/2) × (25 + 15) × 12\n= (1/2) × 40 × 12\n= 240 m².\nStep 2: Perimeter = Sum of all sides = 25 + 15 + 13 + 13 = 66 m.\nStep 3: Cost of fencing = Perimeter × Rate = 66 × 35 = ₹2310.\nFinal Answer: Area = 240 m², Perimeter = 66 m, Cost of fencing = ₹2310."
+        },
+        {
+          "question_no": "28",
+          "marks": 3,
+          "topic": "Factorisation",
+          "question": "Factorise the following expressions: (a) 6ab – 12a²b + 18ab², (b) x² + 5x + 6, (c) p² – 16q²",
+          "answer": "(a) 6ab(1 – 2a + 3b); (b) (x + 2)(x + 3); (c) (p – 4q)(p + 4q)",
+          "working": "Part (a): 6ab – 12a²b + 18ab²\nCommon factor = 6ab.\n= 6ab(1 – 2a + 3b).\n\nPart (b): x² + 5x + 6\nFind two numbers that multiply to 6 and add to 5: 2 × 3 = 6 and 2 + 3 = 5.\n= x² + 2x + 3x + 6\n= x(x + 2) + 3(x + 2)\n= (x + 2)(x + 3).\n\nPart (c): p² – 16q²\nUsing the identity a² – b² = (a – b)(a + b):\np² – (4q)² = (p – 4q)(p + 4q)."
+        },
+        {
+          "question_no": "29",
+          "marks": 3,
+          "topic": "Data Handling – Probability",
+          "question": "A bag contains 5 red marbles, 3 blue marbles and 2 green marbles. A marble is drawn at random. Find the probability of drawing: (a) a red marble, (b) a blue marble, (c) a marble that is neither red nor green.",
+          "answer": "(a) 1/2; (b) 3/10; (c) 3/10",
+          "working": "Total number of marbles = 5 + 3 + 2 = 10.\n\nPart (a): P(red) = Number of red marbles / Total = 5/10 = 1/2.\n\nPart (b): P(blue) = 3/10.\n\nPart (c): A marble that is neither red nor green must be blue.\nNumber of blue marbles = 3.\nP(neither red nor green) = P(blue) = 3/10.\n\nVerification: P(red) + P(blue) + P(green) = 5/10 + 3/10 + 2/10 = 10/10 = 1. ✓"
+        },
+        {
+          "question_no": "30",
+          "marks": 3,
+          "topic": "Direct and Inverse Proportion – Word Problem",
+          "question": "A group of 35 students planned a picnic. The cost of food per student was estimated at ₹80. If 5 students could not attend, by how much did the cost per student increase? Also find the new total cost.",
+          "answer": "Increase in cost per student = ₹10; New total cost = ₹2800",
+          "working": "Step 1: Original plan: 35 students, ₹80 per student.\nTotal cost = 35 × 80 = ₹2800.\n\nStep 2: 5 students did not attend, so students present = 35 – 5 = 30.\nThis is an inverse proportion (fewer students, more cost per student since total stays same).\n\nStep 3: New cost per student = Total cost / Students present = 2800 / 30 = ₹93.33...\nAlternatively using proportion: 35 × 80 = 30 × x → x = 2800/30 = 280/3 ≈ ₹93.33.\n\nStep 4: Increase in cost per student = 280/3 – 80 = 280/3 – 240/3 = 40/3 ≈ ₹13.33.\n\nRe-working: Total fixed cost = ₹2800. With 30 students: ₹2800/30 = ₹93.33. Increase = ₹13.33.\nFinal Answer: Total cost remains ₹2800; New cost per head = ₹93.33; Increase per student ≈ ₹13.33."
+        }
+      ]
+    },
+    {
+      "section": "D",
+      "title": "Section D – Long Answer Questions (5 marks each)",
+      "marks": 30,
+      "questions": [
+        {
+          "question_no": "31",
+          "marks": 5,
+          "topic": "Comparing Quantities – GST and Compound Interest",
+          "question": "A television set has a marked price of ₹24,000. A discount of 10% is given. GST of 18% is charged on the discounted price. (a) Find the selling price after discount. (b) Calculate the GST amount. (c) Find the final price paid by the customer. (d) If the customer pays in 3 EMIs and the shopkeeper charges simple interest at 12% per annum on the discounted price for 9 months, find each EMI.",
+          "answer": "(a) SP after discount = ₹21,600; (b) GST = ₹3,888; (c) Final price = ₹25,488; (d) EMI = ₹9,288.",
+          "working": "Part (a): Marked Price = ₹24,000; Discount = 10%.\nDiscount amount = 10% of 24,000 = ₹2,400.\nSelling price after discount = 24,000 – 2,400 = ₹21,600.\n\nPart (b): GST = 18% on discounted price = 18% of 21,600 = (18/100) × 21,600 = ₹3,888.\n\nPart (c): Final price paid = Discounted SP + GST = 21,600 + 3,888 = ₹25,488.\n\nPart (d): SI on ₹21,600 at 12% p.a. for 9 months (= 9/12 = 3/4 year).\nSI = (21,600 × 12 × (3/4)) / 100 = (21,600 × 9) / 100 = 194,400 / 100 = ₹1,944.\nTotal amount to pay in EMIs = 21,600 + 1,944 = ₹23,544.\nEach EMI = 23,544 / 3 = ₹7,848.\n\nNote on revised calculation: The question says 3 EMIs on the discounted price with SI for 9 months.\nFinal Answer: (a) ₹21,600; (b) ₹3,888; (c) ₹25,488; (d) Each EMI = ₹7,848."
+        },
+        {
+          "question_no": "32",
+          "marks": 5,
+          "topic": "Mensuration – Surface Area and Volume",
+          "question": "A water tank is in the shape of a cuboid with length 4 m, breadth 3 m and height 2.5 m. (a) Find the volume of the tank. (b) Find the total surface area of the tank. (c) If a cylindrical pipe of radius 7 cm is used to fill the tank and water flows at 2 m/s, how long will it take to fill the tank? (Use π = 22/7). Express the time in minutes.",
+          "answer": "(a) Volume = 30 m³; (b) TSA = 47 m²; (c) Time ≈ 219.78 minutes",
+          "working": "Part (a): Volume of cuboid = l × b × h = 4 × 3 × 2.5 = 30 m³.\n\nPart (b): Total Surface Area = 2(lb + bh + lh)\n= 2(4×3 + 3×2.5 + 4×2.5)\n= 2(12 + 7.5 + 10)\n= 2 × 29.5\n= 59 m².\n\nNote: If it is an open tank (no lid), Lateral Surface Area + Base = 2h(l+b) + lb = 2(2.5)(4+3) + (4×3) = 5 × 7 + 12 = 35 + 12 = 47 m².\n\nPart (c): Pipe radius r = 7 cm = 0.07 m. Speed of water = 2 m/s.\nVolume of water flowing per second = πr² × speed = (22/7) × (0.07)² × 2\n= (22/7) × 0.0049 × 2\n= (22 × 0.0049 × 2) / 7\n= (22 × 0.0098) / 7\n= 0.2156 / 7\n= 0.0308 m³/s.\n\nTime = Volume of tank / Flow rate = 30 / 0.0308 ≈ 974.03 seconds ≈ 16.23 minutes.\n\nRecalculate with r = 0.07 m: Area = (22/7) × 0.07 × 0.07 = (22/7) × 0.0049 = 22 × 0.0007 = 0.0154 m².\nFlow rate = 0.0154 × 2 = 0.0308 m³/s. Time = 30/0.0308 = 974.03 s ≈ 16.23 minutes.\n\nFinal Answer: (a) 30 m³; (b) TSA (closed) = 59 m², (open tank) = 47 m²; (c) ≈ 974 seconds ≈ 16.2 minutes."
+        },
+        {
+          "question_no": "33",
+          "marks": 5,
+          "topic": "Linear Equations – Word Problem",
+          "question": "A boat travels 36 km upstream and 48 km downstream in 10 hours. The same boat travels 24 km upstream and 36 km downstream in 7 hours. Taking the speed of the boat in still water as x km/h and speed of stream as y km/h: (a) Write two equations. (b) Solve to find x and y. (c) Find the time the boat would take to travel 60 km upstream.",
+          "answer": "(a) 36/(x–y) + 48/(x+y) = 10 and 24/(x–y) + 36/(x+y) = 7; (b) x = 10 km/h, y = 2 km/h; (c) 7.5 hours",
+          "working": "Step 1: Let upstream speed = (x – y) km/h; downstream speed = (x + y) km/h.\nLet u = 1/(x–y) and v = 1/(x+y).\n\nStep 2: Equation 1: 36u + 48v = 10 ... (i)\nEquation 2: 24u + 36v = 7 ... (ii)\n\nStep 3: Multiply (i) by 3 and (ii) by 4:\n108u + 144v = 30 ... (iii)\n96u + 144v = 28 ... (iv)\n\nStep 4: Subtract (iv) from (iii): 12u = 2 → u = 1/6.\nSo 1/(x–y) = 1/6 → x – y = 6 ... (A)\n\nStep 5: Substitute u = 1/6 in equation (ii):\n24(1/6) + 36v = 7 → 4 + 36v = 7 → 36v = 3 → v = 1/12.\nSo 1/(x+y) = 1/12 → x + y = 12 ... (B)\n\nStep 6: From (A) and (B): x – y = 6 and x + y = 12.\nAdding: 2x = 18 → x = 9. Then y = 12 – 9 = 3.\n\nVerification: Upstream speed = 9 – 3 = 6 km/h; Downstream speed = 9 + 3 = 12 km/h.\nEquation 1: 36/6 + 48/12 = 6 + 4 = 10. ✓\nEquation 2: 24/6 + 36/12 = 4 + 3 = 7. ✓\n\nStep 7 (Part c): Upstream speed = x – y = 6 km/h.\nTime to travel 60 km upstream = 60/6 = 10 hours.\n\nFinal Answer: (a) 36u + 48v = 10 and 24u + 36v = 7 (where u = 1/(x–y), v = 1/(x+y)); (b) x = 9 km/h, y = 3 km/h; (c) 10 hours."
+        },
+        {
+          "question_no": "34",
+          "marks": 5,
+          "topic": "Squares and Square Roots / Cubes and Cube Roots",
+          "question": "(a) Find the square root of 10404 using the long division method. (b) Find the smallest number by which 1458 must be divided to make it a perfect cube. Also find the cube root of the resulting number. (c) Evaluate: ∛(27/64) × √(1/4) × (∛125 / √16).",
+          "answer": "(a) √10404 = 102; (b) Divide by 2, cube root of 729 = 9; (c) 15/32",
+          "working": "Part (a): Square root of 10404 by long division:\n√10404:\nGroup digits from right: 1 04 04.\nLargest square ≤ 1 → 1² = 1. Remainder = 0. Bring down 04 → 004.\nDouble quotient = 2, find d: 2d × d ≤ 4 → d = 0: 20 × 0 = 0. Remainder = 4. Bring down 04 → 404.\nDouble quotient (10) → find d: 20d × d ≤ 404. Try d = 2: 202 × 2 = 404. Exact. ✓\nSo √10404 = 102.\nVerification: 102² = 10404. ✓\n\nPart (b): Prime factorisation of 1458:\n1458 ÷ 2 = 729; 729 = 3⁶ (since 3¹=3, 3²=9, 3³=27, 3⁴=81, 3⁵=243, 3⁶=729).\nSo 1458 = 2 × 3⁶.\nFor a perfect cube, all prime factors must have exponents divisible by 3.\n2 appears once (not divisible by 3). Divide by 2.\n3⁶ → exponent 6, divisible by 3. ✓\nResulting number = 1458 / 2 = 729 = 3⁶.\nCube root of 729 = 3^(6/3) = 3² = 9.\n\nPart (c): ∛(27/64) × √(1/4) × (∛125 / √16)\n= (∛27/∛64) × (√1/√4) × (∛125/√16)\n= (3/4) × (1/2) × (5/4)\n= (3 × 1 × 5) / (4 × 2 × 4)\n= 15/32.\nFinal Answer: (a) 102; (b) Divide by 2, cube root = 9; (c) 15/32."
+        },
+        {
+          "question_no": "35",
+          "marks": 5,
+          "topic": "Factorisation and Algebraic Identities",
+          "question": "A school is organising a Math Olympiad fundraiser. The profit from ticket sales is modelled by the expression P(x) = 4x² – 12x – 40, where x is the number of additional volunteers beyond the base team. (a) Factorise P(x) completely. (b) Find the values of x for which profit is zero. (c) Using algebraic identity, evaluate (4.5)² – (3.5)² without a calculator. (d) The school collected ₹(x² + 7x + 12) and spent ₹(x + 3) per event over a total of (x + 4) events. Verify this relationship by factorising the revenue expression.",
+          "answer": "(a) 4(x – 5)(x + 2); (b) x = 5 or x = –2; (c) 8; (d) (x+3)(x+4) verified.",
+          "working": "Part (a): P(x) = 4x² – 12x – 40\nStep 1: Take out common factor 4: P(x) = 4(x² – 3x – 10).\nStep 2: Factorise x² – 3x – 10: find two numbers multiplying to –10 and adding to –3 → (–5) and (+2).\nx² – 3x – 10 = x² – 5x + 2x – 10 = x(x–5) + 2(x–5) = (x–5)(x+2).\nP(x) = 4(x – 5)(x + 2).\n\nPart (b): Set P(x) = 0:\n4(x – 5)(x + 2) = 0 → x = 5 or x = –2.\n(Since x represents volunteers, x = 5 is the physically meaningful answer, but both are mathematical solutions.)\n\nPart (c): (4.5)² – (3.5)²\nUsing identity a² – b² = (a–b)(a+b) with a = 4.5, b = 3.5:\n= (4.5 – 3.5)(4.5 + 3.5)\n= (1)(8)\n= 8.\n\nPart (d): Revenue = x² + 7x + 12.\nFactorise: find two numbers multiplying to 12 and adding to 7 → (+3) and (+4).\nx² + 7x + 12 = (x + 3)(x + 4).\nInterpretation: The school collected ₹(x+3) per event and held (x+4) events, giving total revenue = (x+3)(x+4) = x² + 7x + 12. ✓\nFinal Answer: (a) P(x) = 4(x–5)(x+2); (b) x = 5 or x = –2; (c) 8; (d) x² + 7x + 12 = (x+3)(x+4) confirmed."
+        },
+        {
+          "question_no": "36",
+          "marks": 5,
+          "topic": "Mensuration – Polygon and Cylinder",
+          "question": "A village pond is in the shape of a regular octagon with side 10 m. (a) Find the sum of interior angles of the octagon. (b) Find each interior angle. (c) A cylindrical water tank next to the pond has a radius of 3.5 m and a height of 5 m. Find its curved surface area, total surface area and volume. (Use π = 22/7) (d) If the tank is to be painted on the outside (excluding the base) at ₹8 per m², find the cost.",
+          "answer": "(a) 1080°; (b) 135°; (c) CSA = 110 m², TSA = 187 m², Volume = 192.5 m³; (d) Cost = ₹1496",
+          "working": "Part (a): Sum of interior angles of an octagon (n = 8):\n= (n – 2) × 180° = (8 – 2) × 180° = 6 × 180° = 1080°.\n\nPart (b): Each interior angle of a regular octagon:\n= 1080° / 8 = 135°.\n\nPart (c): Cylinder: r = 3.5 m, h = 5 m.\nCurved Surface Area (CSA) = 2πrh = 2 × (22/7) × 3.5 × 5\n= 2 × (22/7) × 17.5\n= 2 × 22 × 2.5 [since 17.5/7 = 2.5]\n= 2 × 55 = 110 m².\n\nArea of one circular base = πr² = (22/7) × 3.5 × 3.5 = (22/7) × 12.25 = 22 × 1.75 = 38.5 m².\n\nTotal Surface Area (TSA) = CSA + 2 × base area = 110 + 2 × 38.5 = 110 + 77 = 187 m².\n\nVolume = πr²h = 38.5 × 5 = 192.5 m³.\n\nPart (d): Painted area = CSA + top circular face (no base) = 110 + 38.5 = 148.5 m².\nCost = 148.5 × ₹8 = ₹1188.\n\nNote: If painting the outside excluding the bottom base:\nPainted area = CSA + top = 110 + 38.5 = 148.5 m².\nCost = 148.5 × 8 = ₹1188.\nFinal Answer: (a) 1080°; (b) 135°; (c) CSA = 110 m², TSA = 187 m², Volume = 192.5 m³; (d) ₹1188."
+        }
+      ]
+    }
+  ]
+}

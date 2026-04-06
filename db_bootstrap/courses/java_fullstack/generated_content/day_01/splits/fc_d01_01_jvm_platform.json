@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "asset_type": "flashcard",
+    "session_day": 1,
+    "topic": "JVM, JDK & JRE — Platform Architecture",
+    "sub_topic_num": 1,
+    "session_title": "Day 1 - Introduction to Java & Language Fundamentals",
+    "total_cards": 2,
+    "generated_by": "Claude (claude-sonnet-4-6)",
+    "pedagogy": "Mixes conceptual understanding, code reading, debugging, and output prediction to build software engineering skills"
+  },
+  "cards": [
+    {
+      "card_id": "FC_001",
+      "front": {
+        "type": "text",
+        "content": "What is the difference between JDK, JRE, and JVM?\nWhich one do you install to: (a) develop Java, (b) only run Java programs?"
+      },
+      "back": {
+        "type": "text",
+        "content": "JVM = Java Virtual Machine — executes bytecode (.class files). Platform-specific.\nJRE = JVM + standard libraries (java.lang, java.util...) — needed to RUN programs.\nJDK = JRE + dev tools (javac, javadoc, jar, jdb) — needed to DEVELOP.\n\n(a) Install JDK to develop\n(b) Install JRE (or JDK) to only run\n\nMemory trick: JDK ⊃ JRE ⊃ JVM\n\n💡 In an interview: 'javac compiles .java → .class; java (JVM) executes .class'"
+      },
+      "category": "concept",
+      "difficulty": "easy",
+      "order": 1
+    },
+    {
+      "card_id": "FC_019",
+      "front": {
+        "type": "text",
+        "content": "What is platform independence in Java?\nTrace the steps from .java file to execution on any OS."
+      },
+      "back": {
+        "type": "text",
+        "content": "Platform independence = 'Write Once, Run Anywhere' (WORA)\n\nStep-by-step:\n1. You write: BankApp.java (human-readable source code)\n2. javac compiles it: BankApp.class (bytecode — JVM instructions, NOT machine code)\n3. JVM on any OS reads BankApp.class and JIT-compiles to native machine code\n4. The SAME .class file runs on Windows, Linux, macOS, Android...\n\nWhy it matters in enterprise:\n• Banking core systems built in Java run on Linux servers in data centers\n• The same JAR file runs on developer Windows laptops, Linux QA servers, cloud containers\n• No 'it works on my machine' problem for compiled code\n\nContrast with C/C++:\n• C compiles directly to machine code (EXE on Windows)\n• Must recompile separately for each OS/architecture\n\n💡 Interview Q: 'Is Java compiled or interpreted?' Answer: BOTH — compiled to bytecode, then JIT-interpreted."
+      },
+      "category": "concept",
+      "difficulty": "easy",
+      "order": 2
+    }
+  ]
+}

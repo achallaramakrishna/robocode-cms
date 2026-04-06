@@ -1,0 +1,557 @@
+{
+  "course_name": "Java Full Stack - 120 Hours",
+  "course_category_id": 8,
+  "subject": "Java Full Stack",
+  "board": "Industry",
+  "tier_level": "beginner",
+  "description": "Comprehensive 120-hour Java Full Stack training covering Core Java 8, Spring Boot, Hibernate/JPA, React, Node.js, SQL, PL/SQL, JUnit, Git and Jenkins. Instructor-Led Classroom Training (30 sessions x 4 hrs each).",
+  "sessions": [
+    {
+      "day": 1,
+      "session_title": "Day 1 - Core Java: Introduction & Language Fundamentals",
+      "session_description": "Introduction to Java, Language Fundamentals including Primitive Data Types, Operators & Assignments, Flow Control, and Classes & Objects.",
+      "topics": [
+        "Introduction to Java",
+        "Language Fundamentals",
+        "Primitive Data Types",
+        "Operators and Assignments",
+        "Flow Control: Java Control Statements",
+        "Classes and Objects",
+        "Access Specifiers",
+        "Constructors: Default and Parameterized",
+        "this reference",
+        "Using static keyword",
+        "Best Practices"
+      ],
+      "course_session_id": 1028,
+      "session_uuid": "2a144e47-5efe-4daa-9fd1-b4a7ac13a173"
+    },
+    {
+      "day": 2,
+      "session_title": "Day 2 - Core Java: Exploring Java Basics & OOP",
+      "session_description": "Wrapper Classes, Type Casting, String Handling, Inheritance, Polymorphism and Abstract Classes/Interfaces.",
+      "topics": [
+        "Wrapper Classes",
+        "Type casting",
+        "String Handling",
+        "Inheritance",
+        "Using super keyword",
+        "Method & Constructor overloading",
+        "Method overriding",
+        "Using final keyword",
+        "Abstract class",
+        "Interfaces",
+        "Default and static methods on Interface",
+        "Runtime Polymorphism",
+        "Best Practices"
+      ],
+      "course_session_id": 1029,
+      "session_uuid": "6f5986ed-dff9-4358-932c-a8559475779a"
+    },
+    {
+      "day": 3,
+      "session_title": "Day 3 - Core Java: Exception Handling & Arrays",
+      "session_description": "Complete Exception Handling lifecycle including try-catch-finally, user-defined exceptions, and one-dimensional Arrays with varargs.",
+      "topics": [
+        "Exception Types and Hierarchy",
+        "Try-catch-finally",
+        "Try-with-resources",
+        "Multi catch blocks",
+        "Throwing exceptions using throw",
+        "Declaring exceptions using throws",
+        "User defined Exceptions",
+        "One dimensional array",
+        "Using varargs",
+        "Using Arrays class",
+        "Best Practices"
+      ],
+      "course_session_id": 1030,
+      "session_uuid": "d41e5b5c-fb35-4a0b-b67b-b7cfb5906e43"
+    },
+    {
+      "day": 4,
+      "session_title": "Day 4 - Core Java: Collections, Generics & Property Files",
+      "session_description": "Java Collections Framework, Generics, Comparable/Comparator and Property Files.",
+      "topics": [
+        "Collections Framework",
+        "Collection Interfaces",
+        "Implementing Classes",
+        "Iterating Collections using foreach and iterator",
+        "Comparable and Comparator",
+        "Using Generics with Collections",
+        "What are Property Files",
+        "Types of Property files",
+        "User defined Properties",
+        "Best Practices"
+      ],
+      "course_session_id": 1031,
+      "session_uuid": "298c3330-2f33-47bd-8f4d-05811142ff31"
+    },
+    {
+      "day": 5,
+      "session_title": "Day 5 - Basic Git",
+      "session_description": "Version Control with Git: from installation to collaborative workflows, branching, merging, and GitHub.",
+      "topics": [
+        "Introduction to Version Control Systems (VCS)",
+        "Understanding Git: What is Git and Why to Use it",
+        "Git Basics: Installation and Configuration",
+        "Git Workflow: Working with Local Repositories",
+        "Branching and Merging in Git",
+        "Collaborative Development with Git: Working with Remote Repositories",
+        "Resolving Conflicts and Undoing Changes in Git",
+        "Git Best Practices and Tips",
+        "Introduction to Git Hosting Services (GitHub, GitLab, Bitbucket)"
+      ],
+      "course_session_id": 1032,
+      "session_uuid": "10d09180-d99b-455f-bd51-e0bf756acc7f"
+    },
+    {
+      "day": 6,
+      "session_title": "Day 6 - Jenkins (CI/CD)",
+      "session_description": "Continuous Integration and Deployment with Jenkins: jobs, pipelines, Git integration, plugins, and best practices.",
+      "topics": [
+        "Introduction to CI/CD",
+        "Understanding Jenkins: What is Jenkins and Why to Use it",
+        "Jenkins Installation and Configuration",
+        "Creating and Running Jenkins Jobs",
+        "Jenkins Pipelines: Introduction and Basics",
+        "Integrating Jenkins with Version Control Systems (Git)",
+        "Jenkins Plugins and Extensions",
+        "Monitoring and Troubleshooting Jenkins Builds",
+        "Best Practices for Jenkins Setup and Usage",
+        "Hands-on Exercises and Projects"
+      ],
+      "course_session_id": 1033,
+      "session_uuid": "5d531447-7b2c-4f79-9528-d21c7bce29fe"
+    },
+    {
+      "day": 7,
+      "session_title": "Day 7 - JUnit (Unit Testing & TDD)",
+      "session_description": "Unit Testing and Test-Driven Development with JUnit: test cases, suites, fixtures, assertions, annotations and Mockito.",
+      "topics": [
+        "Introduction to Unit Testing and Test-Driven Development (TDD)",
+        "Understanding JUnit: What is JUnit and Why to Use it",
+        "Setting Up a Java Development Environment for JUnit",
+        "Writing Your First JUnit Test Cases",
+        "Test Suites and Test Fixtures in JUnit",
+        "Assertions and Test Annotations in JUnit",
+        "Parameterized Tests in JUnit",
+        "Mocking and Stubbing with Mockito",
+        "Best Practices for Writing Effective Unit Tests",
+        "Hands-on Exercises and Projects"
+      ],
+      "course_session_id": 1034,
+      "session_uuid": "7d355eb3-104c-4bfd-a544-33f0bf9c48a8"
+    },
+    {
+      "day": 8,
+      "session_title": "Day 8 - JavaScript Basics & DOM",
+      "session_description": "JavaScript fundamentals, ECMAScript versions, the Document Object Model, event handling, and DOM manipulation.",
+      "topics": [
+        "JavaScript Basics",
+        "JavaScript or ECMAScript?",
+        "Which Version of JavaScript am I Using?",
+        "Writing and Testing JavaScript",
+        "Editors and the F12 Tools",
+        "Key Parts of a Script",
+        "The Document Object Model (DOM)",
+        "Accessing Objects from the DOM",
+        "Responding to Events",
+        "Adding Elements to the DOM"
+      ],
+      "course_session_id": 1035,
+      "session_uuid": "e5ab496f-c2fe-4749-8a21-201b85b1d3f6"
+    },
+    {
+      "day": 9,
+      "session_title": "Day 9 - jQuery, Ajax & RESTful Web Services",
+      "session_description": "jQuery library usage, Ajax calls, RESTful Web Services, HTTP verbs, XML/JSON data formats and OData.",
+      "topics": [
+        "Introduction to jQuery",
+        "Downloading the jQuery Library",
+        "Selecting Elements using jQuery",
+        "Working with the Data Returned by jQuery",
+        "Setting CSS Properties",
+        "Running a Function Against the jQuery Return Set",
+        "Web Services and HTTP Verbs",
+        "Data Formats XML and JSON",
+        "Ajax",
+        "RESTful Web Services",
+        "OData Queries and Updates"
+      ],
+      "course_session_id": 1036,
+      "session_uuid": "924ca54d-1081-4404-9246-9fa7791739ec"
+    },
+    {
+      "day": 10,
+      "session_title": "Day 10 - Spring Boot Introduction",
+      "session_description": "Spring Boot starters, application setup, dependency injection, component scans, configuration, context root, and logging.",
+      "topics": [
+        "Spring Boot starters, CLI, Gradle plugin",
+        "Application class and @SpringBootApplication",
+        "Dependency injection",
+        "Component scans",
+        "Configuration",
+        "Externalize your configuration using application.properties",
+        "Context Root and Management ports",
+        "Logging",
+        "Build Systems",
+        "Structuring Your Code",
+        "Spring Beans and Dependency Injection"
+      ],
+      "course_session_id": 1037,
+      "session_uuid": "c6d4d5e8-0ea3-4a32-965d-aa48205107d0"
+    },
+    {
+      "day": 11,
+      "session_title": "Day 11 - Spring Boot Essentials & Spring Data JPA",
+      "session_description": "Spring Boot Essentials (Embedded Servers, Data Access, Auto-configuration), Spring Data JPA core concepts and repository patterns.",
+      "topics": [
+        "Application Development and Configuration",
+        "Embedded Servers",
+        "Data Access",
+        "Common application properties",
+        "Auto-configuration classes",
+        "Spring Boot Dependencies",
+        "Spring Data JPA Intro and Overview",
+        "Core Concepts and @RepositoryRestResource",
+        "Defining Query methods",
+        "Query Creation",
+        "Using JPA Named Queries",
+        "Defining Repository Interfaces",
+        "Creating Repository instances",
+        "JPA Repositories",
+        "Persisting Entities and Transactions"
+      ],
+      "course_session_id": 1038,
+      "session_uuid": "789d8d50-3b11-461c-b75a-c41a7c5bc173"
+    },
+    {
+      "day": 12,
+      "session_title": "Day 12 - Spring Data REST & Spring Framework Core",
+      "session_description": "Spring Data REST configuration, associations and query methods. Spring Framework core: IoC, DI, Bean scopes and lifecycle.",
+      "topics": [
+        "Spring Data REST Introduction and Overview",
+        "Adding Spring Data REST to a Spring Boot Project",
+        "Configuring Spring Data REST",
+        "Repository resources, Default Status Codes, Http methods",
+        "Spring Data REST Associations",
+        "Introduction to Spring Framework",
+        "Dependency Injection and Aspect-Oriented Programming",
+        "Configuring Spring Beans using XML and annotations",
+        "DI and Inversion of Control (IoC) in Spring",
+        "Understanding Bean scopes and Lifecycle in Spring"
+      ],
+      "course_session_id": 1039,
+      "session_uuid": "678b5b46-6958-4a7d-bf9c-b68e7cf04d9b"
+    },
+    {
+      "day": 13,
+      "session_title": "Day 13 - Spring MVC",
+      "session_description": "Spring MVC architecture, DispatcherServlet, application context, controllers, request handling and JSP view rendering.",
+      "topics": [
+        "Introduction to Spring MVC architecture and DispatcherServlet",
+        "Configuring Spring MVC application context and controller mappings",
+        "Creating Controller classes to handle user requests",
+        "Integrating Spring MVC with JSP for view rendering"
+      ],
+      "course_session_id": 1040,
+      "session_uuid": "22e21b6e-739c-4ead-87d5-2742c9b8332c"
+    },
+    {
+      "day": 14,
+      "session_title": "Day 14 - React: Getting Started",
+      "session_description": "Introduction to React ecosystem, setting up the development environment, creating your first React app, JSX syntax and components.",
+      "topics": [
+        "Introduction to React and its ecosystem",
+        "Setting up development environment (Node.js, npm)",
+        "Creating your first React application",
+        "Understanding JSX syntax",
+        "Creating functional and class components",
+        "Props and state in React components"
+      ],
+      "course_session_id": 1041,
+      "session_uuid": "2eb49d7e-97ab-408d-96b8-7bf69899dc3c"
+    },
+    {
+      "day": 15,
+      "session_title": "Day 15 - React: Events, State Management & Lists",
+      "session_description": "Event handling in React, managing state with useState/setState, component lifecycle methods, lists, keys and conditional rendering.",
+      "topics": [
+        "Event handling in React",
+        "Managing state with useState and setState",
+        "React component lifecycle methods",
+        "Rendering lists with map()",
+        "Using keys for efficient list rendering",
+        "Conditional rendering in React"
+      ],
+      "course_session_id": 1042,
+      "session_uuid": "88622413-e05d-4e01-83d9-0835ba9aa2f2"
+    },
+    {
+      "day": 16,
+      "session_title": "Day 16 - React: Forms, Hooks & Context API",
+      "session_description": "React forms (controlled vs uncontrolled), form validation, React hooks (useState, useEffect, custom hooks), and Context API.",
+      "topics": [
+        "Handling form inputs in React",
+        "Controlled vs. uncontrolled components",
+        "Form validation in React",
+        "Introduction to React hooks",
+        "Working with useState, useEffect, and custom hooks",
+        "Using Context API for global state management"
+      ],
+      "course_session_id": 1043,
+      "session_uuid": "5d14a76f-0275-4f9d-8eea-1678e4dba2cd"
+    },
+    {
+      "day": 17,
+      "session_title": "Day 17 - React: Routing & Redux",
+      "session_description": "React Router setup, nested routes, navigation, route parameters, Redux state management, actions, reducers and store.",
+      "topics": [
+        "Setting up routing in React applications",
+        "Creating routes and nested routes",
+        "Navigation and route parameters",
+        "State management with Redux",
+        "Actions, reducers, and the Redux store",
+        "Integrating Redux with React applications"
+      ],
+      "course_session_id": 1044,
+      "session_uuid": "f0df362a-b007-4946-8d15-da06ab39294b"
+    },
+    {
+      "day": 18,
+      "session_title": "Day 18 - React: Styling & API Data Fetching",
+      "session_description": "CSS Modules, CSS-in-JS (styled-components), responsive design, making HTTP requests in React using useEffect and handling states.",
+      "topics": [
+        "CSS modules and scoped styles",
+        "CSS-in-JS libraries like styled-components",
+        "Responsive design and media queries",
+        "Making HTTP requests in React",
+        "Using useEffect for data fetching",
+        "Handling loading and error states"
+      ],
+      "course_session_id": 1045,
+      "session_uuid": "d7e0cc3b-11a9-420b-b621-800dfdf928a5"
+    },
+    {
+      "day": 19,
+      "session_title": "Day 19 - Node.js Primer & npm",
+      "session_description": "Introduction to Node.js, why Node.js, setting up the environment, core modules, require/module.exports, and npm package management.",
+      "topics": [
+        "Introduction to Node.js",
+        "Why Node.js? Asynchronous and Non-Blocking I/O",
+        "Setting up the Development Environment",
+        "Understanding Node.js Core Modules",
+        "Understanding require, module.exports",
+        "fs, path, os, http, url modules",
+        "What is npm? (Understanding package management)",
+        "Understanding package.json",
+        "Installing and Uninstalling Packages"
+      ],
+      "course_session_id": 1046,
+      "session_uuid": "6cc73638-c2cc-4e02-88c9-1ec9acc9aa5f"
+    },
+    {
+      "day": 20,
+      "session_title": "Day 20 - Node.js: Routing, Error Handling & Deployment",
+      "session_description": "Routing in Node.js, handling requests, URL parsing, HTTP methods, route handlers, error handling, debugging, performance optimization and deployment.",
+      "topics": [
+        "Understanding routing",
+        "Handling requests: Request-response cycle, URL parsing",
+        "Using the http module for basic routing",
+        "Parsing URLs and query strings",
+        "Handling different HTTP request methods",
+        "Creating route handlers",
+        "Routing and Error Handling",
+        "Debugging and Performance Optimization",
+        "Deployment"
+      ],
+      "course_session_id": 1047,
+      "session_uuid": "26ca0839-7b24-477e-8219-a8d8179bb76b"
+    },
+    {
+      "day": 21,
+      "session_title": "Day 21 - Advanced JavaScript (ES6+)",
+      "session_description": "Deep dive into modern JavaScript: arrow functions, destructuring, spread/rest operators, promises, async/await, modules and classes.",
+      "topics": [
+        "Arrow Functions",
+        "Destructuring Assignment",
+        "Spread and Rest Operators",
+        "Template Literals",
+        "Promises and Async/Await",
+        "ES6 Modules (import/export)",
+        "ES6 Classes",
+        "Map, Set, WeakMap, WeakSet",
+        "Iterators and Generators",
+        "Error Handling in Async Code"
+      ],
+      "course_session_id": 1048,
+      "session_uuid": "935f03f6-2e20-45b8-9ff6-89bda530fa48"
+    },
+    {
+      "day": 22,
+      "session_title": "Day 22 - Hibernate with JPA: Introduction & Entities",
+      "session_description": "Introduction to data persistence, ORM tools overview, JPA specifications, Entity classes, persistent fields/properties and primary keys.",
+      "topics": [
+        "Introduction and overview of data persistence",
+        "Overview of ORM tools",
+        "Understanding JPA",
+        "JPA Specifications",
+        "Requirements for Entity Classes",
+        "Persistent Fields and Properties in Entity Classes",
+        "Using Collections in Entity Fields and Properties",
+        "Validating Persistent Fields and Properties",
+        "Primary Keys in Entities"
+      ],
+      "course_session_id": 1049,
+      "session_uuid": "c78c4f3f-a853-49c9-a3b9-20e5262cbaa9"
+    },
+    {
+      "day": 23,
+      "session_title": "Day 23 - Hibernate with JPA: Managing Entities & Querying",
+      "session_description": "EntityManager interface, container/application-managed entity managers, entity lifecycle, JPQL, Criteria API.",
+      "topics": [
+        "The EntityManager Interface",
+        "Container-Managed Entity Managers",
+        "Application-Managed Entity Managers",
+        "Finding Entities Using the EntityManager",
+        "Managing an Entity Instance Lifecycle",
+        "Persisting, Removing and Synchronizing Entity Instances",
+        "Persistence Units",
+        "Java Persistence Query Language (JPQL)",
+        "Criteria API"
+      ],
+      "course_session_id": 1050,
+      "session_uuid": "78ffa27b-a232-4392-82be-bfcd41acd739"
+    },
+    {
+      "day": 24,
+      "session_title": "Day 24 - Hibernate with JPA: Entity Relationships",
+      "session_description": "Direction in entity relationships, bidirectional/unidirectional relationships, cascade operations and queries with relationships.",
+      "topics": [
+        "Direction in Entity Relationships",
+        "Bidirectional Relationships",
+        "Unidirectional Relationships",
+        "Queries and Relationship Direction",
+        "Cascade Operations and Relationships",
+        "@OneToOne, @OneToMany, @ManyToOne, @ManyToMany",
+        "Fetch Types: LAZY vs EAGER",
+        "Orphan Removal",
+        "Best Practices for JPA Relationships"
+      ],
+      "course_session_id": 1051,
+      "session_uuid": "db4e0c5d-7fb0-4b50-9e1e-524ed220f89f"
+    },
+    {
+      "day": 25,
+      "session_title": "Day 25 - SQL: Introduction & Basic Commands",
+      "session_description": "Relational Model, basic SQL syntax, SELECT, INSERT, UPDATE, DELETE commands and querying data.",
+      "topics": [
+        "The Relational Model",
+        "Understanding Basic SQL Syntax",
+        "Basic SQL Commands: SELECT",
+        "Basic SQL Commands: INSERT",
+        "Basic SQL Commands: UPDATE",
+        "Basic SQL Commands: DELETE",
+        "The SELECT List and Wildcard (*)",
+        "The FROM Clause",
+        "How to Constrain the Result Set",
+        "DISTINCT and NOT DISTINCT"
+      ],
+      "course_session_id": 1052,
+      "session_uuid": "2736c1f7-2bed-4454-96f7-15e92b0fd576"
+    },
+    {
+      "day": 26,
+      "session_title": "Day 26 - SQL: Filtering, Ordering & Grouping",
+      "session_description": "WHERE clause, Boolean operators, ORDER BY, GROUP BY, HAVING, set functions and advanced filtering.",
+      "topics": [
+        "WHERE Clause",
+        "Boolean Operators: AND, OR",
+        "Other Boolean Operators: BETWEEN, LIKE, IN, IS, IS NOT",
+        "ORDER BY",
+        "Set Functions (COUNT, SUM, AVG, MIN, MAX)",
+        "Set Function and Qualifiers",
+        "GROUP BY",
+        "HAVING clause"
+      ],
+      "course_session_id": 1053,
+      "session_uuid": "deb91920-e825-4202-8c16-bcc58cc302d3"
+    },
+    {
+      "day": 27,
+      "session_title": "Day 27 - SQL: JOINs & DDL",
+      "session_description": "All JOIN types (CROSS, INNER, OUTER, SELF), creating and managing database tables with DDL commands.",
+      "topics": [
+        "CROSS JOIN",
+        "INNER JOIN",
+        "LEFT OUTER JOIN",
+        "RIGHT OUTER JOIN",
+        "FULL OUTER JOIN",
+        "SELF JOIN",
+        "CREATE DATABASE",
+        "CREATE TABLE",
+        "NULL Values and PRIMARY KEY",
+        "CONSTRAINT, ALTER TABLE, DROP TABLE"
+      ],
+      "course_session_id": 1054,
+      "session_uuid": "a49e97b7-0251-4d06-8dfe-e963c1faee5e"
+    },
+    {
+      "day": 28,
+      "session_title": "Day 28 - PL/SQL Basics",
+      "session_description": "Introduction to PL/SQL, block structure, declaration section, execution section and conditional control structures.",
+      "topics": [
+        "What is PL/SQL?",
+        "Benefits and applications of PL/SQL",
+        "PL/SQL architecture and components",
+        "Anatomy of a PL/SQL block",
+        "Declaration section: variables and data types",
+        "Execution section: executable statements",
+        "IF-THEN-ELSE statement",
+        "CASE statement for multiple conditions",
+        "Handling NULL values with NULLIF and COALESCE"
+      ],
+      "course_session_id": 1055,
+      "session_uuid": "1db044d9-ce80-4fcd-b79e-27c8f3070b28"
+    },
+    {
+      "day": 29,
+      "session_title": "Day 29 - Full Stack Integration Lab",
+      "session_description": "Hands-on full stack project integrating React frontend with Spring Boot REST API backend and MySQL/PostgreSQL database using Hibernate/JPA.",
+      "topics": [
+        "Project Architecture: Frontend + Backend + Database",
+        "Setting up Spring Boot REST API",
+        "Configuring Hibernate/JPA with MySQL",
+        "Creating Entity classes and Repositories",
+        "Building RESTful endpoints",
+        "Connecting React frontend to Spring Boot API",
+        "Axios/Fetch for API calls from React",
+        "CORS configuration in Spring Boot",
+        "End-to-end CRUD operations",
+        "Deployment on Tomcat"
+      ],
+      "course_session_id": 1056,
+      "session_uuid": "db75e369-30fc-4d96-9d55-d785325b8410"
+    },
+    {
+      "day": 30,
+      "session_title": "Day 30 - Capstone Project & Assessment",
+      "session_description": "Final capstone project presentation, code review, assessment, interview preparation and career guidance.",
+      "topics": [
+        "Capstone Project Presentation",
+        "Code Review and Best Practices",
+        "End-to-End System Walkthrough",
+        "Interview Preparation: Java Full Stack",
+        "Common Interview Questions: Core Java",
+        "Common Interview Questions: Spring Boot & Hibernate",
+        "Common Interview Questions: React",
+        "Career Guidance and Next Steps",
+        "Certification and Course Completion"
+      ],
+      "course_session_id": 1057,
+      "session_uuid": "e99280fc-ac70-4b8e-8d26-c031fd7906c6"
+    }
+  ],
+  "course_id": 58
+}

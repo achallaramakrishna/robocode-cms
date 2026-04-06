@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "asset_type": "matching_pair",
+    "session_day": 1,
+    "session_title": "Day 1 - Introduction to Java & Language Fundamentals",
+    "total_pairs": 8,
+    "instructions": "Match each item in Column A with its correct pair in Column B. These test your ability to read code and predict outcomes — a key software engineering skill.",
+    "generated_by": "Claude (claude-sonnet-4-6)"
+  },
+  "pairs": [
+    {
+      "pair_id": 1,
+      "column_a": {
+        "id": "A1",
+        "content": "byte b = 200;",
+        "type": "code"
+      },
+      "column_b": {
+        "id": "B1",
+        "content": "COMPILE ERROR — 200 exceeds byte range (-128 to 127). Fix: use int or cast with explicit overflow warning.",
+        "type": "text"
+      },
+      "explanation": "byte has range -128 to 127. 200 is outside this range, causing a compile-time error: 'incompatible types: possible lossy conversion from int to byte'."
+    },
+    {
+      "pair_id": 2,
+      "column_a": {
+        "id": "A2",
+        "content": "int result = 7 / 2 * 2;",
+        "type": "code"
+      },
+      "column_b": {
+        "id": "B2",
+        "content": "result = 6 (not 7). Integer division 7/2=3 first, then 3*2=6. Operator precedence: left-to-right for same-priority operators.",
+        "type": "text"
+      },
+      "explanation": "Both / and * have the same precedence and associate left-to-right. So 7/2=3 (integer division, truncates), then 3*2=6. Not 7/4=1 or 7."
+    },
+    {
+      "pair_id": 3,
+      "column_a": {
+        "id": "A3",
+        "content": "double[] emi = {15000, 14800};\nfor (double e : emi) e = e * 1.1;\nSystem.out.println(emi[0]);",
+        "type": "code"
+      },
+      "column_b": {
+        "id": "B3",
+        "content": "Prints: 15000.0 — for-each gives a COPY. Modifying 'e' does not change the original array. Use index loop to modify.",
+        "type": "text"
+      },
+      "explanation": "In for-each, the loop variable is a copy of each element. Reassigning 'e' doesn't affect the original array. This is a subtle but common bug."
+    },
+    {
+      "pair_id": 4,
+      "column_a": {
+        "id": "A4",
+        "content": "String ifsc = \"HDFC0001234\";\nboolean match = ifsc == \"HDFC0001234\";",
+        "type": "code"
+      },
+      "column_b": {
+        "id": "B4",
+        "content": "match may be true or false depending on JVM string pool behavior. NEVER use == for String comparison — use .equals(). In this case, both are literals so likely true, but not guaranteed in all JVM contexts.",
+        "type": "text"
+      },
+      "explanation": "String literals from the same class are typically interned (same reference), so this might print true in simple cases. But in real apps, strings often come from DB/user input where == fails. Always use .equals()."
+    },
+    {
+      "pair_id": 5,
+      "column_a": {
+        "id": "A5",
+        "content": "int balance = Integer.MAX_VALUE;\nbalance++;",
+        "type": "code"
+      },
+      "column_b": {
+        "id": "B5",
+        "content": "balance becomes Integer.MIN_VALUE (-2,147,483,648). Integer overflow — wraps silently. No exception! Use long for financial calculations that can exceed int range.",
+        "type": "text"
+      },
+      "explanation": "Integer.MAX_VALUE + 1 overflows to Integer.MIN_VALUE (two's complement binary wrapping). This is a silent bug — Java doesn't throw ArithmeticException for integer overflow."
+    },
+    {
+      "pair_id": 6,
+      "column_a": {
+        "id": "A6",
+        "content": "public static double totalDebit(double... amounts) {\n    double sum = 0;\n    for (double a : amounts) sum += a;\n    return sum;\n}",
+        "type": "code"
+      },
+      "column_b": {
+        "id": "B6",
+        "content": "Valid varargs method. Can be called as totalDebit(), totalDebit(5000), totalDebit(1000, 2000, 500). The '...' syntax must be the last parameter.",
+        "type": "text"
+      },
+      "explanation": "Varargs (double...) creates an array that can receive 0 or more double values. Inside the method, 'amounts' is treated as a double[]."
+    },
+    {
+      "pair_id": 7,
+      "column_a": {
+        "id": "A7",
+        "content": "int txnCount = 5;\nString msg = (txnCount > 0) ? \"Active\" : \"No transactions\";\nSystem.out.println(msg);",
+        "type": "code"
+      },
+      "column_b": {
+        "id": "B7",
+        "content": "Prints: Active — ternary operator evaluates condition, returns first value if true, second if false. Clean one-liner for simple if-else value assignment.",
+        "type": "text"
+      },
+      "explanation": "Ternary: condition ? valueIfTrue : valueIfFalse. txnCount > 0 is true, so msg = \"Active\"."
+    },
+    {
+      "pair_id": 8,
+      "column_a": {
+        "id": "A8",
+        "content": "import java.util.Arrays;\ndouble[] deposits = {8.5, 12.3, 6.7, 9.2};\nArrays.sort(deposits);\nSystem.out.println(Arrays.toString(deposits));",
+        "type": "code"
+      },
+      "column_b": {
+        "id": "B8",
+        "content": "Prints: [6.7, 8.5, 9.2, 12.3] — Arrays.sort() sorts in ascending order IN PLACE. Arrays.toString() formats array as readable string (without it, you'd see a memory address like [D@6d06d69c).",
+        "type": "text"
+      },
+      "explanation": "Arrays.sort() modifies the original array. Arrays.toString() gives human-readable output. Binary search works only AFTER sorting."
+    }
+  ]
+}

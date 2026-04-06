@@ -70,7 +70,7 @@ def run_ingest_from_json(json_path: Path, force=False):
             # -------------------------------------
             # Prepare workspace
             # -------------------------------------
-            chapter_dir = Path(f"workspace/courses/{course_id}/{chapter_uuid}")
+            chapter_dir = Path(f"workspace/courses/{course_id}/chapters/{chapter_uuid}")
             pages_dir = chapter_dir / "pages"
             figures_dir = chapter_dir / "assets/figures"
 

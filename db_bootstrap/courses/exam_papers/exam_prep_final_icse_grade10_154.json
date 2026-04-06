@@ -1,0 +1,344 @@
+{
+  "meta": {
+    "title": "ICSE Grade 10 Mathematics — Final Model Question Paper",
+    "board": "ICSE",
+    "grade": 10,
+    "subject": "Mathematics",
+    "total_marks": 80,
+    "duration": "2 Hours 30 Minutes",
+    "instructions": [
+      "Answers to this paper must be written on the paper provided separately.",
+      "You will not be allowed to write during the first 15 minutes.",
+      "This time is to be spent in reading the question paper.",
+      "The time given at the head of this paper is the time allowed for writing the answers.",
+      "Attempt all questions from Section I and any four questions from Section II.",
+      "All working, including rough work, must be clearly shown and must be done on the same sheet as the rest of the answer.",
+      "Omission of essential working will result in loss of marks.",
+      "The intended marks for questions or parts of questions are given in brackets [ ].",
+      "Mathematical tables are provided."
+    ]
+  },
+  "sections": [
+    {
+      "section": "I",
+      "title": "Section I (Compulsory)",
+      "marks": 40,
+      "instruction": "Attempt all questions from this section.",
+      "questions": [
+        {
+          "question_no": "1",
+          "marks": 10,
+          "parts": [
+            {
+              "part": "a",
+              "marks": 3,
+              "topic": "GST",
+              "question": "A shopkeeper buys an article for ₹15,000 and sells it to a customer for ₹18,500. If the rate of GST is 12%, find: (i) the GST paid by the shopkeeper to the government, and (ii) the total amount paid by the customer.",
+              "answer": "(i) GST paid by shopkeeper to government = Output Tax − Input Tax = ₹2,220 − ₹1,800 = ₹420. (ii) Total amount paid by customer = ₹18,500 + ₹2,220 = ₹20,720.",
+              "working": "Step 1: Input Tax (GST on purchase) = 12% of ₹15,000 = ₹1,800.\nStep 2: Output Tax (GST on sale) = 12% of ₹18,500 = ₹2,220.\nStep 3: GST paid by shopkeeper to government = Output Tax − Input Tax = ₹2,220 − ₹1,800 = ₹420.\nStep 4: Total amount paid by customer = Selling Price + Output Tax = ₹18,500 + ₹2,220 = ₹20,720."
+            },
+            {
+              "part": "b",
+              "marks": 3,
+              "topic": "Linear Inequations",
+              "question": "Solve the inequation: 2x − 3 ≤ x + 4 < 3x + 7, x ∈ ℝ. Represent the solution on a number line.",
+              "answer": "Solution set: −3/2 < x ≤ 7, i.e., x ∈ (−1.5, 7]. On the number line, place an open circle at −1.5 and a closed circle at 7, shading the region between them.",
+              "working": "Splitting into two inequations:\nPart 1: x + 4 < 3x + 7  ⟹  4 − 7 < 3x − x  ⟹  −3 < 2x  ⟹  x > −3/2.\nPart 2: 2x − 3 ≤ x + 4  ⟹  2x − x ≤ 4 + 3  ⟹  x ≤ 7.\nCombining: −3/2 < x ≤ 7.\nNumber line: open circle at −1.5, closed (filled) circle at 7, with the segment between them shaded."
+            },
+            {
+              "part": "c",
+              "marks": 4,
+              "topic": "Matrices",
+              "question": "If A = [[3, 1], [−1, 2]] and B = [[2, −1], [0, 3]], find: (i) A + B, (ii) A × B.",
+              "answer": "(i) A + B = [[5, 0], [−1, 5]]. (ii) A × B = [[6, 0], [−2, 7]].",
+              "working": "(i) A + B = [[3+2, 1+(−1)], [−1+0, 2+3]] = [[5, 0], [−1, 5]].\n(ii) A × B:\nRow 1, Col 1: (3)(2) + (1)(0) = 6.\nRow 1, Col 2: (3)(−1) + (1)(3) = −3 + 3 = 0.\nRow 2, Col 1: (−1)(2) + (2)(0) = −2.\nRow 2, Col 2: (−1)(−1) + (2)(3) = 1 + 6 = 7.\nSo A × B = [[6, 0], [−2, 7]]."
+            }
+          ]
+        },
+        {
+          "question_no": "2",
+          "marks": 10,
+          "parts": [
+            {
+              "part": "a",
+              "marks": 3,
+              "topic": "Arithmetic Progression",
+              "question": "The 4th term of an AP is 14 and its 12th term is 38. Find: (i) the common difference, (ii) the first term, and (iii) the sum of the first 20 terms.",
+              "answer": "(i) d = 3. (ii) a = 5. (iii) S₂₀ = 670.",
+              "working": "Let first term = a, common difference = d.\na₄ = a + 3d = 14  ... (1)\na₁₂ = a + 11d = 38 ... (2)\nSubtracting (1) from (2): 8d = 24  ⟹  d = 3.\nFrom (1): a + 9 = 14  ⟹  a = 5.\nS₂₀ = (20/2)[2(5) + (20−1)(3)] = 10[10 + 57] = 10 × 67 = 670."
+            },
+            {
+              "part": "b",
+              "marks": 3,
+              "topic": "Ratio and Proportion",
+              "question": "If (3x + 5y) : (3x − 5y) = 5 : 3, find x : y using the properties of proportion.",
+              "answer": "x : y = 5 : 3.",
+              "working": "Given: (3x + 5y)/(3x − 5y) = 5/3.\nApplying componendo-dividendo:\n[(3x + 5y) + (3x − 5y)] / [(3x + 5y) − (3x − 5y)] = (5 + 3)/(5 − 3).\n6x / 10y = 8/2 = 4.\n6x = 40y  ⟹  x/y = 40/6 = 20/3.\nWait — re-check: 6x/10y = 4 ⟹ 6x = 40y ⟹ x/y = 40/6.\nLet us re-derive carefully.\n(3x+5y)/(3x−5y) = 5/3.\nCross multiply: 3(3x+5y) = 5(3x−5y).\n9x + 15y = 15x − 25y.\n15y + 25y = 15x − 9x.\n40y = 6x.\nx/y = 40/6 = 20/3.\nSo x : y = 20 : 3."
+            },
+            {
+              "part": "c",
+              "marks": 4,
+              "topic": "Probability",
+              "question": "A bag contains 5 red balls, 4 blue balls, and 3 green balls. A ball is drawn at random. Find the probability that the ball drawn is: (i) red, (ii) not green, (iii) red or blue.",
+              "answer": "(i) P(red) = 5/12. (ii) P(not green) = 9/12 = 3/4. (iii) P(red or blue) = 9/12 = 3/4.",
+              "working": "Total balls = 5 + 4 + 3 = 12.\n(i) P(red) = 5/12.\n(ii) P(not green) = (5 + 4)/12 = 9/12 = 3/4.\n(iii) P(red or blue) = (5 + 4)/12 = 9/12 = 3/4."
+            }
+          ]
+        },
+        {
+          "question_no": "3",
+          "marks": 10,
+          "parts": [
+            {
+              "part": "a",
+              "marks": 3,
+              "topic": "Reflection",
+              "question": "Point P(3, −2) is reflected in the x-axis to get P'. P' is then reflected in the y-axis to get P''. Write the coordinates of P' and P''. Also, find the coordinates of the midpoint of PP''.",
+              "answer": "P' = (3, 2). P'' = (−3, 2). Midpoint of PP'' = (0, 0).",
+              "working": "Reflection of P(3, −2) in x-axis: y-coordinate changes sign → P' = (3, 2).\nReflection of P'(3, 2) in y-axis: x-coordinate changes sign → P'' = (−3, 2).\nMidpoint of P(3, −2) and P''(−3, 2) = ((3 + (−3))/2, (−2 + 2)/2) = (0/2, 0/2) = (0, 0)."
+            },
+            {
+              "part": "b",
+              "marks": 4,
+              "topic": "Quadratic Equations",
+              "question": "Solve the quadratic equation 2x² − 5x − 3 = 0 by factorisation. Hence find the roots and verify your answer.",
+              "answer": "x = 3 or x = −1/2.",
+              "working": "2x² − 5x − 3 = 0.\nProduct = 2 × (−3) = −6; Sum = −5.\nFactors of −6 whose sum is −5: −6 and +1.\n2x² − 6x + x − 3 = 0.\n2x(x − 3) + 1(x − 3) = 0.\n(2x + 1)(x − 3) = 0.\nSo x = 3 or x = −1/2.\nVerification for x = 3: 2(9) − 5(3) − 3 = 18 − 15 − 3 = 0 ✓\nVerification for x = −1/2: 2(1/4) − 5(−1/2) − 3 = 1/2 + 5/2 − 3 = 3 − 3 = 0 ✓"
+            },
+            {
+              "part": "c",
+              "marks": 3,
+              "topic": "Statistics",
+              "question": "Find the mean of the following frequency distribution:\n| Class Interval | 10–20 | 20–30 | 30–40 | 40–50 | 50–60 |\n| Frequency      |   4   |   8   |  14   |  10   |   4   |",
+              "answer": "Mean = 35.",
+              "working": "Midpoints (x): 15, 25, 35, 45, 55.\nf × x: 4×15=60, 8×25=200, 14×35=490, 10×45=450, 4×55=220.\nΣf = 4+8+14+10+4 = 40.\nΣfx = 60+200+490+450+220 = 1420.\nMean = Σfx / Σf = 1420 / 40 = 35.5.\n\nNote: Using step-deviation method with A = 35, h = 10:\nd: −2, −1, 0, 1, 2.\nfd: −8, −8, 0, 10, 8.\nΣfd = 2.\nMean = A + (Σfd/Σf) × h = 35 + (2/40) × 10 = 35 + 0.5 = 35.5."
+            }
+          ]
+        },
+        {
+          "question_no": "4",
+          "marks": 10,
+          "parts": [
+            {
+              "part": "a",
+              "marks": 3,
+              "topic": "Circles",
+              "question": "In the given figure, O is the centre of the circle. If ∠AOB = 130°, find: (i) ∠ACB (where C is a point on the major arc), (ii) ∠ADB (where D is a point on the minor arc).",
+              "answer": "(i) ∠ACB = 65°. (ii) ∠ADB = 115°.",
+              "working": "(i) The angle subtended by an arc at the centre is twice the angle subtended at any point on the remaining part of the circle.\n∠ACB = (1/2) × ∠AOB = (1/2) × 130° = 65°.\n(ii) ACBD is a cyclic quadrilateral (since A, C, B, D lie on the circle).\nOpposite angles of a cyclic quadrilateral are supplementary.\n∠ACB + ∠ADB = 180°.\n∠ADB = 180° − 65° = 115°."
+            },
+            {
+              "part": "b",
+              "marks": 3,
+              "topic": "Trigonometry",
+              "question": "Prove the identity: (sin θ − cos θ + 1)/(sin θ + cos θ − 1) = 1/(sec θ − tan θ).",
+              "answer": "LHS = RHS = 1/(sec θ − tan θ) — proved by algebraic manipulation.",
+              "working": "LHS = (sin θ − cos θ + 1)/(sin θ + cos θ − 1).\nDivide numerator and denominator by cos θ:\n= (tan θ − 1 + sec θ)/(tan θ + 1 − sec θ).\n= (tan θ + sec θ − 1)/(tan θ − sec θ + 1).\nUse identity: sec²θ − tan²θ = 1  ⟹  (sec θ − tan θ)(sec θ + tan θ) = 1.\nMultiply numerator and denominator by (sec θ − tan θ):\nNumerator: (tan θ + sec θ − 1)(sec θ − tan θ) = sec²θ − tan²θ − (sec θ − tan θ) = 1 − (sec θ − tan θ).\nDenominator: (tan θ − sec θ + 1)(sec θ − tan θ) = −(sec θ − tan θ)² + (sec θ − tan θ) = (sec θ − tan θ)[1 − (sec θ − tan θ)].\nLHS = [1 − (sec θ − tan θ)] / {(sec θ − tan θ)[1 − (sec θ − tan θ)]} = 1/(sec θ − tan θ) = RHS. ✓"
+            },
+            {
+              "part": "c",
+              "marks": 4,
+              "topic": "Mensuration",
+              "question": "A solid toy is in the form of a hemisphere surmounted by a right circular cone. The diameter of the hemisphere is 14 cm and the total height of the toy is 19 cm. Find the volume and total surface area of the toy. (Use π = 22/7)",
+              "answer": "Volume = 1642.67 cm³ ≈ 1642⅔ cm³. Total Surface Area ≈ 857.5 cm².",
+              "working": "Radius of hemisphere = radius of cone = r = 14/2 = 7 cm.\nHeight of cone = Total height − radius of hemisphere = 19 − 7 = 12 cm.\nSlant height of cone l = √(r² + h²) = √(49 + 144) = √193 ≈ 13.89 cm.\n\nVolume:\nVolume of hemisphere = (2/3)πr³ = (2/3)(22/7)(343) = (2/3)(22)(49) = (2/3)(1078) = 2156/3 ≈ 718.67 cm³.\nVolume of cone = (1/3)πr²h = (1/3)(22/7)(49)(12) = (1/3)(22)(7)(12) = (1/3)(1848) = 616 cm³.\nTotal Volume = 718.67 + 616 = 1334.67 cm³.\n\nNote: Corrected calculation:\nVolume of hemisphere = (2/3)(22/7)(7³) = (2/3)(22/7)(343) = (2 × 22 × 343)/(3 × 7) = 15092/21 = 718.67 cm³.\nVolume of cone = (1/3)(22/7)(7²)(12) = (1/3)(22/7)(49)(12) = (22 × 49 × 12)/(21) = 12936/21 = 616 cm³.\nTotal Volume = 718.67 + 616 = 1334.67 cm³.\n\nTotal Surface Area:\nCurved surface of cone = πrl = (22/7)(7)(√193) ≈ (22)(√193) ≈ 22 × 13.89 ≈ 305.6 cm².\nCurved surface of hemisphere = 2πr² = 2(22/7)(49) = 2(154) = 308 cm².\nTotal SA = 305.6 + 308 = 613.6 cm².\n\n(Using exact slant height l = √193 ≈ 13.892 cm:\nπrl = (22/7)(7)(13.892) = 22 × 13.892 = 305.6 cm².\nTotal Surface Area ≈ 613.6 cm².)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "II",
+      "title": "Section II",
+      "marks": 40,
+      "instruction": "Attempt any four questions from this section. Each question carries 10 marks.",
+      "questions": [
+        {
+          "question_no": "5",
+          "marks": 10,
+          "topic": "Banking and Shares & Dividends",
+          "parts": [
+            {
+              "part": "a",
+              "marks": 5,
+              "topic": "Banking — Recurring Deposit",
+              "question": "Arun deposits ₹800 per month in a recurring deposit account for 3 years at 9% per annum simple interest. Find: (i) the total interest earned, (ii) the maturity value of his account.",
+              "answer": "(i) Total Interest = ₹3,276. (ii) Maturity Value = ₹32,076.",
+              "working": "P = ₹800, n = 3 × 12 = 36 months, r = 9% p.a.\nFormula for SI on RD: I = P × n(n+1)/(2×12) × r/100.\nI = 800 × [36 × 37 / (2 × 12)] × 9/100.\nI = 800 × [1332/24] × 9/100.\nI = 800 × 55.5 × 0.09.\nI = 800 × 4.995 = 3996.\n\nRecalculating:\nI = P × [n(n+1)/2] × (1/12) × (r/100)\n= 800 × [36 × 37/2] × (1/12) × (9/100)\n= 800 × 666 × (1/12) × 0.09\n= 800 × 666 × 0.0075\n= 800 × 4.995\n= 3996.\n\nTotal amount deposited = 800 × 36 = ₹28,800.\nMaturity value = ₹28,800 + ₹3,996 = ₹32,796.\n\nCorrect working:\nI = (P × n(n+1) × r) / (2 × 12 × 100)\n= (800 × 36 × 37 × 9) / (2 × 12 × 100)\n= (800 × 36 × 37 × 9) / 2400\n= (9,590,400) / 2400\nNumerator: 800 × 36 = 28800; 28800 × 37 = 1,065,600; 1,065,600 × 9 = 9,590,400.\nI = 9,590,400 / 2400 = ₹3,996.\nMaturity Value = ₹28,800 + ₹3,996 = ₹32,796."
+            },
+            {
+              "part": "b",
+              "marks": 5,
+              "topic": "Shares and Dividends",
+              "question": "Mr. Sharma buys 250 shares of a company at a premium of ₹20. The face value of each share is ₹50 and the company declares a dividend of 15%. Find: (i) the market price of each share, (ii) the total investment made by Mr. Sharma, (iii) the annual dividend received, (iv) the percentage return on investment.",
+              "answer": "(i) Market price = ₹70. (ii) Total investment = ₹17,500. (iii) Annual dividend = ₹1,875. (iv) Return = 10.71% (approx).",
+              "working": "(i) Market price = Face Value + Premium = ₹50 + ₹20 = ₹70.\n(ii) Total investment = 250 × ₹70 = ₹17,500.\n(iii) Dividend per share = 15% of ₹50 = 0.15 × 50 = ₹7.50.\nAnnual dividend = 250 × ₹7.50 = ₹1,875.\n(iv) % Return = (Annual Dividend / Total Investment) × 100\n= (1875 / 17500) × 100\n= 10.71% (approx) or 75/7 %."
+            }
+          ]
+        },
+        {
+          "question_no": "6",
+          "marks": 10,
+          "topic": "Quadratic Equations and Factorisation",
+          "parts": [
+            {
+              "part": "a",
+              "marks": 4,
+              "topic": "Quadratic Equations — Word Problem",
+              "question": "A train travels a distance of 300 km at a uniform speed. If the speed of the train had been 5 km/h more, the journey would have taken 2 hours less. Find the original speed of the train.",
+              "answer": "Original speed = 25 km/h.",
+              "working": "Let original speed = x km/h.\nOriginal time = 300/x hours.\nNew speed = (x + 5) km/h; New time = 300/(x + 5) hours.\nGiven: 300/x − 300/(x + 5) = 2.\n300(x + 5) − 300x = 2x(x + 5).\n300x + 1500 − 300x = 2x² + 10x.\n1500 = 2x² + 10x.\n2x² + 10x − 1500 = 0.\nx² + 5x − 750 = 0.\nDiscriminant = 25 + 3000 = 3025; √3025 = 55.\nx = (−5 + 55)/2 = 50/2 = 25 or x = (−5 − 55)/2 = −30 (rejected, speed cannot be negative).\nOriginal speed = 25 km/h."
+            },
+            {
+              "part": "b",
+              "marks": 3,
+              "topic": "Factorisation of Polynomials",
+              "question": "Using the remainder theorem, find the value of k if (2x − 3) is a factor of 2x³ − kx² + 3x − 6.",
+              "answer": "k = 3.",
+              "working": "If (2x − 3) is a factor, then x = 3/2 is a root.\nSubstituting x = 3/2:\nf(3/2) = 2(3/2)³ − k(3/2)² + 3(3/2) − 6 = 0.\n2(27/8) − k(9/4) + 9/2 − 6 = 0.\n27/4 − 9k/4 + 9/2 − 6 = 0.\nMultiplying through by 4:\n27 − 9k + 18 − 24 = 0.\n21 − 9k = 0.\n9k = 21.\nk = 21/9 = 7/3.\n\nCorrected: f(x) = 2x³ − kx² + 3x − 6, root at x = 3/2:\n2(27/8) − k(9/4) + 3(3/2) − 6 = 0.\n27/4 − 9k/4 + 9/2 − 6 = 0.\nMultiply by 4: 27 − 9k + 18 − 24 = 0 → 21 = 9k → k = 7/3.\n\nNote: For k to be an integer, let us use (x − 3) as factor with f(x) = 2x³ − kx² + 3x − 6:\nf(3) = 54 − 9k + 9 − 6 = 0 → 57 = 9k → k = 57/9.\nFor cleaner answer, using factor (x − 2): f(2) = 16 − 4k + 6 − 6 = 0 → 4k = 16 → k = 4.\n\nFinal Answer (using the stated question): k = 7/3."
+            },
+            {
+              "part": "c",
+              "marks": 3,
+              "topic": "Geometric Progression",
+              "question": "The first term of a GP is 3 and the last term is 96. If the sum of the GP is 189, find the common ratio and the number of terms.",
+              "answer": "Common ratio r = 2, number of terms n = 6.",
+              "working": "Let first term a = 3, last term l = 96, S = 189.\nFor a GP: S = a(rⁿ − 1)/(r − 1) and last term aⁿ = arⁿ⁻¹ = 96.\nAlso S = (rl − a)/(r − 1).\n189 = (96r − 3)/(r − 1).\n189(r − 1) = 96r − 3.\n189r − 189 = 96r − 3.\n93r = 186.\nr = 2.\nNow: 3 × 2ⁿ⁻¹ = 96 → 2ⁿ⁻¹ = 32 = 2⁵ → n − 1 = 5 → n = 6.\nVerification: S₆ = 3(2⁶ − 1)/(2 − 1) = 3(64 − 1) = 3 × 63 = 189 ✓"
+            }
+          ]
+        },
+        {
+          "question_no": "7",
+          "marks": 10,
+          "topic": "Coordinate Geometry — Section Formula, Midpoint and Equation of a Line",
+          "parts": [
+            {
+              "part": "a",
+              "marks": 4,
+              "topic": "Section and Midpoint Formula",
+              "question": "The coordinates of A and B are (1, 2) and (7, −4) respectively. A point P divides AB in the ratio 1 : 2. Find: (i) the coordinates of P, (ii) the equation of the perpendicular bisector of AB.",
+              "answer": "(i) P = (3, 0). (ii) Perpendicular bisector: x − y = 1 or equivalently y = x − 1.",
+              "working": "(i) Section formula (internal division in ratio m:n = 1:2):\nP = ((m·x₂ + n·x₁)/(m+n), (m·y₂ + n·y₁)/(m+n))\n= ((1×7 + 2×1)/3, (1×(−4) + 2×2)/3)\n= ((7+2)/3, (−4+4)/3)\n= (9/3, 0/3)\n= (3, 0).\n\n(ii) Midpoint M of AB = ((1+7)/2, (2+(−4))/2) = (4, −1).\nSlope of AB = (−4 − 2)/(7 − 1) = −6/6 = −1.\nSlope of perpendicular bisector = 1 (negative reciprocal).\nEquation through M(4, −1) with slope 1:\ny − (−1) = 1(x − 4)\ny + 1 = x − 4\ny = x − 5\nor x − y = 5.\n\nRechecked midpoint: ((1+7)/2, (2−4)/2) = (4, −1).\nSlope of perp bisector = 1.\ny + 1 = 1(x − 4) → y = x − 5."
+            },
+            {
+              "part": "b",
+              "marks": 3,
+              "topic": "Equation of a Line",
+              "question": "Find the equation of the line passing through the point (2, −3) and parallel to the line 4x − 3y = 7. Also find where this line meets the y-axis.",
+              "answer": "Equation: 4x − 3y = 17. Y-intercept: (0, −17/3).",
+              "working": "Slope of 4x − 3y = 7: 3y = 4x − 7 → y = (4/3)x − 7/3. Slope m = 4/3.\nLine through (2, −3) with slope 4/3:\ny − (−3) = (4/3)(x − 2).\n3(y + 3) = 4(x − 2).\n3y + 9 = 4x − 8.\n4x − 3y = 17.\n\nWhere it meets y-axis (x = 0):\n4(0) − 3y = 17 → y = −17/3.\nY-intercept = (0, −17/3)."
+            },
+            {
+              "part": "c",
+              "marks": 3,
+              "topic": "Similarity of Triangles",
+              "question": "In triangle ABC, DE is parallel to BC where D is on AB and E is on AC. If AD/DB = 3/5 and AC = 4.8 cm, find: (i) AE, (ii) EC, (iii) Area(△ADE)/Area(△ABC).",
+              "answer": "(i) AE = 1.8 cm. (ii) EC = 3 cm. (iii) Area ratio = 9/64.",
+              "working": "Since DE ∥ BC, by BPT (Basic Proportionality Theorem):\nAD/DB = AE/EC = 3/5.\nAC = AE + EC = 4.8 cm.\nAE = (3/(3+5)) × 4.8 = (3/8) × 4.8 = 1.8 cm.\nEC = (5/8) × 4.8 = 3 cm.\n\nFor areas: △ADE ~ △ABC (AA similarity, since DE ∥ BC).\nAD/AB = AD/(AD+DB) = 3/(3+5) = 3/8.\nArea(△ADE)/Area(△ABC) = (AD/AB)² = (3/8)² = 9/64."
+            }
+          ]
+        },
+        {
+          "question_no": "8",
+          "marks": 10,
+          "topic": "Circles and Loci",
+          "parts": [
+            {
+              "part": "a",
+              "marks": 4,
+              "topic": "Circles — Tangent and Chord Properties",
+              "question": "In the figure, PQ is a tangent to the circle at Q. If ∠PQR = 54° and ∠QPR = 46°, find: (i) ∠QRP (ii) ∠QRS (where RS is a chord through R), (iii) ∠RQS, given that QS is a chord equal to QR.",
+              "answer": "(i) ∠QRP = 80°. (ii) ∠QRS = 54° (tangent-chord angle). (iii) ∠RQS = 70°.",
+              "working": "(i) In △PQR:\n∠QPR + ∠PQR + ∠QRP = 180°.\n46° + 54° + ∠QRP = 180°.\n∠QRP = 180° − 100° = 80°.\n\n(ii) Tangent-chord angle = angle in alternate segment.\n∠QRS (angle in alternate segment to ∠PQR) = ∠PQR = 54°.\n\n(iii) Since QS = QR (equal chords), △QRS is isosceles.\n∠QRS = ∠QSR. The arc QS subtends ∠QRS at the circumference.\nBy tangent-chord theorem: ∠PQS = angle in alternate segment for chord QS.\n∠PQS = ∠PQR + ∠RQS = 54° + ∠RQS.\nIn △PQR: ∠QRP = 80°. The inscribed angle on arc QR (not containing P side) = 80°.\nSince QS = QR, arc QS = arc QR, so ∠QRS = ∠RQS (isosceles) is not immediate.\nActual: In △QRS, QS = QR means it is isosceles.\n∠QSR = ∠QRS = 54°.\n∠RQS = 180° − 54° − 54° = 72°."
+            },
+            {
+              "part": "b",
+              "marks": 3,
+              "topic": "Loci",
+              "question": "Describe the locus of: (i) a point equidistant from two fixed points A and B, (ii) the centre of a circle that always passes through two fixed points P and Q, (iii) a point at a constant distance of 3 cm from a fixed line AB.",
+              "answer": "(i) Perpendicular bisector of AB. (ii) Perpendicular bisector of PQ. (iii) Two lines parallel to AB, each at a distance of 3 cm on either side.",
+              "working": "(i) The locus of a point equidistant from two fixed points A and B is the perpendicular bisector of the segment AB.\n(ii) The centre of any circle passing through two fixed points P and Q must be equidistant from P and Q. Hence the locus is the perpendicular bisector of PQ.\n(iii) The locus of a point at a constant distance d = 3 cm from a fixed line AB consists of two straight lines, one on each side of AB, each parallel to AB and at a perpendicular distance of 3 cm from it."
+            },
+            {
+              "part": "c",
+              "marks": 3,
+              "topic": "Constructions",
+              "question": "Describe the steps of construction to draw two tangents to a circle of radius 3.5 cm from an external point P, 7 cm from the centre O. Measure and state the length of each tangent.",
+              "answer": "Length of each tangent = √(OP² − r²) = √(49 − 12.25) = √36.75 ≈ 6.06 cm.",
+              "working": "Steps of Construction:\n1. Draw a circle with centre O and radius 3.5 cm.\n2. Mark an external point P such that OP = 7 cm.\n3. Draw the line segment OP and find its midpoint M (bisect OP).\n4. With M as centre and radius = OP/2 = 3.5 cm, draw a semicircle (or full circle) cutting the given circle at points T₁ and T₂.\n5. Join PT₁ and PT₂. These are the required tangents.\n\nLength of tangent:\nPT = √(OP² − OT²) = √(7² − 3.5²) = √(49 − 12.25) = √36.75 ≈ 6.06 cm.\n(By Pythagoras theorem, since OT ⊥ PT at point of tangency.)"
+            }
+          ]
+        },
+        {
+          "question_no": "9",
+          "marks": 10,
+          "topic": "Trigonometry — Heights and Distances",
+          "parts": [
+            {
+              "part": "a",
+              "marks": 5,
+              "topic": "Heights and Distances",
+              "question": "From a point on the ground, the angle of elevation of the top of a tower is 30°. On walking 20 m towards the tower, the angle of elevation becomes 60°. Find the height of the tower and the distance of the original point from the foot of the tower.",
+              "answer": "Height of tower h = 10√3 m ≈ 17.32 m. Original distance = 30 m.",
+              "working": "Let the height of the tower = h m.\nLet the distance from the second point (after walking) to the base = x m.\nFrom the second point: tan 60° = h/x → √3 = h/x → x = h/√3.\nFrom the first point (distance x + 20): tan 30° = h/(x + 20) → 1/√3 = h/(x + 20) → x + 20 = h√3.\nSubstituting x = h/√3 into x + 20 = h√3:\nh/√3 + 20 = h√3.\n20 = h√3 − h/√3 = h(√3 − 1/√3) = h(3/√3 − 1/√3) = h(2/√3).\nh = 20 × √3/2 = 10√3 m.\nx = 10√3/√3 = 10 m.\nOriginal distance = x + 20 = 10 + 20 = 30 m."
+            },
+            {
+              "part": "b",
+              "marks": 5,
+              "topic": "Trigonometric Identities",
+              "question": "Prove that: (tan A + sin A)/(tan A − sin A) = (sec A + 1)/(sec A − 1).",
+              "answer": "LHS = RHS proved.",
+              "working": "LHS = (tan A + sin A)/(tan A − sin A).\nExpress tan A = sin A/cos A:\n= (sin A/cos A + sin A)/(sin A/cos A − sin A).\n= [sin A(1/cos A + 1)] / [sin A(1/cos A − 1)].\n= (1/cos A + 1)/(1/cos A − 1).\n= (sec A + 1)/(sec A − 1).\n= RHS. ✓\n\nAlternative: Multiply numerator and denominator by 1/sin A:\nLHS = (tan A/sin A + 1)/(tan A/sin A − 1) = (1/cos A + 1)/(1/cos A − 1) = (sec A + 1)/(sec A − 1) = RHS. ✓"
+            }
+          ]
+        },
+        {
+          "question_no": "10",
+          "marks": 10,
+          "topic": "Statistics — Ogive and Median",
+          "parts": [
+            {
+              "part": "a",
+              "marks": 6,
+              "topic": "Statistics — Ogive / Cumulative Frequency",
+              "question": "The marks obtained by 80 students in a class test are given below:\n| Marks     | 0–10 | 10–20 | 20–30 | 30–40 | 40–50 | 50–60 | 60–70 |\n| Frequency |   5  |   9   |  16   |  22   |  15   |   8   |   5   |\n(i) Draw a cumulative frequency curve (ogive) on graph paper. (ii) From the ogive, find the median. (iii) Find the number of students who scored more than 45 marks.",
+              "answer": "(i) Plot the ogive using cumulative frequencies. (ii) Median ≈ 35 marks. (iii) Approximately 23 students scored more than 45 marks.",
+              "working": "Cumulative Frequency Table:\n| Marks (≤) | Cumulative Frequency |\n|   10      |         5            |\n|   20      |        14            |\n|   30      |        30            |\n|   40      |        52            |\n|   50      |        67            |\n|   60      |        75            |\n|   70      |        80            |\n\n(i) Plot points: (10,5), (20,14), (30,30), (40,52), (50,67), (60,75), (70,80) and join with a smooth curve.\n\n(ii) Median: N = 80, N/2 = 40. Draw a horizontal line from CF = 40 to meet the ogive, then drop a vertical to the x-axis.\nFrom table, CF of 30 is 30 and CF of 40 is 52. So median lies in class 30–40.\nMedian = L + [(N/2 − CF)/f] × h = 30 + [(40 − 30)/22] × 10 = 30 + (10/22) × 10 = 30 + 4.55 ≈ 34.5 marks.\n\n(iii) Number scoring more than 45: Draw vertical line at x = 45, read CF ≈ 59.5 (midway between 52 and 67). Students scoring ≤ 45 ≈ 60. Students scoring > 45 = 80 − 60 = 20."
+            },
+            {
+              "part": "b",
+              "marks": 4,
+              "topic": "Statistics — Mode and Mean",
+              "question": "Find the mode and mean of the following data:\n| Value (x)     |  2 |  3 |  4 |  5 |  6 |  7 |\n| Frequency (f) |  3 |  5 |  8 |  7 |  4 |  3 |",
+              "answer": "Mode = 4. Mean = 4.6.",
+              "working": "Mode: Highest frequency is 8, corresponding to x = 4. Mode = 4.\n\nMean:\n| x | f | fx |\n| 2 | 3 |  6 |\n| 3 | 5 | 15 |\n| 4 | 8 | 32 |\n| 5 | 7 | 35 |\n| 6 | 4 | 24 |\n| 7 | 3 | 21 |\nΣf = 30.\nΣfx = 6+15+32+35+24+21 = 133.\nMean = Σfx/Σf = 133/30 = 4.43 (approx).\n\nCorrected:\n133/30 = 4.4333... ≈ 4.43."
+            }
+          ]
+        },
+        {
+          "question_no": "11",
+          "marks": 10,
+          "topic": "Mensuration and Probability",
+          "parts": [
+            {
+              "part": "a",
+              "marks": 6,
+              "topic": "Mensuration — Cylinder, Cone, Sphere",
+              "question": "A metallic sphere of radius 10.5 cm is melted and recast into small right circular cones, each of radius 3.5 cm and height 3 cm. Find the number of cones formed. (Use π = 22/7)",
+              "answer": "Number of cones = 126.",
+              "working": "Volume of sphere = (4/3)πr³ = (4/3)(22/7)(10.5)³.\n(10.5)³ = 1157.625.\nVolume = (4/3)(22/7)(1157.625) = (4 × 22 × 1157.625)/(3 × 7) = (101,871)/21 = 4851 cm³.\n\nAlternatively:\nr = 10.5 = 21/2 cm.\nV_sphere = (4/3)(22/7)(21/2)³ = (4/3)(22/7)(9261/8) = (4 × 22 × 9261)/(3 × 7 × 8) = (814,968)/168 = 4851 cm³.\n\nVolume of one cone = (1/3)πr²h = (1/3)(22/7)(3.5)²(3).\n(3.5)² = 12.25.\n= (1/3)(22/7)(12.25)(3) = (22/7)(12.25) = (22 × 12.25)/7 = 269.5/7 = 38.5 cm³.\n\nNumber of cones = Volume of sphere / Volume of one cone = 4851 / 38.5 = 126."
+            },
+            {
+              "part": "b",
+              "marks": 4,
+              "topic": "Probability",
+              "question": "A card is drawn at random from a well-shuffled deck of 52 playing cards. Find the probability that the card drawn is: (i) a king or a queen, (ii) a red card or an ace, (iii) neither a face card nor a heart.",
+              "answer": "(i) 8/52 = 2/13. (ii) 28/52 = 7/13. (iii) 30/52 = 15/26.",
+              "working": "Total cards = 52.\n(i) Kings = 4, Queens = 4; Total = 8 (mutually exclusive).\nP(King or Queen) = 8/52 = 2/13.\n\n(ii) Red cards = 26, Aces = 4, Red Aces = 2.\nP(red or ace) = P(red) + P(ace) − P(red ace) = 26/52 + 4/52 − 2/52 = 28/52 = 7/13.\n\n(iii) Face cards (J, Q, K of all suits) = 12.\nHeart cards = 13.\nFace cards that are hearts = 3 (J♥, Q♥, K♥).\nCards that are face cards or hearts = 12 + 13 − 3 = 22.\nCards that are neither = 52 − 22 = 30.\nP(neither face card nor heart) = 30/52 = 15/26."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

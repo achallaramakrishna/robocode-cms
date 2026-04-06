@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "asset_type": "lab_manual",
+    "session_day": 1,
+    "topic": "Operators & EMI Calculator",
+    "sub_topic_num": 3,
+    "session_title": "Day 1 - Introduction to Java & Language Fundamentals",
+    "date": "23-Feb-2026",
+    "duration_minutes": 30,
+    "total_exercises": 1,
+    "generated_by": "Claude (claude-sonnet-4-6)",
+    "pedagogy": "Hands-on learning with step-by-step guidance. Each exercise builds on the previous. All concepts from the session are coded. Banking/finance examples used for context."
+  },
+  "overview": {
+    "objectives": [
+      "Apply all major operator types: arithmetic, relational, logical, assignment, increment/decrement, and ternary to build real calculation logic."
+    ],
+    "prerequisites": [
+      "JDK 17+ installed",
+      "IntelliJ IDEA (Community Edition) or VS Code with Java Extension",
+      "Git installed and GitHub account created"
+    ],
+    "tools": [
+      "JDK 17+",
+      "IntelliJ IDEA / VS Code",
+      "Terminal / Command Prompt",
+      "Git"
+    ]
+  },
+  "exercises": [
+    {
+      "exercise_id": "LAB_03",
+      "title": "Operators — Interest & EMI Calculator",
+      "difficulty": "beginner",
+      "duration_minutes": 30,
+      "objective": "Apply all major operator types: arithmetic, relational, logical, assignment, increment/decrement, and ternary to build real calculation logic.",
+      "scenario": "RoboBank needs a quick interest and loan eligibility calculator. You'll build it using Java operators.",
+      "instructions": [
+        "Step 1: Create class 'OperatorsDemo' in your project",
+        "Step 2: Implement each section of the starter code, replacing TODO comments",
+        "Step 3: Run and verify all outputs",
+        "Step 4: Experiment with changing values and predict the output BEFORE running",
+        "Step 5: Complete the CHALLENGE at the bottom"
+      ],
+      "starter_code": "public class OperatorsDemo {\n    public static void main(String[] args) {\n        \n        // ============================================================\n        // SECTION 1: Arithmetic Operators\n        // ============================================================\n        double principal = 500_000.0;  // ₹5 lakh loan\n        double annualRate = 0.09;       // 9% per annum (as decimal: 9/100)\n        int    years = 3;\n        \n        // Simple Interest = P * R * T\n        double simpleInterest = principal * annualRate * years;\n        \n        // Compound Interest Amount = P * (1 + r)^t\n        // Math.pow(base, exponent) computes power\n        double compoundAmount = principal * Math.pow(1 + annualRate, years);\n        double compoundInterest = compoundAmount - principal;\n        \n        System.out.println(\"===== Interest Calculation =====\");\n        System.out.printf(\"Principal     : ₹%.2f%n\", principal);\n        System.out.printf(\"Rate          : %.1f%% per annum%n\", annualRate * 100);\n        System.out.printf(\"Years         : %d%n\", years);\n        System.out.printf(\"Simple Interest   : ₹%.2f%n\", simpleInterest);\n        System.out.printf(\"Compound Interest : ₹%.2f%n\", compoundInterest);\n        System.out.printf(\"Extra with compound: ₹%.2f%n\", compoundInterest - simpleInterest);\n        \n        // Modulo operator: practical use\n        // Check if a transaction ID is even or odd (used for partitioning in systems)\n        int transactionId = 847293;\n        System.out.println(\"\\nTransaction ID: \" + transactionId);\n        System.out.println(\"Is even? \" + (transactionId % 2 == 0));\n        System.out.println(\"Last digit: \" + (transactionId % 10));  // Always last digit!\n        \n        // ============================================================\n        // SECTION 2: Relational and Logical Operators\n        // ============================================================\n        double balance = 25_000.0;\n        double withdrawAmount = 10_000.0;\n        boolean isFrozen = false;\n        boolean kycVerified = true;\n        double minBalance = 1_000.0;\n        \n        // Can customer withdraw?\n        // Conditions: not frozen, KYC verified, balance after withdrawal >= minBalance\n        boolean canWithdraw = !isFrozen \n                           && kycVerified \n                           && (balance - withdrawAmount) >= minBalance;\n        \n        System.out.println(\"\\n===== Withdrawal Eligibility =====\");\n        System.out.println(\"Balance: ₹\" + balance);\n        System.out.println(\"Withdraw: ₹\" + withdrawAmount);\n        System.out.println(\"Account frozen: \" + isFrozen);\n        System.out.println(\"KYC verified: \" + kycVerified);\n        System.out.println(\"Can withdraw? \" + canWithdraw);\n        \n        // ============================================================\n        // SECTION 3: Increment/Decrement\n        // ============================================================\n        System.out.println(\"\\n===== ATM PIN Attempts =====\");\n        int attempts = 0;\n        System.out.println(\"Attempt \" + (++attempts) + \" of 3\");  // Pre-increment: shows 1\n        System.out.println(\"Attempt \" + (++attempts) + \" of 3\");  // Pre-increment: shows 2\n        System.out.println(\"Attempt \" + (++attempts) + \" of 3\");  // Pre-increment: shows 3\n        // TASK: What would happen if you used attempts++ (post) instead? Try it!\n        \n        // ============================================================\n        // SECTION 4: Assignment Operators (compound)\n        // ============================================================\n        System.out.println(\"\\n===== Running Balance =====\");\n        double runningBalance = 50_000.0;\n        System.out.println(\"Starting balance: ₹\" + runningBalance);\n        \n        runningBalance += 25_000;  // Deposit 25000: same as runningBalance = runningBalance + 25000\n        System.out.println(\"After deposit ₹25000: ₹\" + runningBalance);\n        \n        runningBalance -= 10_000;  // Withdrawal\n        System.out.println(\"After withdrawal ₹10000: ₹\" + runningBalance);\n        \n        runningBalance *= 1.08;    // Apply 8% interest (multiply by 1.08)\n        System.out.printf(\"After 8%% interest: ₹%.2f%n\", runningBalance);\n        \n        // ============================================================\n        // SECTION 5: Ternary Operator\n        // ============================================================\n        System.out.println(\"\\n===== Account Classification =====\");\n        double finalBalance = runningBalance;\n        \n        String tier = (finalBalance >= 1_00_000) ? \"PREMIUM\" : \"STANDARD\";\n        String overdraftEligible = (finalBalance >= 50_000) ? \"Yes\" : \"No\";\n        \n        System.out.printf(\"Balance: ₹%.2f%n\", finalBalance);\n        System.out.println(\"Account Tier: \" + tier);\n        System.out.println(\"Overdraft Eligible: \" + overdraftEligible);\n        \n        // ============================================================\n        // CHALLENGE: EMI Calculator\n        // Formula: EMI = P * r * (1+r)^n / ((1+r)^n - 1)\n        // where P = principal, r = monthly rate, n = months\n        // ============================================================\n        System.out.println(\"\\n===== EMI Calculator =====\");\n        double loanAmount = 3_00_000.0;    // ₹3 lakh\n        double monthlyRate = 0.09 / 12;    // 9% annual / 12 months\n        int months = 24;                    // 2 year loan\n        \n        // TODO: Complete the EMI formula:\n        // double emi = ???\n        // System.out.printf(\"Monthly EMI: ₹%.2f%n\", emi);\n        // System.out.printf(\"Total repayment: ₹%.2f%n\", emi * months);\n        // System.out.printf(\"Total interest: ₹%.2f%n\", (emi * months) - loanAmount);\n    }\n}",
+      "expected_output": "===== Interest Calculation =====\nPrincipal     : ₹500000.00\nRate          : 9.0% per annum\nYears         : 3\nSimple Interest   : ₹135000.00\nCompound Interest : ₹145680.85\nExtra with compound: ₹10680.85\n\nTransaction ID: 847293\nIs even? false\nLast digit: 3\n\n===== Withdrawal Eligibility =====\nBalance: ₹25000.0\nWithdraw: ₹10000.0\nAccount frozen: false\nKYC verified: true\nCan withdraw? true\n\n===== ATM PIN Attempts =====\nAttempt 1 of 3\nAttempt 2 of 3\nAttempt 3 of 3\n\n===== Running Balance =====\nStarting balance: ₹50000.0\nAfter deposit ₹25000: ₹75000.0\nAfter withdrawal ₹10000: ₹65000.0\nAfter 8% interest: ₹70200.00\n\n===== Account Classification =====\nBalance: ₹70200.00\nAccount Tier: STANDARD\nOverdraft Eligible: Yes\n\n===== EMI Calculator =====\n[Complete the challenge — expected: Monthly EMI: ₹13726.45]",
+      "hints": [
+        "Math.pow(base, exp) computes base^exp. Example: Math.pow(1.09, 3) = 1.295...",
+        "The % operator gives the remainder. 847293 % 10 gives the last digit (3).",
+        "EMI formula: Math.pow(1 + monthlyRate, months) is used twice — compute it once and store in a variable"
+      ],
+      "reflection_questions": [
+        "What would happen if annualRate were 0? Would compound interest formula break? Test it.",
+        "When would you prefer ternary operator over if-else? When would you prefer if-else?",
+        "The compound interest formula uses Math.pow(). What is the Java equivalent of 2^10? Write it."
+      ],
+      "debugging_task": "Introduce this bug: double monthlyRate = 9 / 12; instead of 0.09 / 12. What value does monthlyRate get? Why? (Hint: integer division!) How do you fix it?"
+    }
+  ]
+}

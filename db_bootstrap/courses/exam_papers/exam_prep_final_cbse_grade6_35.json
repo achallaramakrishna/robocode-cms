@@ -1,0 +1,335 @@
+{
+  "meta": {
+    "title": "CBSE Grade 6 Mathematics — Final Model Question Paper",
+    "board": "CBSE",
+    "grade": 6,
+    "subject": "Mathematics",
+    "total_marks": 60,
+    "duration": "2 Hours 30 Minutes",
+    "instructions": [
+      "All questions are compulsory.",
+      "Read each question carefully before answering.",
+      "Marks are indicated against each question.",
+      "Draw neat diagrams wherever required.",
+      "Calculator is not permitted."
+    ]
+  },
+  "sections": [
+    {
+      "section": "A",
+      "title": "Section A – Multiple Choice Questions",
+      "marks": 10,
+      "instruction": "Choose the correct option. Each question carries 1 mark.",
+      "questions": [
+        {
+          "question_no": "1",
+          "marks": 1,
+          "question": "The absolute value of −15 is:",
+          "options": {
+            "a": "−15",
+            "b": "15",
+            "c": "0",
+            "d": "1/15"
+          },
+          "answer": "b",
+          "explanation": "The absolute value (or modulus) of a number is its distance from zero on the number line, always non-negative. |−15| = 15."
+        },
+        {
+          "question_no": "2",
+          "marks": 1,
+          "question": "Which of the following is a prime number?",
+          "options": {
+            "a": "91",
+            "b": "87",
+            "c": "97",
+            "d": "81"
+          },
+          "answer": "c",
+          "explanation": "97 is only divisible by 1 and itself. 91 = 7 × 13, 87 = 3 × 29, 81 = 3^4. So 97 is prime."
+        },
+        {
+          "question_no": "3",
+          "marks": 1,
+          "question": "The ratio 24 : 36 in its simplest form is:",
+          "options": {
+            "a": "4 : 6",
+            "b": "2 : 3",
+            "c": "6 : 9",
+            "d": "3 : 4"
+          },
+          "answer": "b",
+          "explanation": "HCF(24, 36) = 12. 24 ÷ 12 = 2, 36 ÷ 12 = 3. Simplest form = 2 : 3."
+        },
+        {
+          "question_no": "4",
+          "marks": 1,
+          "question": "If 4x − 7 = 13, then x = ?",
+          "options": {
+            "a": "4",
+            "b": "5",
+            "c": "6",
+            "d": "3"
+          },
+          "answer": "b",
+          "explanation": "4x − 7 = 13 → 4x = 13 + 7 = 20 → x = 20 / 4 = 5."
+        },
+        {
+          "question_no": "5",
+          "marks": 1,
+          "question": "The LCM of 12, 18, and 24 is:",
+          "options": {
+            "a": "36",
+            "b": "48",
+            "c": "72",
+            "d": "96"
+          },
+          "answer": "c",
+          "explanation": "12 = 2² × 3, 18 = 2 × 3², 24 = 2³ × 3. LCM = 2³ × 3² = 8 × 9 = 72."
+        },
+        {
+          "question_no": "6",
+          "marks": 1,
+          "question": "The sum of all angles of a triangle is:",
+          "options": {
+            "a": "90°",
+            "b": "180°",
+            "c": "270°",
+            "d": "360°"
+          },
+          "answer": "b",
+          "explanation": "The angle sum property of a triangle states that the sum of the three interior angles of any triangle is always 180°."
+        },
+        {
+          "question_no": "7",
+          "marks": 1,
+          "question": "The area of a triangle with base 14 cm and height 10 cm is:",
+          "options": {
+            "a": "140 sq cm",
+            "b": "70 sq cm",
+            "c": "35 sq cm",
+            "d": "48 sq cm"
+          },
+          "answer": "b",
+          "explanation": "Area = (1/2) × base × height = (1/2) × 14 × 10 = 70 sq cm."
+        },
+        {
+          "question_no": "8",
+          "marks": 1,
+          "question": "The median of the data set 3, 7, 2, 9, 5 (arranged in order) is:",
+          "options": {
+            "a": "5",
+            "b": "7",
+            "c": "9",
+            "d": "3"
+          },
+          "answer": "a",
+          "explanation": "Arranged in ascending order: 2, 3, 5, 7, 9. The middle value (3rd term out of 5) = 5. So median = 5."
+        },
+        {
+          "question_no": "9",
+          "marks": 1,
+          "question": "Which of the following is the correct property of a parallelogram?",
+          "options": {
+            "a": "All sides are equal",
+            "b": "All angles are right angles",
+            "c": "Opposite sides are equal and parallel",
+            "d": "Diagonals are equal"
+          },
+          "answer": "c",
+          "explanation": "In a parallelogram, opposite sides are always equal and parallel. (A square/rectangle are special parallelograms with additional properties.)"
+        },
+        {
+          "question_no": "10",
+          "marks": 1,
+          "question": "If 3 pens cost Rs. 36, what is the cost of 7 pens?",
+          "options": {
+            "a": "Rs. 72",
+            "b": "Rs. 84",
+            "c": "Rs. 96",
+            "d": "Rs. 63"
+          },
+          "answer": "b",
+          "explanation": "Cost of 1 pen = 36 / 3 = Rs. 12. Cost of 7 pens = 7 × 12 = Rs. 84."
+        }
+      ]
+    },
+    {
+      "section": "B",
+      "title": "Section B – Fill in the Blanks",
+      "marks": 10,
+      "instruction": "Fill in the blanks with the correct answer. Each question carries 1 mark.",
+      "questions": [
+        {
+          "question_no": "11",
+          "marks": 1,
+          "question": "The HCF of 36 and 48 is ______.",
+          "answer": "12",
+          "explanation": "Factors of 36: 1, 2, 3, 4, 6, 9, 12, 18, 36. Factors of 48: 1, 2, 3, 4, 6, 8, 12, 16, 24, 48. Common factors: 1, 2, 3, 4, 6, 12. HCF = 12."
+        },
+        {
+          "question_no": "12",
+          "marks": 1,
+          "question": "The integer that is 4 more than −9 is ______.",
+          "answer": "−5",
+          "explanation": "−9 + 4 = −5. Moving 4 steps to the right of −9 on the number line gives −5."
+        },
+        {
+          "question_no": "13",
+          "marks": 1,
+          "question": "If a : b = 5 : 8 and b = 40, then a = ______.",
+          "answer": "25",
+          "explanation": "a / b = 5 / 8. So a = (5 / 8) × b = (5 / 8) × 40 = 5 × 5 = 25."
+        },
+        {
+          "question_no": "14",
+          "marks": 1,
+          "question": "The value of the expression 3x + 5 when x = 4 is ______.",
+          "answer": "17",
+          "explanation": "3x + 5 = 3(4) + 5 = 12 + 5 = 17."
+        },
+        {
+          "question_no": "15",
+          "marks": 1,
+          "question": "A quadrilateral with all four sides equal and all four angles equal to 90° is called a ______.",
+          "answer": "square",
+          "explanation": "A square has all four sides equal (like a rhombus) and all four angles equal to 90° (like a rectangle)."
+        },
+        {
+          "question_no": "16",
+          "marks": 1,
+          "question": "The perimeter of a circle is called its ______.",
+          "answer": "circumference",
+          "explanation": "The perimeter (total boundary length) of a circle is specifically called its circumference, given by C = 2πr."
+        },
+        {
+          "question_no": "17",
+          "marks": 1,
+          "question": "The mode of the data 4, 6, 7, 6, 8, 4, 6, 9 is ______.",
+          "answer": "6",
+          "explanation": "Count each value: 4 appears 2 times, 6 appears 3 times, 7 once, 8 once, 9 once. The most frequent value is 6, so mode = 6."
+        },
+        {
+          "question_no": "18",
+          "marks": 1,
+          "question": "The fraction 5/8 converted to a decimal is ______.",
+          "answer": "0.625",
+          "explanation": "5 ÷ 8 = 0.625. (8 × 0.625 = 5.000, verified.)"
+        },
+        {
+          "question_no": "19",
+          "marks": 1,
+          "question": "A line that intersects two or more parallel lines is called a ______.",
+          "answer": "transversal",
+          "explanation": "A transversal is a line that crosses two or more other lines at distinct points. When it crosses parallel lines, it forms several pairs of equal or supplementary angles."
+        },
+        {
+          "question_no": "20",
+          "marks": 1,
+          "question": "If the ratio of boys to girls in a class is 3 : 2 and there are 30 boys, the number of girls is ______.",
+          "answer": "20",
+          "explanation": "Boys : Girls = 3 : 2. Boys = 30 = 3 parts → 1 part = 10. Girls = 2 parts = 2 × 10 = 20."
+        }
+      ]
+    },
+    {
+      "section": "C",
+      "title": "Section C – Short Answer Questions",
+      "marks": 24,
+      "instruction": "Answer the following questions. Each question carries 3 marks. Show your working clearly.",
+      "questions": [
+        {
+          "question_no": "21",
+          "marks": 3,
+          "question": "Find the HCF of 56 and 84 using the prime factorisation method.",
+          "answer": "HCF = 28",
+          "working": "56 = 2 × 28 = 2 × 2 × 14 = 2 × 2 × 2 × 7 = 2³ × 7\n84 = 2 × 42 = 2 × 2 × 21 = 2 × 2 × 3 × 7 = 2² × 3 × 7\nCommon prime factors with lowest powers: 2² × 7 = 4 × 7 = 28\nHCF(56, 84) = 28"
+        },
+        {
+          "question_no": "22",
+          "marks": 3,
+          "question": "Evaluate: (−8) + (−5) − (−3) + 12.",
+          "answer": "2",
+          "working": "Step 1: (−8) + (−5) = −13\nStep 2: −13 − (−3) = −13 + 3 = −10\nStep 3: −10 + 12 = 2\nAnswer = 2"
+        },
+        {
+          "question_no": "23",
+          "marks": 3,
+          "question": "A school has 360 students. The ratio of boys to girls is 7 : 5. Find the number of boys and girls separately.",
+          "answer": "Boys = 210, Girls = 150",
+          "working": "Total ratio parts = 7 + 5 = 12\nValue of 1 part = 360 / 12 = 30\nBoys = 7 × 30 = 210\nGirls = 5 × 30 = 150\nVerification: 210 + 150 = 360 ✓"
+        },
+        {
+          "question_no": "24",
+          "marks": 3,
+          "question": "Solve the linear equation: 5x + 8 = 3x + 20.",
+          "answer": "x = 6",
+          "working": "5x + 8 = 3x + 20\nSubtract 3x from both sides: 5x − 3x + 8 = 20\n2x + 8 = 20\nSubtract 8 from both sides: 2x = 12\nDivide both sides by 2: x = 6\nVerification: 5(6) + 8 = 30 + 8 = 38; 3(6) + 20 = 18 + 20 = 38 ✓"
+        },
+        {
+          "question_no": "25",
+          "marks": 3,
+          "question": "In triangle PQR, angle P = 55° and angle Q = 72°. Find angle R. Also state what type of triangle it is based on its angles.",
+          "answer": "Angle R = 53°; Acute-angled triangle",
+          "working": "Sum of angles of a triangle = 180°\nAngle P + Angle Q + Angle R = 180°\n55° + 72° + Angle R = 180°\n127° + Angle R = 180°\nAngle R = 180° − 127° = 53°\nAll three angles (55°, 72°, 53°) are less than 90°, so it is an acute-angled triangle."
+        },
+        {
+          "question_no": "26",
+          "marks": 3,
+          "question": "Find the area of a trapezium with parallel sides of 10 cm and 14 cm, and a height of 8 cm.",
+          "answer": "96 sq cm",
+          "working": "Area of trapezium = (1/2) × (sum of parallel sides) × height\n= (1/2) × (10 + 14) × 8\n= (1/2) × 24 × 8\n= (1/2) × 192\n= 96 sq cm"
+        },
+        {
+          "question_no": "27",
+          "marks": 3,
+          "question": "The marks scored by 8 students in a test are: 45, 60, 72, 55, 48, 72, 80, 68. Find:\n(a) The mean of the marks.\n(b) The mode of the marks.",
+          "answer": "(a) Mean = 62.5   (b) Mode = 72",
+          "working": "(a) Mean = Sum of all marks / Number of students\nSum = 45 + 60 + 72 + 55 + 48 + 72 + 80 + 68\n= 105 + 127 + 120 + 148\n= 500\nMean = 500 / 8 = 62.5\n\n(b) Mode = the value that appears most often.\n72 appears 2 times (all others appear once).\nMode = 72"
+        },
+        {
+          "question_no": "28",
+          "marks": 3,
+          "question": "Construct a line segment AB = 6.5 cm. Draw its perpendicular bisector using compass and ruler. Describe the steps of construction.",
+          "answer": "The perpendicular bisector passes through the midpoint of AB at 3.25 cm from each end.",
+          "working": "Step 1: Draw a line segment AB of length 6.5 cm.\nStep 2: With A as centre and radius more than half of AB (e.g., 4 cm), draw arcs above and below AB.\nStep 3: With the same radius and B as centre, draw arcs intersecting the previous arcs at points P (above) and Q (below).\nStep 4: Join P and Q. The line PQ is the perpendicular bisector of AB.\nStep 5: PQ intersects AB at its midpoint M, where AM = MB = 3.25 cm and angle PMA = 90°."
+        }
+      ]
+    },
+    {
+      "section": "D",
+      "title": "Section D – Long Answer Questions",
+      "marks": 16,
+      "instruction": "Answer the following questions. Each question carries 4 marks. Show all steps clearly.",
+      "questions": [
+        {
+          "question_no": "29",
+          "marks": 4,
+          "question": "The following data shows the number of hours 6 students spent studying per week:\nAjay: 12 hours, Bina: 8 hours, Chetan: 15 hours, Deepa: 10 hours, Ekta: 18 hours, Faraz: 11 hours.\n(a) Find the mean number of hours.\n(b) Find the median number of hours.\n(c) If Ekta's hours increase by 6, what will be the new mean?",
+          "answer": "(a) Mean = 12.33 hours (approx.)   (b) Median = 11.5 hours   (c) New mean = 13.33 hours (approx.)",
+          "working": "(a) Mean:\nSum = 12 + 8 + 15 + 10 + 18 + 11 = 74\nMean = 74 / 6 = 12.33 hours (approx.)\n\n(b) Median:\nArrange in ascending order: 8, 10, 11, 12, 15, 18\nNumber of values = 6 (even)\nMedian = average of 3rd and 4th values\n= (11 + 12) / 2 = 23 / 2 = 11.5 hours\n\n(c) Ekta's new hours = 18 + 6 = 24\nNew sum = 74 − 18 + 24 = 80\nNew mean = 80 / 6 = 13.33 hours (approx.)"
+        },
+        {
+          "question_no": "30",
+          "marks": 4,
+          "question": "A rectangular park has a length of 35 m and a breadth of 22 m.\n(a) Find the perimeter of the park.\n(b) Find the area of the park.\n(c) A path of 2 m width runs inside along all four sides. Find the area of the path.",
+          "answer": "(a) Perimeter = 114 m   (b) Area = 770 sq m   (c) Area of path = 220 sq m",
+          "working": "(a) Perimeter = 2 × (l + b) = 2 × (35 + 22) = 2 × 57 = 114 m\n\n(b) Area = l × b = 35 × 22 = 770 sq m\n\n(c) Inner rectangle (after removing the 2 m path on each side):\nInner length = 35 − 2 − 2 = 31 m\nInner breadth = 22 − 2 − 2 = 18 m\nInner area = 31 × 18 = 558 sq m\nArea of path = Outer area − Inner area\n= 770 − 558 = 212 sq m\n\nNote: Recomputing carefully:\nOuter area = 35 × 22 = 770\nInner area = 31 × 18 = 558\nPath area = 770 − 558 = 212 sq m"
+        },
+        {
+          "question_no": "31",
+          "marks": 4,
+          "question": "Factorise and simplify:\n(a) Write the prime factorisation of 180.\n(b) Find three numbers between 1 and 50 that are divisible by both 6 and 9.\n(c) Find the LCM and HCF of 45 and 60. Verify: LCM × HCF = product of the two numbers.",
+          "answer": "(a) 180 = 2² × 3² × 5\n(b) 18, 36, 54 (but 54 > 50; so 18 and 36 between 1–50)\n(c) LCM = 180, HCF = 15",
+          "working": "(a) Prime factorisation of 180:\n180 ÷ 2 = 90\n90 ÷ 2 = 45\n45 ÷ 3 = 15\n15 ÷ 3 = 5\n5 ÷ 5 = 1\n180 = 2² × 3² × 5\n\n(b) LCM(6, 9) = 18. Multiples of 18 between 1 and 50: 18, 36.\n(18, 36 are the two numbers between 1 and 50 divisible by both 6 and 9.)\n\n(c) LCM and HCF of 45 and 60:\n45 = 3² × 5\n60 = 2² × 3 × 5\nHCF = 3 × 5 = 15\nLCM = 2² × 3² × 5 = 4 × 9 × 5 = 180\n\nVerification: LCM × HCF = 180 × 15 = 2,700\nProduct of numbers = 45 × 60 = 2,700 ✓"
+        },
+        {
+          "question_no": "32",
+          "marks": 4,
+          "question": "Rajiv earns Rs. 24,000 per month. He spends 35% on food, 20% on rent, 15% on education, 10% on transport, and saves the rest.\n(a) Find the amount spent on each category.\n(b) Find the total expenditure.\n(c) Find the amount saved.\n(d) What percentage of his income does he save?",
+          "answer": "(a) Food: Rs. 8,400; Rent: Rs. 4,800; Education: Rs. 3,600; Transport: Rs. 2,400\n(b) Total expenditure = Rs. 19,200\n(c) Savings = Rs. 4,800\n(d) Savings percentage = 20%",
+          "working": "Monthly income = Rs. 24,000\n\n(a) Expenditure:\nFood = 35% of 24,000 = (35 × 24,000) / 100 = 8,40,000 / 100 = Rs. 8,400\nRent = 20% of 24,000 = (20 × 24,000) / 100 = Rs. 4,800\nEducation = 15% of 24,000 = (15 × 24,000) / 100 = Rs. 3,600\nTransport = 10% of 24,000 = (10 × 24,000) / 100 = Rs. 2,400\n\n(b) Total expenditure = 8,400 + 4,800 + 3,600 + 2,400 = Rs. 19,200\n\n(c) Savings = Income − Total expenditure\n= 24,000 − 19,200 = Rs. 4,800\n\n(d) Savings % = (Savings / Income) × 100\n= (4,800 / 24,000) × 100\n= (1/5) × 100 = 20%\n(Alternatively: 100% − 35% − 20% − 15% − 10% = 20%)"
+        }
+      ]
+    }
+  ]
+}

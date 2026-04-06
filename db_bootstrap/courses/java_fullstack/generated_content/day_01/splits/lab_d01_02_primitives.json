@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "asset_type": "lab_manual",
+    "session_day": 1,
+    "topic": "Primitive Data Types & Ranges",
+    "sub_topic_num": 2,
+    "session_title": "Day 1 - Introduction to Java & Language Fundamentals",
+    "date": "23-Feb-2026",
+    "duration_minutes": 25,
+    "total_exercises": 1,
+    "generated_by": "Claude (claude-sonnet-4-6)",
+    "pedagogy": "Hands-on learning with step-by-step guidance. Each exercise builds on the previous. All concepts from the session are coded. Banking/finance examples used for context."
+  },
+  "overview": {
+    "objectives": [
+      "Use all 8 Java primitive types in a meaningful context and understand their sizes, ranges, and appropriate use cases."
+    ],
+    "prerequisites": [
+      "JDK 17+ installed",
+      "IntelliJ IDEA (Community Edition) or VS Code with Java Extension",
+      "Git installed and GitHub account created"
+    ],
+    "tools": [
+      "JDK 17+",
+      "IntelliJ IDEA / VS Code",
+      "Terminal / Command Prompt",
+      "Git"
+    ]
+  },
+  "exercises": [
+    {
+      "exercise_id": "LAB_02",
+      "title": "Primitive Data Types — Bank Account Record",
+      "difficulty": "beginner",
+      "duration_minutes": 25,
+      "objective": "Use all 8 Java primitive types in a meaningful context and understand their sizes, ranges, and appropriate use cases.",
+      "scenario": "Model a bank account record using the most appropriate Java primitive type for each field. This is the foundation of data modeling in any banking system.",
+      "instructions": [
+        "Step 1: Create a new Java class called 'BankAccountRecord' in the same project",
+        "Step 2: Declare one variable for each of the 8 primitive types (see starter code)",
+        "Step 3: Print each variable using System.out.printf for formatted output",
+        "Step 4: Add a TASK comment where indicated and complete each task",
+        "Step 5: Run and verify your output matches the expected output",
+        "Step 6: EXPERIMENT — what happens when you assign 200 to a byte? What error do you get?",
+        "Step 7: EXPERIMENT — what does Integer.MAX_VALUE + 1 print? Can you explain why?"
+      ],
+      "starter_code": "import java.math.BigDecimal;  // We'll need this for accurate money math\n\npublic class BankAccountRecord {\n    public static void main(String[] args) {\n        \n        // ============================================================\n        // PART 1: Declare variables with ALL 8 primitive types\n        // Use the MOST APPROPRIATE type for each banking field\n        // ============================================================\n        \n        long   accountNumber  = 9876543210L;    // Long: large numbers need 'L' suffix\n        short  branchCode     = 1042;            // Short: branch codes are small numbers\n        int    transactionCount = 1_500;         // Int: underscores improve readability!\n        byte   kycStatus      = 2;              // Byte: 0=Pending, 1=Submitted, 2=Verified\n        double balanceDisplay  = 1_50_000.75;   // Double: default decimal type\n        float  interestRate   = 8.5f;           // Float: needs 'f' suffix\n        char   accountType    = 'S';            // Char: 'S'=Savings, 'C'=Current\n        boolean isActive      = true;           // Boolean: only true or false\n        \n        // ============================================================\n        // PART 2: Print all fields\n        // ============================================================\n        System.out.println(\"========== Bank Account Details ==========\");\n        System.out.printf(\"Account Number  : %d%n\", accountNumber);\n        System.out.printf(\"Branch Code     : %d%n\", branchCode);\n        System.out.printf(\"Transaction Count: %d%n\", transactionCount);\n        System.out.printf(\"KYC Status      : %d (0=Pending, 1=Submitted, 2=Verified)%n\", kycStatus);\n        System.out.printf(\"Balance         : %.2f%n\", balanceDisplay);\n        System.out.printf(\"Interest Rate   : %.1f%%%n\", interestRate);\n        System.out.printf(\"Account Type    : %c%n\", accountType);\n        System.out.printf(\"Is Active       : %b%n\", isActive);\n        \n        // ============================================================\n        // PART 3: Ranges — run these and understand the results\n        // ============================================================\n        System.out.println(\"\\n========== Primitive Ranges ==========\");\n        System.out.println(\"Byte max     : \" + Byte.MAX_VALUE);    // TASK: What is it?\n        System.out.println(\"Short max    : \" + Short.MAX_VALUE);   // TASK: What is it?\n        System.out.println(\"Int max      : \" + Integer.MAX_VALUE); // TASK: What is it?\n        System.out.println(\"Long max     : \" + Long.MAX_VALUE);    // TASK: What is it?\n        \n        // ============================================================\n        // PART 4: EXPERIMENT — Integer Overflow (DO NOT SKIP!)\n        // ============================================================\n        System.out.println(\"\\n========== Overflow Experiment ==========\");\n        int max = Integer.MAX_VALUE;\n        System.out.println(\"Integer.MAX_VALUE     : \" + max);\n        System.out.println(\"Integer.MAX_VALUE + 1 : \" + (max + 1));  // Unexpected result!\n        // TASK: Write a comment here explaining WHY you get this result\n        \n        // ============================================================\n        // PART 5: Why NOT double for money — the floating-point trap\n        // ============================================================\n        System.out.println(\"\\n========== Floating-Point Precision ==========\");\n        double d1 = 0.1 + 0.2;\n        System.out.println(\"0.1 + 0.2 = \" + d1);            // Not 0.3!\n        System.out.println(\"== 0.3 ? \" + (d1 == 0.3));       // false!\n        \n        // The CORRECT way for financial calculations:\n        BigDecimal bd1 = new BigDecimal(\"0.1\");\n        BigDecimal bd2 = new BigDecimal(\"0.2\");\n        BigDecimal bdSum = bd1.add(bd2);\n        System.out.println(\"BigDecimal 0.1+0.2 = \" + bdSum);  // Exact: 0.3\n        System.out.println(\"== 0.3 ? \" + (bdSum.compareTo(new BigDecimal(\"0.3\")) == 0));\n    }\n}",
+      "expected_output": "========== Bank Account Details ==========\nAccount Number  : 9876543210\nBranch Code     : 1042\nTransaction Count: 1500\nKYC Status      : 2 (0=Pending, 1=Submitted, 2=Verified)\nBalance         : 150000.75\nInterest Rate   : 8.5%\nAccount Type    : S\nIs Active       : true\n\n========== Primitive Ranges ==========\nByte max     : 127\nShort max    : 32767\nInt max      : 2147483647\nLong max     : 9223372036854775807\n\n========== Overflow Experiment ==========\nInteger.MAX_VALUE     : 2147483647\nInteger.MAX_VALUE + 1 : -2147483648\n\n========== Floating-Point Precision ==========\n0.1 + 0.2 = 0.30000000000000004\n== 0.3 ? false\nBigDecimal 0.1+0.2 = 0.3\n== 0.3 ? true",
+      "hints": [
+        "The 'L' suffix in 9876543210L tells Java this is a long literal (without 'L', Java reads integer literals as int, causing compile error for numbers > 2.1 billion)",
+        "Underscores in numbers (1_500, 1_50_000.75) are allowed from Java 7+ — they only affect readability, not the value",
+        "BigDecimal constructor takes a String argument, NOT a double. new BigDecimal(0.1) still has precision issues!"
+      ],
+      "reflection_questions": [
+        "Why is int insufficient for storing phone numbers? Which type would you use?",
+        "A bank transaction might store an amount like ₹99,99,999.99 — which type(s) would you consider and why?",
+        "What would happen if a banking system used int (not long) for account balances and a customer had ₹22 crore in their account?"
+      ],
+      "debugging_task": "Deliberately introduce this bug and observe the error: byte buggy = 200; What does the compiler say? Change it to short — does it work?"
+    }
+  ]
+}

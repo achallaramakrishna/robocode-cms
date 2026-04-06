@@ -1,0 +1,292 @@
+{
+  "meta": {
+    "asset_type": "flashcard",
+    "session_day": 1,
+    "session_title": "Day 1 - Introduction to Java & Language Fundamentals",
+    "total_cards": 20,
+    "generated_by": "Claude (claude-sonnet-4-6)",
+    "pedagogy": "Mixes conceptual understanding, code reading, debugging, and output prediction to build software engineering skills"
+  },
+  "cards": [
+    {
+      "card_id": "FC_001",
+      "front": {
+        "type": "text",
+        "content": "What is the difference between JDK, JRE, and JVM?\nWhich one do you install to: (a) develop Java, (b) only run Java programs?"
+      },
+      "back": {
+        "type": "text",
+        "content": "JVM = Java Virtual Machine — executes bytecode (.class files). Platform-specific.\nJRE = JVM + standard libraries (java.lang, java.util...) — needed to RUN programs.\nJDK = JRE + dev tools (javac, javadoc, jar, jdb) — needed to DEVELOP.\n\n(a) Install JDK to develop\n(b) Install JRE (or JDK) to only run\n\nMemory trick: JDK ⊃ JRE ⊃ JVM\n\n💡 In an interview: 'javac compiles .java → .class; java (JVM) executes .class'"
+      },
+      "category": "concept",
+      "difficulty": "easy",
+      "order": 1
+    },
+    {
+      "card_id": "FC_002",
+      "front": {
+        "type": "text",
+        "content": "🔍 PREDICT THE OUTPUT:\nWhat does this print? Think before reading the answer.\n\nint x = 5;\nint y = 2;\nSystem.out.println(x / y);\nSystem.out.println(x % y);\nSystem.out.println((double) x / y);"
+      },
+      "back": {
+        "type": "text",
+        "content": "Output:\n2\n1\n2.5\n\nExplanation:\n• x / y = 5 / 2 → INTEGER division truncates decimal → 2 (not 2.5!)\n• x % y = 5 % 2 → remainder after dividing → 1\n• (double) x / y → cast x to 2.5 first, THEN divide → 2.5\n\n🐛 Common Bug: Expecting 5/2 = 2.5 but getting 2. Fix: cast to double first.\n💡 Modulo (%) is useful: check even/odd (n%2==0), check divisibility (n%10==0 means ends in 0)"
+      },
+      "category": "code",
+      "difficulty": "medium",
+      "order": 2
+    },
+    {
+      "card_id": "FC_003",
+      "front": {
+        "type": "text",
+        "content": "What are the 8 primitive data types in Java?\nName each with its size and use case."
+      },
+      "back": {
+        "type": "text",
+        "content": "byte    → 1 byte  → status codes, KYC level (0-127)\nshort   → 2 bytes → branch codes, small counters\nint     → 4 bytes → transaction count, IDs under 2 billion\nlong    → 8 bytes → account numbers, phone numbers, timestamps (needs 'L' suffix: 9876L)\nfloat   → 4 bytes → interest rate display (needs 'f' suffix: 8.5f)\ndouble  → 8 bytes → balance display, calculations (default decimal)\nchar    → 2 bytes → single character: 'D'=Debit, 'C'=Credit, 'S'=Savings\nboolean → 1 bit   → flags: isActive, isFrozen, hasOverdraft\n\n⚠️ NEVER use double for actual money math — use BigDecimal instead!"
+      },
+      "category": "definition",
+      "difficulty": "medium",
+      "order": 3
+    },
+    {
+      "card_id": "FC_004",
+      "front": {
+        "type": "text",
+        "content": "🔍 PREDICT THE OUTPUT — Integer Overflow:\n\nint maxVal = Integer.MAX_VALUE;\nSystem.out.println(maxVal);\nSystem.out.println(maxVal + 1);"
+      },
+      "back": {
+        "type": "text",
+        "content": "Output:\n2147483647\n-2147483648\n\n😱 This is INTEGER OVERFLOW — Java wraps around silently, NO exception!\n\nThe bit pattern for 2,147,483,647 + 1 wraps to -2,147,483,648 (Integer.MIN_VALUE)\n\n🐛 Bug scenario: Using 'int' for a bank account number that exceeds 2.1 billion — it wraps to negative!\nFix: Use 'long' (max: 9,223,372,036,854,775,807)\n\n💡 Debugging tip: Always check data types when you see unexpected negative numbers in calculations."
+      },
+      "category": "code",
+      "difficulty": "hard",
+      "order": 4
+    },
+    {
+      "card_id": "FC_005",
+      "front": {
+        "type": "text",
+        "content": "🔍 PREDICT THE OUTPUT — Pre vs Post Increment:\n\nint i = 5;\nSystem.out.println(i++);  // Line A\nSystem.out.println(++i);  // Line B\nSystem.out.println(i);    // Line C"
+      },
+      "back": {
+        "type": "text",
+        "content": "Output:\n5   ← Line A: i++ is POST-increment. Returns 5, THEN i becomes 6.\n7   ← Line B: ++i is PRE-increment. i becomes 7, THEN returns 7.\n7   ← Line C: i is still 7.\n\nRule:\n• i++ → use current value, THEN increment (Post: print first, add later)\n• ++i → increment FIRST, THEN use new value (Pre: add first, print later)\n\n🐛 Common Bug: Using i++ instead of ++i inside expressions leads to logic errors.\n💡 Best practice: Keep increment statements on their own line to avoid confusion."
+      },
+      "category": "code",
+      "difficulty": "medium",
+      "order": 5
+    },
+    {
+      "card_id": "FC_006",
+      "front": {
+        "type": "text",
+        "content": "What is short-circuit evaluation in && and ||?\nWhy does this matter for writing safe code?\n\nif (user != null && user.isActive()) { ... }"
+      },
+      "back": {
+        "type": "text",
+        "content": "&& (AND): If LEFT side is FALSE → skip right side entirely\n|| (OR):  If LEFT side is TRUE  → skip right side entirely\n\nIn the example:\n• If user == null: short-circuits → user.isActive() is NEVER called\n• Without null check: NullPointerException! Most common Java runtime error.\n\nWhy it matters:\n1. Safety: prevents NullPointerException\n2. Performance: skips expensive operations (DB query, API call) when not needed\n\n💡 Rule: Always put the cheaper/safer check on the LEFT side of &&\n\nBanking example:\nif (account != null && account.getBalance() >= withdrawAmount && !account.isFrozen()) {\n    processWithdrawal();\n}"
+      },
+      "category": "concept",
+      "difficulty": "medium",
+      "order": 6
+    },
+    {
+      "card_id": "FC_007",
+      "front": {
+        "type": "text",
+        "content": "🔍 FIND THE BUG — What's wrong with this code?\n\ndouble balance = 0.1 + 0.2;\nif (balance == 0.3) {\n    System.out.println(\"Balance is 0.3\");\n} else {\n    System.out.println(\"Balance is NOT 0.3 — it is: \" + balance);\n}"
+      },
+      "back": {
+        "type": "text",
+        "content": "Output (surprising!):\nBalance is NOT 0.3 — it is: 0.30000000000000004\n\nBug: Floating-point precision error. 0.1 and 0.2 cannot be represented exactly in binary.\n\nNEVER compare floating-point with == in Java!\n\n✅ Fix 1 — Use threshold/epsilon:\nif (Math.abs(balance - 0.3) < 0.0001) { ... }\n\n✅ Fix 2 — Use BigDecimal for money:\nimport java.math.BigDecimal;\nBigDecimal b = new BigDecimal(\"0.1\").add(new BigDecimal(\"0.2\"));\n// b.compareTo(new BigDecimal(\"0.3\")) == 0  → true!\n\n💡 This is why banking software ALWAYS uses BigDecimal for financial calculations!"
+      },
+      "category": "code",
+      "difficulty": "hard",
+      "order": 7
+    },
+    {
+      "card_id": "FC_008",
+      "front": {
+        "type": "text",
+        "content": "What is the difference between break and continue in a loop?\nShow with a code example."
+      },
+      "back": {
+        "type": "text",
+        "content": "break   → EXITS the loop entirely (stops all iterations)\ncontinue → SKIPS current iteration, moves to NEXT\n\nExample — Processing transactions, skip negatives, stop on 0:\nfor (double txn : transactions) {\n    if (txn == 0) break;      // end-of-data sentinel\n    if (txn < 0) continue;    // skip invalid negative amounts\n    totalDeposit += txn;\n}\n\nOutput trace with [5000, -100, 3000, 0, 2000]:\n• 5000 → added\n• -100 → continue (skipped)\n• 3000 → added\n• 0   → break (exits, 2000 never processed)\nResult: totalDeposit = 8000\n\n💡 Think: break=STOP, continue=SKIP"
+      },
+      "category": "comparison",
+      "difficulty": "easy",
+      "order": 8
+    },
+    {
+      "card_id": "FC_009",
+      "front": {
+        "type": "text",
+        "content": "🔍 PREDICT THE OUTPUT — Switch Fall-Through:\n\nint month = 2;\nswitch (month) {\n    case 1: System.out.println(\"January\");\n    case 2: System.out.println(\"February\");\n    case 3: System.out.println(\"March\");\n    default: System.out.println(\"Quarter 1\");\n}"
+      },
+      "back": {
+        "type": "text",
+        "content": "Output:\nFebruary\nMarch\nQuarter 1\n\n😱 Fall-through! Once a case matches, execution CONTINUES into ALL subsequent cases until a break or end of switch.\n\nFixed version:\nswitch (month) {\n    case 1: System.out.println(\"January\"); break;\n    case 2: System.out.println(\"February\"); break;\n    case 3: System.out.println(\"March\"); break;\n    default: System.out.println(\"Quarter 1\"); break;\n}\n// Now only prints: February\n\n✅ Intentional fall-through (grouping cases):\ncase 1:\ncase 2:\ncase 3: System.out.println(\"Q1\"); break; // 1,2,3 all go here\n\n💡 Always add break unless you intentionally want fall-through."
+      },
+      "category": "code",
+      "difficulty": "medium",
+      "order": 9
+    },
+    {
+      "card_id": "FC_010",
+      "front": {
+        "type": "text",
+        "content": "What is the difference between while and do-while?\nWhen would you choose do-while?"
+      },
+      "back": {
+        "type": "text",
+        "content": "while → Checks condition BEFORE executing body\ndo-while → Executes body FIRST, checks condition AFTER (runs at least once)\n\nExample:\nint attempts = 0;\ndo {\n    // show PIN prompt — runs at least once even if attempts starts at 0\n    System.out.println(\"Enter PIN (Attempt \" + (++attempts) + \")\");\n    // read PIN...\n} while (!pinCorrect && attempts < 3);\n\n💡 When to choose do-while:\n1. Menu-driven programs (show menu, then validate)\n2. Input validation loops (get input, then check it)\n3. Retry logic (ATM PIN, login attempts, network retry)\n\nKey insight: If the body must run before any condition check is meaningful → use do-while"
+      },
+      "category": "comparison",
+      "difficulty": "easy",
+      "order": 10
+    },
+    {
+      "card_id": "FC_011",
+      "front": {
+        "type": "text",
+        "content": "🔍 FIND THE BUG — Array Access:\n\nint[] scores = {85, 92, 78, 95, 88};\nSystem.out.println(\"Length: \" + scores.length);\nfor (int i = 0; i <= scores.length; i++) {  // BUG HERE\n    System.out.println(scores[i]);\n}"
+      },
+      "back": {
+        "type": "text",
+        "content": "Bug: Loop condition uses <= instead of < → causes ArrayIndexOutOfBoundsException!\n\nFor array of length 5, valid indices are 0, 1, 2, 3, 4.\nWith i <= 5, it tries scores[5] → doesn't exist → EXCEPTION!\n\nException thrown:\njava.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 5\n\n✅ Fix: Change <= to <\nfor (int i = 0; i < scores.length; i++) {\n    System.out.println(scores[i]);\n}\n\n💡 Debugging technique:\n1. Read the exception message: 'Index 5 out of bounds for length 5'\n2. Find which loop/access caused it\n3. Check: is condition i < or i <=?\n\n💡 To avoid this entirely: use enhanced for-each when you don't need the index."
+      },
+      "category": "code",
+      "difficulty": "medium",
+      "order": 11
+    },
+    {
+      "card_id": "FC_012",
+      "front": {
+        "type": "text",
+        "content": "What does the ternary operator do? Write the syntax.\nRefactor this if-else to a ternary:\n\nString category;\nif (balance >= 100000) {\n    category = \"PREMIUM\";\n} else {\n    category = \"STANDARD\";\n}"
+      },
+      "back": {
+        "type": "text",
+        "content": "Syntax: condition ? valueIfTrue : valueIfFalse\n\nRefactored:\nString category = (balance >= 100000) ? \"PREMIUM\" : \"STANDARD\";\n\nMore examples:\nint max = (a > b) ? a : b;                    // max of two numbers\nString status = (txnAmt > 0) ? \"CREDIT\" : \"DEBIT\";  // banking domain\n\n⚠️ Avoid nested ternaries — hard to read:\n// BAD:\nString tier = (bal>=500000) ? \"GOLD\" : (bal>=100000) ? \"SILVER\" : \"BRONZE\";\n// GOOD: Use if-else for 3+ conditions\n\n💡 Best practice: Use ternary ONLY for simple value assignment with exactly 2 outcomes.\nNever use for side effects (method calls that do work other than return a value)."
+      },
+      "category": "definition",
+      "difficulty": "easy",
+      "order": 12
+    },
+    {
+      "card_id": "FC_013",
+      "front": {
+        "type": "text",
+        "content": "What is implicit widening vs explicit narrowing type conversion?\nShow what gets LOST in narrowing."
+      },
+      "back": {
+        "type": "text",
+        "content": "Widening (implicit) — automatic, no data loss:\nbyte → short → int → long → float → double\n\nint i = 100;\nlong l = i;   // automatic, safe\ndouble d = l; // automatic, safe\n\nNarrowing (explicit) — must cast manually, CAN lose data:\ndouble balance = 9.99;\nint rounded = (int) balance;  // rounded = 9 (decimal TRUNCATED, not rounded!)\n\nlong bigNum = 300L;\nbyte b = (byte) bigNum; // b = 44 (300 % 256 = 44, wrapped around!)\n\n🐛 Common Bug: Thinking (int)3.9 rounds to 4 — it TRUNCATES to 3!\n\n💡 If you need rounding: Math.round(3.9) = 4\n💡 If you need ceiling: (int)Math.ceil(3.1) = 4"
+      },
+      "category": "comparison",
+      "difficulty": "medium",
+      "order": 13
+    },
+    {
+      "card_id": "FC_014",
+      "front": {
+        "type": "text",
+        "content": "🔍 PREDICT THE OUTPUT — String Comparison:\n\nString a = new String(\"RoboBank\");\nString b = new String(\"RoboBank\");\nString c = \"RoboBank\";\nString d = \"RoboBank\";\n\nSystem.out.println(a == b);\nSystem.out.println(a.equals(b));\nSystem.out.println(c == d);\nSystem.out.println(c.equals(d));"
+      },
+      "back": {
+        "type": "text",
+        "content": "Output:\nfalse  ← a == b: different objects in heap (new creates new object)\ntrue   ← a.equals(b): same characters\ntrue   ← c == d: SAME object (String Pool/Interning! literals share reference)\ntrue   ← c.equals(d): same characters\n\nWhy c == d is true:\nString literals go into the String Pool. \"RoboBank\" is created once; c and d point to the SAME pooled object.\n\n🐛 Bug in 99% of beginner Java code:\nif (userInput == \"yes\") { ... }  // WRONG! May be false even if content matches\n\n✅ Fix:\nif (\"yes\".equals(userInput)) { ... }  // Note: literal.equals(var) avoids NPE if var is null"
+      },
+      "category": "code",
+      "difficulty": "hard",
+      "order": 14
+    },
+    {
+      "card_id": "FC_015",
+      "front": {
+        "type": "text",
+        "content": "What are varargs in Java? Write a method that accepts varargs and show 3 different ways to call it."
+      },
+      "back": {
+        "type": "text",
+        "content": "Varargs (variable arguments): allows a method to accept 0 or more arguments of the same type.\nSyntax: type... paramName   (must be the LAST parameter)\n\npublic static double totalDeposits(String accountId, double... amounts) {\n    double total = 0;\n    for (double amt : amounts) total += amt;\n    System.out.printf(\"%s: %d txns, Total=%.2f%n\", accountId, amounts.length, total);\n    return total;\n}\n\n// Three ways to call:\ntotalDeposits(\"ACC001\");                    // 0 amounts → total=0\ntotalDeposits(\"ACC002\", 5000.0);           // 1 amount\ntotalDeposits(\"ACC003\", 1000, 2500, 750);  // 3 amounts\n\n// Also: pass an array\ndouble[] arr = {100, 200, 300};\ntotalDeposits(\"ACC004\", arr);              // array works too!\n\n⚠️ Rule: Only ONE varargs param per method; must be last."
+      },
+      "category": "definition",
+      "difficulty": "medium",
+      "order": 15
+    },
+    {
+      "card_id": "FC_016",
+      "front": {
+        "type": "text",
+        "content": "Name 5 key methods from java.util.Arrays and what each does."
+      },
+      "back": {
+        "type": "text",
+        "content": "import java.util.Arrays;\n\nint[] nums = {5, 2, 8, 1, 9};\n\n1. Arrays.sort(nums)\n   → Sorts in ascending order: [1, 2, 5, 8, 9] (modifies ORIGINAL!)\n\n2. Arrays.toString(nums)\n   → Returns printable String: \"[1, 2, 5, 8, 9]\"\n   (System.out.println(nums) just prints something like [I@6d06d69c)\n\n3. Arrays.binarySearch(nums, 8)\n   → Returns index of 8 in SORTED array: 3\n   (MUST sort first! Undefined behavior on unsorted array)\n\n4. Arrays.copyOf(nums, 3)\n   → Returns new array: [1, 2, 5] (first 3 elements)\n\n5. Arrays.fill(nums, 0)\n   → Sets ALL elements to 0: [0, 0, 0, 0, 0]\n\n💡 Arrays.equals(a, b) compares content — use instead of a==b for arrays."
+      },
+      "category": "definition",
+      "difficulty": "medium",
+      "order": 16
+    },
+    {
+      "card_id": "FC_017",
+      "front": {
+        "type": "text",
+        "content": "🔍 DEBUGGING EXERCISE — What exception will this throw and why?\nHow do you fix it?\n\nString pin = null;\nif (pin.equals(\"1234\")) {\n    System.out.println(\"Access Granted\");\n}"
+      },
+      "back": {
+        "type": "text",
+        "content": "Exception:\njava.lang.NullPointerException: Cannot invoke \"String.equals(Object)\" because \"pin\" is null\n\nWhy: Calling a method (.equals()) on a null reference → NullPointerException\n\n✅ Fix 1 — Null check first:\nif (pin != null && pin.equals(\"1234\")) { ... }\n\n✅ Fix 2 — Literal on left (recommended!):\nif (\"1234\".equals(pin)) { ... }\n// If pin is null, \"1234\".equals(null) returns false — no exception!\n\n💡 Debugging NullPointerException:\n1. Read the stack trace — which line?\n2. What variable on that line could be null?\n3. Add null check or initialize properly\n\nThis is the most common Java runtime error. Always validate inputs!"
+      },
+      "category": "code",
+      "difficulty": "hard",
+      "order": 17
+    },
+    {
+      "card_id": "FC_018",
+      "front": {
+        "type": "text",
+        "content": "What are Java naming conventions?\nIdentify what's WRONG with each name:\na) int BankBalance;\nb) String customerID = \"ACC001\";\nc) final int maxattempts = 3;\nd) void Withdraw() { }"
+      },
+      "back": {
+        "type": "text",
+        "content": "Correct naming conventions:\nClasses/Interfaces: PascalCase     → BankAccount, CustomerService\nMethods:           camelCase       → calculateEMI(), isEligible()\nVariables:         camelCase       → bankBalance, customerId\nConstants:         UPPER_SNAKE     → MAX_ATTEMPTS, DEFAULT_RATE\n\nWhat's WRONG:\na) int BankBalance      → BUG: starts with uppercase. Fix: int bankBalance\nb) String customerID    → Acceptable, but prefer: customerId (ID → Id in camelCase)\nc) final int maxattempts → BUG: constant should be UPPER_SNAKE. Fix: MAX_ATTEMPTS\nd) void Withdraw()      → BUG: method starts with uppercase. Fix: void withdraw()\n\n💡 Why it matters: Code reviews fail on naming. Inconsistent naming signals a junior mindset.\n💡 Tools: Checkstyle, SonarQube enforce naming in real projects."
+      },
+      "category": "best_practice",
+      "difficulty": "easy",
+      "order": 18
+    },
+    {
+      "card_id": "FC_019",
+      "front": {
+        "type": "text",
+        "content": "What is platform independence in Java?\nTrace the steps from .java file to execution on any OS."
+      },
+      "back": {
+        "type": "text",
+        "content": "Platform independence = 'Write Once, Run Anywhere' (WORA)\n\nStep-by-step:\n1. You write: BankApp.java (human-readable source code)\n2. javac compiles it: BankApp.class (bytecode — JVM instructions, NOT machine code)\n3. JVM on any OS reads BankApp.class and JIT-compiles to native machine code\n4. The SAME .class file runs on Windows, Linux, macOS, Android...\n\nWhy it matters in enterprise:\n• Banking core systems built in Java run on Linux servers in data centers\n• The same JAR file runs on developer Windows laptops, Linux QA servers, cloud containers\n• No 'it works on my machine' problem for compiled code\n\nContrast with C/C++:\n• C compiles directly to machine code (EXE on Windows)\n• Must recompile separately for each OS/architecture\n\n💡 Interview Q: 'Is Java compiled or interpreted?' Answer: BOTH — compiled to bytecode, then JIT-interpreted."
+      },
+      "category": "concept",
+      "difficulty": "easy",
+      "order": 19
+    },
+    {
+      "card_id": "FC_020",
+      "front": {
+        "type": "text",
+        "content": "🔍 PREDICT THE OUTPUT — Enhanced for-each vs Index:\n\ndouble[] emi = {15000, 14800, 14600};\nfor (double e : emi) {\n    e = e * 1.1;  // 10% increase\n}\nSystem.out.println(emi[0]);"
+      },
+      "back": {
+        "type": "text",
+        "content": "Output:\n15000.0\n\n😮 The array is UNCHANGED! Why?\n\nIn a for-each loop, 'e' is a COPY of the array element, not a reference to it.\nModifying 'e' does NOT modify the original array.\n\n✅ Fix — Use index-based loop to modify array:\nfor (int i = 0; i < emi.length; i++) {\n    emi[i] = emi[i] * 1.1;  // modifies original array\n}\nSystem.out.println(emi[0]);  // → 16500.0\n\n💡 Rule:\n• Use for-each to READ values from an array\n• Use index-based for to MODIFY values in an array\n\nThis is a subtle but common bug — especially with primitive arrays."
+      },
+      "category": "code",
+      "difficulty": "hard",
+      "order": 20
+    }
+  ]
+}

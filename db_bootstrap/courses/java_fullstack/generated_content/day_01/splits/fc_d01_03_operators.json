@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "asset_type": "flashcard",
+    "session_day": 1,
+    "topic": "Operators, Short-Circuit & Precision",
+    "sub_topic_num": 3,
+    "session_title": "Day 1 - Introduction to Java & Language Fundamentals",
+    "total_cards": 6,
+    "generated_by": "Claude (claude-sonnet-4-6)",
+    "pedagogy": "Mixes conceptual understanding, code reading, debugging, and output prediction to build software engineering skills"
+  },
+  "cards": [
+    {
+      "card_id": "FC_002",
+      "front": {
+        "type": "text",
+        "content": "🔍 PREDICT THE OUTPUT:\nWhat does this print? Think before reading the answer.\n\nint x = 5;\nint y = 2;\nSystem.out.println(x / y);\nSystem.out.println(x % y);\nSystem.out.println((double) x / y);"
+      },
+      "back": {
+        "type": "text",
+        "content": "Output:\n2\n1\n2.5\n\nExplanation:\n• x / y = 5 / 2 → INTEGER division truncates decimal → 2 (not 2.5!)\n• x % y = 5 % 2 → remainder after dividing → 1\n• (double) x / y → cast x to 2.5 first, THEN divide → 2.5\n\n🐛 Common Bug: Expecting 5/2 = 2.5 but getting 2. Fix: cast to double first.\n💡 Modulo (%) is useful: check even/odd (n%2==0), check divisibility (n%10==0 means ends in 0)"
+      },
+      "category": "code",
+      "difficulty": "medium",
+      "order": 1
+    },
+    {
+      "card_id": "FC_005",
+      "front": {
+        "type": "text",
+        "content": "🔍 PREDICT THE OUTPUT — Pre vs Post Increment:\n\nint i = 5;\nSystem.out.println(i++);  // Line A\nSystem.out.println(++i);  // Line B\nSystem.out.println(i);    // Line C"
+      },
+      "back": {
+        "type": "text",
+        "content": "Output:\n5   ← Line A: i++ is POST-increment. Returns 5, THEN i becomes 6.\n7   ← Line B: ++i is PRE-increment. i becomes 7, THEN returns 7.\n7   ← Line C: i is still 7.\n\nRule:\n• i++ → use current value, THEN increment (Post: print first, add later)\n• ++i → increment FIRST, THEN use new value (Pre: add first, print later)\n\n🐛 Common Bug: Using i++ instead of ++i inside expressions leads to logic errors.\n💡 Best practice: Keep increment statements on their own line to avoid confusion."
+      },
+      "category": "code",
+      "difficulty": "medium",
+      "order": 2
+    },
+    {
+      "card_id": "FC_006",
+      "front": {
+        "type": "text",
+        "content": "What is short-circuit evaluation in && and ||?\nWhy does this matter for writing safe code?\n\nif (user != null && user.isActive()) { ... }"
+      },
+      "back": {
+        "type": "text",
+        "content": "&& (AND): If LEFT side is FALSE → skip right side entirely\n|| (OR):  If LEFT side is TRUE  → skip right side entirely\n\nIn the example:\n• If user == null: short-circuits → user.isActive() is NEVER called\n• Without null check: NullPointerException! Most common Java runtime error.\n\nWhy it matters:\n1. Safety: prevents NullPointerException\n2. Performance: skips expensive operations (DB query, API call) when not needed\n\n💡 Rule: Always put the cheaper/safer check on the LEFT side of &&\n\nBanking example:\nif (account != null && account.getBalance() >= withdrawAmount && !account.isFrozen()) {\n    processWithdrawal();\n}"
+      },
+      "category": "concept",
+      "difficulty": "medium",
+      "order": 3
+    },
+    {
+      "card_id": "FC_007",
+      "front": {
+        "type": "text",
+        "content": "🔍 FIND THE BUG — What's wrong with this code?\n\ndouble balance = 0.1 + 0.2;\nif (balance == 0.3) {\n    System.out.println(\"Balance is 0.3\");\n} else {\n    System.out.println(\"Balance is NOT 0.3 — it is: \" + balance);\n}"
+      },
+      "back": {
+        "type": "text",
+        "content": "Output (surprising!):\nBalance is NOT 0.3 — it is: 0.30000000000000004\n\nBug: Floating-point precision error. 0.1 and 0.2 cannot be represented exactly in binary.\n\nNEVER compare floating-point with == in Java!\n\n✅ Fix 1 — Use threshold/epsilon:\nif (Math.abs(balance - 0.3) < 0.0001) { ... }\n\n✅ Fix 2 — Use BigDecimal for money:\nimport java.math.BigDecimal;\nBigDecimal b = new BigDecimal(\"0.1\").add(new BigDecimal(\"0.2\"));\n// b.compareTo(new BigDecimal(\"0.3\")) == 0  → true!\n\n💡 This is why banking software ALWAYS uses BigDecimal for financial calculations!"
+      },
+      "category": "code",
+      "difficulty": "hard",
+      "order": 4
+    },
+    {
+      "card_id": "FC_012",
+      "front": {
+        "type": "text",
+        "content": "What does the ternary operator do? Write the syntax.\nRefactor this if-else to a ternary:\n\nString category;\nif (balance >= 100000) {\n    category = \"PREMIUM\";\n} else {\n    category = \"STANDARD\";\n}"
+      },
+      "back": {
+        "type": "text",
+        "content": "Syntax: condition ? valueIfTrue : valueIfFalse\n\nRefactored:\nString category = (balance >= 100000) ? \"PREMIUM\" : \"STANDARD\";\n\nMore examples:\nint max = (a > b) ? a : b;                    // max of two numbers\nString status = (txnAmt > 0) ? \"CREDIT\" : \"DEBIT\";  // banking domain\n\n⚠️ Avoid nested ternaries — hard to read:\n// BAD:\nString tier = (bal>=500000) ? \"GOLD\" : (bal>=100000) ? \"SILVER\" : \"BRONZE\";\n// GOOD: Use if-else for 3+ conditions\n\n💡 Best practice: Use ternary ONLY for simple value assignment with exactly 2 outcomes.\nNever use for side effects (method calls that do work other than return a value)."
+      },
+      "category": "definition",
+      "difficulty": "easy",
+      "order": 5
+    },
+    {
+      "card_id": "FC_014",
+      "front": {
+        "type": "text",
+        "content": "🔍 PREDICT THE OUTPUT — String Comparison:\n\nString a = new String(\"RoboBank\");\nString b = new String(\"RoboBank\");\nString c = \"RoboBank\";\nString d = \"RoboBank\";\n\nSystem.out.println(a == b);\nSystem.out.println(a.equals(b));\nSystem.out.println(c == d);\nSystem.out.println(c.equals(d));"
+      },
+      "back": {
+        "type": "text",
+        "content": "Output:\nfalse  ← a == b: different objects in heap (new creates new object)\ntrue   ← a.equals(b): same characters\ntrue   ← c == d: SAME object (String Pool/Interning! literals share reference)\ntrue   ← c.equals(d): same characters\n\nWhy c == d is true:\nString literals go into the String Pool. \"RoboBank\" is created once; c and d point to the SAME pooled object.\n\n🐛 Bug in 99% of beginner Java code:\nif (userInput == \"yes\") { ... }  // WRONG! May be false even if content matches\n\n✅ Fix:\nif (\"yes\".equals(userInput)) { ... }  // Note: literal.equals(var) avoids NPE if var is null"
+      },
+      "category": "code",
+      "difficulty": "hard",
+      "order": 6
+    }
+  ]
+}

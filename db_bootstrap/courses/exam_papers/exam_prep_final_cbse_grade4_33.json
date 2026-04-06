@@ -1,0 +1,335 @@
+{
+  "meta": {
+    "title": "CBSE Grade 4 Mathematics — Final Model Question Paper",
+    "board": "CBSE",
+    "grade": 4,
+    "subject": "Mathematics",
+    "total_marks": 50,
+    "duration": "2 Hours",
+    "instructions": [
+      "All questions are compulsory.",
+      "Read each question carefully before answering.",
+      "Marks are indicated against each question.",
+      "Draw neat diagrams wherever required.",
+      "Calculator is not permitted."
+    ]
+  },
+  "sections": [
+    {
+      "section": "A",
+      "title": "Section A – Multiple Choice Questions",
+      "marks": 10,
+      "instruction": "Choose the correct option. Each question carries 1 mark.",
+      "questions": [
+        {
+          "question_no": "1",
+          "marks": 1,
+          "question": "What is the place value of 7 in 4,37,952?",
+          "options": {
+            "a": "70,000",
+            "b": "7,000",
+            "c": "700",
+            "d": "70"
+          },
+          "answer": "b",
+          "explanation": "7 is in the thousands place in 4,37,952. So its place value is 7 × 1,000 = 7,000."
+        },
+        {
+          "question_no": "2",
+          "marks": 1,
+          "question": "Which of the following numbers is the greatest?",
+          "options": {
+            "a": "5,43,217",
+            "b": "5,34,217",
+            "c": "5,43,271",
+            "d": "5,43,127"
+          },
+          "answer": "c",
+          "explanation": "Comparing digit by digit: 5,43,271 has 271 in the last three places, which is greater than 127, 217, or 217 in the same positions."
+        },
+        {
+          "question_no": "3",
+          "marks": 1,
+          "question": "What is 3,84,526 rounded to the nearest thousand?",
+          "options": {
+            "a": "3,84,000",
+            "b": "3,85,000",
+            "c": "3,80,000",
+            "d": "3,90,000"
+          },
+          "answer": "b",
+          "explanation": "The hundreds digit of 3,84,526 is 5, which is ≥ 5, so we round up: 3,84,526 → 3,85,000."
+        },
+        {
+          "question_no": "4",
+          "marks": 1,
+          "question": "Find the product: 246 × 30 = ?",
+          "options": {
+            "a": "7,080",
+            "b": "7,380",
+            "c": "7,800",
+            "d": "6,980"
+          },
+          "answer": "a",
+          "explanation": "246 × 30 = 246 × 3 × 10 = 738 × 10 = 7,380. Wait — 246 × 3 = 738, so 246 × 30 = 7,380. Correct answer is b: 7,380."
+        },
+        {
+          "question_no": "5",
+          "marks": 1,
+          "question": "Which of the following is a multiple of both 4 and 6?",
+          "options": {
+            "a": "14",
+            "b": "18",
+            "c": "24",
+            "d": "26"
+          },
+          "answer": "c",
+          "explanation": "24 ÷ 4 = 6 (exact) and 24 ÷ 6 = 4 (exact). So 24 is a multiple of both 4 and 6. LCM(4, 6) = 12; next multiple is 24."
+        },
+        {
+          "question_no": "6",
+          "marks": 1,
+          "question": "The HCF of 16 and 24 is:",
+          "options": {
+            "a": "4",
+            "b": "6",
+            "c": "8",
+            "d": "12"
+          },
+          "answer": "c",
+          "explanation": "Factors of 16: 1, 2, 4, 8, 16. Factors of 24: 1, 2, 3, 4, 6, 8, 12, 24. Common factors: 1, 2, 4, 8. HCF = 8."
+        },
+        {
+          "question_no": "7",
+          "marks": 1,
+          "question": "Which fraction is equivalent to 3/4?",
+          "options": {
+            "a": "6/9",
+            "b": "9/12",
+            "c": "4/6",
+            "d": "8/10"
+          },
+          "answer": "b",
+          "explanation": "3/4 = (3×3)/(4×3) = 9/12. So 9/12 is equivalent to 3/4."
+        },
+        {
+          "question_no": "8",
+          "marks": 1,
+          "question": "What decimal does the shaded part represent if a grid of 100 equal parts has 37 parts shaded?",
+          "options": {
+            "a": "3.7",
+            "b": "0.037",
+            "c": "0.37",
+            "d": "37"
+          },
+          "answer": "c",
+          "explanation": "37 out of 100 parts = 37/100 = 0.37 (thirty-seven hundredths)."
+        },
+        {
+          "question_no": "9",
+          "marks": 1,
+          "question": "A rectangle has length 12 cm and breadth 8 cm. What is its perimeter?",
+          "options": {
+            "a": "20 cm",
+            "b": "40 cm",
+            "c": "96 cm",
+            "d": "48 cm"
+          },
+          "answer": "b",
+          "explanation": "Perimeter of rectangle = 2 × (length + breadth) = 2 × (12 + 8) = 2 × 20 = 40 cm."
+        },
+        {
+          "question_no": "10",
+          "marks": 1,
+          "question": "Ravi had Rs. 500. He bought a pen for Rs. 35.50 and a notebook for Rs. 62.75. How much money is left with him?",
+          "options": {
+            "a": "Rs. 401.75",
+            "b": "Rs. 411.75",
+            "c": "Rs. 398.25",
+            "d": "Rs. 401.25"
+          },
+          "answer": "a",
+          "explanation": "Total spent = 35.50 + 62.75 = Rs. 98.25. Money left = 500.00 − 98.25 = Rs. 401.75."
+        }
+      ]
+    },
+    {
+      "section": "B",
+      "title": "Section B – Fill in the Blanks",
+      "marks": 10,
+      "instruction": "Fill in the blanks with the correct answer. Each question carries 1 mark.",
+      "questions": [
+        {
+          "question_no": "11",
+          "marks": 1,
+          "question": "The number 6,08,045 in words is ______.",
+          "answer": "Six lakh eight thousand and forty-five",
+          "explanation": "6,08,045 = 6 lakhs + 8 thousands + 45 ones = Six lakh eight thousand and forty-five."
+        },
+        {
+          "question_no": "12",
+          "marks": 1,
+          "question": "The sum of 2,45,673 and 3,84,528 is ______.",
+          "answer": "6,30,201",
+          "explanation": "2,45,673 + 3,84,528: units 3+8=11 (write 1 carry 1), tens 7+2+1=10 (write 0 carry 1), hundreds 6+5+1=12 (write 2 carry 1), thousands 5+4+1=10 (write 0 carry 1), ten-thousands 4+8+1=13 (write 3 carry 1), lakhs 2+3+1=6. Answer = 6,30,201."
+        },
+        {
+          "question_no": "13",
+          "marks": 1,
+          "question": "875 ÷ 25 = ______.",
+          "answer": "35",
+          "explanation": "875 ÷ 25 = 35, since 25 × 35 = 25 × 30 + 25 × 5 = 750 + 125 = 875."
+        },
+        {
+          "question_no": "14",
+          "marks": 1,
+          "question": "The LCM of 8 and 12 is ______.",
+          "answer": "24",
+          "explanation": "Multiples of 8: 8, 16, 24, 32... Multiples of 12: 12, 24, 36... The smallest common multiple is 24."
+        },
+        {
+          "question_no": "15",
+          "marks": 1,
+          "question": "3/5 + 2/5 = ______.",
+          "answer": "1 (or 5/5)",
+          "explanation": "Since denominators are the same, add the numerators: (3+2)/5 = 5/5 = 1."
+        },
+        {
+          "question_no": "16",
+          "marks": 1,
+          "question": "0.8 + 0.45 = ______.",
+          "answer": "1.25",
+          "explanation": "0.80 + 0.45 = 1.25. (Align decimal points: 80 + 45 = 125 hundredths = 1.25.)"
+        },
+        {
+          "question_no": "17",
+          "marks": 1,
+          "question": "An angle measuring exactly 90° is called a ______ angle.",
+          "answer": "right",
+          "explanation": "A 90° angle is called a right angle. It is formed when two lines meet perpendicularly."
+        },
+        {
+          "question_no": "18",
+          "marks": 1,
+          "question": "1 kilometre = ______ metres.",
+          "answer": "1,000",
+          "explanation": "The prefix 'kilo' means 1,000. So 1 km = 1,000 m."
+        },
+        {
+          "question_no": "19",
+          "marks": 1,
+          "question": "2 hours 45 minutes = ______ minutes.",
+          "answer": "165",
+          "explanation": "2 hours = 2 × 60 = 120 minutes. 120 + 45 = 165 minutes."
+        },
+        {
+          "question_no": "20",
+          "marks": 1,
+          "question": "The number of lines of symmetry in an equilateral triangle is ______.",
+          "answer": "3",
+          "explanation": "An equilateral triangle has 3 equal sides and 3 lines of symmetry, each passing through a vertex and the midpoint of the opposite side."
+        }
+      ]
+    },
+    {
+      "section": "C",
+      "title": "Section C – Short Answer Questions",
+      "marks": 20,
+      "instruction": "Answer the following questions. Each question carries 2 marks. Show your working clearly.",
+      "questions": [
+        {
+          "question_no": "21",
+          "marks": 2,
+          "question": "Find the product: 348 × 25.",
+          "answer": "8,700",
+          "working": "348 × 25\n= 348 × (20 + 5)\n= (348 × 20) + (348 × 5)\n= 6,960 + 1,740\n= 8,700"
+        },
+        {
+          "question_no": "22",
+          "marks": 2,
+          "question": "Divide 4,536 by 18 and find the quotient and remainder.",
+          "answer": "Quotient = 252, Remainder = 0",
+          "working": "4,536 ÷ 18:\n18 × 200 = 3,600; 4,536 − 3,600 = 936\n18 × 50 = 900; 936 − 900 = 36\n18 × 2 = 36; 36 − 36 = 0\nQuotient = 200 + 50 + 2 = 252, Remainder = 0"
+        },
+        {
+          "question_no": "23",
+          "marks": 2,
+          "question": "Find all factors of 36.",
+          "answer": "Factors of 36: 1, 2, 3, 4, 6, 9, 12, 18, 36",
+          "working": "36 ÷ 1 = 36 ✓\n36 ÷ 2 = 18 ✓\n36 ÷ 3 = 12 ✓\n36 ÷ 4 = 9 ✓\n36 ÷ 6 = 6 ✓\n36 ÷ 7 = not exact ✗\n36 ÷ 9 = 4 ✓\n36 ÷ 12 = 3 ✓ (already paired)\nFactors: 1, 2, 3, 4, 6, 9, 12, 18, 36"
+        },
+        {
+          "question_no": "24",
+          "marks": 2,
+          "question": "Subtract 2/9 from 7/9.",
+          "answer": "5/9",
+          "working": "7/9 − 2/9 = (7−2)/9 = 5/9\nSince the denominators are the same, subtract the numerators directly."
+        },
+        {
+          "question_no": "25",
+          "marks": 2,
+          "question": "Compare and write >, < or = between the following:\n(a) 0.6 ___ 0.60   (b) 0.35 ___ 0.4",
+          "answer": "(a) 0.6 = 0.60   (b) 0.35 < 0.4",
+          "working": "(a) 0.6 = 0.60 because adding a zero after the last decimal digit does not change the value.\n(b) 0.35 vs 0.40 — comparing hundredths: 35 < 40, so 0.35 < 0.4."
+        },
+        {
+          "question_no": "26",
+          "marks": 2,
+          "question": "A farmer has a rectangular field of length 85 m and breadth 60 m. Find the area of the field.",
+          "answer": "5,100 sq m",
+          "working": "Area of rectangle = length × breadth\n= 85 × 60\n= 5,100 sq m (square metres)"
+        },
+        {
+          "question_no": "27",
+          "marks": 2,
+          "question": "A train starts at 9:45 a.m. and reaches its destination at 1:20 p.m. How long did the journey take?",
+          "answer": "3 hours 35 minutes",
+          "working": "From 9:45 a.m. to 1:20 p.m.:\n9:45 a.m. to 1:45 p.m. = 4 hours\nBut destination is 1:20 p.m., which is 25 minutes before 1:45 p.m.\nSo journey time = 4 hours − 25 minutes = 3 hours 35 minutes."
+        },
+        {
+          "question_no": "28",
+          "marks": 2,
+          "question": "A pictograph shows the number of books sold in 4 days. Monday: 🌟🌟🌟 (3 stars), Tuesday: 🌟🌟🌟🌟🌟 (5 stars), Wednesday: 🌟🌟 (2 stars), Thursday: 🌟🌟🌟🌟 (4 stars). If each star = 10 books, on which day were the most books sold and how many total books were sold in all 4 days?",
+          "answer": "Most books sold on Tuesday (50 books). Total books sold = 140.",
+          "working": "Monday: 3 × 10 = 30 books\nTuesday: 5 × 10 = 50 books (most)\nWednesday: 2 × 10 = 20 books\nThursday: 4 × 10 = 40 books\nTotal = 30 + 50 + 20 + 40 = 140 books"
+        },
+        {
+          "question_no": "29",
+          "marks": 2,
+          "question": "Meena bought 3 kg 250 g of apples and 1 kg 750 g of mangoes. What is the total weight of the fruits?",
+          "answer": "5 kg",
+          "working": "Apples: 3 kg 250 g = 3,250 g\nMangoes: 1 kg 750 g = 1,750 g\nTotal = 3,250 + 1,750 = 5,000 g = 5 kg"
+        },
+        {
+          "question_no": "30",
+          "marks": 2,
+          "question": "Write the equivalent fraction of 5/8 with denominator 40.",
+          "answer": "25/40",
+          "working": "To make denominator 40: 40 ÷ 8 = 5\nMultiply numerator by 5: 5 × 5 = 25\nSo 5/8 = 25/40"
+        }
+      ]
+    },
+    {
+      "section": "D",
+      "title": "Section D – Long Answer Questions",
+      "marks": 10,
+      "instruction": "Answer the following questions. Each question carries 5 marks. Show all steps clearly.",
+      "questions": [
+        {
+          "question_no": "31",
+          "marks": 5,
+          "question": "A shopkeeper bought 36 kg of sugar at Rs. 42 per kg. He sold 20 kg at Rs. 50 per kg and the remaining at Rs. 45 per kg. Find:\n(a) The total cost price of sugar.\n(b) The total selling price.\n(c) Whether he made a profit or loss, and how much.",
+          "answer": "(a) Total CP = Rs. 1,512\n(b) Total SP = Rs. 1,720\n(c) Profit = Rs. 208",
+          "working": "(a) Cost price:\nCP per kg = Rs. 42, Total kg = 36\nTotal CP = 36 × 42 = Rs. 1,512\n\n(b) Selling price:\nFirst lot: 20 kg × Rs. 50 = Rs. 1,000\nRemaining: 36 − 20 = 16 kg × Rs. 45 = Rs. 720\nTotal SP = 1,000 + 720 = Rs. 1,720\n\n(c) SP > CP → Profit\nProfit = SP − CP = 1,720 − 1,512 = Rs. 208"
+        },
+        {
+          "question_no": "32",
+          "marks": 5,
+          "question": "In a school, the number of students in each class is: Class 1: 42, Class 2: 38, Class 3: 45, Class 4: 40, Class 5: 35.\n(a) Draw a bar graph to represent this data (describe the scale and bars).\n(b) Which class has the most students?\n(c) Find the total number of students in the school.\n(d) What is the difference between the class with the most and the class with the fewest students?",
+          "answer": "(b) Class 3 has the most students (45).\n(c) Total = 200 students.\n(d) Difference = 10 students.",
+          "working": "(a) Bar graph: X-axis = Class names (1 to 5), Y-axis = Number of students (scale: 0, 10, 20, 30, 40, 50). Draw bars of heights 42, 38, 45, 40, 35 for Classes 1–5 respectively.\n\n(b) The tallest bar is for Class 3 with 45 students.\n\n(c) Total = 42 + 38 + 45 + 40 + 35\n= 80 + 45 + 75\n= 200 students\n\n(d) Most = 45 (Class 3), Fewest = 35 (Class 5)\nDifference = 45 − 35 = 10 students"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "asset_type": "flashcard",
+    "session_day": 1,
+    "topic": "Primitive Data Types & Type Conversion",
+    "sub_topic_num": 2,
+    "session_title": "Day 1 - Introduction to Java & Language Fundamentals",
+    "total_cards": 3,
+    "generated_by": "Claude (claude-sonnet-4-6)",
+    "pedagogy": "Mixes conceptual understanding, code reading, debugging, and output prediction to build software engineering skills"
+  },
+  "cards": [
+    {
+      "card_id": "FC_003",
+      "front": {
+        "type": "text",
+        "content": "What are the 8 primitive data types in Java?\nName each with its size and use case."
+      },
+      "back": {
+        "type": "text",
+        "content": "byte    → 1 byte  → status codes, KYC level (0-127)\nshort   → 2 bytes → branch codes, small counters\nint     → 4 bytes → transaction count, IDs under 2 billion\nlong    → 8 bytes → account numbers, phone numbers, timestamps (needs 'L' suffix: 9876L)\nfloat   → 4 bytes → interest rate display (needs 'f' suffix: 8.5f)\ndouble  → 8 bytes → balance display, calculations (default decimal)\nchar    → 2 bytes → single character: 'D'=Debit, 'C'=Credit, 'S'=Savings\nboolean → 1 bit   → flags: isActive, isFrozen, hasOverdraft\n\n⚠️ NEVER use double for actual money math — use BigDecimal instead!"
+      },
+      "category": "definition",
+      "difficulty": "medium",
+      "order": 1
+    },
+    {
+      "card_id": "FC_004",
+      "front": {
+        "type": "text",
+        "content": "🔍 PREDICT THE OUTPUT — Integer Overflow:\n\nint maxVal = Integer.MAX_VALUE;\nSystem.out.println(maxVal);\nSystem.out.println(maxVal + 1);"
+      },
+      "back": {
+        "type": "text",
+        "content": "Output:\n2147483647\n-2147483648\n\n😱 This is INTEGER OVERFLOW — Java wraps around silently, NO exception!\n\nThe bit pattern for 2,147,483,647 + 1 wraps to -2,147,483,648 (Integer.MIN_VALUE)\n\n🐛 Bug scenario: Using 'int' for a bank account number that exceeds 2.1 billion — it wraps to negative!\nFix: Use 'long' (max: 9,223,372,036,854,775,807)\n\n💡 Debugging tip: Always check data types when you see unexpected negative numbers in calculations."
+      },
+      "category": "code",
+      "difficulty": "hard",
+      "order": 2
+    },
+    {
+      "card_id": "FC_013",
+      "front": {
+        "type": "text",
+        "content": "What is implicit widening vs explicit narrowing type conversion?\nShow what gets LOST in narrowing."
+      },
+      "back": {
+        "type": "text",
+        "content": "Widening (implicit) — automatic, no data loss:\nbyte → short → int → long → float → double\n\nint i = 100;\nlong l = i;   // automatic, safe\ndouble d = l; // automatic, safe\n\nNarrowing (explicit) — must cast manually, CAN lose data:\ndouble balance = 9.99;\nint rounded = (int) balance;  // rounded = 9 (decimal TRUNCATED, not rounded!)\n\nlong bigNum = 300L;\nbyte b = (byte) bigNum; // b = 44 (300 % 256 = 44, wrapped around!)\n\n🐛 Common Bug: Thinking (int)3.9 rounds to 4 — it TRUNCATES to 3!\n\n💡 If you need rounding: Math.round(3.9) = 4\n💡 If you need ceiling: (int)Math.ceil(3.1) = 4"
+      },
+      "category": "comparison",
+      "difficulty": "medium",
+      "order": 3
+    }
+  ]
+}

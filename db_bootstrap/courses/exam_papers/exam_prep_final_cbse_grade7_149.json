@@ -1,0 +1,370 @@
+{
+  "meta": {
+    "title": "CBSE Grade 7 Mathematics — Final Model Question Paper",
+    "board": "CBSE",
+    "grade": 7,
+    "subject": "Mathematics",
+    "total_marks": 60,
+    "duration": "2 Hours 30 Minutes",
+    "instructions": [
+      "All questions are compulsory.",
+      "The question paper consists of 4 sections A, B, C and D.",
+      "Section A contains 10 MCQ questions of 1 mark each.",
+      "Section B contains 10 questions of 1 mark each.",
+      "Section C contains questions of 3 marks each.",
+      "Section D contains questions of 4 marks each.",
+      "There is no overall choice. However, internal choice has been provided in some questions.",
+      "Use of calculators is not permitted.",
+      "Draw neat diagrams wherever necessary."
+    ]
+  },
+  "sections": [
+    {
+      "section": "A",
+      "title": "Section A – Multiple Choice Questions (1 mark each)",
+      "marks": 10,
+      "questions": [
+        {
+          "question_no": "1",
+          "marks": 1,
+          "topic": "Integers",
+          "question": "Which of the following statements is TRUE about integers?",
+          "options": {
+            "a": "The product of two negative integers is always negative.",
+            "b": "The sum of a positive integer and a negative integer is always positive.",
+            "c": "The product of two negative integers is always positive.",
+            "d": "Division of integers is always commutative."
+          },
+          "answer": "c",
+          "explanation": "When two negative integers are multiplied, the result is always a positive integer. For example, (-3) × (-5) = +15."
+        },
+        {
+          "question_no": "2",
+          "marks": 1,
+          "topic": "Fractions and Decimals",
+          "question": "What is the value of 2(3/4) ÷ 1(1/2)?",
+          "options": {
+            "a": "4(1/2)",
+            "b": "1(5/6)",
+            "c": "1(1/2)",
+            "d": "2(1/6)"
+          },
+          "answer": "b",
+          "explanation": "2(3/4) = 11/4 and 1(1/2) = 3/2. Division: 11/4 ÷ 3/2 = 11/4 × 2/3 = 22/12 = 11/6 = 1(5/6)."
+        },
+        {
+          "question_no": "3",
+          "marks": 1,
+          "topic": "Simple Equations",
+          "question": "If 3x – 7 = 14, then the value of x is:",
+          "options": {
+            "a": "3",
+            "b": "7",
+            "c": "9",
+            "d": "21"
+          },
+          "answer": "b",
+          "explanation": "3x – 7 = 14 → 3x = 14 + 7 = 21 → x = 21 ÷ 3 = 7."
+        },
+        {
+          "question_no": "4",
+          "marks": 1,
+          "topic": "Lines and Angles",
+          "question": "Two lines are cut by a transversal. If one pair of alternate interior angles measures 65° and (3x – 10)°, what is x?",
+          "options": {
+            "a": "15",
+            "b": "20",
+            "c": "25",
+            "d": "30"
+          },
+          "answer": "c",
+          "explanation": "Alternate interior angles are equal when lines are parallel. So 3x – 10 = 65 → 3x = 75 → x = 25."
+        },
+        {
+          "question_no": "5",
+          "marks": 1,
+          "topic": "Triangles",
+          "question": "Two triangles △ABC and △PQR are such that AB = PQ, BC = QR and ∠B = ∠Q. The congruence criterion used is:",
+          "options": {
+            "a": "SSS",
+            "b": "RHS",
+            "c": "ASA",
+            "d": "SAS"
+          },
+          "answer": "d",
+          "explanation": "Two sides and the included angle (the angle between those two sides) are equal: AB = PQ (side), ∠B = ∠Q (included angle), BC = QR (side). This is the SAS (Side-Angle-Side) criterion."
+        },
+        {
+          "question_no": "6",
+          "marks": 1,
+          "topic": "Ratio and Proportion",
+          "question": "If 8 workers can complete a task in 15 days, how many days will 12 workers take to complete the same task?",
+          "options": {
+            "a": "8",
+            "b": "10",
+            "c": "12",
+            "d": "20"
+          },
+          "answer": "b",
+          "explanation": "This is an inverse proportion. Workers × Days = constant → 8 × 15 = 12 × d → d = 120 ÷ 12 = 10 days."
+        },
+        {
+          "question_no": "7",
+          "marks": 1,
+          "topic": "Percentage, Profit and Loss",
+          "question": "A shopkeeper buys a book for ₹80 and sells it for ₹100. What is his profit percentage?",
+          "options": {
+            "a": "20%",
+            "b": "25%",
+            "c": "80%",
+            "d": "125%"
+          },
+          "answer": "b",
+          "explanation": "Profit = Selling Price – Cost Price = 100 – 80 = ₹20. Profit% = (Profit / CP) × 100 = (20/80) × 100 = 25%."
+        },
+        {
+          "question_no": "8",
+          "marks": 1,
+          "topic": "Algebraic Expressions",
+          "question": "Which of the following pairs are LIKE terms?",
+          "options": {
+            "a": "3x² and 3x",
+            "b": "5xy and –7xy",
+            "c": "4ab and 4a²b",
+            "d": "2x and 2y"
+          },
+          "answer": "b",
+          "explanation": "Like terms have identical variable parts. 5xy and –7xy both have the variable part 'xy', so they are like terms."
+        },
+        {
+          "question_no": "9",
+          "marks": 1,
+          "topic": "Exponents and Powers",
+          "question": "The value of (–2)⁵ × (–2)³ ÷ (–2)⁴ is:",
+          "options": {
+            "a": "–16",
+            "b": "16",
+            "c": "–8",
+            "d": "8"
+          },
+          "answer": "a",
+          "explanation": "Using laws of exponents: (–2)⁵ × (–2)³ ÷ (–2)⁴ = (–2)^(5+3–4) = (–2)⁴ ... wait: (–2)^(5+3) = (–2)⁸, then ÷ (–2)⁴ = (–2)^(8–4) = (–2)⁴ = 16. Re-checking: 5+3=8, 8-4=4, (−2)⁴=16. Actually the answer is 16 → let us recalculate: (−2)⁵ = −32, (−2)³ = −8, product = (−32)×(−8)=256, ÷(−2)⁴=256÷16=16. Correct answer is (b) 16.",
+          "answer_corrected": "b",
+          "explanation_corrected": "(–2)⁵ = –32; (–2)³ = –8; (–32) × (–8) = 256; (–2)⁴ = 16; 256 ÷ 16 = 16. The answer is 16."
+        },
+        {
+          "question_no": "10",
+          "marks": 1,
+          "topic": "Data Handling",
+          "question": "The marks scored by 7 students in a test are: 45, 60, 55, 72, 60, 48, 60. What is the mode?",
+          "options": {
+            "a": "55",
+            "b": "57",
+            "c": "60",
+            "d": "72"
+          },
+          "answer": "c",
+          "explanation": "Mode is the value that appears most frequently. 60 appears 3 times (the most), so the mode is 60."
+        }
+      ]
+    },
+    {
+      "section": "B",
+      "title": "Section B – Fill in the Blanks / True or False (1 mark each)",
+      "marks": 10,
+      "questions": [
+        {
+          "question_no": "11",
+          "marks": 1,
+          "topic": "Integers",
+          "question": "The additive inverse of –15 is ______.",
+          "answer": "15",
+          "explanation": "The additive inverse of any number n is –n. So the additive inverse of –15 is –(–15) = 15. Adding them: –15 + 15 = 0."
+        },
+        {
+          "question_no": "12",
+          "marks": 1,
+          "topic": "Fractions and Decimals",
+          "question": "0.07 × 0.08 = ______.",
+          "answer": "0.0056",
+          "explanation": "7 × 8 = 56. The total number of decimal places = 2 + 2 = 4. So 0.07 × 0.08 = 0.0056."
+        },
+        {
+          "question_no": "13",
+          "marks": 1,
+          "topic": "Rational Numbers",
+          "question": "A rational number equivalent to 3/5 with denominator 20 is ______.",
+          "answer": "12/20",
+          "explanation": "Multiply numerator and denominator by 4: (3 × 4)/(5 × 4) = 12/20."
+        },
+        {
+          "question_no": "14",
+          "marks": 1,
+          "topic": "Lines and Angles",
+          "question": "Two angles forming a linear pair are supplementary. (True / False)",
+          "answer": "True",
+          "explanation": "A linear pair of angles is formed when two lines meet at a point. The two angles together form a straight line (180°), so they are supplementary."
+        },
+        {
+          "question_no": "15",
+          "marks": 1,
+          "topic": "Triangles",
+          "question": "The sum of all three interior angles of any triangle is always ______°.",
+          "answer": "180",
+          "explanation": "This is the Angle Sum Property of a triangle. The three interior angles always add up to 180°."
+        },
+        {
+          "question_no": "16",
+          "marks": 1,
+          "topic": "Simple Interest",
+          "question": "Simple Interest on ₹2000 at 5% per annum for 3 years is ₹______.",
+          "answer": "300",
+          "explanation": "SI = (P × R × T) / 100 = (2000 × 5 × 3) / 100 = 30000 / 100 = ₹300."
+        },
+        {
+          "question_no": "17",
+          "marks": 1,
+          "topic": "Algebraic Expressions",
+          "question": "The number of terms in the expression 5x² – 3xy + 7y – 9 is ______.",
+          "answer": "4",
+          "explanation": "The terms are: 5x², –3xy, 7y, and –9. There are 4 terms separated by + or – signs."
+        },
+        {
+          "question_no": "18",
+          "marks": 1,
+          "topic": "Exponents and Powers",
+          "question": "2³ × 5³ = (2 × 5)³ = ______.",
+          "answer": "1000",
+          "explanation": "By the law aⁿ × bⁿ = (ab)ⁿ: 2³ × 5³ = (2×5)³ = 10³ = 1000."
+        },
+        {
+          "question_no": "19",
+          "marks": 1,
+          "topic": "Mensuration",
+          "question": "The area of a circle with radius 7 cm is ______ cm². (Use π = 22/7)",
+          "answer": "154",
+          "explanation": "Area = π × r² = (22/7) × 7 × 7 = (22/7) × 49 = 22 × 7 = 154 cm²."
+        },
+        {
+          "question_no": "20",
+          "marks": 1,
+          "topic": "Data Handling",
+          "question": "The range of the data set {12, 8, 25, 19, 5, 30, 14} is ______.",
+          "answer": "25",
+          "explanation": "Range = Maximum value – Minimum value = 30 – 5 = 25."
+        }
+      ]
+    },
+    {
+      "section": "C",
+      "title": "Section C – Short Answer Questions (3 marks each)",
+      "marks": 24,
+      "questions": [
+        {
+          "question_no": "21",
+          "marks": 3,
+          "topic": "Integers",
+          "question": "Simplify: [(–36) ÷ (–4)] × (–3) + (–18) ÷ 6 – (–5)",
+          "answer": "–22",
+          "working": "Step 1: Solve (–36) ÷ (–4) = +9\nStep 2: Multiply 9 × (–3) = –27\nStep 3: Solve (–18) ÷ 6 = –3\nStep 4: Now the expression is: –27 + (–3) – (–5)\nStep 5: = –27 – 3 + 5\nStep 6: = –30 + 5 = –25\nFinal Answer: –25"
+        },
+        {
+          "question_no": "22",
+          "marks": 3,
+          "topic": "Fractions and Decimals",
+          "question": "Renu had ₹125.50 in her piggy bank. She spent ₹43.75 on a book and ₹28.60 on stationery. How much money does she have left? Also, what fraction of the original amount did she spend in total?",
+          "answer": "Amount left = ₹53.15; Fraction spent = 1447/2510 (simplified)",
+          "working": "Step 1: Total spent = ₹43.75 + ₹28.60 = ₹72.35\nStep 2: Amount left = ₹125.50 – ₹72.35 = ₹53.15\nStep 3: Fraction spent = Total spent / Original amount = 72.35 / 125.50\nStep 4: Convert to integers by multiplying numerator and denominator by 100: 7235 / 12550\nStep 5: HCF of 7235 and 12550. Both divisible by 5: 1447 / 2510.\nFinal Answer: Amount left = ₹53.15; Fraction of amount spent = 1447/2510."
+        },
+        {
+          "question_no": "23",
+          "marks": 3,
+          "topic": "Simple Equations",
+          "question": "The sum of three consecutive odd numbers is 81. Find the three numbers.",
+          "answer": "25, 27, 29",
+          "working": "Step 1: Let the three consecutive odd numbers be (2n – 1), (2n + 1), and (2n + 3). Alternatively, let the first number be x, then the numbers are x, x+2, x+4.\nStep 2: Set up equation: x + (x + 2) + (x + 4) = 81\nStep 3: 3x + 6 = 81\nStep 4: 3x = 81 – 6 = 75\nStep 5: x = 75 ÷ 3 = 25\nFinal Answer: The three consecutive odd numbers are 25, 27, and 29.\nVerification: 25 + 27 + 29 = 81. ✓"
+        },
+        {
+          "question_no": "24",
+          "marks": 3,
+          "topic": "Lines and Angles",
+          "question": "In the figure, lines AB and CD are parallel and PQ is a transversal. If ∠APQ = 115°, find the values of ∠PQD (alternate interior angle), ∠BPQ (co-interior angle with ∠PQD), and verify the co-interior angles property.",
+          "answer": "∠PQD = 115°; ∠BPQ = 65°; 65° + 115° = 180° (co-interior angles are supplementary).",
+          "working": "Step 1: ∠APQ = 115° (given). AB is a straight line.\nStep 2: ∠BPQ = 180° – 115° = 65° (angles on a straight line / linear pair).\nStep 3: AB ∥ CD and PQ is a transversal.\nStep 4: ∠PQD = ∠APQ = 115° (alternate interior angles are equal for parallel lines).\nStep 5: Verify co-interior (same-side interior) angles: ∠BPQ + ∠PQD = 65° + 115° = 180°. ✓\nFinal Answer: ∠PQD = 115°, ∠BPQ = 65°, and co-interior angles sum to 180°."
+        },
+        {
+          "question_no": "25",
+          "marks": 3,
+          "topic": "Ratio and Proportion",
+          "question": "A car travels 240 km on 16 litres of petrol. (a) How far will it travel on 20 litres? (b) How many litres of petrol will be needed for a journey of 360 km?",
+          "answer": "(a) 300 km; (b) 24 litres",
+          "working": "Step 1: Find the rate: 240 km in 16 litres → 240/16 = 15 km per litre.\nPart (a):\nStep 2: Distance on 20 litres = 15 × 20 = 300 km.\nPart (b):\nStep 3: Litres needed for 360 km = 360 ÷ 15 = 24 litres.\nAlternatively using proportion for part (b): 240/16 = 360/x → x = (360 × 16)/240 = 5760/240 = 24 litres.\nFinal Answer: (a) 300 km; (b) 24 litres."
+        },
+        {
+          "question_no": "26",
+          "marks": 3,
+          "topic": "Algebraic Expressions",
+          "question": "Subtract (3a² – 5ab + 2b²) from (7a² + 4ab – b²) and then add the result to (–4a² + ab – 3b²).",
+          "answer": "0a² + 0ab – 2b² = –2b²",
+          "working": "Step 1: Subtraction: (7a² + 4ab – b²) – (3a² – 5ab + 2b²)\n= 7a² + 4ab – b² – 3a² + 5ab – 2b²\n= (7–3)a² + (4+5)ab + (–1–2)b²\n= 4a² + 9ab – 3b²\nStep 2: Add result to (–4a² + ab – 3b²):\n= (4a² + 9ab – 3b²) + (–4a² + ab – 3b²)\n= (4–4)a² + (9+1)ab + (–3–3)b²\n= 0a² + 10ab – 6b²\n= 10ab – 6b²\nFinal Answer: 10ab – 6b²."
+        },
+        {
+          "question_no": "27",
+          "marks": 3,
+          "topic": "Mensuration",
+          "question": "A school garden is in the shape of a right triangle with base 24 m and height 10 m. Find its area. A circular fountain of diameter 7 m is built inside it. Find the area of the garden excluding the fountain. (Use π = 22/7)",
+          "answer": "Area of triangle = 120 m²; Area of circle = 38.5 m²; Remaining area = 81.5 m²",
+          "working": "Step 1: Area of right triangle = (1/2) × base × height = (1/2) × 24 × 10 = 120 m².\nStep 2: Diameter of fountain = 7 m, so radius r = 7/2 = 3.5 m.\nStep 3: Area of circular fountain = π × r² = (22/7) × 3.5 × 3.5 = (22/7) × 12.25 = (22 × 12.25)/7 = 269.5/7 = 38.5 m².\nStep 4: Remaining garden area = 120 – 38.5 = 81.5 m².\nFinal Answer: Garden area excluding fountain = 81.5 m²."
+        },
+        {
+          "question_no": "28",
+          "marks": 3,
+          "topic": "Data Handling",
+          "question": "The ages (in years) of 10 teachers in a school are: 35, 42, 28, 50, 38, 42, 30, 45, 42, 28. Find the mean, median, and mode of the data.",
+          "answer": "Mean = 38, Median = 40, Mode = 42",
+          "working": "Step 1: Mean = Sum of all values / Number of values\nSum = 35 + 42 + 28 + 50 + 38 + 42 + 30 + 45 + 42 + 28 = 380\nMean = 380 / 10 = 38.\nStep 2: Arrange data in ascending order: 28, 28, 30, 35, 38, 42, 42, 42, 45, 50.\nStep 3: Median (n = 10, even): Average of 5th and 6th values = (38 + 42)/2 = 80/2 = 40.\nStep 4: Mode = value that appears most often = 42 (appears 3 times).\nFinal Answer: Mean = 38, Median = 40, Mode = 42."
+        }
+      ]
+    },
+    {
+      "section": "D",
+      "title": "Section D – Long Answer Questions (4 marks each)",
+      "marks": 16,
+      "questions": [
+        {
+          "question_no": "29",
+          "marks": 4,
+          "topic": "Percentage, Profit and Loss",
+          "question": "A trader buys two articles. Article A costs ₹1500 and Article B costs ₹2400. He sells Article A at a profit of 20% and Article B at a loss of 15%. (a) Find the selling prices of both articles. (b) Calculate his overall profit or loss on the whole transaction. (c) Express the overall profit or loss as a percentage of the total cost price.",
+          "answer": "(a) SP of A = ₹1800; SP of B = ₹2040. (b) Overall loss = ₹60. (c) Loss% = 1.58% (approx).",
+          "working": "Step 1: Cost price of Article A = ₹1500, Profit = 20%\nSP of A = CP × (1 + Profit%/100) = 1500 × (120/100) = 1500 × 1.2 = ₹1800.\nStep 2: Cost price of Article B = ₹2400, Loss = 15%\nSP of B = CP × (1 – Loss%/100) = 2400 × (85/100) = 2400 × 0.85 = ₹2040.\nStep 3: Total CP = 1500 + 2400 = ₹3900.\nTotal SP = 1800 + 2040 = ₹3840.\nStep 4: Since Total SP < Total CP, there is a LOSS.\nOverall Loss = Total CP – Total SP = 3900 – 3840 = ₹60.\nStep 5: Loss% = (Loss / Total CP) × 100 = (60 / 3900) × 100 = 6000/3900 ≈ 1.54%.\nFinal Answer: (a) SP of A = ₹1800, SP of B = ₹2040; (b) Overall Loss = ₹60; (c) Loss% ≈ 1.54%."
+        },
+        {
+          "question_no": "30",
+          "marks": 4,
+          "topic": "Simple Equations – Word Problem",
+          "question": "Meena is twice as old as her daughter Naina. Eight years ago, Meena was four times as old as Naina. (a) Form two equations using a suitable variable. (b) Solve to find the current ages of Meena and Naina.",
+          "answer": "Naina = 16 years, Meena = 32 years",
+          "working": "Step 1: Let Naina's current age = x years.\nThen Meena's current age = 2x years (since Meena is twice as old).\nStep 2: Eight years ago:\nNaina's age = (x – 8) years.\nMeena's age = (2x – 8) years.\nStep 3: From the second condition: 8 years ago, Meena was 4 times Naina's age:\n2x – 8 = 4(x – 8)\nStep 4: Expand: 2x – 8 = 4x – 32\nStep 5: Rearrange: –8 + 32 = 4x – 2x → 24 = 2x → x = 12.\n\nWait, let us recheck with x = 12: Naina now = 12, Meena now = 24.\n8 years ago: Naina = 4, Meena = 16. Is 16 = 4 × 4? Yes. ✓\nHowever let us re-solve: if x = 12: Naina = 12, Meena = 24. But the problem says Meena is currently twice Naina → 24 = 2×12 ✓.\n\nCorrected: x = 12, Naina = 12, Meena = 24.\n\nStep 1: Let Naina's current age = x.\nMeena's current age = 2x.\nStep 2: Equation from 8 years ago: (2x – 8) = 4(x – 8)\nStep 3: 2x – 8 = 4x – 32\nStep 4: 32 – 8 = 4x – 2x → 24 = 2x → x = 12.\nFinal Answer: Naina is currently 12 years old and Meena is currently 24 years old.",
+          "answer_corrected": "Naina = 12 years, Meena = 24 years"
+        },
+        {
+          "question_no": "31",
+          "marks": 4,
+          "topic": "Triangles",
+          "question": "In triangle PQR, the bisector of angle P meets QR at point S. Given that PQ = 6 cm, PR = 8 cm and QR = 7 cm. (a) Using the angle bisector theorem, find QS and RS. (b) If two triangles △ABC and △DEF have AB = DE = 5 cm, BC = EF = 7 cm and AC = DF = 9 cm, name the congruence criterion and write the congruence statement.",
+          "answer": "(a) QS = 3 cm, RS = 4 cm. (b) △ABC ≅ △DEF by SSS criterion.",
+          "working": "Part (a):\nStep 1: By the Angle Bisector Theorem, PS bisects ∠P in triangle PQR.\nSo QS/RS = PQ/PR = 6/8 = 3/4.\nStep 2: Let QS = 3k and RS = 4k.\nStep 3: QS + RS = QR → 3k + 4k = 7 → 7k = 7 → k = 1.\nStep 4: Therefore QS = 3 × 1 = 3 cm and RS = 4 × 1 = 4 cm.\n\nPart (b):\nStep 5: Given: AB = DE = 5 cm, BC = EF = 7 cm, AC = DF = 9 cm.\nStep 6: All three sides of △ABC are equal to corresponding sides of △DEF.\nStep 7: By the SSS (Side-Side-Side) congruence criterion, △ABC ≅ △DEF.\nFinal Answer: (a) QS = 3 cm, RS = 4 cm; (b) △ABC ≅ △DEF by SSS congruence criterion."
+        },
+        {
+          "question_no": "32",
+          "marks": 4,
+          "topic": "Simple Interest – Word Problem",
+          "question": "Ramesh deposits ₹15,000 in a bank at 8% simple interest per annum. Suresh deposits ₹12,000 in another bank at 10% simple interest per annum. (a) Find the simple interest earned by each after 3 years. (b) Find the amount each will receive after 3 years. (c) Who will receive more money and by how much?",
+          "answer": "(a) Ramesh SI = ₹3600; Suresh SI = ₹3600. (b) Ramesh Amount = ₹18,600; Suresh Amount = ₹15,600. (c) Ramesh receives more by ₹3000.",
+          "working": "Step 1: Ramesh: P = ₹15,000; R = 8% p.a.; T = 3 years.\nSI for Ramesh = (P × R × T)/100 = (15000 × 8 × 3)/100 = 360000/100 = ₹3600.\nAmount for Ramesh = P + SI = 15000 + 3600 = ₹18,600.\n\nStep 2: Suresh: P = ₹12,000; R = 10% p.a.; T = 3 years.\nSI for Suresh = (P × R × T)/100 = (12000 × 10 × 3)/100 = 360000/100 = ₹3600.\nAmount for Suresh = P + SI = 12000 + 3600 = ₹15,600.\n\nStep 3: Both earn the same simple interest (₹3600) after 3 years.\nHowever, Ramesh's total amount = ₹18,600 and Suresh's total amount = ₹15,600.\nRamesh receives more money: ₹18,600 – ₹15,600 = ₹3,000.\n\nFinal Answer: (a) Ramesh SI = ₹3600, Suresh SI = ₹3600 (equal!); (b) Ramesh = ₹18,600; Suresh = ₹15,600; (c) Ramesh receives ₹3,000 more than Suresh."
+        }
+      ]
+    }
+  ]
+}

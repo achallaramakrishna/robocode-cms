@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "asset_type": "flashcard",
+    "session_day": 1,
+    "topic": "Flow Control — Loops, Switch & Break/Continue",
+    "sub_topic_num": 4,
+    "session_title": "Day 1 - Introduction to Java & Language Fundamentals",
+    "total_cards": 3,
+    "generated_by": "Claude (claude-sonnet-4-6)",
+    "pedagogy": "Mixes conceptual understanding, code reading, debugging, and output prediction to build software engineering skills"
+  },
+  "cards": [
+    {
+      "card_id": "FC_008",
+      "front": {
+        "type": "text",
+        "content": "What is the difference between break and continue in a loop?\nShow with a code example."
+      },
+      "back": {
+        "type": "text",
+        "content": "break   → EXITS the loop entirely (stops all iterations)\ncontinue → SKIPS current iteration, moves to NEXT\n\nExample — Processing transactions, skip negatives, stop on 0:\nfor (double txn : transactions) {\n    if (txn == 0) break;      // end-of-data sentinel\n    if (txn < 0) continue;    // skip invalid negative amounts\n    totalDeposit += txn;\n}\n\nOutput trace with [5000, -100, 3000, 0, 2000]:\n• 5000 → added\n• -100 → continue (skipped)\n• 3000 → added\n• 0   → break (exits, 2000 never processed)\nResult: totalDeposit = 8000\n\n💡 Think: break=STOP, continue=SKIP"
+      },
+      "category": "comparison",
+      "difficulty": "easy",
+      "order": 1
+    },
+    {
+      "card_id": "FC_009",
+      "front": {
+        "type": "text",
+        "content": "🔍 PREDICT THE OUTPUT — Switch Fall-Through:\n\nint month = 2;\nswitch (month) {\n    case 1: System.out.println(\"January\");\n    case 2: System.out.println(\"February\");\n    case 3: System.out.println(\"March\");\n    default: System.out.println(\"Quarter 1\");\n}"
+      },
+      "back": {
+        "type": "text",
+        "content": "Output:\nFebruary\nMarch\nQuarter 1\n\n😱 Fall-through! Once a case matches, execution CONTINUES into ALL subsequent cases until a break or end of switch.\n\nFixed version:\nswitch (month) {\n    case 1: System.out.println(\"January\"); break;\n    case 2: System.out.println(\"February\"); break;\n    case 3: System.out.println(\"March\"); break;\n    default: System.out.println(\"Quarter 1\"); break;\n}\n// Now only prints: February\n\n✅ Intentional fall-through (grouping cases):\ncase 1:\ncase 2:\ncase 3: System.out.println(\"Q1\"); break; // 1,2,3 all go here\n\n💡 Always add break unless you intentionally want fall-through."
+      },
+      "category": "code",
+      "difficulty": "medium",
+      "order": 2
+    },
+    {
+      "card_id": "FC_010",
+      "front": {
+        "type": "text",
+        "content": "What is the difference between while and do-while?\nWhen would you choose do-while?"
+      },
+      "back": {
+        "type": "text",
+        "content": "while → Checks condition BEFORE executing body\ndo-while → Executes body FIRST, checks condition AFTER (runs at least once)\n\nExample:\nint attempts = 0;\ndo {\n    // show PIN prompt — runs at least once even if attempts starts at 0\n    System.out.println(\"Enter PIN (Attempt \" + (++attempts) + \")\");\n    // read PIN...\n} while (!pinCorrect && attempts < 3);\n\n💡 When to choose do-while:\n1. Menu-driven programs (show menu, then validate)\n2. Input validation loops (get input, then check it)\n3. Retry logic (ATM PIN, login attempts, network retry)\n\nKey insight: If the body must run before any condition check is meaningful → use do-while"
+      },
+      "category": "comparison",
+      "difficulty": "easy",
+      "order": 3
+    }
+  ]
+}

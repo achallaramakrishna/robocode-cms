@@ -1,0 +1,296 @@
+{
+  "meta": {
+    "asset_type": "flashcard",
+    "session_day": 1,
+    "session_title": "Day 1 - Introduction to Java & Language Fundamentals",
+    "domain": "academic",
+    "total_cards": 20,
+    "generated_by": "Claude (claude-sonnet-4-6)"
+  },
+  "cards": [
+    {
+      "card_id": "FC_001",
+      "front": {
+        "type": "text",
+        "content": "What is the difference between JDK, JRE, and JVM?"
+      },
+      "back": {
+        "type": "text",
+        "content": "JVM (Java Virtual Machine): Executes compiled bytecode. Platform-specific but makes Java platform-independent.\n\nJRE (Java Runtime Environment): JVM + standard class libraries needed to RUN Java programs. End-users need JRE.\n\nJDK (Java Development Kit): JRE + development tools (compiler javac, debugger, jar, javadoc). Developers need JDK.\n\nMemory trick: JDK ⊃ JRE ⊃ JVM"
+      },
+      "category": "concept",
+      "difficulty": "easy",
+      "order": 1
+    },
+    {
+      "card_id": "FC_002",
+      "front": {
+        "type": "text",
+        "content": "What are the 8 primitive data types in Java and their sizes?"
+      },
+      "back": {
+        "type": "text",
+        "content": "byte    → 1 byte  → -128 to 127\nshort   → 2 bytes → -32,768 to 32,767\nint     → 4 bytes → ~-2.1B to 2.1B\nlong    → 8 bytes → ~-9.2 quintillion to 9.2 quintillion\nfloat   → 4 bytes → ~7 decimal digits precision\ndouble  → 8 bytes → ~15 decimal digits precision\nchar    → 2 bytes → 0 to 65,535 (Unicode)\nboolean → 1 bit   → true or false"
+      },
+      "category": "definition",
+      "difficulty": "medium",
+      "order": 2
+    },
+    {
+      "card_id": "FC_003",
+      "front": {
+        "type": "text",
+        "content": "What is integer overflow? What happens when you exceed Integer.MAX_VALUE?"
+      },
+      "back": {
+        "type": "text",
+        "content": "Integer overflow occurs when an arithmetic operation produces a value outside the range of the data type.\n\nJava does NOT throw an exception — it wraps around silently:\n\nInteger.MAX_VALUE = 2,147,483,647\nInteger.MAX_VALUE + 1 = -2,147,483,648 (Integer.MIN_VALUE)\n\nThis is a silent bug! Use 'long' or BigInteger for large numbers.\nAlways validate boundaries in production code."
+      },
+      "category": "concept",
+      "difficulty": "medium",
+      "order": 3
+    },
+    {
+      "card_id": "FC_004",
+      "front": {
+        "type": "code",
+        "language": "java",
+        "content": "int x = 5;\nint y = 2;\nSystem.out.println(x / y);\nSystem.out.println(x % y);\nSystem.out.println((double) x / y);"
+      },
+      "back": {
+        "type": "text",
+        "content": "Output:\n2\n1\n2.5\n\nExplanation:\n• x / y = 5 / 2 = 2 (integer division — truncates decimal)\n• x % y = 5 % 2 = 1 (remainder/modulo operator)\n• (double) x / y = 2.5 (cast x to double first, then divide)\n\nKey: Integer division truncates toward zero, never rounds!"
+      },
+      "category": "code",
+      "difficulty": "medium",
+      "order": 4
+    },
+    {
+      "card_id": "FC_005",
+      "front": {
+        "type": "text",
+        "content": "What is the difference between == and .equals() for Strings in Java?"
+      },
+      "back": {
+        "type": "text",
+        "content": "== compares REFERENCES (memory addresses)\n.equals() compares CONTENT (character by character)\n\nExample:\nString a = new String(\"hello\");\nString b = new String(\"hello\");\na == b      → false (different objects in heap)\na.equals(b) → true  (same characters)\n\nString literals are interned (String Pool):\nString c = \"hello\";\nString d = \"hello\";\nc == d → true (same reference from pool)\n\nBest practice: Always use .equals() for String comparison!"
+      },
+      "category": "comparison",
+      "difficulty": "medium",
+      "order": 5
+    },
+    {
+      "card_id": "FC_006",
+      "front": {
+        "type": "text",
+        "content": "Explain short-circuit evaluation in Java's && and || operators."
+      },
+      "back": {
+        "type": "text",
+        "content": "Short-circuit: Java stops evaluating as soon as the result is certain.\n\n&& (AND): If left side is false → skip right side (result is always false)\n|| (OR):  If left side is true  → skip right side (result is always true)\n\nPractical use:\nif (user != null && user.isActive()) { ... }\n// Safe — if user is null, isActive() is never called\n\nif (cache != null || loadFromDB()) { ... }\n// loadFromDB() only called if cache is null\n\nBenefit: Prevents NullPointerException and improves performance."
+      },
+      "category": "concept",
+      "difficulty": "medium",
+      "order": 6
+    },
+    {
+      "card_id": "FC_007",
+      "front": {
+        "type": "code",
+        "language": "java",
+        "content": "int i = 5;\nSystem.out.println(i++);  // Line A\nSystem.out.println(++i);  // Line B\nSystem.out.println(i);    // Line C"
+      },
+      "back": {
+        "type": "text",
+        "content": "Output:\n5   (Line A: post-increment — use THEN increment: prints 5, i becomes 6)\n7   (Line B: pre-increment — increment THEN use: i becomes 7, prints 7)\n7   (Line C: i is 7)\n\nRule:\n• i++ → Returns current value, THEN increments\n• ++i → Increments FIRST, THEN returns new value"
+      },
+      "category": "code",
+      "difficulty": "medium",
+      "order": 7
+    },
+    {
+      "card_id": "FC_008",
+      "front": {
+        "type": "text",
+        "content": "What is the ternary operator? Write its syntax and give an example."
+      },
+      "back": {
+        "type": "text",
+        "content": "Syntax: condition ? valueIfTrue : valueIfFalse\n\nIt's a compact form of if-else that returns a value.\n\nExample:\nint age = 20;\nString status = (age >= 18) ? \"Adult\" : \"Minor\";\n// status = \"Adult\"\n\nAnother:\nint max = (a > b) ? a : b;\n\nBest for: simple one-liner value assignments.\nAvoid: nested ternaries — they hurt readability.\nNever use ternary for side effects (method calls that do work)."
+      },
+      "category": "definition",
+      "difficulty": "easy",
+      "order": 8
+    },
+    {
+      "card_id": "FC_009",
+      "front": {
+        "type": "text",
+        "content": "What is the difference between break and continue in a loop?"
+      },
+      "back": {
+        "type": "text",
+        "content": "break   → Completely exits the loop (stops all iterations)\ncontinue → Skips the rest of the CURRENT iteration, moves to next\n\nExample:\nfor (int i = 0; i < 5; i++) {\n    if (i == 3) break;     // stops at 3\n    System.out.println(i); // prints 0,1,2\n}\n\nfor (int i = 0; i < 5; i++) {\n    if (i == 3) continue;  // skips 3\n    System.out.println(i); // prints 0,1,2,4\n}\n\nbreak also exits switch statements."
+      },
+      "category": "comparison",
+      "difficulty": "easy",
+      "order": 9
+    },
+    {
+      "card_id": "FC_010",
+      "front": {
+        "type": "text",
+        "content": "What is the Java String Pool (interning)? How does it save memory?"
+      },
+      "back": {
+        "type": "text",
+        "content": "The String Pool is a special area in the Java heap (PermGen/Metaspace) where the JVM caches String literals.\n\nWhen you write: String s = \"hello\";\nJVM checks if \"hello\" already exists in the pool.\n  → YES: returns the same reference\n  → NO: creates new String in pool, returns reference\n\nThis means:\nString a = \"hello\";\nString b = \"hello\";\n// a and b point to the SAME object — memory saved!\n\nnew String(\"hello\") always creates a NEW heap object (bypasses pool).\n\nUse String.intern() to manually add to pool."
+      },
+      "category": "concept",
+      "difficulty": "hard",
+      "order": 10
+    },
+    {
+      "card_id": "FC_011",
+      "front": {
+        "type": "code",
+        "language": "java",
+        "content": "int[] arr = {10, 20, 30, 40, 50};\n// How do you find the length?\n// How do you access the last element?\n// What happens with arr[5]?"
+      },
+      "back": {
+        "type": "text",
+        "content": "arr.length → 5  (note: no parentheses — it's a field, not a method)\n\narr[arr.length - 1] → 50 (last element; index is 0-based)\n\narr[5] → throws ArrayIndexOutOfBoundsException at runtime\n  (valid indices are 0 to arr.length-1, i.e., 0-4)\n\nKey points:\n• Arrays in Java are 0-indexed\n• arr.length gives total capacity\n• Accessing out-of-bounds is a RUNTIME exception (not compile-time)"
+      },
+      "category": "code",
+      "difficulty": "easy",
+      "order": 11
+    },
+    {
+      "card_id": "FC_012",
+      "front": {
+        "type": "text",
+        "content": "What is platform independence in Java? How does bytecode enable it?"
+      },
+      "back": {
+        "type": "text",
+        "content": "Java's motto: 'Write Once, Run Anywhere' (WORA)\n\nHow it works:\n1. Java source (.java) is compiled by javac → bytecode (.class)\n2. Bytecode is NOT machine code — it's JVM instructions\n3. Each OS has its own JVM implementation\n4. The JVM on that OS interprets/JIT-compiles bytecode to native machine code\n\nBenefit: The SAME .class file runs on Windows, Linux, macOS, Android...\n  as long as a JVM is installed for that platform.\n\nContrast: C/C++ compiles to platform-specific machine code — must recompile for each OS."
+      },
+      "category": "concept",
+      "difficulty": "easy",
+      "order": 12
+    },
+    {
+      "card_id": "FC_013",
+      "front": {
+        "type": "text",
+        "content": "What is an enhanced for loop (for-each)? When should you use it vs a traditional for loop?"
+      },
+      "back": {
+        "type": "text",
+        "content": "Enhanced for (for-each) syntax:\nfor (ElementType element : collection) { ... }\n\nExample:\nint[] nums = {1, 2, 3};\nfor (int n : nums) System.out.println(n);\n\nUse for-each when:\n✅ You need to read every element in order\n✅ You don't need the index\n✅ You don't need to modify the array\n\nUse traditional for when:\n❌ You need the index\n❌ You iterate backwards or skip elements\n❌ You need to modify the array\n❌ You need to stop early based on index"
+      },
+      "category": "comparison",
+      "difficulty": "easy",
+      "order": 13
+    },
+    {
+      "card_id": "FC_014",
+      "front": {
+        "type": "text",
+        "content": "What is implicit (widening) vs explicit (narrowing) type casting in Java?"
+      },
+      "back": {
+        "type": "text",
+        "content": "Widening (implicit) — done automatically by compiler:\nbyte → short → int → long → float → double\n\nint i = 100;\nlong l = i;   // automatic, no data loss\n\nNarrowing (explicit) — must cast manually, may lose data:\ndouble d = 9.99;\nint i = (int) d;  // i = 9 (decimal truncated!)\n\nlong bigNum = 300L;\nbyte b = (byte) bigNum;  // b = 44 (wraps around!)\n\nRule: Narrowing can LOSE data. Always be intentional.\nCommon mistake: assuming (int)3.9 rounds to 4 — it doesn't, it's 3."
+      },
+      "category": "definition",
+      "difficulty": "medium",
+      "order": 14
+    },
+    {
+      "card_id": "FC_015",
+      "front": {
+        "type": "text",
+        "content": "What are varargs in Java? Give syntax and a practical example."
+      },
+      "back": {
+        "type": "text",
+        "content": "Varargs (variable arguments): allows a method to accept zero or more arguments of the same type.\n\nSyntax: type... paramName  (must be the LAST parameter)\n\npublic int sum(int... numbers) {\n    int total = 0;\n    for (int n : numbers) total += n;\n    return total;\n}\n\n// Can call with any number of args:\nsum()           // → 0\nsum(1)          // → 1\nsum(1, 2, 3)    // → 6\nsum(1, 2, 3, 4) // → 10\n\nUnder the hood: varargs is just an array.\nOnly ONE varargs param allowed per method; must be last."
+      },
+      "category": "definition",
+      "difficulty": "medium",
+      "order": 15
+    },
+    {
+      "card_id": "FC_016",
+      "front": {
+        "type": "code",
+        "language": "java",
+        "content": "import java.util.Arrays;\nint[] arr = {5, 2, 8, 1, 9};\nArrays.sort(arr);\nSystem.out.println(Arrays.toString(arr));\nint idx = Arrays.binarySearch(arr, 8);\nSystem.out.println(idx);"
+      },
+      "back": {
+        "type": "text",
+        "content": "Output:\n[1, 2, 5, 8, 9]\n3\n\nKey Arrays class methods:\n• Arrays.sort(arr)           → sorts in ascending order (modifies original)\n• Arrays.toString(arr)       → returns \"[1, 2, 5, 8, 9]\" for printing\n• Arrays.binarySearch(arr,8) → returns index (ONLY on sorted array)\n• Arrays.copyOf(arr, 3)      → new array [1, 2, 5]\n• Arrays.fill(arr, 0)        → sets all elements to 0\n• Arrays.equals(a, b)        → true if same length and elements"
+      },
+      "category": "code",
+      "difficulty": "medium",
+      "order": 16
+    },
+    {
+      "card_id": "FC_017",
+      "front": {
+        "type": "text",
+        "content": "What is the difference between while and do-while loops?"
+      },
+      "back": {
+        "type": "text",
+        "content": "while — tests condition BEFORE execution:\nint i = 10;\nwhile (i < 5) {\n    System.out.println(i); // NEVER executes\n}\n\ndo-while — tests condition AFTER execution (always runs at least once):\nint i = 10;\ndo {\n    System.out.println(i); // Prints 10\n} while (i < 5);\n\nUse do-while when:\n• You need to execute the body at least once\n• Classic example: menu-driven programs (show menu, then validate input)\n\ndo {\n    // show menu, get user choice\n} while (choice != 0);"
+      },
+      "category": "comparison",
+      "difficulty": "easy",
+      "order": 17
+    },
+    {
+      "card_id": "FC_018",
+      "front": {
+        "type": "text",
+        "content": "What is the switch statement's fall-through behavior? How do you prevent it?"
+      },
+      "back": {
+        "type": "text",
+        "content": "Fall-through: In a switch, once a case matches, execution continues into ALL subsequent cases until a break or end of switch.\n\nint day = 2;\nswitch(day) {\n    case 1: System.out.println(\"Mon\");\n    case 2: System.out.println(\"Tue\"); // matches here\n    case 3: System.out.println(\"Wed\"); // also executes!\n    default: System.out.println(\"?\");  // also executes!\n}\n// Prints: Tue, Wed, ?\n\nPrevention: Add 'break' after each case.\nThis behavior can be useful: grouping multiple cases:\ncase 1:\ncase 2:\ncase 3: System.out.println(\"First 3 days\"); break;"
+      },
+      "category": "concept",
+      "difficulty": "medium",
+      "order": 18
+    },
+    {
+      "card_id": "FC_019",
+      "front": {
+        "type": "text",
+        "content": "What are Java naming conventions? Give examples for each."
+      },
+      "back": {
+        "type": "text",
+        "content": "Classes:    PascalCase     → BankAccount, CustomerService, ArrayList\nInterfaces: PascalCase     → Serializable, Runnable, Comparable\nMethods:    camelCase      → calculateInterest(), getUserName()\nVariables:  camelCase      → accountBalance, firstName, isActive\nConstants:  UPPER_SNAKE    → MAX_BALANCE, PI, DEFAULT_TIMEOUT\nPackages:   lowercase      → com.mycompany.banking.service\n\nBoolean naming:\n• Use is/has/can prefix → isValid(), hasAccount(), canWithdraw()\n\nThese are CONVENTIONS not rules — code compiles without them.\nBut violating them is a code smell and fails code reviews!"
+      },
+      "category": "best_practice",
+      "difficulty": "easy",
+      "order": 19
+    },
+    {
+      "card_id": "FC_020",
+      "front": {
+        "type": "text",
+        "content": "What does 'strongly typed' mean in Java? What are the benefits?"
+      },
+      "back": {
+        "type": "text",
+        "content": "Strongly typed: Every variable MUST have a declared type, and type rules are strictly enforced at compile-time.\n\nExamples:\nint count = 'A';   // OK — char 'A' (65) widens to int\nint x = \"hello\"; // COMPILE ERROR — String can't be int\nbool flag = 1;    // COMPILE ERROR — no implicit int-to-bool\n\nBenefits:\n✅ Catches type mismatches at compile-time (not runtime)\n✅ Better IDE support (autocomplete, refactoring)\n✅ Self-documenting code — type communicates intent\n✅ Prevents entire classes of runtime bugs\n\nContrast: Python/JavaScript are dynamically typed — type errors found at runtime."
+      },
+      "category": "concept",
+      "difficulty": "medium",
+      "order": 20
+    }
+  ]
+}

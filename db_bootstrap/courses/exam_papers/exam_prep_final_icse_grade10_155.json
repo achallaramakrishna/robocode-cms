@@ -1,0 +1,334 @@
+{
+  "meta": {
+    "title": "ICSE Grade 10 Physics — Final Model Question Paper",
+    "board": "ICSE",
+    "grade": 10,
+    "subject": "Physics",
+    "total_marks": 80,
+    "duration": "2 Hours",
+    "instructions": [
+      "Answers to this paper must be written on the paper provided separately.",
+      "You will not be allowed to write during the first 15 minutes.",
+      "This time is to be spent in reading the question paper.",
+      "Attempt all questions from Section I and any four questions from Section II.",
+      "The intended marks for questions or parts of questions are given in brackets [ ].",
+      "All working, including rough work, must be done on the same sheet as the rest of the answer."
+    ]
+  },
+  "sections": [
+    {
+      "section": "I",
+      "title": "Section I (Compulsory)",
+      "marks": 40,
+      "instruction": "Attempt all questions from this section.",
+      "questions": [
+        {
+          "question_no": "1",
+          "marks": 10,
+          "topic_covered": "Force, Work, Energy, Machines",
+          "parts": [
+            {
+              "part": "a",
+              "marks": 2,
+              "question": "A uniform metre rule is balanced at the 30 cm mark when a mass of 40 g is hung at the 0 cm end. Find the mass of the metre rule.",
+              "answer": "Let mass of metre rule = M grams. Centre of gravity of rule is at 50 cm mark.\nUsing principle of moments about the 30 cm pivot:\nAnticlockwise moment = Clockwise moment\n40 × (30 − 0) = M × (50 − 30)\n40 × 30 = M × 20\n1200 = 20M\nM = 60 g\nThe mass of the metre rule is 60 g."
+            },
+            {
+              "part": "b",
+              "marks": 2,
+              "question": "State the law of conservation of energy. A ball of mass 0.5 kg is dropped from a height of 10 m. Calculate its kinetic energy just before it hits the ground. (g = 10 m/s²)",
+              "answer": "Law of Conservation of Energy: Energy can neither be created nor destroyed; it can only be converted from one form to another. The total energy of an isolated system remains constant.\n\nAt the top, all energy is potential energy:\nPE = mgh = 0.5 × 10 × 10 = 50 J\nBy conservation of energy, KE just before hitting ground = PE at top = 50 J\n(All PE converts to KE, air resistance neglected)\nKE = 50 J"
+            },
+            {
+              "part": "c",
+              "marks": 2,
+              "question": "A machine has a velocity ratio of 5 and an efficiency of 80%. Calculate its mechanical advantage.",
+              "answer": "Efficiency = (Mechanical Advantage / Velocity Ratio) × 100\n80 = (MA / 5) × 100\nMA = (80 × 5) / 100\nMA = 4\nThe mechanical advantage of the machine is 4."
+            },
+            {
+              "part": "d",
+              "marks": 2,
+              "question": "Differentiate between stable equilibrium and unstable equilibrium with one example each.",
+              "answer": "Stable Equilibrium: When a body is slightly displaced from its equilibrium position, it tends to return to its original position. The centre of gravity rises on displacement. Example: A cone resting on its flat base.\n\nUnstable Equilibrium: When a body is slightly displaced from its equilibrium position, it tends to move further away from its equilibrium position. The centre of gravity falls on displacement. Example: A cone balanced on its apex."
+            },
+            {
+              "part": "e",
+              "marks": 2,
+              "question": "A force of 200 N acts on a body at an angle of 30° to the horizontal and moves it 5 m horizontally. Calculate the work done by the force.",
+              "answer": "Work done = F × d × cos θ\nW = 200 × 5 × cos 30°\nW = 200 × 5 × (√3/2)\nW = 200 × 5 × 0.866\nW = 866 J\nThe work done by the force is 866 J."
+            }
+          ]
+        },
+        {
+          "question_no": "2",
+          "marks": 10,
+          "topic_covered": "Refraction of Light, Spectrum, Scattering",
+          "parts": [
+            {
+              "part": "a",
+              "marks": 2,
+              "question": "State Snell's law of refraction. A ray of light passes from air into glass (refractive index = 1.5). If the angle of incidence is 45°, find the angle of refraction. (sin 45° = 0.707, sin 28.1° ≈ 0.471)",
+              "answer": "Snell's Law: The ratio of the sine of the angle of incidence to the sine of the angle of refraction is a constant (called the refractive index) for a given pair of media.\nsin i / sin r = n\n\nsin 45° / sin r = 1.5\n0.707 / sin r = 1.5\nsin r = 0.707 / 1.5 = 0.471\nr ≈ 28.1°\nThe angle of refraction is approximately 28.1°."
+            },
+            {
+              "part": "b",
+              "marks": 2,
+              "question": "A convex lens has a focal length of 20 cm. An object is placed 30 cm from the lens. Using the lens formula, find the position of the image and state its nature.",
+              "answer": "Lens formula: 1/v − 1/u = 1/f\nGiven: f = +20 cm, u = −30 cm (object on left)\n1/v − 1/(−30) = 1/20\n1/v + 1/30 = 1/20\n1/v = 1/20 − 1/30 = 3/60 − 2/60 = 1/60\nv = +60 cm\nThe image is formed 60 cm on the other side of the lens.\nNature: Real, inverted, and magnified (since v > u numerically).\nMagnification = v/u = 60/30 = 2 (image is twice the size of object)."
+            },
+            {
+              "part": "c",
+              "marks": 2,
+              "question": "What is the power of a lens? A combination of lenses consists of a convex lens of focal length 25 cm and a concave lens of focal length 50 cm placed in contact. Find the power of the combination.",
+              "answer": "Power of a lens is defined as the reciprocal of its focal length in metres. P = 1/f (in metres). Unit: dioptre (D).\n\nPower of convex lens: P₁ = 1/f₁ = 1/0.25 = +4 D\nPower of concave lens: P₂ = 1/f₂ = 1/(−0.50) = −2 D\nTotal power: P = P₁ + P₂ = 4 + (−2) = +2 D\nThe combination acts as a convex (converging) lens of power +2 D."
+            },
+            {
+              "part": "d",
+              "marks": 2,
+              "question": "Explain why the sky appears blue and the sun appears red at sunset.",
+              "answer": "Blue Sky: When sunlight enters Earth's atmosphere, it is scattered by gas molecules and small dust particles (Rayleigh scattering). Shorter wavelengths (blue, violet) are scattered much more than longer wavelengths. Blue light is scattered in all directions and reaches our eyes from all parts of the sky, making the sky appear blue (violet is scattered even more but our eyes are less sensitive to it).\n\nRed Sunset: At sunset, sunlight travels a much longer path through the atmosphere. Most of the blue and violet light is scattered away before reaching the observer. Only the longer wavelengths — red, orange — remain, so the sun appears red or orange at sunrise and sunset."
+            },
+            {
+              "part": "e",
+              "marks": 2,
+              "question": "A glass prism of angle 60° produces a minimum deviation of 30°. Calculate the refractive index of the glass. (sin 45° = 0.707, sin 30° = 0.5)",
+              "answer": "At minimum deviation:\nn = sin[(A + D_m)/2] / sin[A/2]\nwhere A = prism angle = 60°, D_m = minimum deviation = 30°\n\nn = sin[(60° + 30°)/2] / sin[60°/2]\nn = sin 45° / sin 30°\nn = 0.707 / 0.5\nn = 1.414\nThe refractive index of the glass is 1.414 (≈ √2)."
+            }
+          ]
+        },
+        {
+          "question_no": "3",
+          "marks": 10,
+          "topic_covered": "Sound, Electricity",
+          "parts": [
+            {
+              "part": "a",
+              "marks": 2,
+              "question": "A person standing between two parallel cliffs fires a gun. He hears the first echo after 1.2 s and the second echo after 1.8 s. If the speed of sound is 340 m/s, find (i) his distance from the nearer cliff, and (ii) the distance between the two cliffs.",
+              "answer": "(i) Distance from nearer cliff:\nd₁ = (v × t₁) / 2 = (340 × 1.2) / 2 = 408 / 2 = 204 m\n\n(ii) Distance from farther cliff:\nd₂ = (v × t₂) / 2 = (340 × 1.8) / 2 = 612 / 2 = 306 m\n\nDistance between the two cliffs = d₁ + d₂ = 204 + 306 = 510 m"
+            },
+            {
+              "part": "b",
+              "marks": 2,
+              "question": "Define resonance. Give one practical application of resonance in daily life and one harmful effect.",
+              "answer": "Resonance: The phenomenon by which a body begins to vibrate with maximum amplitude when the frequency of an external periodic force applied to it equals the natural frequency of the body is called resonance.\n\nApplication: A radio receiver is tuned to the frequency of a radio station. When the natural frequency of the electrical circuit in the radio equals the frequency of the radio waves, resonance occurs and the signal is received with maximum strength.\n\nHarmful Effect: Soldiers are ordered to break steps while marching over a bridge. If the frequency of their marching equals the natural frequency of the bridge, resonance could occur causing dangerously large vibrations that might collapse the bridge (e.g., Tacoma Narrows Bridge disaster)."
+            },
+            {
+              "part": "c",
+              "marks": 2,
+              "question": "Three resistors of 4 Ω, 6 Ω, and 12 Ω are connected in parallel. This combination is then connected in series with a 2 Ω resistor across a 12 V battery. Find (i) the total resistance of the circuit, and (ii) the current through the 2 Ω resistor.",
+              "answer": "(i) Equivalent resistance of parallel combination (R_p):\n1/R_p = 1/4 + 1/6 + 1/12 = 3/12 + 2/12 + 1/12 = 6/12 = 1/2\nR_p = 2 Ω\n\nTotal resistance = R_p + 2 = 2 + 2 = 4 Ω\n\n(ii) Current through the 2 Ω series resistor (= total current from battery):\nI = V / R_total = 12 / 4 = 3 A"
+            },
+            {
+              "part": "d",
+              "marks": 2,
+              "question": "A household electric iron has a power rating of 1000 W and is used for 2 hours daily. (i) Calculate the electrical energy consumed in 30 days. (ii) Find the cost of electricity if the rate is ₹6 per unit (kWh).",
+              "answer": "(i) Energy consumed per day = Power × Time = 1000 W × 2 h = 2000 Wh = 2 kWh\nEnergy consumed in 30 days = 2 × 30 = 60 kWh (= 60 units)\n\n(ii) Cost = 60 × ₹6 = ₹360\nThe electricity cost for 30 days is ₹360."
+            },
+            {
+              "part": "e",
+              "marks": 2,
+              "question": "Explain why (i) a fuse is connected in series in a household circuit, and (ii) earth wire is provided in household appliances with metallic bodies.",
+              "answer": "(i) Fuse: A fuse is made of a wire of low melting point and high resistance, connected in series so that all current through the circuit passes through it. If the current exceeds the safe limit due to short circuit or overloading, the fuse wire melts and breaks the circuit, preventing damage to appliances and risk of fire.\n\n(ii) Earth wire: The metallic body of appliances like refrigerators and washing machines may accidentally become live if internal wiring is damaged. The earth wire connects the metallic body to the ground (earth). Any leakage current flows safely to the earth instead of through a person touching the appliance, preventing electric shock."
+            }
+          ]
+        },
+        {
+          "question_no": "4",
+          "marks": 10,
+          "topic_covered": "Magnetic Effect of Current, Calorimetry, Radioactivity",
+          "parts": [
+            {
+              "part": "a",
+              "marks": 2,
+              "question": "With the help of a labelled diagram, explain the working principle of a DC electric motor. State the rule used to find the direction of rotation.",
+              "answer": "Working Principle of DC Motor: A DC motor converts electrical energy into mechanical energy based on the principle that a current-carrying conductor placed in a magnetic field experiences a mechanical force (Ampere's force or motor effect).\n\nConstruction (diagram description): A rectangular coil ABCD is mounted on an axle between the poles of a horseshoe magnet. The two ends of the coil are connected to two halves of a split-ring commutator. Carbon brushes X and Y make contact with the commutator halves and are connected to a DC battery.\n\nWorking: When current flows in the coil, side AB experiences a force in one direction (e.g., upward) and side CD experiences an equal force in the opposite direction (downward) by Fleming's Left-Hand Rule. This creates a couple that rotates the coil. After every half rotation, the commutator reverses the direction of current in the coil, ensuring continuous rotation in the same direction.\n\nRule: Fleming's Left-Hand Rule — Hold the left hand with the thumb, forefinger, and middle finger mutually perpendicular. If the forefinger points in the direction of the magnetic field and the middle finger points in the direction of current, the thumb points in the direction of the force on the conductor."
+            },
+            {
+              "part": "b",
+              "marks": 2,
+              "question": "200 g of water at 80°C is mixed with 100 g of water at 20°C. Find the final temperature of the mixture. (Specific heat capacity of water = 4200 J/kg°C)",
+              "answer": "Let final temperature = T°C\nHeat lost by hot water = Heat gained by cold water\nm₁ × c × (T₁ − T) = m₂ × c × (T − T₂)\n(Since specific heat capacity is the same for both, it cancels)\n0.200 × (80 − T) = 0.100 × (T − 20)\n200(80 − T) = 100(T − 20)\n16000 − 200T = 100T − 2000\n16000 + 2000 = 100T + 200T\n18000 = 300T\nT = 60°C\nThe final temperature of the mixture is 60°C."
+            },
+            {
+              "part": "c",
+              "marks": 2,
+              "question": "How much heat is required to convert 50 g of ice at −10°C to steam at 100°C? [Specific heat of ice = 2100 J/kg°C; Latent heat of fusion of ice = 336,000 J/kg; Specific heat of water = 4200 J/kg°C; Latent heat of vaporisation of water = 2,268,000 J/kg]",
+              "answer": "Mass m = 50 g = 0.05 kg\n\nStep 1: Heating ice from −10°C to 0°C\nQ₁ = m × c_ice × ΔT = 0.05 × 2100 × 10 = 1050 J\n\nStep 2: Melting ice at 0°C\nQ₂ = m × L_f = 0.05 × 336000 = 16800 J\n\nStep 3: Heating water from 0°C to 100°C\nQ₃ = m × c_water × ΔT = 0.05 × 4200 × 100 = 21000 J\n\nStep 4: Converting water to steam at 100°C\nQ₄ = m × L_v = 0.05 × 2268000 = 113400 J\n\nTotal heat = Q₁ + Q₂ + Q₃ + Q₄ = 1050 + 16800 + 21000 + 113400 = 152250 J\nTotal heat required = 152250 J (or 152.25 kJ)"
+            },
+            {
+              "part": "d",
+              "marks": 2,
+              "question": "A radioactive element has a half-life of 10 days. If initially 8 g of the element is present, find (i) the amount remaining after 30 days, and (ii) the fraction of the original amount that has decayed after 40 days.",
+              "answer": "(i) Number of half-lives in 30 days = 30 / 10 = 3\nAmount remaining = Initial amount × (1/2)^n\nAmount = 8 × (1/2)³ = 8 × 1/8 = 1 g\nAfter 30 days, 1 g remains.\n\n(ii) Number of half-lives in 40 days = 40 / 10 = 4\nAmount remaining = 8 × (1/2)⁴ = 8 × 1/16 = 0.5 g\nAmount decayed = 8 − 0.5 = 7.5 g\nFraction decayed = 7.5 / 8 = 15/16\nThe fraction that has decayed after 40 days is 15/16."
+            },
+            {
+              "part": "e",
+              "marks": 2,
+              "question": "Distinguish between nuclear fission and nuclear fusion. Give one example of each with the nuclear equation.",
+              "answer": "Nuclear Fission: The splitting of a heavy nucleus (like uranium-235) into two smaller nuclei with the release of a large amount of energy and two or three neutrons.\nExample: ₉₂²³⁵U + ₀¹n → ₅₆¹⁴¹Ba + ₃₆⁹²Kr + 3₀¹n + Energy\n\nNuclear Fusion: The combining of two light nuclei (like hydrogen isotopes) to form a heavier nucleus with the release of even more energy per unit mass than fission.\nExample: ₁²H + ₁³H → ₂⁴He + ₀¹n + Energy (17.6 MeV)\n\nKey Differences:\n1. Fission involves splitting; fusion involves combining.\n2. Fission requires heavy nuclei; fusion requires light nuclei.\n3. Fusion releases more energy per unit mass than fission.\n4. Fission occurs at room temperature (with a neutron trigger); fusion requires extremely high temperatures (~10⁷ K).\n5. Fission produces radioactive waste; fusion produces far less radioactive by-products."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "II",
+      "title": "Section II",
+      "marks": 40,
+      "instruction": "Attempt any four questions from this section. Each question carries 10 marks.",
+      "questions": [
+        {
+          "question_no": "5",
+          "marks": 10,
+          "topic": "Force — Turning Effect, Levers, and Equilibrium",
+          "parts": [
+            {
+              "part": "a",
+              "marks": 3,
+              "question": "A crowbar 1.8 m long is used to lift a stone of weight 540 N. If the fulcrum is 0.3 m from the stone end, calculate: (i) the effort required to lift the stone (assuming 100% efficiency), (ii) the mechanical advantage, and (iii) the class of lever and give two other examples of levers of the same class.",
+              "answer": "(i) Using principle of moments about fulcrum:\nLoad arm = 0.3 m, Effort arm = 1.8 − 0.3 = 1.5 m\nLoad × Load arm = Effort × Effort arm\n540 × 0.3 = Effort × 1.5\nEffort = 162 / 1.5 = 108 N\n\n(ii) Mechanical Advantage = Load / Effort = 540 / 108 = 5\nAlternatively, MA = Effort arm / Load arm = 1.5 / 0.3 = 5\n\n(iii) Class of lever: Class I lever (fulcrum between load and effort).\nOther examples of Class I levers:\n1. A see-saw (seesaw)\n2. A pair of scissors\n(Other valid examples: beam balance, claw hammer removing a nail)"
+            },
+            {
+              "part": "b",
+              "marks": 4,
+              "question": "A non-uniform rod AB of length 100 cm and weight 40 N is suspended horizontally by two vertical strings P and Q attached at A and B respectively. When a weight of 10 N is hung at A and 20 N at B, the tension in P is twice the tension in Q. Find: (i) the tensions P and Q, and (ii) the position of the centre of gravity of the rod from end A.",
+              "answer": "Let tension in Q = T, so tension in P = 2T.\n\n(i) For vertical equilibrium (upward forces = downward forces):\n2T + T = 40 + 10 + 20\n3T = 70\nT = 70/3 N ≈ 23.33 N\n\nSo: T_Q = 70/3 N ≈ 23.3 N\nAnd: T_P = 140/3 N ≈ 46.7 N\n\n(ii) Let the centre of gravity be at distance d from A.\nTaking moments about end A (to eliminate T_P):\nClockwise moments = T_Q × 100 + anticlockwise moments from hanging weights\nCounterclockwise moments about A = T_Q × 100\nClockwise moments about A = (10 × 0) + (40 × d) + (20 × 100)\n\nWait — taking moments about A:\nT_Q acts upward at B (100 cm from A).\nT_P acts upward at A.\n10 N acts downward at A.\n40 N (weight of rod) acts downward at d cm from A.\n20 N acts downward at B (100 cm from A).\n\nAbout A, only T_Q, rod weight, and 20 N create moments (T_P and 10 N have zero moment arm):\nT_Q × 100 = 40 × d + 20 × 100\n(70/3) × 100 = 40d + 2000\n7000/3 = 40d + 2000\n2333.3 = 40d + 2000\n40d = 333.3\nd = 333.3 / 40 ≈ 8.33 cm\n\nThe centre of gravity of the rod is approximately 8.3 cm from end A."
+            },
+            {
+              "part": "c",
+              "marks": 3,
+              "question": "(i) Define 'couple' and state its moment. (ii) Explain why the handle of a water tap is made wide. (iii) A couple consists of two forces of 15 N each acting on a rod of length 40 cm. Calculate the moment of the couple.",
+              "answer": "(i) Couple: A couple is a pair of equal and opposite forces acting on a body along different parallel lines of action. The two forces do not produce any translational motion but produce only rotational (turning) effect.\nMoment of a couple = Either force × Perpendicular distance between the two forces\n\n(ii) The handle of a water tap is made wide so that the perpendicular distance between the two applied forces (one from each hand on opposite sides) is larger. Since moment of couple = Force × distance, a wider handle produces a larger turning moment with the same applied force, making it easier to open or close the tap.\n\n(iii) Moment of couple = Force × perpendicular distance between the forces\n= 15 N × 0.40 m = 6 N·m\nThe moment of the couple is 6 N·m."
+            }
+          ]
+        },
+        {
+          "question_no": "6",
+          "marks": 10,
+          "topic": "Work, Energy, Power, and Machines (Pulleys)",
+          "parts": [
+            {
+              "part": "a",
+              "marks": 4,
+              "question": "A block-and-tackle pulley system has 4 pulleys in the lower movable block. (i) What is the velocity ratio of the system? (ii) If an effort of 250 N is applied to raise a load of 800 N, calculate the efficiency of the system. (iii) Find the work done by the effort to raise the load by 2 m. (iv) How much useful work is done on the load?",
+              "answer": "(i) Velocity Ratio = number of pulleys in the movable block × 2\nFor a block and tackle with 4 pulleys in lower block:\nVelocity Ratio = 2 × number of movable pulleys = 4 × 1... \n\n[Using standard block and tackle: VR = number of rope segments supporting the movable block]\nFor 4 pulleys in lower block, the number of rope segments = 2n = 2 × 4 = 8\nVelocity Ratio = 8\n\n(ii) Mechanical Advantage = Load / Effort = 800 / 250 = 3.2\nEfficiency = (MA / VR) × 100 = (3.2 / 8) × 100 = 40%\n\n(iii) When load moves 2 m, effort moves = VR × 2 = 8 × 2 = 16 m\nWork done by effort = Effort × distance moved by effort\n= 250 × 16 = 4000 J\n\n(iv) Useful work done on load = Load × distance moved by load\n= 800 × 2 = 1600 J\n(Alternatively: Useful work = Efficiency × Input work = 0.40 × 4000 = 1600 J ✓)"
+            },
+            {
+              "part": "b",
+              "marks": 3,
+              "question": "An inclined plane of length 5 m and height 2 m is used to push a box weighing 600 N up the slope. The effort required is 280 N. Calculate: (i) the velocity ratio, (ii) the mechanical advantage, (iii) the efficiency, and (iv) the energy lost to friction when the box is pushed to the top.",
+              "answer": "(i) Velocity Ratio of inclined plane = Length / Height = 5 / 2 = 2.5\n\n(ii) Mechanical Advantage = Load / Effort = 600 / 280 ≈ 2.14\n\n(iii) Efficiency = (MA / VR) × 100 = (2.14 / 2.5) × 100 = 85.7% ≈ 85.7%\n\n(iv) Useful work done (output) = Load × height = 600 × 2 = 1200 J\nTotal work done (input) = Effort × length = 280 × 5 = 1400 J\nEnergy lost to friction = Input − Output = 1400 − 1200 = 200 J"
+            },
+            {
+              "part": "c",
+              "marks": 3,
+              "question": "A pump raises 500 kg of water per minute from a depth of 15 m and delivers it with a velocity of 4 m/s. Calculate: (i) the useful power of the pump, and (ii) the efficiency of the pump if its input power is 2 kW. (g = 10 m/s²)",
+              "answer": "(i) Useful power = Power for lifting (PE) + Power for kinetic energy\nPE per second = (500/60) × 10 × 15 = 8.333 × 150 = 1250 W\nKE per second = ½ × (500/60) × 4² = ½ × 8.333 × 16 = 66.67 W\nUseful power = 1250 + 66.67 = 1316.67 W ≈ 1317 W ≈ 1.32 kW\n\n(ii) Input power = 2000 W\nEfficiency = (Output power / Input power) × 100\n= (1316.67 / 2000) × 100 = 65.8% ≈ 65.8%"
+            }
+          ]
+        },
+        {
+          "question_no": "7",
+          "marks": 10,
+          "topic": "Refraction of Light — Lenses and Prism",
+          "parts": [
+            {
+              "part": "a",
+              "marks": 4,
+              "question": "Draw a neat labelled ray diagram to show the formation of image by a convex lens when the object is placed: (i) at 2F, and (ii) between F and the optical centre. State in each case the position, nature, and size of the image formed.",
+              "answer": "(i) Object at 2F (twice the focal length):\nRay diagram: Draw two standard rays from the top of the object.\nRay 1: Parallel to principal axis → after refraction, passes through F on the other side.\nRay 2: Through the optical centre → goes straight without deviation.\nIntersection of refracted rays gives the image at 2F on the other side.\n\nPosition: At 2F on the other side of the lens.\nNature: Real and inverted.\nSize: Same size as the object (magnification = 1).\n\n(ii) Object between F and optical centre O:\nRay diagram: Draw two standard rays from the top of the object.\nRay 1: Parallel to principal axis → after refraction, passes through F.\nRay 2: Through the optical centre → straight (undiverted).\nThe two refracted rays diverge and appear to come from a point on the same side as the object.\n\nPosition: On the same side as the object, beyond the object (farther from the lens).\nNature: Virtual and erect.\nSize: Enlarged (magnification > 1).\nApplication: This is the principle of a magnifying glass."
+            },
+            {
+              "part": "b",
+              "marks": 3,
+              "question": "A ray of white light passes through a glass prism. (i) Explain why the white light splits into its component colours (dispersion). (ii) Name the phenomenon. (iii) Write the colour order of the visible spectrum from least to most deviated. (iv) Which colour has the highest and which has the lowest refractive index in glass?",
+              "answer": "(i) White light is a mixture of seven colours (VIBGYOR), each having a different wavelength and hence a different speed in glass. When white light enters a prism, each colour is refracted by a different amount — shorter wavelengths (violet) slow down more and refract more, while longer wavelengths (red) refract less. Because of this different refraction (and different refractive indices for each colour), the colours are separated.\n\n(ii) The phenomenon is called Dispersion of light.\n\n(iii) Colour order from LEAST deviated to MOST deviated:\nRed → Orange → Yellow → Green → Blue → Indigo → Violet\n(Violet is deviated the most; Red is deviated the least.)\n\n(iv) Highest refractive index in glass: Violet (shortest wavelength, slows down most).\nLowest refractive index in glass: Red (longest wavelength, slows down least)."
+            },
+            {
+              "part": "c",
+              "marks": 3,
+              "question": "A person can see objects clearly only up to a distance of 1 m. (i) Name the defect of vision. (ii) What type of lens is used to correct this defect? (iii) Calculate the power of the corrective lens needed for this person to see clearly up to infinity. (iv) Why does a myopic eye form an image in front of the retina?",
+              "answer": "(i) The defect of vision is Myopia (Short-sightedness or Near-sightedness).\n\n(ii) A concave (diverging) lens is used to correct myopia.\n\n(iii) The far point of the person is 1 m. The corrective lens must diverge parallel rays (from infinity) so that they appear to come from the person's far point (1 m in front).\nUsing lens formula: 1/v − 1/u = 1/f\nHere: u = ∞ (object at infinity), v = −1 m (virtual image at far point, same side as object)\n1/(−1) − 1/∞ = 1/f\n−1 = 1/f\nf = −1 m\nPower = 1/f = 1/(−1) = −1 D\nThe power of the corrective lens is −1 dioptre (negative, confirming it is concave).\n\n(iv) In a myopic eye, the eyeball is too long (or the lens is too curved/powerful). Parallel rays from a distant object are converged too strongly by the eye lens and form a focus in front of the retina instead of on it. Only rays from nearby objects (which are already diverging) can be focused properly on the retina, so the person can see nearby objects clearly but not distant ones."
+            }
+          ]
+        },
+        {
+          "question_no": "8",
+          "marks": 10,
+          "topic": "Sound — Reflection, Resonance, and Properties",
+          "parts": [
+            {
+              "part": "a",
+              "marks": 3,
+              "question": "(i) State any three laws of reflection of sound. (ii) A ship sends a sonar pulse of frequency 40,000 Hz with a speed of 1500 m/s through seawater. The pulse returns after 1.2 seconds. Calculate the depth of the seabed.",
+              "answer": "(i) Laws of reflection of sound:\n1. The angle of incidence is equal to the angle of reflection (with respect to the normal at the point of incidence).\n2. The incident wave, the reflected wave, and the normal to the reflecting surface at the point of incidence are all in the same plane.\n3. The frequency and wavelength of the reflected sound remain the same as those of the incident sound.\n\n(ii) Total distance travelled by pulse = speed × time = 1500 × 1.2 = 1800 m\nDepth of seabed = Total distance / 2 = 1800 / 2 = 900 m\n(The pulse travels to the seabed and back.)\nDepth of the seabed is 900 m."
+            },
+            {
+              "part": "b",
+              "marks": 3,
+              "question": "A tuning fork of frequency 256 Hz is held over a pipe closed at one end. Resonance is first heard when the length of the air column is 33 cm, and second resonance when the length is 98 cm. (i) Find the speed of sound in air from this data. (ii) Find the end correction. (iii) What is the frequency of the third overtone for the closed pipe?",
+              "answer": "(i) For a closed pipe, resonances occur at lengths:\nFirst resonance: L₁ = λ/4 − e (where e = end correction)\nSecond resonance: L₂ = 3λ/4 − e\n\nL₂ − L₁ = 3λ/4 − λ/4 = λ/2\n0.98 − 0.33 = λ/2\n0.65 = λ/2\nλ = 1.30 m\n\nSpeed of sound v = f × λ = 256 × 1.30 = 332.8 m/s ≈ 332.8 m/s\n\n(ii) End correction:\nL₁ + e = λ/4\n0.33 + e = 1.30/4 = 0.325\ne = 0.325 − 0.33 = −0.005 m ... \n\nRecalculate using average:\nλ/4 = L₁ + e → e = λ/4 − L₁ = 0.325 − 0.33 = −0.005 m\nThis small discrepancy is due to rounding; practically e ≈ 0 to 1 cm.\nUsing L₁: e = 0.325 − 0.33 = −0.005 ≈ 0 cm (end correction is negligible here)\n\n(iii) For a closed pipe, only odd harmonics are present.\nFundamental (1st harmonic): f₁ = v/4L_fundamental\n1st overtone = 3rd harmonic = 3f₁\n2nd overtone = 5th harmonic = 5f₁\n3rd overtone = 7th harmonic = 7f₁ = 7 × 256 = 1792 Hz"
+            },
+            {
+              "part": "c",
+              "marks": 4,
+              "question": "(i) Distinguish between loudness and intensity of sound. (ii) What is meant by 'natural frequency' of a body? (iii) A sound wave has a frequency of 500 Hz and a wavelength of 0.68 m. Calculate: (a) the speed of the sound, and (b) the time taken for the sound to travel 850 m. (iv) Define 'infrasound' and 'ultrasound' with their frequency ranges.",
+              "answer": "(i) Intensity vs Loudness:\nIntensity: It is the amount of sound energy passing per unit time through unit area perpendicular to the direction of propagation of sound. It is an objective (measurable) physical quantity. Unit: W/m².\nLoudness: It is the degree of sensation produced in the ear (or the human perception of intensity of sound). It is a subjective quantity that depends on the sensitivity of the listener's ear. Unit: decibel (dB).\nRelation: Loudness is not directly proportional to intensity; it varies logarithmically.\n\n(ii) Natural Frequency: Every body capable of vibrating has a characteristic frequency at which it vibrates most easily when disturbed and then left free. This frequency, which depends on the physical properties of the body (material, shape, dimensions), is called its natural frequency.\n\n(iii) (a) Speed of sound = frequency × wavelength\nv = f × λ = 500 × 0.68 = 340 m/s\n\n(b) Time = Distance / Speed = 850 / 340 = 2.5 s\nThe sound takes 2.5 seconds to travel 850 m.\n\n(iv) Infrasound: Sound waves with frequencies below the lower limit of human hearing (below 20 Hz). They cannot be heard by humans. Examples: Vibrations from earthquakes, sounds produced by elephants for long-range communication.\n\nUltrasound: Sound waves with frequencies above the upper limit of human hearing (above 20,000 Hz or 20 kHz). They cannot be heard by humans. Examples: Sonar (SODAR), medical ultrasound imaging (sonography), quality testing of materials, cleaning of delicate instruments."
+            }
+          ]
+        },
+        {
+          "question_no": "9",
+          "marks": 10,
+          "topic": "Electricity — Ohm's Law, Circuits, Domestic Wiring",
+          "parts": [
+            {
+              "part": "a",
+              "marks": 4,
+              "question": "In the circuit below, AB is a wire of resistance 10 Ω and length 100 cm. A cell of EMF 2 V and negligible internal resistance is connected across AB. A galvanometer G is connected between C (a sliding contact on AB at 60 cm from A) and a cell X of EMF 1.4 V (with a protective resistor of 100 Ω in series with G). Find: (i) the potential difference per cm along AB, (ii) the potential difference across AC (60 cm), (iii) whether current flows through G and in which direction, (iv) calculate the null/balance point (where G reads zero).",
+              "answer": "(i) Total EMF across AB = 2 V, total length = 100 cm\nPotential gradient = 2 V / 100 cm = 0.02 V/cm\n\n(ii) Potential difference across AC (60 cm from A):\nV_AC = 0.02 × 60 = 1.2 V\n\n(iii) EMF of cell X = 1.4 V, V_AC = 1.2 V\nSince V_AC (1.2 V) < EMF of X (1.4 V), the cell X drives current in a direction that is not balanced by V_AC.\nCurrent will flow through G. The direction is from X's positive terminal toward C (since X's EMF is larger than the potential at C).\n\n(iv) At the balance point (null point), V_AJ = EMF of cell X\n0.02 × l = 1.4\nl = 1.4 / 0.02 = 70 cm from A\nThe null point / balance point is at 70 cm from A."
+            },
+            {
+              "part": "b",
+              "marks": 3,
+              "question": "Two resistors R₁ = 6 Ω and R₂ = 3 Ω are connected: first in series, then in parallel across a 12 V battery (internal resistance neglected). For each connection, find: (i) total resistance, (ii) total current drawn, (iii) current through each resistor, and (iv) power dissipated in each resistor.",
+              "answer": "SERIES CONNECTION:\n(i) Total resistance R_s = R₁ + R₂ = 6 + 3 = 9 Ω\n(ii) Total current I = V / R_s = 12 / 9 = 4/3 A ≈ 1.33 A\n(iii) Same current through both: I₁ = I₂ = 4/3 A ≈ 1.33 A\n(iv) Power in R₁: P₁ = I² × R₁ = (4/3)² × 6 = 16/9 × 6 = 96/9 ≈ 10.67 W\n    Power in R₂: P₂ = I² × R₂ = (4/3)² × 3 = 16/9 × 3 = 48/9 ≈ 5.33 W\n\nPARALLEL CONNECTION:\n(i) 1/R_p = 1/6 + 1/3 = 1/6 + 2/6 = 3/6 = 1/2 → R_p = 2 Ω\n(ii) Total current I = V / R_p = 12 / 2 = 6 A\n(iii) I₁ = V/R₁ = 12/6 = 2 A ; I₂ = V/R₂ = 12/3 = 4 A (2 + 4 = 6 A ✓)\n(iv) P₁ = V²/R₁ = 144/6 = 24 W ; P₂ = V²/R₂ = 144/3 = 48 W"
+            },
+            {
+              "part": "c",
+              "marks": 3,
+              "question": "(i) State Ohm's law and write its mathematical form. (ii) Explain with a circuit diagram how you would verify Ohm's law in the laboratory. (iii) What is the difference between resistance and resistivity? Write the formula relating them.",
+              "answer": "(i) Ohm's Law: At constant temperature, the current flowing through a conductor is directly proportional to the potential difference (voltage) applied across its ends.\nMathematical form: V = I × R, or equivalently I = V/R, where R is the resistance of the conductor.\n\n(ii) Verification in the laboratory:\nCircuit: Connect a wire/resistor under test (R) in series with an ammeter (A), a rheostat (variable resistor), a key (switch), and a battery/power source. Connect a voltmeter (V) in parallel across the resistor R.\n\nProcedure:\n1. Close the key. Adjust the rheostat to set a small current.\n2. Record the ammeter reading (I) and the voltmeter reading (V).\n3. Vary the rheostat to change the current; record 5–6 sets of (V, I) readings.\n4. Plot V on the y-axis and I on the x-axis.\n5. The graph is a straight line passing through the origin, confirming V ∝ I, thus verifying Ohm's Law. The slope of the graph gives the resistance R.\n\n(iii) Resistance (R): It is the property of a specific conductor (with given dimensions) to oppose the flow of current. It depends on the material, length, cross-sectional area, and temperature. Unit: ohm (Ω).\n\nResistivity (ρ): It is an intrinsic property of the material of the conductor, independent of its dimensions. It is the resistance of a conductor of unit length and unit cross-sectional area. Unit: ohm·metre (Ω·m).\n\nFormula: R = ρ × L / A\nwhere L = length of the conductor, A = cross-sectional area, ρ = resistivity of the material."
+            }
+          ]
+        },
+        {
+          "question_no": "10",
+          "marks": 10,
+          "topic": "Magnetic Effect of Current, Calorimetry, and Radioactivity",
+          "parts": [
+            {
+              "part": "a",
+              "marks": 3,
+              "question": "Explain the construction and working of an AC generator. State the role of slip rings in an AC generator and how it differs from the commutator used in a DC motor.",
+              "answer": "AC Generator — Construction:\nAn AC generator (alternator) consists of:\n1. Armature: A rectangular coil ABCD of insulated copper wire wound on a soft iron core, mounted on an axle between the poles of a strong permanent horseshoe magnet (or electromagnet).\n2. Slip rings: Two metal (usually copper or brass) rings fixed to the axle, each connected to one end of the armature coil. They rotate with the coil.\n3. Carbon brushes: Two stationary carbon brushes press against the slip rings and are connected to the external circuit.\n4. Magnet: Provides the magnetic field.\n\nWorking Principle: Based on electromagnetic induction (Faraday's law). When the coil rotates in the magnetic field, the magnetic flux through it changes, inducing an EMF.\nAs the coil rotates:\n- In the first half rotation: current flows in one direction (say, A→B→C→D externally).\n- In the second half rotation: the sides AB and CD interchange positions relative to the poles, so current reverses direction (D→C→B→A externally).\n- This produces an alternating current (AC) that reverses direction every half rotation.\n\nSlip rings vs Commutator:\nSlip rings (AC generator): Each ring is connected to one end of the coil. They rotate with the coil. The brushes maintain continuous, uninterrupted contact. The output current alternates (AC) because the slip rings do not reverse the connection.\n\nCommutator (DC motor): A split-ring commutator consists of a split ring with two halves. As the coil rotates through 180°, the commutator half-rings swap contact with the brushes, reversing the current direction in the coil every half rotation. This keeps the torque in the same direction, enabling continuous rotation. In a generator context, the commutator would convert the AC generated into DC (pulsating)."
+            },
+            {
+              "part": "b",
+              "marks": 4,
+              "question": "A calorimeter of mass 50 g and specific heat capacity 0.4 J/g°C contains 200 g of water at 15°C. Steam at 100°C is passed into it until the temperature rises to 40°C. Find the mass of steam condensed. [Specific heat of water = 4.2 J/g°C; Latent heat of steam = 2260 J/g]",
+              "answer": "Let mass of steam condensed = m grams.\n\nHeat released by steam:\nStep 1: Steam at 100°C condenses to water at 100°C\nQ₁ = m × L = m × 2260 J\n\nStep 2: Water at 100°C cools to 40°C\nQ₂ = m × c_water × ΔT = m × 4.2 × (100 − 40) = m × 4.2 × 60 = 252m J\n\nTotal heat released by steam = Q₁ + Q₂ = 2260m + 252m = 2512m J\n\nHeat absorbed by calorimeter and water:\nHeat absorbed by water = 200 × 4.2 × (40 − 15) = 200 × 4.2 × 25 = 21,000 J\nHeat absorbed by calorimeter = 50 × 0.4 × (40 − 15) = 50 × 0.4 × 25 = 500 J\nTotal heat absorbed = 21,000 + 500 = 21,500 J\n\nBy the principle of calorimetry (heat lost = heat gained):\n2512m = 21,500\nm = 21,500 / 2512 ≈ 8.56 g\n\nMass of steam condensed ≈ 8.56 g"
+            },
+            {
+              "part": "c",
+              "marks": 3,
+              "question": "(i) What are alpha (α), beta (β), and gamma (γ) radiations? Compare their penetrating power and ionising ability. (ii) Complete the following nuclear equations:\n    (a) ₉₂²³⁸U → ₉₀²³⁴Th + ___\n    (b) ₁₅³²P → ₁₆³²S + ___\n    (c) ₂₇⁶⁰Co → ₂₇⁶⁰Co + ___",
+              "answer": "(i) Comparison of α, β, and γ radiations:\n\nAlpha (α) particles: Helium nuclei (₂⁴He), consisting of 2 protons and 2 neutrons. Charge: +2e.\nPenetrating power: Least (stopped by a thin sheet of paper or a few centimetres of air).\nIonising ability: Highest (strongly ionise air molecules along their path).\n\nBeta (β) particles: High-speed electrons (₋₁⁰e) emitted from the nucleus when a neutron decays into a proton. Charge: −1e.\nPenetrating power: Moderate (penetrate paper but stopped by ~3 mm of aluminium).\nIonising ability: Moderate (less than α, more than γ).\n\nGamma (γ) rays: High-energy electromagnetic radiation (photons) with no mass or charge, emitted by the nucleus. Charge: 0.\nPenetrating power: Highest (require several centimetres of lead or metres of concrete to stop).\nIonising ability: Least (poorest ioniser).\n\n(ii) Completing nuclear equations:\n(a) ₉₂²³⁸U → ₉₀²³⁴Th + ₂⁴He (alpha particle α)\n    [Mass: 238 = 234 + 4 ✓; Charge/atomic number: 92 = 90 + 2 ✓]\n\n(b) ₁₅³²P → ₁₆³²S + ₋₁⁰e (beta particle β⁻)\n    [Mass: 32 = 32 + 0 ✓; Charge: 15 = 16 + (−1) ✓]\n\n(c) ₂₇⁶⁰Co → ₂₇⁶⁰Co + ₀⁰γ (gamma ray γ)\n    [No change in mass number or atomic number; nucleus transitions from excited state to ground state]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

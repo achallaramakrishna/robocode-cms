@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "asset_type": "lab_manual",
+    "session_day": 1,
+    "topic": "Flow Control — ATM Simulator",
+    "sub_topic_num": 4,
+    "session_title": "Day 1 - Introduction to Java & Language Fundamentals",
+    "date": "23-Feb-2026",
+    "duration_minutes": 35,
+    "total_exercises": 1,
+    "generated_by": "Claude (claude-sonnet-4-6)",
+    "pedagogy": "Hands-on learning with step-by-step guidance. Each exercise builds on the previous. All concepts from the session are coded. Banking/finance examples used for context."
+  },
+  "overview": {
+    "objectives": [
+      "Implement all flow control structures (if/else, switch, for, while, do-while, break, continue) in a realistic ATM simulation."
+    ],
+    "prerequisites": [
+      "JDK 17+ installed",
+      "IntelliJ IDEA (Community Edition) or VS Code with Java Extension",
+      "Git installed and GitHub account created"
+    ],
+    "tools": [
+      "JDK 17+",
+      "IntelliJ IDEA / VS Code",
+      "Terminal / Command Prompt",
+      "Git"
+    ]
+  },
+  "exercises": [
+    {
+      "exercise_id": "LAB_04",
+      "title": "Flow Control — ATM Simulator",
+      "difficulty": "intermediate",
+      "duration_minutes": 35,
+      "objective": "Implement all flow control structures (if/else, switch, for, while, do-while, break, continue) in a realistic ATM simulation.",
+      "scenario": "Build a simplified ATM simulator for RoboBank. It validates PIN (do-while), processes transactions (switch), handles withdrawals (if/else), and generates a mini-statement (for loop).",
+      "instructions": [
+        "Step 1: Create class 'ATMSimulator' and type the starter code",
+        "Step 2: Complete all TODO sections — do NOT skip any",
+        "Step 3: Run with the test data provided (pinAttempts array simulates user input)",
+        "Step 4: Change the test data to test edge cases: wrong PIN 3 times, insufficient balance, zero amount",
+        "Step 5: Add a new transaction type: 'B' for Balance Inquiry (print the balance)",
+        "Step 6: CHALLENGE: Add a minimum balance check — don't allow withdrawal if balance would go below ₹1000"
+      ],
+      "starter_code": "public class ATMSimulator {\n    \n    // Constants — named clearly, UPPER_SNAKE_CASE\n    static final int    MAX_PIN_ATTEMPTS      = 3;\n    static final double MIN_BALANCE           = 1_000.0;\n    static final double MAX_DAILY_WITHDRAWAL  = 50_000.0;\n    static final int    CORRECT_PIN           = 1234;     // In real apps, NEVER hardcode PINs!\n    \n    public static void main(String[] args) {\n        double balance = 25_000.0;\n        boolean isAuthenticated = false;\n        int attemptCount = 0;\n        \n        // ============================================================\n        // SECTION 1: PIN Authentication — DO-WHILE loop\n        // Runs at least once (show prompt before checking condition)\n        // ============================================================\n        int[] simulatedPINs = {9999, 5678, 1234};  // Simulates user input: 2 wrong, then correct\n        int pinIndex = 0;\n        \n        System.out.println(\"========== Welcome to RoboBank ATM ==========\");\n        \n        do {\n            int enteredPIN = simulatedPINs[pinIndex++];\n            attemptCount++;\n            \n            if (enteredPIN == CORRECT_PIN) {\n                isAuthenticated = true;\n                System.out.println(\"PIN verified. Welcome!\");\n            } else {\n                int remaining = MAX_PIN_ATTEMPTS - attemptCount;\n                // TODO: Print a message showing how many attempts remain\n                // Example: \"Incorrect PIN. 2 attempt(s) remaining.\"\n            }\n            \n        } while (!isAuthenticated && attemptCount < MAX_PIN_ATTEMPTS);\n        \n        // TODO: If not authenticated after 3 attempts, print card blocked message and return\n        // Use: if (!isAuthenticated) { System.out.println(...); return; }\n        \n        // ============================================================\n        // SECTION 2: Transaction Menu — SWITCH statement\n        // ============================================================\n        char[] transactions = {'W', 'D', 'W', 'Q', 'W'};  // W=Withdraw, D=Deposit, Q=Quit\n        double[] amounts     = {5000, 10000, 30000, 0, 1000};\n        double totalWithdrawn = 0;\n        \n        System.out.println(\"\\n--- Transaction Processing ---\");\n        \n        for (int i = 0; i < transactions.length; i++) {\n            char txnType = transactions[i];\n            double amount  = amounts[i];\n            \n            System.out.printf(\"%nTransaction #%d: Type=%c, Amount=₹%.0f%n\", i+1, txnType, amount);\n            \n            switch (txnType) {\n                case 'W':  // Withdrawal\n                    // TODO: Check if amount > MAX_DAILY_WITHDRAWAL\n                    //       Check if balance - amount >= MIN_BALANCE (minimum balance rule)\n                    //       If OK: deduct from balance, add to totalWithdrawn, print success\n                    //       Else: print appropriate error message\n                    \n                    if (amount > MAX_DAILY_WITHDRAWAL) {\n                        System.out.println(\"  ERROR: Exceeds daily limit of ₹\" + MAX_DAILY_WITHDRAWAL);\n                    } else if (balance - amount < MIN_BALANCE) {\n                        System.out.printf(\"  ERROR: Insufficient funds. Balance after: ₹%.2f (min ₹%.0f required)%n\",\n                                          balance - amount, MIN_BALANCE);\n                    } else {\n                        balance -= amount;\n                        totalWithdrawn += amount;\n                        System.out.printf(\"  SUCCESS: Dispensed ₹%.0f. New balance: ₹%.2f%n\", amount, balance);\n                    }\n                    break;\n                    \n                case 'D':  // Deposit\n                    // TODO: Add amount to balance, print success message\n                    balance += amount;\n                    System.out.printf(\"  SUCCESS: Deposited ₹%.0f. New balance: ₹%.2f%n\", amount, balance);\n                    break;\n                    \n                case 'Q':  // Quit\n                    System.out.println(\"  Ending session. Thank you!\");\n                    // TODO: Use break to exit the for loop (not just the switch)\n                    // Hint: You'll need a labeled break OR refactor with a boolean flag\n                    break;\n                    \n                default:\n                    System.out.println(\"  ERROR: Unknown transaction type: \" + txnType);\n            }\n        }\n        \n        // ============================================================\n        // SECTION 3: Summary — FOR loop + continue\n        // ============================================================\n        double[] allTxns = {5000, 10000, -5000, 0, 30000, -2000, 1000};\n        // Positive = credit, Negative = debit, 0 = ignore\n        \n        System.out.println(\"\\n--- Transaction Summary ---\");\n        double totalCredit = 0;\n        double totalDebit  = 0;\n        \n        for (double txn : allTxns) {\n            if (txn == 0) continue;  // Skip zero amounts — continue goes to next iteration\n            if (txn > 0) {\n                totalCredit += txn;\n                System.out.printf(\"  CREDIT: +₹%.2f%n\", txn);\n            } else {\n                totalDebit += Math.abs(txn);  // Math.abs() gives absolute value\n                System.out.printf(\"  DEBIT:  -₹%.2f%n\", Math.abs(txn));\n            }\n        }\n        \n        System.out.println(\"\\n===== Session Summary =====\");\n        System.out.printf(\"Total Credited : ₹%.2f%n\", totalCredit);\n        System.out.printf(\"Total Debited  : ₹%.2f%n\", totalDebit);\n        System.out.printf(\"Final Balance  : ₹%.2f%n\", balance);\n        System.out.printf(\"PIN Attempts   : %d%n\", attemptCount);\n    }\n}",
+      "expected_output": "========== Welcome to RoboBank ATM ==========\nIncorrect PIN. 2 attempt(s) remaining.\nIncorrect PIN. 1 attempt(s) remaining.\nPIN verified. Welcome!\n\n--- Transaction Processing ---\nTransaction #1: Type=W, Amount=₹5000\n  SUCCESS: Dispensed ₹5000. New balance: ₹20000.00\n\nTransaction #2: Type=D, Amount=₹10000\n  SUCCESS: Deposited ₹10000. New balance: ₹30000.00\n\nTransaction #3: Type=W, Amount=₹30000\n  ERROR: Insufficient funds. Balance after: ₹0.00 (min ₹1000 required)\n\nTransaction #4: Type=Q, Amount=₹0\n  Ending session. Thank you!\n\n--- Transaction Summary ---\n  CREDIT: +₹5000.00\n  CREDIT: +₹10000.00\n  DEBIT:  -₹5000.00\n  CREDIT: +₹30000.00\n  DEBIT:  -₹2000.00\n  CREDIT: +₹1000.00\n\n===== Session Summary =====\nTotal Credited : ₹46000.00\nTotal Debited  : ₹7000.00\nFinal Balance  : ₹30000.00\nPIN Attempts   : 3",
+      "hints": [
+        "do-while checks condition AFTER the body — guarantees at least one execution. Perfect for 'show prompt, then validate' patterns.",
+        "switch falls through unless you use break. In our switch: break exits the switch; to exit the outer for loop from inside case 'Q', use a boolean flag: boolean quit = false; then check while (!quit).",
+        "Math.abs(-5000) = 5000. Useful for converting negative debit amounts to positive for display."
+      ],
+      "reflection_questions": [
+        "Why is do-while more appropriate than while for the PIN authentication loop?",
+        "What would happen with 'break' inside the switch case 'Q' — does it exit the for loop or just the switch?",
+        "Can you rewrite the for-each loop in Section 3 as a traditional for loop? Which is cleaner?"
+      ],
+      "debugging_task": "Add this code and observe: simulate a card being blocked. Set simulatedPINs = {9999, 8888, 7777} (all wrong). Does your card-blocked logic trigger? What output do you see?"
+    }
+  ]
+}
